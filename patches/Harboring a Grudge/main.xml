@@ -1,0 +1,146 @@
+<table min_lib_ver="4.5" name="Harboring a Grudge">
+	<instance id="constantine_harbor_truck">
+		<packages/>
+	</instance>
+	<instance id="constantine_harbor_warehouse_hack">
+		<packages>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world_sounds"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_harbor_c4_placeable">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_harbor_meth_lab">
+		<packages>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world_sounds"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_harbor_truck_contraband">
+		<packages>
+			<value_node value="levels/instances/unique/hlm_box_contraband001/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband001/world_sounds"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband001/world/world"/>
+		</packages>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/harboricon"/>
+	</AddFiles>
+	<AssetUpdates id="35089" provider="modworkshop" version="1.35"/>
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/charbor.package" id="packages/levels/constantine_charbor/world/world" unload_on_restart="true"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" flashlights_on="true" briefing_dialog="charbor_brief" id="constantine_harbor_lvl" intro_event="charbor_intro" max_bags="54" narrator="locke" player_style="loud_suit">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/chew/chew_smuggle_crate/world"/>
+			<value_node value="levels/instances/unique/chew/chew_smuggle_crate/world/world"/>
+			<value_node value="packages/job_chas"/>
+			<value_node value="packages/narr_watchdogs2"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/narratives/jiu/sand/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world_sounds"/>
+			<value_node value="packages/levels/constantine_charbor/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="charbor_brief" path="Brief.ogg"/>
+			<sound id="charbor_intro" path="Intro.ogg" subtitle_id="charbor_intro"/>
+			<sound id="charbor_manifest" path="Manifest.ogg" subtitle_id="charbor_manifest"/>
+			<sound id="charbor_secure" path="Secure.ogg" subtitle_id="charbor_secure"/>
+			<sound id="charbor_escape" path="Escape.ogg" subtitle_id="charbor_escape"/>
+			<sound id="charbor_c4" path="C4.ogg" subtitle_id="charbor_c4"/>
+			<sound id="charbor_signal" path="Signal.ogg" subtitle_id="charbor_signal"/>
+			<sound id="charbor_hack" path="Hack.ogg" subtitle_id="charbor_hack"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/harboricon" id="constantine_harbor_nar">
+		<chain>
+			<table level_id="constantine_harbor_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="400000"/>
+			<value_node value="420000"/>
+			<value_node value="420000"/>
+			<value_node value="420000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+		</payout>
+	</narrative>
+</table>

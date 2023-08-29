@@ -1,0 +1,283 @@
+<table name="Crime and Punishment">
+	<AssetUpdates id="33260" provider="modworkshop" version="1.1"/>
+	<instance id="crimepunish_fence_door_prison">
+		<add directory="assets"/>
+		<include directory="levels/instances/crimepunish_fence_door_prison">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world_sounds"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="crimepunish_c4_interactable">
+		<add file="levels/instances/crimepunish_c4_interactable/add.xml"/>
+		<include directory="levels/instances/crimepunish_c4_interactable">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="crimepunish_reinforced_door">
+		<add directory="assets"/>
+		<include directory="levels/instances/crimepunish_reinforced_door">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="crimepunish_spawn_enemies">
+		<add directory="assets"/>
+		<include directory="levels/instances/crimepunish_spawn_enemies">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="crimepunish_helicopter_backup">
+		<add file="levels/instances/crimepunish_helicopter_backup/add.xml"/>
+		<include directory="levels/instances/crimepunish_helicopter_backup">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/crimeicon"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="crime_brief" id="crimepunishlvl" intro_event="crime_intro" max_bags="54" player_style="suit_prison">
+		<add file="levels/crimepunishlvl/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<include directory="levels/crimepunishlvl">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/bain/help/collision/collision"/>
+			<value_node value="levels/narratives/bain/help/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/terrain/terrain"/>
+			<value_node value="levels/narratives/bain/help/world"/>
+			<value_node value="levels/narratives/locke/brb/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+			<value_node value="levels/instances/unique/bph/bph_grate_door/world/world"/>
+			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
+			<value_node value="levels/instances/unique/red/red_gates/world/world"/>
+			<value_node value="levels/instances/unique/mus_circuit_box/world"/>
+			<value_node value="levels/instances/unique/mus_circuit_box/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_computer_hackable/world"/>
+			<value_node value="levels/instances/unique/sand/sand_computer_hackable/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_comm_dish/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_comm_dish/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_comm_dish/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/narratives/elephant/mad/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world_sounds"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives_component/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives_component/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives_component/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/narratives/dentist/hox/stage_1_xmn/art/art"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		
+	<sounds directory="assets/sound">
+		<sound id="crime_brief" path="Brief.ogg"/>
+		<sound id="crime_intro" path="Intro.ogg" subtitle_id="crime_intro"/>
+		<sound id="crime_power" path="PowerBoxHint.ogg" subtitle_id="crime_power"/>
+		<sound id="crime_drillgate" path="DrillGateHint.ogg" subtitle_id="crime_drillgate"/>
+		<sound id="crime_keycard" path="FindKeycardHint.ogg" subtitle_id="crime_keycard"/>
+		<sound id="crime_escape" path="EscapeHint.ogg" subtitle_id="crime_escape"/>
+		<sound id="crime_escort" path="EscortIvanHint.ogg" subtitle_id="crime_escort"/>
+		<sound id="crime_escorttwo" path="EscortIvanHintTwo.ogg" subtitle_id="crime_escorttwo"/>
+		<sound id="crime_fence" path="FenceHint.ogg" subtitle_id="crime_fence"/>
+		<sound id="crime_getclear" path="GetClearHint.ogg" subtitle_id="crime_getclear"/>
+		<sound id="crime_holdout" path="HoldoutHint.ogg" subtitle_id="crime_holdout"/>
+		<sound id="crime_enteroffice" path="EnterOfficeHint.ogg" subtitle_id="crime_enteroffice"/>
+		<sound id="crime_helicopter" path="HelicopterHint.ogg" subtitle_id="crime_helicopter"/>
+		<sound id="crime_disarmc4" path="DisarmC4Hint.ogg" subtitle_id="crime_disarmc4"/>
+		<sound id="crime_placec4" path="ConfinementC4Hint.ogg" subtitle_id="crime_placec4"/>
+		<sound id="crime_satalitedish" path="DestroySataliteDishHint.ogg" subtitle_id="crime_satalitedish"/>
+		<sound id="crime_computer" path="ComputerHint.ogg" subtitle_id="crime_computer"/>
+		<sound id="crime_nikolai" path="MeetNikolaiHint.ogg" subtitle_id="crime_nikolai"/>
+		<sound id="crime_assemblebomb" path="AssembleBombHint.ogg" subtitle_id="crime_assemblebomb"/>
+		<sound id="crime_defendbomb" path="DefendBombHint.ogg" subtitle_id="crime_defendbomb"/>
+		<sound id="crime_findivan" path="SearchIvanHint.ogg" subtitle_id="crime_findivan"/>
+		<sound id="crime_drillshutter" path="DrillDoorHint.ogg" subtitle_id="crime_drillshutter"/>
+		<sound id="crime_component" path="ComponentHint.ogg" subtitle_id="crime_component"/>
+	</sounds>
+		
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/crimeicon" id="crimepunish">
+		<chain>
+			<table level_id="crimepunishlvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="150000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+		</payout>
+	</narrative>
+</table>

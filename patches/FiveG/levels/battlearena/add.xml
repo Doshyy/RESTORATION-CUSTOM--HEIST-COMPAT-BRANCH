@@ -1,0 +1,41 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_btl/vehicles/flying_object/flying_object" unload="true"/>
+		<model path="units/pd2_mod_btl/vehicles/flying_object/flying_object" unload="true"/>
+		<object path="units/pd2_mod_btl/vehicles/flying_object/flying_object" unload="true"/>
+		<sequence_manager path="units/pd2_mod_btl/vehicles/flying_object/flying_object" unload="true"/>
+		<unit load="true" path="units/pd2_mod_btl/vehicles/flying_object/flying_object" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_mod_btl/vehicles/veh_bags/veh_explosive_bag_static" unload="true"/>
+		<object path="units/pd2_mod_btl/vehicles/veh_bags/veh_explosive_bag_static" unload="true"/>
+		<model path="units/pd2_mod_btl/vehicles/veh_bags/veh_explosive_bag_static" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/veh_bags/veh_explosive_bag_static" unload="true"/>
+		<unit load="true" path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" unload="true"/>
+		<object path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" unload="true"/>
+		<model path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_default" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_brown" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_green" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_grey" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_halloween" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_icecream" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_overkill" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_red" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_white" unload="true"/>
+		<material_config path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_yellow" unload="true"/>
+		<sequence_manager path="units/pd2_mod_btl/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" unload="true"/>
+	</add>
+	<texture path="levels/mods/battlearena/cube_lights/101234"/>
+	<texture path="levels/mods/battlearena/cube_lights/102795"/>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile5_trim_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile5_trim_4x4m_a"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile5_trim_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a"/>
+		<object path="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a"/>
+		<material_config path="units/payday2/architecture/ind/ind_cinderblock_wall_4m_a"/>
+	</add>
+</table>

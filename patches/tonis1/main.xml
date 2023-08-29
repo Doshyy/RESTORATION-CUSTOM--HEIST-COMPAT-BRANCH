@@ -1,0 +1,128 @@
+<table name="tonis1">
+	<instance id="helicopter_fix">
+		<packages>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world"/>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world_sounds"/>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world/world"/>
+		</packages>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" path="guis/tonis1_icon"/>
+	</AddFiles>
+	<AssetUpdates id="29351" provider="modworkshop" use_local_dir="true" version="1.01"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Sounds directory="assets/sounds/vo">
+		<sound id="tonis1_brief" path="tonis/tonis1_brief.ogg" subtitle_id="tonis1_brief"/>
+		<sound id="tonis1_intro" path="tonis/tonis1_intro.ogg" subtitle_id="tonis1_intro"/>
+		<sound id="tonis1_entry" path="tonis/tonis1_entry.ogg" subtitle_id="tonis1_entry"/>
+		<sound id="tonis1_stair" path="tonis/tonis1_stair.ogg" subtitle_id="tonis1_stair"/>
+		<sound id="tonis1_vault" path="tonis/tonis1_vault.ogg" subtitle_id="tonis1_vault"/>
+		<sound id="tonis1_pc1" path="tonis/tonis1_pc1.ogg" subtitle_id="tonis1_pc1"/>
+		<sound id="tonis1_pc1c" path="tonis/tonis1_pc1c.ogg" subtitle_id="tonis1_pc1c"/>
+		<sound id="tonis1_pc2" path="tonis/tonis1_pc2.ogg" subtitle_id="tonis1_pc2"/>
+		<sound id="tonis1_pc2c" path="tonis/tonis1_pc2c.ogg" subtitle_id="tonis1_pc2c"/>
+		<sound id="tonis1_drill" path="tonis/tonis1_drill.ogg" subtitle_id="tonis1_drill"/>
+		<sound id="tonis1_door" path="tonis/tonis1_door.ogg" subtitle_id="tonis1_door"/>
+		<sound id="tonis1_door2" path="tonis/tonis1_door2.ogg" subtitle_id="tonis1_door2"/>
+		<sound id="tonis1_escape" path="tonis/tonis1_escape.ogg" subtitle_id="tonis1_escape"/>
+		<sound id="tonis1_escape2" path="tonis/tonis1_escape2.ogg" subtitle_id="tonis1_escape2"/>
+		<sound id="tonis1_escape3" path="tonis/tonis1_escape3.ogg" subtitle_id="tonis1_escape3"/>
+		<sound id="tonis1_thermite" path="tonis/tonis1_thermite.ogg" subtitle_id="tonis1_thermite"/>
+		<sound id="tonis1_vaultenter" path="tonis/tonis1_vaultenter.ogg" subtitle_id="tonis1_vaultenter"/>
+		<sound id="tonis1_vaultenter2" path="tonis/tonis1_vaultenter2.ogg" subtitle_id="tonis1_vaultenter2"/>
+	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
+	<level ai_group_type="america" briefing_dialog="tonis1_brief" id="tonisl1" max_bags="200">
+		<add file="levels/tonisl1/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/roberts/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
+			<value_node value="levels/narratives/locke/brb/world/world"/>
+			<value_node value="levels/instances/unique/cag_computer/world/world"/>
+			<value_node value="levels/instances/unique/dark/train_int_murky_emp/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+			<value_node value="levels/instances/unique/help/help_timer/world/world"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="packages/job_short1_stage2"/>
+			<value_node value="packages/vlad_four_stores"/>
+			<value_node value="levels/instances/unique/vit/vit_ammo_dump/world/world"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/world/world"/>
+			<value_node value="packages/job_branchbank_deposit"/>
+			<value_node value="packages/job_kenaz"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="Tonis" id="tonisn1" icon="guis/tonis1_icon">
+		<chain>
+			<table level_id="tonisl1" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

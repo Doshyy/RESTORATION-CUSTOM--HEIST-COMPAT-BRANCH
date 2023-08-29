@@ -1,0 +1,236 @@
+<table min_lib_ver="4.5" name="Flatline">
+	<AssetUpdates id="34609" provider="modworkshop" version="1.3"/>
+	<instance id="flatline_stealth_hack">
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="flatline_long_hackbox">
+		<packages>
+			<value_node value="levels/instances/unique/des/des_hackbox/world"/>
+			<value_node value="levels/instances/unique/des/des_hackbox/world_sounds"/>
+			<value_node value="levels/instances/unique/des/des_hackbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="flatline_sawdoor">
+		<packages>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+		</packages>
+	</instance>
+	<instance id="flatline_spawn_enemies">
+		<add directory="assets"/>
+		<include directory="levels/instances/flatline_spawn_enemies">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/flatlineicon"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Sounds directory="assets/sfx">
+		<sound id="rus_dsp_radio_query_1_a" path="rus_dsp_radio_query_1_a.ogg"/>
+		<sound id="rus_dsp_radio_query_1_b" path="rus_dsp_radio_query_1_b.ogg"/>
+		<sound id="rus_dsp_radio_query_1_c" path="rus_dsp_radio_query_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_a" path="rus_dsp_radio_fooled_1_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_b" path="rus_dsp_radio_fooled_1_b.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_c" path="rus_dsp_radio_fooled_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_a" path="rus_dsp_radio_fooled_4_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_b" path="rus_dsp_radio_fooled_4_b.ogg"/>
+		<random id="rus_dispatch_generic_message">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_query_1">
+			<sound id="rus_dsp_radio_query_1_a"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+		</random>
+		<sound id="rus_dsp_radio_reminder_1" path="rus_dsp_radio_reminder_1.ogg"/>
+		<random id="rus_dsp_radio_fooled_1">
+			<sound id="rus_dsp_radio_fooled_1_a"/>
+			<sound id="rus_dsp_radio_fooled_1_b"/>
+			<sound id="rus_dsp_radio_fooled_1_c"/>
+		</random>
+		<random id="rus_dsp_radio_fooled_4">
+			<sound id="rus_dsp_radio_fooled_4_a"/>
+			<sound id="rus_dsp_radio_fooled_4_b"/>
+		</random>
+		<random id="rus_dsp_radio_alarm_1">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_checking_1">
+			<sound id="fri_dsp_radio_checking_1"/>
+		</random>
+		<random id="rus_dsp_stop_all">
+			<sound id="fri_dsp_stop_all"/>
+		</random>
+	</Sounds>
+
+	
+	
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="flatline_brief" ghost_bonus="0.1" id="flatline_lvl" intro_event="flatline_intro" max_bags="54" player_style="scrub">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="russia_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="levels/instances/unique/pex/pex_double_doors/world"/>
+			<value_node value="levels/instances/unique/pex/pex_double_doors/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_security_box/world/world"/>
+			<value_node value="packages/dlcs/nmh/job_nmh"/>
+			<value_node value="levels/instances/unique/des/des_hackbox/world"/>
+			<value_node value="levels/instances/unique/des/des_hackbox/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/lvl_mad"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		
+		
+		
+	<sounds directory="assets/sounds">
+		<sound id="flatline_brief" path="Brief.ogg"/>
+		<sound id="flatline_intro" path="Intro.ogg" subtitle_id="flatline_intro"/>
+		<sound id="flatline_computer" path="ComputerHint.ogg" subtitle_id="flatline_computer"/>
+		<sound id="flatline_saw" path="SawHint.ogg" subtitle_id="flatline_saw"/>
+		<sound id="flatline_keycard" path="KeycardHint.ogg" subtitle_id="flatline_keycard"/>
+		<sound id="flatline_escape" path="EscapeHint.ogg" subtitle_id="flatline_escape"/>
+		<sound id="flatline_tablet" path="TabletHint.ogg" subtitle_id="flatline_tablet"/>
+		<sound id="flatline_mold" path="MeshHint.ogg" subtitle_id="flatline_mold"/>
+		<sound id="flatline_stealthbox" path="StealthPanelHint.ogg" subtitle_id="flatline_stealthbox"/>
+		<sound id="flatline_wrong_1" path="Wrong1.ogg" subtitle_id="flatline_wrong_1"/>
+		<sound id="flatline_wrong_2" path="Wrong2.ogg" subtitle_id="flatline_wrong_2"/>
+		<sound id="flatline_wrong_3" path="Wrong3.ogg" subtitle_id="flatline_wrong_3"/>
+		<sound id="flatline_wrong_4" path="Wrong4.ogg" subtitle_id="flatline_wrong_4"/>
+		<sound id="flatline_wrong_5" path="Wrong5.ogg" subtitle_id="flatline_wrong_5"/>
+		<sound id="flatline_alarmbox" path="AlarmBoxHint.ogg" subtitle_id="flatline_alarmbox"/>
+	</sounds>
+	
+	
+		
+		
+		
+		
+		
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/flatlineicon" id="flatline_nar">
+		<chain>
+			<table level_id="flatline_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="400000"/>
+			<value_node value="450000"/>
+			<value_node value="450000"/>
+			<value_node value="450000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+			<value_node value="25000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+		</payout>
+	</narrative>
+</table>

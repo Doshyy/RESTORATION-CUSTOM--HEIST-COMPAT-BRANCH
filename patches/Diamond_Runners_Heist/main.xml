@@ -1,0 +1,126 @@
+<table name="Diamond_Runners_Heist">
+	<AddFiles directory="assets">
+		<texture force="true" path="guis/icon/runner_icon"/>
+		<texture force="true" path="guis/dlcs/chill/textures/pd2/trophies/safehouse_trophies_preview_runner01"/>
+		<texture force="true" path="guis/dlcs/chill/textures/pd2/trophies/safehouse_trophies_preview_runner02"/>
+		<texture force="true" path="guis/dlcs/chill/textures/pd2/trophies/safehouse_trophies_preview_runner03"/>
+	</AddFiles>
+	<AssetUpdates id="24897" provider="modworkshop" use_local_dir="true" version="1.1"/>
+	<Hooks directory="hooks">
+		<hook file="customsafehousetweakdata.lua" source_file="lib/tweak_data/customsafehousetweakdata"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc"/>
+	<level ai_group_type="america" briefing_dialog="" id="pk_hcm" intro_event="" max_bags="54" team_ai_off="true">
+		<add file="levels/pk_hcm/add.xml"/>
+		<assets/>
+		<environment_effects>
+			<value_node value="rain"/>
+			<value_node value="raindrop_screen"/>
+			<value_node value="lightning"/>
+		</environment_effects>
+		<include directory="levels/pk_hcm">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/backdrop/backdrop"/>
+			<value_node value="levels/instances/unique/red/red_server_room/world"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/narratives/locke/bph/lights2/lights2"/>
+			<value_node value="levels/narratives/bain/help/collision/collision"/>
+			<value_node value="packages/narr_jerry2"/>
+			<value_node value="levels/narratives/classics/dah/backdrop/backdrop"/>
+			<value_node value="packages/narr_framing_1"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/pc_only/pc_only"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/world"/>
+			<value_node value="levels/narratives/armadillo/arm_fac/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/out/out"/>
+			<value_node value="levels/narratives/short1/stage2/world/world"/>
+			<value_node value="levels/narratives/classics/glace/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="custom" icon="guis/icon/runner_icon" id="heist_runner">
+		<chain>
+			<table level_id="pk_hcm" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="6000"/>
+			<value_node value="9000"/>
+			<value_node value="22000"/>
+			<value_node value="46000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<date_added>
+			<value_node value="2019"/>
+			<value_node value="5"/>
+			<value_node value="30"/>
+		</date_added>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="9000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+			<value_node value="5500"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="72000"/>
+			<value_node value="72000"/>
+			<value_node value="72000"/>
+		</payout>
+	</narrative>
+</table>

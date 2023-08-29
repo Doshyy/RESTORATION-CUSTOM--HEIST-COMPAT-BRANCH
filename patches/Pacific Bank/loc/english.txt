@@ -1,0 +1,154 @@
+{
+	"heist_constantine_bank_nar_name" : "The Pacific Bank",
+	"heist_constantine_bank_nar_brief" : "Constantine here, I have a golden oppurtinity for you, one that's suited to your expertise. I need you to hit a bank in LA.\n\n»Enter the bank\n»Open lobby doors\n»Open the vault door\n»Secure cash and escape",
+
+	"heist_constantine_bank_lvl_name" : "The Pacific Bank",
+	"heist_constantine_bank_lvl_brief" : "Associates of mine have close connections to Pacific Bank and have informed me that the central branch of the bank recently had a depositing of cash and gold. Most of it is stored in the deposit boxes and they haven't distributed the cash to the other branches yet and this is the perfect time to hit the bank. My insider will help you with any of the preplanning.",
+
+	"contact_constantine_name":"Constantine",
+	"contact_constantine_desc":"",
+	"restoration_level_data_constantine_bank_lvl":"12:00 PM, Pacific Bank",	
+	"contact_constantine_name":"Constantine",
+	"contact_constantine_desc":"",
+	"cbank_intro" : "We're here, the bank has alot of security, So you can expect alot of heat if you go loud",
+	"cbank_slice":"If you want to do this stealthily enter the bank and look around for security boxes to slice, when you slice all of them Ill be able to enter a code that the insider gave me to open up the doors to the back room.",
+	"cbank_loudhack":"Alright, I need you to set me up on the tellar computers, Ill be able to brute force my way in to get those doors open.",
+	"cbank_blocker":"There's a security blocker thats blocking my access, I need you to rewire a security box in the maintenence room.",
+	"cbank_masterserver":"Next step, we need to override the master server in one of the maintenence rooms to change the time schedule for the vault's opening.",
+	"cbank_stealthwait":"The override's going to take a minute to activate, feel free to head to the vault and wait for me to tell you when you can enter the codes.",
+	"cbank_stealthhack":"There are three codes we need to get to access to the vault. Find the computers and get me on them.",
+	"cbank_assembledrill":"The magnet locks gone now assemble the drill.",
+	"cbank_secure":"Alright, now its time to secure what you can from that vault.",
+	"cbank_vault":"The vault doors opening, enter the vault.",
+	"cbank_magnet":"A Magnet locks blocking us from drilling the door open, find a security tablet from one of the rooms and override it.",
+	"cbank_defenddrill":"Defend the drill til it opens up the vault, the insider placed drill repair parts near the vault door.",
+	"cbank_thermite":"Set up the thermal rig on the vault door.",
+	"cbank_thermitewait":"The thermites going to take a few minutes to burn through the door.",
+	"cbank_code":"The codes can be entered now.",
+	"cbank_escape":"You can leave now or empty that vault.",
+	"cbank_thermiteminute" : "It'll take another minute for the thermite to burn through that door.",
+	"cbank_thermitehalf" : "The thermites half way done.",
+
+
+	"cbank_findthermite" :"The insider stored thermite in one of the rooms go find it.",
+
+	
+	"cbank_obj1":"Slice Security Boxes",
+	"cbank_obj1_desc":"If you want to do this stealthily enter the bank and look around for security boxes to slice, when you slice all of them Ill be able to enter a code that the insider gave me to open up the doors to the back room.",
+
+	"cbank_objpc":"Hack Tellar Computers",
+	"cbank_objpc_desc":"Alright, I need you to set me up on the tellar computers. Ill be able to brute force my way in to get those doors open.",
+
+	"cbank_objblocker":"Rewire Security Blocker",
+	"cbank_objblocker_desc":"There's a security blocker thats blocking my access, I need you to rewire a security box in the maintenence room.",
+
+	"cbank_objpcstealth":"Get Vault Codes",
+	"cbank_objpcstealth_desc":"There are three codes we need to get to access to the vault. Find the computers and get me on them.",
+
+	"cbank_objmasterserver":"Override Master Server",
+	"cbank_objmasterserver_desc":"Next step, we need to override the master server in one of the maintenence rooms to change the time schedule for the vault's opening.",
+
+
+	"cbank_objstealthwait":"Wait for Override",
+	"cbank_objstealthwait_desc":"The override's going to take a minute to activate, feel free to head to the vault and wait for me to tell you when you can enter the codes.",
+
+	"cbank_objcode":"Enter Vault Code",
+	"cbank_objcode_desc":"The codes can be entered now.",
+
+	"cbank_objbeast":"Assemble the Beast",
+	"cbank_objbeast_desc":"The magnet locks gone now assemble the drill.",
+
+	"cbank_objbeastwait":"Defend the Drill",
+	"cbank_objbeastwait_desc":"Defend the drill til it opens up the vault, the insider placed drill repair parts near the vault door.",
+
+	"cbank_objentervault":"Enter the Vault",
+	"cbank_objentervault_desc":"The vault doors opening, enter the vault.",
+
+	"cbank_objsecure":"Secure Money or Gold",
+	"cbank_objsecure_desc":"Alright, now its time to secure what you can from that vault.",
+
+	"cbank_objtablet":"Disable Magnet Lock",
+	"cbank_objtablet_desc":"A Magnet locks blocking us from drilling the door open, find a security tablet from one of the rooms and override it.",
+
+	"cbank_objthermite":"Setup Thermal Rig",
+	"cbank_objthermite_desc":"Set up the thermal rig on the vault door.",
+
+	"cbank_objgetthermite":"Get Thermite from Room",
+	"cbank_objgetthermite_desc":"The insider stored thermite in one of the rooms go find it.",
+
+
+	"cbank_objthermitewait":"Wait for Thermite",
+	"cbank_objthermitewait_desc":"The thermites going to take a few minutes to burn through the door.",
+
+	"cbank_objescape":"Secure More or Escape",
+	"cbank_objescape_desc":"You can leave now or empty that vault.",
+
+
+	"menu_pp_constantine_bank_vault_thermite":"Basic Plan C: Thermite",
+	"menu_pp_constantine_bank_vault_thermite_desc":"Thermite is a good way to enter the vault, faster then the drill and will bypass any magnet block the vault may have.",
+	
+	
+	"menu_pp_constantine_bank_blocker_bypass" : "Computer Blocker Bypass (LOUD)",
+	"menu_pp_constantine_bank_blocker_bypass_desc" : "Bypasses security blocker for lobby computer hack.",
+
+	"menu_pp_asset_constantine_bank_road_construction" : "Road Construction Crew (STEALTH)",
+	"menu_pp_asset_constantine_bank_road_construction_desc" : "A crew will set up construction on one of the streets, blocking access to the bank. Reduces civilians on the map.",
+
+
+	"menu_pp_asset_constantine_bank_road_construction" : "Road Construction Crew (STEALTH)",
+	"menu_pp_asset_constantine_bank_road_construction_desc" : "A crew will set up construction on one of the streets, blocking access to the bank. Reduces civilians on the map.",
+
+	"menu_pp_asset_constantine_bank_van_escape" : "Garage Escape Lobby",
+	"menu_pp_asset_constantine_bank_van_escape_desc" : "A van will be stored in a garage near the lobby.",
+
+	"menu_pp_asset_constantine_bank_gate_key":"Gate Key",
+	"menu_pp_asset_constantine_bank_gate_key_desc":"Start off with a gate key in your inventory. Used to open vault gates.",
+
+	"menu_pp_asset_constantine_bank_expert_van_escape" : "Garage Escape Expert",
+	"menu_pp_asset_constantine_bank_expert_van_escape_desc" : "A van will be stored by the workers garage close to the vault.",
+	
+	"menu_backup_preplan" : "Outside",
+	"menu_construction_preplan" : "Outside",
+	"menu_bypass_preplan" : "Bypass Lobby Blocker",
+	"menu_gatekey_preplan" : "Vault Gate Key",
+		
+	
+	"menu_guard_preplan_001" : "Vault Exterior Side",
+	"menu_guard_preplan_002" : "Vault Exterior Entrance",
+	"menu_guard_preplan_003" : "Lobby Entrance",
+		
+
+	"menu_deaddrop_preplan_001" : "Lobby Corridor Right",
+	"menu_deaddrop_preplan_002" : "Lobby Corridor Bottom Left",
+	"menu_deaddrop_preplan_003" : "Lobby Corridor Top Left",
+	"menu_deaddrop_preplan_004" : "Vault Exterior Top Left",
+	"menu_deaddrop_preplan_005" : "Vault Exterior Top Right",
+	"menu_deaddrop_preplan_006" : "Filing Room",
+	"menu_deaddrop_preplan_007" : "Cafeteria Room",
+	
+	"menu_spotter_preplan_001" : "Vault Exterior Top Right",
+	"menu_spotter_preplan_002" : "Vault Exterior Top Left",
+	"menu_spotter_preplan_003" : "Vault Exterior Bottom Right",
+	"menu_spotter_preplan_004" : "Vault Exterior Bottom Left",
+	"menu_spotter_preplan_005" : "Lobby Room Top Right",
+	"menu_spotter_preplan_006" : "Lobby Room Top Left",
+	"menu_spotter_preplan_007" : "Lobby Room Bottom Left",
+	"menu_spotter_preplan_008" : "Lobby Room Bottom Right",
+	"menu_spotter_preplan_009" : "Cafeteria Room",
+	"menu_spotter_preplan_010" : "Filing Room",
+	
+	"menu_pp_constantine_bank_b" : "The Pacific Bank",
+	
+
+	"menu_pp_constantine_bank_backup_crew" : "Backup Crew (LOUD)",
+	"menu_pp_constantine_bank_backup_crew_desc" : "Constantine will hire an additional crew to help aide you.",
+
+
+	"menu_pp_asset_constantine_bank_reduce_guard":"Remove Guard (STEALTH)",
+
+	"menu_pp_asset_constantine_bank_reduce_guard_desc":"Can only do this once but we can hire an insider to get rid of a guard before hand. Doing this will remove a single guard from patrolling the area.",
+
+
+
+
+}

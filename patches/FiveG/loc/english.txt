@@ -1,0 +1,16 @@
+{
+	"heist_battlearena_name":"Five-G",
+	"heist_battlearena_brief":"A mysterious actor wants you to destroy 5G satellite dishes around the town. They say it causes all kinds of problems for them, don't know why.",
+	"level_battlearena_name":"Hit the town",
+	"level_battlearena_brief":"Find all ten satellite dishes, hack them and blow the evidence and then get out of there, the contact arranged an escape vehicle for you.",
+	"fvge_explode_them_all":"Destroy the 5G dishes",
+	"fvge_explode_them_all_desc":"All of them.",
+	"fvge_escape":"Get to the escape vehicle..?",
+	"fvge_escape_desc":"Escapay!",
+	"fvge_wait_park":"Holdout at the Park",
+	"fvge_wait_park_desc":"Get to the park and try not to die.",
+	"fivegee_name":"Five-G",
+	"fivegee_desc":"All I know is there's a button.",
+	"fivegee_objective":"Find the button.",
+	"restoration_level_data_battlearena":"11:14 PM, Georgetown"
+}

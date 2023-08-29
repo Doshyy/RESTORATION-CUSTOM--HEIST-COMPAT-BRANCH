@@ -1,0 +1,197 @@
+<table name="Scarlet Club Heist">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/scarleticon"/>
+	</AddFiles>
+	<AssetUpdates id="32438" provider="modworkshop" version="1.3"/>
+	<HeistMusic directory="sounds" id="neonnight">
+		<event name="setup" source="setup.ogg"/>
+		<event name="anticipation" source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg"/>
+		<event name="control" source="control.ogg"/>
+	</HeistMusic>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Sounds directory="assets/sounds">
+		<sound id="sch_brief" path="Brief.ogg"/>
+		<sound id="sch_outro" path="Outro.ogg"/>
+		<sound id="sch_intro" path="Intro.ogg" subtitle_id="sch_intro"/>
+		<sound id="sch_override" path="OverrideHint.ogg" subtitle_id="sch_override"/>
+		<sound id="sch_c4" path="C4Hint.ogg" subtitle_id="sch_c4"/>
+		<sound id="sch_code" path="CodeHint.ogg" subtitle_id="sch_code"/>
+		<sound id="sch_escape" path="EscapeHint.ogg" subtitle_id="sch_escape"/>
+		<sound id="sch_vault" path="VaultHint.ogg" subtitle_id="sch_vault"/>
+		<sound id="sch_codefailed" path="CodeFailedHint.ogg" subtitle_id="sch_codefailed"/>
+		<sound id="sch_cash" path="SecureCashHint.ogg" subtitle_id="sch_cash"/>
+		<sound id="sch_cover" path="CoverHint.ogg" subtitle_id="sch_cover"/>
+		<sound id="sch_painting" path="PaintingHint.ogg" subtitle_id="sch_painting"/>
+		<sound id="sch_paintingtwo" path="PaintingHintTwo.ogg" subtitle_id="sch_paintingtwo"/>
+		<sound id="sch_gascan" path="GasCanHint.ogg" subtitle_id="sch_gascan"/>
+		<sound id="sch_escort" path="EscortHint.ogg" subtitle_id="sch_escort"/>
+		<sound id="sch_chair" path="ChairHint.ogg" subtitle_id="sch_chair"/>
+		<sound id="sch_signal" path="SignalBileHint.ogg" subtitle_id="sch_signal"/>
+		<sound id="sch_waitbile" path="BileHint.ogg" subtitle_id="sch_waitbile"/>
+		<sound id="sch_bilehalfway" path="BileHalfWayHint.ogg" subtitle_id="sch_bilehalfway"/>
+		<sound id="sch_beatupbanter" path="BeatUpBanter.ogg" subtitle_id="sch_beatupbanter"/>
+		<sound id="sch_beatup" path="BeatUpHint.ogg" subtitle_id="sch_beatup"/>
+		<sound id="sch_window" path="WindowHint.ogg" subtitle_id="sch_window"/>
+		<sound id="sch_managerenter" path="ManagerEnteredClub.ogg" subtitle_id="sch_managerenter"/>
+		<sound id="sch_managerignored" path="ManagerIgnored.ogg" subtitle_id="sch_managerignored"/>
+		<sound id="sch_manageraccept" path="ManagerAccept.ogg" subtitle_id="sch_manageraccept"/>
+		<sound id="sch_managerdenied" path="ManagerDenied.ogg" subtitle_id="sch_managerdenied"/>
+		<sound id="sch_managercode" path="ManagerCodeResponse.ogg" subtitle_id="sch_managercode"/>
+		<sound id="sch_managerpainting" path="ManagerPaintingResponse.ogg" subtitle_id="sch_managerpainting"/>
+		<sound id="sch_managerc4" path="ManagerC4Response.ogg" subtitle_id="sch_managerc4"/>
+		<sound id="sch_managerbrodied" path="ManagerBrotherDeathResponse.ogg" subtitle_id="sch_managerbrodied"/>
+		<sound id="sch_managersurrounded" path="ManagerSurrounded.ogg" subtitle_id="sch_managersurrounded"/>
+		<sound id="sch_managershootthem" path="ManagerShootThem.ogg" subtitle_id="sch_managershootthem"/>
+		<sound id="sch_book" path="BookHint.ogg" subtitle_id="sch_book"/>
+		<sound id="sch_kill" path="KillManagerHint.ogg" subtitle_id="sch_kill"/>
+		<sound id="sch_guyfall" path="GuyFall.ogg"/>
+		<sound id="sch_guyscaredone" path="GuyScaredOne.ogg"/>
+		<sound id="sch_guyscaredtwo" path="GuyScaredTwo.ogg"/>
+		<sound id="sch_guyhitone" path="GuyHitOne.ogg"/>
+		<sound id="sch_guyhittwo" path="GuyHitTwo.ogg"/>
+		<sound id="sch_guyhitthree" path="GuyHitThree.ogg"/>
+		<sound id="sch_guyhitfour" path="GuyHitFour.ogg"/>
+		<sound id="sch_guyreactionone" path="GuyReactionOne.ogg"/>
+	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" briefing_dialog="sch_brief" id="schl" flashlights_on="true" intro_event="sch_intro" max_bags="54" player_style="suit_sunny">
+		<add file="levels/schl/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/schl">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value="sch_outro"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/narratives/vlad/nightclub/kitchen/kitchen"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world"/>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world/world"/>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world_sounds"/>
+			<value_node value="packages/job_framing_frame"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world/world"/>
+			<value_node value="levels/instances/unique/bex/bex_vault/world"/>
+			<value_node value="levels/instances/unique/bex/bex_vault/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/red/red_server_room/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
+			<value_node value="levels/narratives/classics/flat/collision/collision"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/narratives/haunted_safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world/world"/>
+			<value_node value="levels/instances/unique/shout_crowbar/world_sounds"/>
+			<value_node value="levels/instances/unique/vit/vit_bookshelf/world"/>
+			<value_node value="levels/instances/unique/fex/fex_secret_lever_bookshelf/world"/>
+			<value_node value="levels/instances/unique/fex/fex_secret_lever_bookshelf/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_secret_lever_bookshelf/world_sounds"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_door/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/scarleticon" id="sch">
+		<chain>
+			<table level_id="schl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="50000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="200000"/>
+			<value_node value="280000"/>
+			<value_node value="280000"/>
+			<value_node value="280000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+			<value_node value="78000"/>
+		</payout>
+	</narrative>
+</table>

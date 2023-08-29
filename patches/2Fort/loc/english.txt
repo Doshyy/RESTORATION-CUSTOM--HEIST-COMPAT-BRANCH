@@ -1,0 +1,23 @@
+{
+	"GetOntoTheBridge":"Get Onto The Bridge",
+	"GetOntoTheBridge_desc":"Use The L a d d e r s",
+	"OpenTheDoorWithC4":"Use The C4 On The Door",
+	"OpenTheDoorWithC4_desc":"You Have To Wait Until The Helicopter Arrives",
+	"OpenFenceDoor":"Open The Gate",
+	"OpenFenceDoor_desc":"Any Way Will Work",
+	"DrillVault":"Drill The Vault",
+	"DrillVault_desc":"Thermal Drill Will Arrive Shortly",
+	"FindTheServer":"Find The Server Rack",
+	"FindTheServer_desc":"Somewhere In The Fort",
+	"TurnOnElectricity":"Turn On The Electricity",
+	"TurnOnElectricity_desc":"Near The Start Van",
+	"GetLoot":"Secure Loot",
+	"GetLoot_desc":"The helicopter arrives soon",
+	"Escape":"Escape",
+	"Escape_desc":"The Start Van",
+	"heist_2Fort_name":"2Fort",
+	"heist_2Fort_desc":"Go and find me the diamond, the 2Fort awaits...",
+	"heist_2Fort_brief":"Ahhh the 2fort, the brilliant design of this map led to tens of thousand of hours being spent here, anywhere you are here for the diamond, it got stolen 2 days ago, i had quite a hard time tracking where it went, turns out it's here out of all places.",
+	"contact_pilogun_name":"Pilogun",
+	"restoration_level_data_2Fort":"Overime, Somewhere in Teufort"
+}

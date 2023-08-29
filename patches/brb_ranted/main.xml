@@ -1,0 +1,121 @@
+<table name="brb_ranted">
+	<AddFiles directory="assets">
+		<texture path="guis/brb/brb_rant"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="nypd" briefing_dialog="Play_loc_brb_brf" cube="cube_apply_heist_bank" id="brb_rant" intro_event="Play_loc_brb_intro" flashlights_on="true" load_screen="guis/dlcs/brb/textures/loading/job_brb_df" max_bags="26" music="heist" narrator="locke" orig_id="brb_rant" player_style="peacoat">
+		<add file="levels/brb_rant/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<include directory="levels/brb_rant">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="collision/collision.continent" type="custom_xml"/>
+			<file file="collision/collision.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="props/props.continent" type="custom_xml"/>
+			<file file="props/props.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="lights/lights.continent" type="custom_xml"/>
+			<file file="lights/lights.mission" type="generic_xml"/>
+			<file file="art/art.continent" type="custom_xml"/>
+			<file file="art/art.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/brb_rant_v2.environment" type="custom_xml"/>
+			<file file="environments/brooklyn_ranted.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value="Play_loc_brb_end"/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/lvl_brb"/>
+			<value_node value="levels/narratives/locke/brb/world"/>
+			<value_node value="levels/narratives/locke/brb/world_sounds"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
+			<value_node value="levels/narratives/locke/brb/props/props"/>
+			<value_node value="levels/narratives/locke/brb/christmas_props/christmas_props"/>
+			<value_node value="levels/narratives/locke/brb/lights/lights"/>
+			<value_node value="levels/narratives/locke/brb/world/world"/>
+			<value_node value="levels/narratives/locke/brb/art/art"/>
+			<value_node value="levels/narratives/locke/brb/editor_only/editor_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative brief_id="heist_brb_crimenet" briefing_event="Play_loc_brb_cbf_01" contact="locke" icon="guis/brb/brb_rant" id="brb_ranted" jc="10" region="street">
+		<chain>
+			<table level_id="brb_rant" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="62000"/>
+			<value_node value="124000"/>
+			<value_node value="310000"/>
+			<value_node value="620000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="Play_loc_brb_cnc_01"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="codex/locke1"/>
+		</crimenet_videos>
+		<date_added>
+			<value_node value="2017"/>
+			<value_node value="12"/>
+			<value_node value="21"/>
+		</date_added>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+			<value_node value="25600"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+			<value_node value="16400"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="8000"/>
+			<value_node value="16000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</payout>
+	</narrative>
+</table>

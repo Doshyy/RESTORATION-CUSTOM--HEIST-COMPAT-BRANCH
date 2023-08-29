@@ -1,0 +1,134 @@
+<table min_lib_ver="4.5" name="Tropical Treasure">
+	<instance id="trop_pku_shovel">
+		<hooks directory="hooks">
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+		</hooks>
+		<packages/>
+	</instance>
+	<instance id="trop_sand_pile">
+		<hooks directory="hooks">
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+		</hooks>
+		<packages/>
+	</instance>
+	<AssetUpdates id="37076" provider="modworkshop" version="1.0"/>
+	<AddFiles directory="assets/textures">
+		<texture force="true" path="icon"/>
+		<texture force="true" path="loading"/>
+		<texture force="true" path="banner"/>
+		<png force="true" path="tropical_diff_0"/>
+		<png force="true" path="tropical_diff_1"/>
+		<png force="true" path="tropical_diff_2"/>
+		<png force="true" path="tropical_diff_3"/>
+		<png force="true" path="tropical_diff_4"/>
+		<png force="true" path="tropical_diff_5"/>
+		<png force="true" path="tropical_diff_6"/>
+		<png force="true" path="tropical_diff_6od"/>
+		<png force="true" path="tropical_flamingo"/>
+		<png force="true" path="tropical_map"/>
+		<png force="true" path="tropical_pack"/>
+		<png force="true" path="achiev_pal_real_wet_feet"/>
+	</AddFiles>
+	<Achievements banner="banner" icon="tropical_pack" id="trop_pack">
+		<achievement icon="achiev_pal_real_wet_feet" id="trop_water" rank="1" reward_amount="1" reward_type="cc"/>
+		<achievement icon="tropical_flamingo" id="trop_boop" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement icon="tropical_map" id="trop_time" rank="3" reward_amount="3" reward_type="cc"/>
+		<achievement icon="tropical_diff_0" id="trop_normal" rank="1"/>
+		<achievement icon="tropical_diff_1" id="trop_hard" rank="1"/>
+		<achievement icon="tropical_diff_2" id="trop_vhard" rank="2"/>
+		<achievement icon="tropical_diff_3" id="trop_ovk" rank="2"/>
+		<achievement icon="tropical_diff_4" id="trop_mayhem" rank="3"/>
+		<achievement icon="tropical_diff_5" id="trop_dw" rank="3"/>
+		<achievement icon="tropical_diff_6" id="trop_ds" rank="4"/>
+		<achievement icon="tropical_diff_6od" id="trop_dsod" rank="4"/>
+	</Achievements>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="murkywater" briefing_dialog="" id="trop" intro_event="" max_bags="54" narrator="locke" player_style="suit_sunny" team_ai_off="false" load_screen="loading">
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+		</hooks>
+		<assets>
+			<asset name="risk_murky"/>
+		</assets>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/instances/unique/pet_planecage/world/world"/>
+			<value_node value="packages/dlcs/vit/job_vit"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="custom" id="trop" icon="icon">
+		<chain>
+			<table level_id="trop" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

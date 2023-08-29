@@ -1,0 +1,4 @@
+{
+	"heist_skm_wd2_x_name" : "Almendia Logistics Dockyard Revamped",
+	"restoration_level_data_skm_wd2_x":"6:09 PM, Almendia Logistics Dockyard"
+}

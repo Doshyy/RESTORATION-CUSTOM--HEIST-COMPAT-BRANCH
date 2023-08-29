@@ -1,0 +1,17 @@
+{
+    "heist_skm_nmh_name": "Mercy Hospital",
+    "skm_nmh_pack_name": "Holdout: Mercy Hospital",
+    "skm_nmh_3_name": "Doctor's Orders",
+    "skm_nmh_3_desc": "",
+    "skm_nmh_3_objective": "Having started from wave 1, beat wave 3 of Holdout on the No Mercy Roof heist.",
+    "skm_nmh_5_name": "Rooftop Rave",
+    "skm_nmh_5_desc": "",
+    "skm_nmh_5_objective": "Having started from wave 1, beat wave 5 of Holdout on the No Mercy Roof heist.",
+    "skm_nmh_7_name": "Left 4 Cash",
+    "skm_nmh_7_desc": "",
+    "skm_nmh_7_objective": "Having started from wave 1, beat wave 7 of Holdout on the No Mercy Roof heist.",
+    "skm_nmh_9_name": "Holding Out For A Hero",
+    "skm_nmh_9_desc": "",
+    "restoration_level_data_skm_nmh":"9:12 PM, Mercy Hospital - Roof",
+    "skm_nmh_9_objective": "Having started from wave 1, beat wave 3 of Holdout on the No Mercy Roof heist."
+}

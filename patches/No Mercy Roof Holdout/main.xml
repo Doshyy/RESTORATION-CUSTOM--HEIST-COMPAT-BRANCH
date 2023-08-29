@@ -1,0 +1,91 @@
+<table min_lib_ver="4.5" name="No Mercy Roof Holdout">
+	<Achievements icon="skm_nmh_pack" id="skm_nmh_pack">
+		<achievement icon="skm_nmh_3" id="skm_nmh_3" rank="1"/>
+		<achievement icon="skm_nmh_5" id="skm_nmh_5" rank="2"/>
+		<achievement icon="skm_nmh_7" id="skm_nmh_7" rank="3"/>
+		<achievement icon="skm_nmh_9" id="skm_nmh_9" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets/textures">
+		<texture force="true" path="skm_nmh_pack"/>
+		<texture force="true" path="skm_nmh_3"/>
+		<texture force="true" path="skm_nmh_5"/>
+		<texture force="true" path="skm_nmh_7"/>
+		<texture force="true" path="skm_nmh_9"/>
+		<texture force="true" path="skm_nmh_icon"/>
+		<texture force="true" path="skm_nmh_loading"/>
+	</AddFiles>
+	<AssetUpdates id="38217" provider="modworkshop" version="1.1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="nypd" briefing_dialog="Play_loc_skm_brf" group_ai_state="skirmish" flashlights_on="true" id="skm_nmh" intro_event="Play_loc_skm_intro" narrator="locke" wave_count="9" player_style="loud_suit">
+		<assets/>
+		<outro_event>
+			<value_node value="Play_loc_skm_end_win"/>
+			<value_node value="Play_loc_skm_end_fail"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/shared/obj_skm/world"/>
+			<value_node value="levels/instances/shared/obj_skm/world_sounds"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/instances/shared/obj_skm/world/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world_sounds"/>
+			<value_node value="packages/dlcs/skm/job_skm"/>
+			<value_node value="packages/dlcs/nmh/job_nmh"/>
+			<value_node value="packages/skm_sc_nypd"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="pln_fwb_cbf_01" contact="skirmish" icon="skm_nmh_icon" id="skm_nmh" load_screen="skm_nmh_loading" max_mission_xp="135900" min_mission_xp="8000">
+		<chain>
+			<table level_id="skm_nmh" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="16000"/>
+			<value_node value="32000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="Play_loc_tag_cnc_01"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="codex/locke1"/>
+		</crimenet_videos>
+		<date_added>
+			<value_node value="2022"/>
+			<value_node value="6"/>
+			<value_node value="26"/>
+		</date_added>
+		<debrief_event>
+			<value_node value="Play_btc_fri_end_a"/>
+			<value_node value="Play_btc_fri_end_b"/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<payout>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</payout>
+	</narrative>
+</table>

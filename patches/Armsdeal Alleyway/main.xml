@@ -1,0 +1,181 @@
+<table image="icons/ada_modicon" name="Armsdeal Alleyway">
+	<Achievements banner="guis/achievements/ada_banner" icon="guis/achievements/ada_pack" id="armsdeal_alleyway">
+		<achievement desc_id="ada_achiev_diffn_desc" icon="guis/achievements/ada_diffn" id="ada_achiev_diffn" name_id="ada_achiev_diffn_name" rank="1"/>
+		<achievement desc_id="ada_achiev_diffh_desc" icon="guis/achievements/ada_diffh" id="ada_achiev_diffh" name_id="ada_achiev_diffh_name" rank="1"/>
+		<achievement desc_id="ada_achiev_diffvh_desc" icon="guis/achievements/ada_diffvh" id="ada_achiev_diffvh" name_id="ada_achiev_diffvh_name" rank="2"/>
+		<achievement desc_id="ada_achiev_diffovk_desc" icon="guis/achievements/ada_diffovk" id="ada_achiev_diffovk" name_id="ada_achiev_diffovk_name" rank="2"/>
+		<achievement desc_id="ada_achiev_diffmh_desc" icon="guis/achievements/ada_diffmh" id="ada_achiev_diffmh" name_id="ada_achiev_diffmh_name" rank="3"/>
+		<achievement desc_id="ada_achiev_diffdw_desc" icon="guis/achievements/ada_diffdw" id="ada_achiev_diffdw" name_id="ada_achiev_diffdw_name" rank="3"/>
+		<achievement desc_id="ada_achiev_diffds_desc" icon="guis/achievements/ada_diffds" id="ada_achiev_diffds" name_id="ada_achiev_diffds_name" rank="4"/>
+		<achievement amount="20" desc_id="ada_achiev_addingup_desc" icon="guis/achievements/ada_addingup" id="ada_achiev_addingup" name_id="ada_achiev_addingup_name" rank="1"/>
+		<achievement desc_id="ada_achiev_bulldozer_desc" icon="guis/achievements/ada_bulldozer" id="ada_achiev_bulldozer" name_id="ada_achiev_bulldozer_name" rank="2"/>
+		<achievement desc_id="ada_achiev_covid19_desc" hidden_achievement="true" icon="guis/achievements/ada_covid19" id="ada_achiev_covid19" name_id="ada_achiev_covid19_name" rank="1"/>
+		<achievement desc_id="ada_achiev_deaddrop_desc" hidden_achievement="true" icon="guis/achievements/ada_deaddrop" id="ada_achiev_deaddrop" name_id="ada_achiev_deaddrop_name" rank="2"/>
+		<achievement desc_id="ada_achiev_freethem_desc" hidden_achievement="true" icon="guis/achievements/ada_freethem" id="ada_achiev_freethem" name_id="ada_achiev_freethem_name" rank="4"/>
+		<achievement desc_id="ada_achiev_friends_desc" icon="guis/achievements/ada_friends" id="ada_achiev_friends" name_id="ada_achiev_friends_name" rank="2"/>
+		<achievement desc_id="ada_achiev_noentry_desc" icon="guis/achievements/ada_noentry" id="ada_achiev_noentry" name_id="ada_achiev_noentry_name" rank="2"/>
+		<achievement desc_id="ada_achiev_singledrill_desc" icon="guis/achievements/ada_singledrill" id="ada_achiev_singledrill" name_id="ada_achiev_singledrill_name" rank="3"/>
+		<achievement desc_id="ada_achiev_speedrun_desc" icon="guis/achievements/ada_speedrun" id="ada_achiev_speedrun" name_id="ada_achiev_speedrun_name" rank="2"/>
+		<achievement desc_id="ada_achiev_coin_desc" hidden_achievement="true" icon="guis/achievements/ada_coin" id="ada_achiev_coin" name_id="ada_achiev_coin_name" rank="3"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/ada_modicon"/>
+		<texture force="true" path="icons/ada_broker"/>
+		<texture force="true" path="guis/ada_loading"/>
+		<texture force="true" path="guis/achievements/ada_pack"/>
+		<texture force="true" path="guis/achievements/ada_banner"/>
+		<texture force="true" path="guis/achievements/ada_deaddrop"/>
+		<texture force="true" path="guis/achievements/ada_diffn"/>
+		<texture force="true" path="guis/achievements/ada_diffh"/>
+		<texture force="true" path="guis/achievements/ada_diffvh"/>
+		<texture force="true" path="guis/achievements/ada_diffovk"/>
+		<texture force="true" path="guis/achievements/ada_diffmh"/>
+		<texture force="true" path="guis/achievements/ada_diffdw"/>
+		<texture force="true" path="guis/achievements/ada_diffds"/>
+		<texture force="true" path="guis/achievements/ada_addingup"/>
+		<texture force="true" path="guis/achievements/ada_bulldozer"/>
+		<texture force="true" path="guis/achievements/ada_covid19"/>
+		<texture force="true" path="guis/achievements/ada_freethem"/>
+		<texture force="true" path="guis/achievements/ada_friends"/>
+		<texture force="true" path="guis/achievements/ada_noentry"/>
+		<texture force="true" path="guis/achievements/ada_singledrill"/>
+		<texture force="true" path="guis/achievements/ada_speedrun"/>
+		<texture force="true" path="guis/achievements/ada_coin"/>
+		<texture path="guis/dlcs/sg-op_mp5/weapon_skins/sg-op_mp5"/>
+	</AddFiles>
+	<AssetUpdates id="27186" provider="modworkshop" use_local_dir="true" version="1.33"/>
+	<HeistMusic directory="sounds" id="cf">
+		<event name="setup" source="stealth.ogg" start_source="stealth.ogg"/>
+		<event name="anticipation" source="anticipation.ogg" start_source="anticipation_start.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assault_start.ogg"/>
+		<event name="control" source="control.ogg" start_source="control_start.ogg"/>
+	</HeistMusic>
+	<Localization default="english.txt" directory="loc">
+		<localization file="english.txt" language="english"/>
+		<localization file="italian.txt" language="italian"/>
+		<loc file="italian.txt" language="italian"/>
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<WeaponSkin desc="bm_wskn_sg-op_mp5_desc" id="sg-op_mp5" name="bm_wskn_sg-op_mp5_name" rarity="rare" skin_folder="Assets/skins/sg-op_mp5" weapon_id="new_mp5">
+		<skin_attachments>
+			<value_node value="wpn_fps_smg_mp5_body_mp5"/>
+			<value_node value="wpn_fps_smg_mp5_s_adjust"/>
+			<value_node value="wpn_fps_smg_mp5_m_std"/>
+			<value_node value="wpn_fps_smg_mp5_fg_m5k"/>
+			<value_node value="wpn_fps_upg_fl_ass_laser"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="contact_shepherd_desc" id="sg_contact" name_id="contact_shepherd_name" package="packages/contact_bain"/>
+	<level ai_group_type="america" briefing_dialog="ada_briefing" flashlights_on="true" id="amsdeal1" intro_event="" load_screen="guis/ada_loading" max_bags="8" orig_id="amsdeal1" player_style="loud_suit">
+		<add file="levels/amsdeal1/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<outro_event>
+			<value_node value="ada_escaped"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_cafe/world/world"/>
+			<value_node value="levels/instances/unique/born/born_escape/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_1/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_1/world"/>
+			<value_node value="levels/instances/unique/mad/mad_door/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/out/out"/>
+			<value_node value="levels/instances/unique/shout_loot/world/world"/>
+			<value_node value="levels/instances/unique/crojob/crowbar_crate/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world"/>
+			<value_node value="levels/narratives/bain/help/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/instances/unique/sah/sah_utility_room/world/world"/>
+			<value_node value="levels/narratives/bain/rvd/stage2/art_team/art_team"/>
+			<value_node value="levels/instances/unique/des/des_drill/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/classics/flat/world/world"/>
+			<value_node value="packages/jolly"/>
+			<value_node value="packages/narr_alex2"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/instances/unique/pet_shutter/world/world"/>
+			<value_node value="packages/miscassets"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="ada_dialogue.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/ada">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/vo">
+			<sound id="ada_briefing" path="ada_briefing.ogg" volume="1"/>
+			<sound id="ada_escaped" path="ada_escaped.ogg" volume="1"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="sg_contact" icon="icons/ada_broker" id="Armsdeal Alleyway">
+		<chain>
+			<table level_id="amsdeal1" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="25000"/>
+			<value_node value="32500"/>
+			<value_node value="37500"/>
+			<value_node value="45000"/>
+			<value_node value="62500"/>
+			<value_node value="65000"/>
+			<value_node value="70000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="10000"/>
+			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="25000"/>
+			<value_node value="30000"/>
+			<value_node value="40000"/>
+			<value_node value="57000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="10000"/>
+			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="25000"/>
+			<value_node value="30000"/>
+			<value_node value="40000"/>
+			<value_node value="570000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="50000"/>
+			<value_node value="65000"/>
+			<value_node value="75000"/>
+			<value_node value="90000"/>
+			<value_node value="125000"/>
+			<value_node value="130000"/>
+			<value_node value="140000"/>
+		</payout>
+	</narrative>
+</table>

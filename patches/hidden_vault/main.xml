@@ -1,0 +1,202 @@
+<table name="hidden_vault">
+	<AddFiles directory="assets">
+		<texture force="true" path="gui/hidden_vault_bg"/>
+		<texture force="true" path="gui/hidden_vault_bd"/>
+		<texture force="true" path="gui/hidden_vault_icon"/>
+	</AddFiles>
+	<AssetUpdates id="22749" provider="modworkshop" use_local_dir="true" version="4.6"/>
+	<HeistMusic directory="assets/sounds/music" id="enemy_super_blt_heist">
+		<event name="setup" source="setup.ogg" start_source="setup_start.ogg"/>
+		<event name="anticipation" source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assault_start.ogg"/>
+		<event name="control" source="control.ogg" start_source="control_start.ogg"/>
+	</HeistMusic>
+	<Localization default="english.txt" directory="loc">
+		<localization file="italian.txt" language="italian"/>
+		<localization file="spanish.txt" language="spanish"/>
+	</Localization>
+	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="the_chameleon" name_id="heist_contact_the_chameleon" package="packages/contact_locke"/>
+	<level ai_group_type="murkywater" briefing_dialog="" ghost_bonus="0.1" id="hidden_vault" load_screen="gui/hidden_vault_bg" max_bags="100" player_style="sneak_suit">
+		<add file="levels/hidden_vault/add.xml"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+			<asset name="health_bag"/>
+			<asset name="ammo_bag"/>
+			<asset name="hidden_bag_shortcut"/>
+			<asset name="hidden_vault_cams"/>
+			<asset name="hidden_bag_escape"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="hudmissionbriefing.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
+		</hooks>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/narratives/bain/big/world"/>
+			<value_node value="levels/instances/unique/chill/vault_stage_01/world/world"/>
+			<value_node value="packages/ukrainian_job"/>
+			<value_node value="levels/narratives/continental/spa/regin_art/regin_art"/>
+			<value_node value="levels/narratives/pbr/berry/world/world"/>
+			<value_node value="levels/instances/unique/mad/mad_server_room/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_laptop_code/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_crate/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
+			<value_node value="levels/instances/unique/hox_breakout_elevator001/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_iron_gate/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/pc_only/pc_only"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_2/world/world"/>
+			<value_node value="levels/instances/unique/stash_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/crojob/random_c4/world/world"/>
+			<value_node value="levels/narratives/classics/flat/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+			<value_node value="levels/instances/unique/flat/window_planks/world/world"/>
+			<value_node value="levels/instances/unique/mus_security_barrier/world/world"/>
+			<value_node value="packages/job_framing_frame"/>
+			<value_node value="packages/job_pines"/>
+			<value_node value="packages/narr_shoutout"/>
+			<value_node value="packages/job_kenaz"/>
+			<value_node value="packages/narr_rat"/>
+			<value_node value="levels/instances/unique/spa/spa_elevator/world/world"/>
+			<value_node value="levels/narratives/pbr/jerry/editor_only/editor_only"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="packages/narr_watchdogs2"/>
+			<value_node value="levels/narratives/classics/glace/world"/>
+			<value_node value="packages/narr_red2"/>
+			<value_node value="levels/narratives/classics/dah/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sounds directory="sfx">
+				<sound id="hidden_vault_scr" path="scr.ogg"/>
+			</sounds>
+			<sounds directory="vo">
+				<sounds directory="loud">
+					<sound id="loud_get_the_crowbar" path="loud_get_the_crowbar.ogg"/>
+					<sound id="loud_get_a_blowtorch" path="loud_get_a_blowtorch.ogg"/>
+					<sound id="loud_you_need_a_keycard_to_start_the_pc" path="loud_you_need_a_keycard_to_start_the_pc.ogg"/>
+					<sound id="loud_wait_for_the_hack_to_finish" path="loud_wait_for_the_hack_to_finish.ogg"/>
+					<sound id="loud_find_a_powerbox_to_continiue_the_hack" path="loud_find_a_powerbox_to_continiue_the_hack.ogg"/>
+					<sound id="loud_enter_the_vault" path="loud_enter_the_vault.ogg"/>
+					<sound id="loud_find_out_who_has_the_encryption_keys" path="loud_find_out_who_has_the_encryption_keys.ogg"/>
+					<sound id="loud_wait_for_the_search" path="loud_wait_for_the_search.ogg"/>
+					<sound id="loud_get_encryption_keys" path="loud_get_encryption_keys.ogg"/>
+					<sound id="loud_open_the_main_vault" path="loud_open_the_main_vault.ogg"/>
+					<sound id="loud_off_the_lasers_and_open_the_gate" path="loud_off_the_lasers_and_open_the_gate.ogg"/>
+					<sound id="loud_secure_the_diamond" path="loud_secure_the_diamond.ogg"/>
+					<sound id="loud_escape_or_get_more_loot" path="loud_escape_or_get_more_loot.ogg"/>
+					<sound id="loud_get_the_c4" path="loud_get_the_c4.ogg"/>
+					<sound id="loud_place_down_the_c4" path="loud_place_down_the_c4.ogg"/>
+					<sound id="loud_go_through_the_tunnel" path="loud_go_through_the_tunnel.ogg"/>
+					<sound id="loud_escape_available" path="loud_escape_available.ogg"/>
+				</sounds>
+				<sounds directory="stealth">
+					<sound id="stealth_get_the_crowbar" path="stealth_get_the_crowbar.ogg"/>
+					<sound id="stealth_get_a_blowtorch" path="stealth_get_a_blowtorch.ogg"/>
+					<sound id="stealth_you_need_a_keycard_to_start_the_pc" path="stealth_you_need_a_keycard_to_start_the_pc.ogg"/>
+					<sound id="stealth_wait_for_the_hack_to_finish" path="stealth_wait_for_the_hack_to_finish.ogg"/>
+					<sound id="stealth_find_a_powerbox_to_continiue_the_hack" path="stealth_find_a_powerbox_to_continiue_the_hack.ogg"/>
+					<sound id="stealth_enter_the_vault" path="stealth_enter_the_vault.ogg"/>
+					<sound id="stealth_find_out_who_has_the_encryption_keys" path="stealth_find_out_who_has_the_encryption_keys.ogg"/>
+					<sound id="stealth_wait_for_the_search" path="stealth_wait_for_the_search.ogg"/>
+					<sound id="stealth_get_encryption_keys" path="stealth_get_encryption_keys.ogg"/>
+					<sound id="stealth_open_the_main_vault" path="stealth_open_the_main_vault.ogg"/>
+					<sound id="stealth_turn_off_the_lasers_and_open_the_gate" path="stealth_turn_off_the_lasers_and_open_the_gate.ogg"/>
+					<sound id="stealth_secure_the_diamond" path="stealth_secure_the_diamond.ogg"/>
+					<sound id="stealth_escape_or_get_more_loot" path="stealth_escape_or_get_more_loot.ogg"/>
+					<sound id="stealth_get_the_saw" path="stealth_get_the_saw.ogg"/>
+					<sound id="stealth_go_through_the_tunnel" path="stealth_go_through_the_tunnel.ogg"/>
+					<sound id="stealth_escape_available" path="stealth_escape_available.ogg"/>
+				</sounds>
+				<sounds directory="special">
+					<sound id="special_when_it_goes_loud" path="special_when_it_goes_loud.ogg"/>
+					<sound id="special_crowbar_objective" path="special_crowbar_objective.ogg"/>
+					<sound id="special_blowtorch" path="special_blowtorch.ogg"/>
+					<sound id="special_hacking_pc" path="special_hacking_pc.ogg"/>
+					<sound id="special_waiting_for_hack_to_finish" path="special_waiting_for_hack_to_finish.ogg"/>
+					<sound id="special_take_him_out" path="special_take_him_out.ogg"/>
+					<sound id="special_find_out_who_has_the_encryption_keys" path="special_find_out_who_has_the_encryption_keys.ogg"/>
+					<sound id="special_get_encryption_keys_hard_drive" path="special_get_encryption_keys_hard_drive.ogg"/>
+					<sound id="special_safe_open_main_vault_for_diamond" path="special_safe_open_main_vault_for_diamond.ogg"/>
+					<sound id="special_guard_killed" path="special_guard_killed.ogg"/>
+				</sounds>
+			</sounds>
+		</sounds>
+	</level>
+	<narrative briefing_event="intro" contact="the_chameleon" icon="gui/hidden_vault_icon" id="hidden_vault">
+		<chain>
+			<table level_id="hidden_vault" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="intro"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</payout>
+	</narrative>
+</table>

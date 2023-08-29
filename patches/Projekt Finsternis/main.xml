@@ -1,0 +1,123 @@
+<table name="Projekt Finsternis">
+	<AddFiles directory="assets">
+		<texture path="ui/finsternis_loading"/>
+		<texture path="ui/finsternis_lobby"/>
+		<texture path="ui/finsternis_icon"/>
+		<texture path="ui/ee_icon_done"/>
+		<effect load="true" path="effects/payday2/environment/fire_biggy" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/blue_fire_lantern" unload="true"/>
+		<texture path="effects/textures/blue_fire"/>
+	</AddFiles>
+	<AssetUpdates id="23025" provider="modworkshop" use_local_dir="true" version="5"/>
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="quest_a_better_tomorrow_d" id="a_better_tomorrow" name_id="quest_a_better_tomorrow" package="packages/contact_bain"/>
+	<level ai_group_type="russia" ghost_bonus="0.2" id="finsternis" load_screen="ui/finsternis_loading" max_bags="80" flashlights_on="true" player_style="winter_suit" quest_zm_001="true">
+		<add file="levels/finsternis/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+			<asset name="finsternis_second_dallas"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="hudmissionbriefing.lua" source_file="lib/managers/hud/hudmissionbriefing"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="hudsimplemessage.lua" source_file="lib/managers/hudmanagerpd2"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			<hook file="elementspawnenemydummy.lua" source_file="lib/managers/mission/elementspawnenemydummy"/>
+			<hook file="huskplayermovement.lua" source_file="lib/units/beings/player/huskplayermovement"/>
+			<hook file="vehicledrivingext.lua" source_file="lib/units/vehicles/vehicledrivingext"/>
+		</hooks>
+		<intro_event/>
+		<merge_data/>
+		<outro_event/>
+		<packages>
+			<value_node value="packages/lvl_wwh"/>
+			<value_node value="packages/narr_framing_3"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/vlad/ukrainian_job/world_sounds"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/world_sounds"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="levels/instances/unique/hox_estate_escape_heli/world/world"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/instances/unique/mus_security_barrier/world/world"/>
+			<value_node value="levels/instances/unique/crojob/burning_debris/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/elephant/chew/world/world"/>
+			<value_node value="levels/instances/unique/hlm_random_right003/world/world"/>
+			<value_node value="levels/narratives/classics/pal/world_sounds"/>
+			<value_node value="levels/instances/unique/moon/crate_shoes/world/world"/>
+			<value_node value="levels/instances/unique/crojob/random_c4/world/world"/>
+			<value_node value="levels/instances/unique/mus_circuit_box/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_gate_blowtorch/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="a_better_tomorrow" icon="ui/finsternis_icon" id="finsternis" quest_zm_001="true" quest_zm_001_icon="ui/ee_icon_done">
+		<chain>
+			<table level_id="finsternis" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="180000"/>
+			<value_node value="260000"/>
+			<value_node value="500000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+			<value_node value="59500"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="16000"/>
+			<value_node value="24000"/>
+			<value_node value="32000"/>
+			<value_node value="44000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

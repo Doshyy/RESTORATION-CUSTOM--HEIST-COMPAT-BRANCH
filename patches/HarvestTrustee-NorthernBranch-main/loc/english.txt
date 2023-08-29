@@ -1,0 +1,68 @@
+{
+	"heist_Harvest and Trustee North_name" : "Harvest & Trustee: Northern Branch",
+	"heist_Harvest and Trustee North_brief" : "There's another Harvest & Trustee bank up in the northern areas of DC. Let's hit it.\n\n»Locate the vault\n»Drill the vault\n»Get the loot out\n»Escape",
+	"heist_hntn_name" : "Harvest & Trustee: Northern Branch",
+	"heist_hntn_brief" : "Crew, It's time to rob a new bank.\n\nIn the north of Washington, a new branch has opened of the Harvest and Trustee Bank. This is a new goal for us.\n\nThe plan is simple. You go in the bank, find the security room and the vault. The vault is in the back of the bank. The driver's gonna wait at the parking lot outside. There are many civilians in the bank, so be careful not to shoot them! \n\nI took a drill for you, but if you found anything else to open stealthily the vault, you could take you're chance.",
+	"q_hntn_drill_pickup" : "Get the thermal drill or find another way",
+	"q_hntn_drill_pickup_desc" : "Grab the thermal drill from the van. We'll need it to get into the vault, Except if you find another way in, try to look around. A Hard drive or something. Oh, and close those blinders to isolate both part of the bank if you can.",
+	"q_hntn_drill_place" : "Place the thermal drill",
+	"q_hntn_drill_place_desc" : "Now place the thermal drill and get it going.",
+	"q_hntn_drill_wait" : "Wait for the drill to finish",
+	"q_hntn_drill_wait_desc" : "And now we wait...",
+	"q_hntn_drill_fix" : "Fix the drill",
+	"q_hntn_drill_fix_desc" : "Seems like the drill has jammed! Get to fixing it!",
+	"q_hntn_loot" : "Loot the vault",
+	"q_hntn_loot_desc" : "Get the loot from the vault! We need at least one bag of stuff!",
+	"q_hntn_escape" : "Escape or grab more loot!",
+	"q_hntn_escape_desc" : "Time to escape!\n\n...unless you want to grab more loot, of course."
+	"htnb_pack_name" : "Harvest & Trustee: Northern Branch"
+	"htnb_achiev_desc_normal" : "Complete the Harvest & Trustee: Northern Branch job on the the Normal difficulty or above."
+	"htnb_achiev_normal" : "Here We Go Again,"
+	"htnb_achiev_desc_hard" : "Complete the Harvest & Trustee: Northern Branch job on the Hard difficulty or above."
+	"htnb_achiev_hard" : "And Again,"
+	"htnb_achiev_desc_veryhard" : "Complete the Harvest & Trustee: Northern Branch job on the Very Hard difficulty or above."
+	"htnb_achiev_veryhard" : "And again (x2),"
+	"htnb_achiev_desc_overkill" : "Complete the Harvest & Trustee: Northern Branch job on the Overkill difficulty or above."
+	"htnb_achiev_overkill" : "And again (x3),"
+	"htnb_achiev_desc_mayhem" : "Complete the Harvest & Trustee: Northern Branch job on the Mayhem difficulty or above."
+	"htnb_achiev_mayhem" : "Forever,"
+	"htnb_achiev_desc_deathwish" : "Complete the Harvest & Trustee: Northern Branch job on the Death Wish difficulty or above."
+	"htnb_achiev_deathwish" : "And Ever,"
+	"htnb_achiev_desc_onedown" : "Complete the Harvest & Trustee: Northern Branch job on the Death Sentence difficulty."
+	"htnb_achiev_onedown" : "GenSec Can Watch."
+	"htnb_achiev_desc_allatm" : "Complete the Harvest & Trustee: Northern Branch job with all the ATMs opened."
+	"htnb_achiev_allatm" : "Spare Money"
+	"htnb_achiev_desc_ds8min" : "Complete the Harvest & Trustee: Northern Branch job on the Death Sentence difficulty in under 8 minutes."
+	"htnb_achiev_ds8min" : "No Time To Lose"
+	"htnb_achiev_desc_dsvault" : "In the Harvest & Trustee: Northern Branch job, open the Death Sentence only vault."
+	"htnb_achiev_dsvault" : "Endurance"
+	"htnb_achiev_desc_greed" : "In the Harvest & Trustee: Northern Branch job, Trigger the alarm with a safe."
+	"htnb_achiev_greed" : "Greedy"
+	"restoration_level_data_hntn":"9:16 AM, Harvest & Trustee Bank",
+	"htnb_achiev_desc_nocivstealth" : "Complete the Harvest & Trustee: Northern Branch job in stealth without killing any civilian."
+	"htnb_achiev_nocivstealth" : "Friendly Heister"
+	"htnb_achiev_desc_ovklallgold" : "In the Harvest & Trustee: Northern Branch job, Steal all the gold on the Overkill difficulty or Above."
+	"htnb_achiev_ovklallgold" : "So much gold"
+	"htnb_achiev_desc_secretbag" : "In the Harvest & Trustee: Northern Branch job, Find and secure a bag of weapon."
+	"htnb_achiev_secretbag" : "Better Weaponry"
+	"htnb_achiev_desc_stealthnodrill" : "Complete the Harvest & Trustee: Northern Branch job without using the drill on the vault."
+	"htnb_achiev_stealthnodrill" : "Piece Of Shit Drill"
+	"htnb_achiev_desc_stealthnoshutter" : "Complete the Harvest & Trustee: Northern Branch job in stealth with a back vault, without opening the shutter."
+	"htnb_achiev_stealthnoshutter" : "Deturn"
+	"htnb_achiev_normal_objective" : ""
+	"htnb_achiev_ds8min_objective" : ""
+	"htnb_achiev_hard_objective" : ""
+	"htnb_achiev_veryhard_objective" : ""
+	"htnb_achiev_overkill_objective" : ""
+	"htnb_achiev_mayhem_objective" : ""
+	"htnb_achiev_deathwish_objective" : ""
+	"htnb_achiev_onedown_objective" : ""
+	"htnb_achiev_allatm_objective" : ""
+	"htnb_achiev_dsvault_objective" : ""
+	"htnb_achiev_greed_objective" : ""
+	"htnb_achiev_nocivstealth_objective" : ""
+	"htnb_achiev_ovklallgold_objective" : ""
+	"htnb_achiev_secretbag_objective" : ""
+	"htnb_achiev_stealthnodrill_objective" : ""
+	"htnb_achiev_stealthnoshutter_objective" : ""
+}

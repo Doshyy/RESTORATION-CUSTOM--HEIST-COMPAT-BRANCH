@@ -1,0 +1,10 @@
+<table>
+	<texture path="levels/mods/crumch_returns/cubemaps/83"/>
+	<texture path="levels/mods/crumch_returns/cubemaps/113"/>
+	<texture path="levels/mods/crumch_returns/cubemaps/117"/>
+	<add from_db="true" path="units/world/architecture/hospital/props/warehouse_shelf003/warehouse_shelf003" type="unit">
+		<unit path="units/world/architecture/hospital/props/warehouse_shelf003/warehouse_shelf003"/>
+		<object path="units/world/architecture/hospital/props/warehouse_shelf003/warehouse_shelf003"/>
+		<material_config path="units/world/architecture/hospital/props/props"/>
+	</add>
+</table>

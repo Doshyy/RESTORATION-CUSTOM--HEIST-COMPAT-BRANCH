@@ -1,0 +1,225 @@
+<table name="Underground Bargains">
+	<instance id="PD2C Box">
+		<include directory="levels/box">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<instance id="PD2C Codepart">
+		<include directory="levels/keybox">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+		</include>
+		<packages/>
+	</instance>
+	<Package file="scriptdata/underground_bargains.package" id="package_underground_bargains" unload_on_restart="true"/>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/ub_brokericon"/>
+		<texture force="true" path="icons/ub_modIcon"/>
+		<texture force="true" path="guis/ub_loading"/>
+		<texture force="true" path="guis/achiev/ub_diff_0-n"/>
+		<texture force="true" path="guis/achiev/ub_diff_1-h"/>
+		<texture force="true" path="guis/achiev/ub_diff_2-vh"/>
+		<texture force="true" path="guis/achiev/ub_diff_3-ovkl"/>
+		<texture force="true" path="guis/achiev/ub_diff_4-mh"/>
+		<texture force="true" path="guis/achiev/ub_diff_5-dw"/>
+		<texture force="true" path="guis/achiev/ub_diff_6-ds"/>
+		<texture force="true" path="guis/achiev/ub_electricalbungalow"/>
+		<texture force="true" path="guis/achiev/ub_smallmoney"/>
+		<texture force="true" path="guis/achiev/ub_gamesdonequick"/>
+		<texture force="true" path="guis/achiev/ub_secret"/>
+		<texture force="true" path="guis/achiev/ub_pacifist"/>
+		<texture force="true" path="guis/achiev/ub_nofunallowed"/>
+		<texture force="true" path="guis/achiev/ub_100-failure"/>
+		<texture force="true" path="guis/achiev/ub_signatureweapon"/>
+		<texture force="true" path="guis/achiev/ub_pack"/>
+		<texture force="true" path="guis/buyable/ub_insider"/>
+		<texture force="true" path="guis/buyable/ub_infos"/>
+		<texture force="true" path="guis/buyable/ub_diversion"/>
+		<texture force="true" path="guis/buyable/ub_boatman"/>
+		<texture path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy_df"/>
+		<cooked_physics path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+		<material_config path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+		<model path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+		<object path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+		<sequence_manager path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+		<unit path="units/custom/pd2_mod_underground_bargains/chl_hospital_saw_teddy/chl_hospital_saw_teddy"/>
+	</AddFiles>
+	<AddFiles directory="Assets">
+		<texture path="guis/dlcs/ub_judge/weapon_skins/ub_judge"/>
+	</AddFiles>
+	<instance id="UB_Hackbox">
+		<packages/>
+	</instance>
+	<instance id="PD2M_UB_hackable_keycard_panel">
+		<packages>
+			<value_node value="levels/instances/unique/kenaz/hackable_keycard_panel/world"/>
+			<value_node value="levels/instances/unique/kenaz/hackable_keycard_panel/world_sounds"/>
+			<value_node value="levels/instances/unique/kenaz/hackable_keycard_panel/world/world"/>
+			<value_node value="package_underground_bargains"/>
+		</packages>
+	</instance>
+	<Achievements icon="guis/achiev/ub_pack" id="underground_bargains">
+		<achievement desc_id="UB_achiev_desc_normal" icon="guis/achiev/ub_diff_0-n" id="UB_achiev_normal" name_id="UB_achiev_normal" rank="1"/>
+		<achievement desc_id="UB_achiev_desc_hard" icon="guis/achiev/ub_diff_1-h" id="UB_achiev_hard" name_id="UB_achiev_hard" rank="1"/>
+		<achievement desc_id="UB_achiev_desc_veryhard" icon="guis/achiev/ub_diff_2-vh" id="UB_achiev_veryhard" name_id="UB_achiev_veryhard" rank="1"/>
+		<achievement desc_id="UB_achiev_desc_overkill" icon="guis/achiev/ub_diff_3-ovkl" id="UB_achiev_overkill" name_id="UB_achiev_overkill" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_mayhem" icon="guis/achiev/ub_diff_4-mh" id="UB_achiev_mayhem" name_id="UB_achiev_mayhem" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_deathwish" icon="guis/achiev/ub_diff_5-dw" id="UB_achiev_deathwish" name_id="UB_achiev_deathwish" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_onedown" icon="guis/achiev/ub_diff_6-ds" id="UB_achiev_onedown" name_id="UB_achiev_onedown" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_stealthloot" icon="guis/achiev/ub_electricalbungalow" id="UB_achiev_stealthloot" name_id="UB_achiev_stealthloot" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_loudloot" icon="guis/achiev/ub_smallmoney" id="UB_achiev_loudloot" name_id="UB_achiev_loudloot" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_speedrun" icon="guis/achiev/ub_gamesdonequick" id="UB_achiev_speedrun" name_id="UB_achiev_speedrun" rank="3" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_vault" icon="guis/achiev/ub_secret" id="UB_achiev_vault" name_id="UB_achiev_vault" rank="4" reward_amount="10" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_nokill" icon="guis/achiev/ub_pacifist" id="UB_achiev_nokill" name_id="UB_achiev_nokill" rank="3" reward_amount="10" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_happy" icon="guis/achiev/ub_nofunallowed" id="UB_achiev_happy" name_id="UB_achiev_happy" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement desc_id="UB_achiev_desc_100" icon="guis/achiev/ub_100-failure" id="UB_achiev_100" name_id="UB_achiev_100" rank="1"/>
+		<achievement desc_id="UB_achiev_desc_gun" icon="guis/achiev/ub_signatureweapon" id="UB_achiev_gun" name_id="UB_achiev_gun" rank="3"/>
+	</Achievements>
+	<AssetUpdates id="cr001ub" provider="payday2concepts" use_local_dir="true" version="2.2"/>
+	<Dependencies>
+		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
+	</Dependencies>
+	<HeistMusic directory="assets\music\labyrinthine" id="aviators" volume="0.7">
+		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="control.ogg"/>
+	</HeistMusic>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Sounds directory="assets/soundbanks">
+		<sound id="bike_engine_pd2c" path="bike.ogg"/>
+	</Sounds>
+	<WeaponSkin desc="bm_wskn_ub_judge_desc" id="ub_judge" name="bm_wskn_ub_judge_name" rarity="rare" skin_folder="Assets/skins/ub_judge" unique_name="true" weapon_id="judge"/>
+	<level ai_group_type="fbi" briefing_dialog="UB_Briefing" ghost_bonus="0.15" ghost_required="false" id="Gambling_room" intro_event="" load_screen="guis/ub_loading" player_style="continental" flashlights_on="true" max_bags="54" narrator="hazzalaw">
+		<add file="levels/Gambling_room/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+			<insider_man name_id="pd2c_insider_man" unlock_desc_id="pd2c_insider_man_desc" texture="guis/buyable/ub_insider" visible_if_locked="true" no_mystery="true" money_lock="15000" server_lock="true">
+				<upgrade_lock upgrade="buy_bodybags_asset" category="player"/>
+				<stages>
+					<value_node value="Gambling_room"/>
+				</stages>
+			</insider_man>
+			<diversion name_id="pd2c_diversion" unlock_desc_id="pd2c_diversion_desc" texture="guis/buyable/ub_diversion" visible_if_locked="true" no_mystery="true" money_lock="10000" server_lock="true">
+				<stages>
+					<value_node value="Gambling_room"/>
+				</stages>
+			</diversion>
+			<infos name_id="pd2c_infos" unlock_desc_id="pd2c_infos_desc" texture="guis/buyable/ub_infos" visible_if_locked="true" no_mystery="true" money_lock="1000" server_lock="true">
+				<stages>
+					<value_node value="Gambling_room"/>
+				</stages>
+			</infos>
+			<boatman name_id="pd2c_boatman" unlock_desc_id="pd2c_boatman_desc" texture="guis/buyable/ub_boatman" visible_if_locked="true" no_mystery="true" money_lock="15000" server_lock="true">
+				<upgrade_lock upgrade="buy_bodybags_asset" category="player"/>
+				<stages>
+					<value_node value="Gambling_room"/>
+				</stages>
+			</boatman>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
+			<hook file="dialogmanager.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="groupaistatebase.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+			<hook file="elementaiglobalevent.lua" source_file="lib/managers/mission/elementaiglobalevent"/>
+		</hooks>
+		<lootbags>
+			<carry based_on="fireworks" id="pd2m_ub_teddy"/>
+		</lootbags>
+		<interactions>
+			<interaction based_on="security_station_keyboard" id="pd2m_ub_hack_keyboard"/>
+			<interaction based_on="hack_electric_box" id="pd2m_ub_keycard_panel_hack"/>
+			<interaction id="burn_money_teddy" text_id="hud_int_hold_ignite_teddy" action_text_id="hud_action_igniting_teddy" special_equipment="gas" equipment_text_id="hint_no_gasoline" equipment_consume="true" timer="2" interact_distance="250"/>
+			<interaction based_on="taking_meth" id="gen_pku_teddy" text_id="hud_int_hold_take_teddy" action_text_id="hud_action_taking_teddy"/>
+			<interaction based_on="taking_meth" id="search_for_override" text_id="hud_int_hold_search_for_override" action_text_id="hud_action_search_for_override" interact_distance="150"/>
+			<interaction based_on="taking_meth" id="search_for_backup_override" text_id="hud_int_hold_search_for_backup_override" action_text_id="hud_action_search_for_backup_override" interact_distance="150"/>
+		</interactions>
+		<packages>
+			<value_node value="levels/narratives/vlad/nightclub/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_1/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="hints.hint" replacement_type="custom_xml" target_ext="hint" target_path="gamedata/hints">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/vo">
+			<sound id="UB_Briefing" path="UB_Briefing.ogg" volume="1"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="pd2maps" icon="icons/ub_brokericon" id="Underground_Bargains">
+		<chain>
+			<table image="icons/ub_modIcon" level_id="Gambling_room" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="13600"/>
+			<value_node value="13700"/>
+			<value_node value="13800"/>
+			<value_node value="13900"/>
+			<value_node value="14600"/>
+			<value_node value="14700"/>
+			<value_node value="14800"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="7600"/>
+			<value_node value="7700"/>
+			<value_node value="7800"/>
+			<value_node value="7900"/>
+			<value_node value="9600"/>
+			<value_node value="9700"/>
+			<value_node value="9800"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="62000"/>
+			<value_node value="70000"/>
+		</payout>
+	</narrative>
+</table>

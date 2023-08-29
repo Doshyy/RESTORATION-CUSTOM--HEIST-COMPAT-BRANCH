@@ -1,0 +1,426 @@
+<table name="GenSec HQ Raid">
+	<HeistMusic directory="tracks" id="hyperheister">
+		<event name="setup" source="hh_stealth.ogg" start_source="hh_stealthintro.ogg" volume="0.3"/>
+		<event name="anticipation" source="hh_buildup.ogg" volume="0.3"/>
+		<event name="assault" source="hh_assault.ogg" start_source="hh_assaultintro.ogg" volume="0.3"/>
+		<event name="control" source="hh_control.ogg" volume="0.3"/>
+	</HeistMusic>
+	<HeistMusic directory="tracks" id="blood_and_billions">
+		<event name="setup" source="bnb_stealth.ogg" volume="0.7"/>
+		<event name="anticipation" source="bnb_buildup.ogg" volume="0.7"/>
+		<event name="assault" source="bnb_assault.ogg" start_source="bnb_assaultintro.ogg" volume="0.7"/>
+		<event name="control" source="bnb_control.ogg" volume="0.7"/>
+	</HeistMusic>
+	<HeistMusic directory="tracks" id="boulevard_bonanza">
+		<event name="setup" source="bb_stealth.ogg" start_source="bb_stealthintro" volume="0.5"/>
+		<event name="anticipation" source="bb_buildup.ogg" volume="0.5"/>
+		<event name="assault" source="bb_assault.ogg" start_source="bb_assaultintro.ogg" volume="0.5"/>
+		<event name="control" source="bb_control.ogg" start_source="bb_controlintro" volume="0.5"/>
+	</HeistMusic>
+	<level ai_group_type="america" briefing_dialog="" id="Gensec_HQ" intro_event="Play_pln_flt_07" max_bags="20" player_invulnerable="false" player_style="loud_suit" repossess_bags="false" team_ai_off="false">
+		<add file="levels/Gensec_HQ/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value="Play_pln_flt_50"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_office/world/world"/>
+			<value_node value="levels/narratives/bain/arena/world/world"/>
+			<value_node value="levels/narratives/bain/arena/world"/>
+			<value_node value="levels/narratives/locke/brb/world"/>
+			<value_node value="levels/instances/unique/vit/vit_ammo_dump/world/world"/>
+			<value_node value="levels/instances/unique/spa/spa_elevator/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_event/world/world"/>
+			<value_node value="packages/narr_dinner"/>
+			<value_node value="levels/narratives/classics/dah/world_sounds"/>
+			<value_node value="levels/narratives/bain/big/world_sounds"/>
+			<value_node value="levels/narratives/dentist/mus/world_sounds"/>
+			<value_node value="levels/narratives/dentist/cas/world_sounds"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
+			<value_node value="levels/narratives/classics/red2/world_sounds"/>
+			<value_node value="levels/narratives/classics/flat/world_sounds"/>
+			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
+			<value_node value="packages/narr_glace"/>
+			<value_node value="packages/job_pent"/>
+			<value_node value="packages/job_ranc"/>
+			<value_node value="levels/narratives/short1/stage2/world/world"/>
+			<value_node value="levels/narratives/classics/dah/props/props"/>
+			<value_node value="levels/narratives/classics/dah/backdrop/backdrop"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/skm/skm_arena/art/art"/>
+			<value_node value="levels/narratives/locke/brb/props/props"/>
+			<value_node value="levels/narratives/locke/tag/art/art"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
+			<value_node value="levels/narratives/safehouse/world/world"/>
+			<value_node value="levels/narratives/locke/sah/props/props"/>
+			<value_node value="levels/narratives/e_election_day/stage_3/new_mall/new_mall"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+			<value_node value="levels/narratives/skm/skm_mallcrasher/ed3_world/ed3_world"/>
+			<value_node value="levels/narratives/dentist/mus/art/art"/>
+			<value_node value="levels/narratives/bain/revenge/art/art"/>
+			<value_node value="levels/narratives/locke/bph/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_vault/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sound id="admin" path="admin.ogg"/>
+			<sound id="aether" path="aether.ogg"/>
+			<sound id="bulldozer" path="bulldozer.ogg"/>
+			<sound id="evac" path="evac.ogg"/>
+			<sound id="exec_chopper" path="exec_chopper.ogg"/>
+			<sound id="minos" path="minos.ogg"/>
+			<sound id="wod" path="wod.ogg"/>
+			<sound id="mozart" path="mozart.ogg"/>
+			<sound id="curtain" path="curtain.ogg"/>
+			<sound id="sab_lockdown" path="sab_lockdown.ogg"/>
+			<sound id="elevator" path="elevator.ogg"/>
+		</sounds>
+	</level>
+	<level ai_group_type="america" briefing_dialog="" id="Security_Avenue" intro_event="Play_loc_brb_intro" max_bags="10" player_invulnerable="false" player_style="loud_suit" team_ai_off="false">
+		<add file="levels/Security_Avenue/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="camera_access"/>
+			<asset name="grenade_crate"/>
+			<asset name="health_bag"/>
+			<asset name="rope_ladder"/>
+			<asset name="mallcrasher_gascan_north"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_hox_3"/>
+			<value_node value="packages/narr_dinner"/>
+			<value_node value="levels/narratives/locke/pex/world_sounds"/>
+			<value_node value="levels/narratives/locke/des/world_sounds"/>
+			<value_node value="levels/narratives/locke/brb/world_sounds"/>
+			<value_node value="levels/narratives/jiu/chas/world_sounds"/>
+			<value_node value="levels/narratives/jiu/sand/world_sounds"/>
+			<value_node value="levels/narratives/pbr/berry/world_sounds"/>
+			<value_node value="levels/narratives/shayu/pent/world_sounds"/>
+			<value_node value="levels/narratives/classics/nmh/world"/>
+			<value_node value="levels/narratives/butcher/friend/world"/>
+			<value_node value="levels/instances/unique/holly_2/safe_van/world/world"/>
+			<value_node value="levels/narratives/skm/skm_arena/art/art"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/pc_only/pc_only"/>
+			<value_node value="levels/narratives/classics/dah/backdrop/backdrop"/>
+			<value_node value="levels/instances/unique/chew/chew_swat_van/world/world"/>
+			<value_node value="packages/job_ranc"/>
+			<value_node value="levels/narratives/vlad/bex/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<WeaponSkin desc="commando101_clash_desc" id="commando101_clash" name="commando101_clash_name" rarity="legendary" skin_folder="assets/skins/commando101_clash" weapon_id="ray"/>
+	<WeaponSkin desc="scar_ruby_desc" id="scar_ruby" name="scar_ruby_name" rarity="rare" skin_folder="assets/skins/scar_ruby" weapon_id="scar">
+		<skin_attachments>
+			<value_node value="wpn_fps_upg_vg_ass_smg_afg"/>
+			<value_node value="wpn_fps_ass_scar_fg_railext"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_ass_scar_body_standard"/>
+			<value_node value="wpn_fps_upg_o_acog"/>
+			<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
+			<value_node value="wpn_fps_ass_scar_m_standard"/>
+			<value_node value="wpn_fps_ass_scar_o_flipups_down"/>
+			<value_node value="wpn_fps_ass_scar_b_medium"/>
+			<value_node value="wpn_fps_upg_ass_ns_surefire"/>
+			<value_node value="wpn_fps_ass_scar_s_sniper"/>
+			<value_node value="wpn_fps_snp_tti_g_grippy"/>
+			<value_node value="wpn_fps_upg_o_acog_steelsight"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="m1_gensec_desc" id="m1_gensec" name="m1_gensec_name" rarity="rare" skin_folder="assets/skins/m1_gensec" weapon_id="ching">
+		<skin_attachments>
+			<value_node value="wpn_fps_ass_ching_fg_railed"/>
+			<value_node value="wpn_fps_upg_ass_ns_surefire"/>
+			<value_node value="wpn_fps_ass_ching_bolt_standard"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_upg_o_cmore"/>
+			<value_node value="wpn_fps_ass_ching_dh_standard"/>
+			<value_node value="wpn_fps_ass_ching_body_standard"/>
+			<value_node value="wpn_fps_ass_ching_extra1_swiwel"/>
+			<value_node value="wpn_fps_ass_ching_b_standard"/>
+			<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+			<value_node value="wpn_fps_ass_ching_extra_swiwel"/>
+			<value_node value="wpn_fps_ass_ching_s_pouch"/>
+			<value_node value="wpn_fps_ass_ching_m_standard"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="littlefriend_car_desc" id="littlefriend_car" name="littlefriend_car_name" rarity="rare" skin_folder="assets/skins/littlefriend_car" weapon_id="contraband">
+		<skin_attachments>
+			<value_node value="wpn_fps_ass_contraband_s_standard"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_ass_contraband_gl_m203"/>
+			<value_node value="wpn_fps_ass_contraband_m_standard"/>
+			<value_node value="wpn_fps_ass_contraband_fg_standard"/>
+			<value_node value="wpn_fps_ass_contraband_b_standard"/>
+			<value_node value="wpn_fps_ass_contraband_g_standard"/>
+			<value_node value="wpn_fps_ass_contraband_body_standard"/>
+			<value_node value="wpn_fps_upg_ns_ass_smg_tank"/>
+			<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+			<value_node value="wpn_fps_ass_contraband_dh_standard"/>
+			<value_node value="wpn_fps_ass_contraband_o_standard"/>
+			<value_node value="wpn_fps_ass_contraband_bolt_standard"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="steakout_squad_desc" id="steakout_squad" name="steakout_squad_name" rarity="rare" skin_folder="assets/skins/steakout_squad" weapon_id="aa12">
+		<skin_attachments>
+			<value_node value="wpn_fps_sho_aa12_mag_drum"/>
+			<value_node value="wpn_fps_upg_shot_ns_king"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_sho_aa12_body"/>
+			<value_node value="wpn_fps_sho_aa12_barrel"/>
+			<value_node value="wpn_fps_sho_aa12_dh"/>
+			<value_node value="wpn_fps_sho_aa12_body_rear_sight"/>
+			<value_node value="wpn_fps_sho_aa12_bolt"/>
+			<value_node value="wpn_fps_upg_fl_ass_utg"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="krissvector_face_desc" id="krissvector_face" name="krissvector_face_name" rarity="rare" skin_folder="assets/skins/krissvector_face" weapon_id="polymer">
+		<skin_attachments>
+			<value_node value="wpn_fps_smg_polymer_fg_standard"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_smg_polymer_m_standard"/>
+			<value_node value="wpn_fps_smg_polymer_o_iron"/>
+			<value_node value="wpn_fps_upg_fl_ass_utg"/>
+			<value_node value="wpn_fps_smg_polymer_bolt_standard"/>
+			<value_node value="wpn_fps_smg_polymer_dh_standard"/>
+			<value_node value="wpn_fps_smg_polymer_extra_sling"/>
+			<value_node value="wpn_fps_smg_polymer_body_standard"/>
+			<value_node value="wpn_fps_smg_polymer_barrel_standard"/>
+			<value_node value="wpn_fps_smg_polymer_ns_silencer"/>
+			<value_node value="wpn_fps_smg_polymer_s_standard"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="contractor_safe_desc" id="contractor_safe" name="contractor_safe_name" rarity="epic" skin_folder="assets/skins/contractor_safe" weapon_id="tti">
+		<skin_attachments>
+			<value_node value="wpn_fps_ass_contraband_s_standard"/>
+			<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
+			<value_node value="wpn_fps_snp_tti_ns_hex"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_snp_tti_m_standard"/>
+			<value_node value="wpn_fps_snp_tti_bolt_standard"/>
+			<value_node value="wpn_fps_upg_o_reflex"/>
+			<value_node value="wpn_fps_snp_tti_fg_standard"/>
+			<value_node value="wpn_fps_snp_tti_b_standard"/>
+			<value_node value="wpn_fps_snp_tti_vg_standard"/>
+			<value_node value="wpn_fps_snp_tti_dh_standard"/>
+			<value_node value="wpn_fps_snp_tti_dhs_switch"/>
+			<value_node value="wpn_fps_snp_tti_body_receiverupper"/>
+			<value_node value="wpn_fps_upg_m4_g_ergo"/>
+			<value_node value="wpn_fps_snp_tti_body_receiverlower"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="amr_klad_desc" id="amr_klad" name="amr_klad_name" rarity="epic" skin_folder="assets/skins/amr_klad" weapon_id="m16">
+		<skin_attachments>
+			<value_node value="wpn_fps_m4_uupg_b_medium_vanilla"/>
+			<value_node value="wpn_fps_m16_s_solid_vanilla"/>
+			<value_node value="wpn_fps_upg_m4_g_standard_vanilla"/>
+			<value_node value="wpn_fps_m4_lower_reciever"/>
+			<value_node value="wpn_fps_amcar_bolt_standard"/>
+			<value_node value="wpn_fps_ass_m16_os_frontsight"/>
+			<value_node value="wpn_fps_m4_upper_reciever_round"/>
+			<value_node value="wpn_fps_ass_m16_o_handle_sight"/>
+			<value_node value="wpn_fps_m4_uupg_draghandle"/>
+			<value_node value="wpn_fps_m16_fg_vietnam"/>
+			<value_node value="wpn_fps_upg_ns_ass_smg_large"/>
+			<value_node value="wpn_fps_upg_m4_m_straight_vanilla"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="car4_wit_desc" id="car4_wit" name="car4_wit_name" rarity="epic" skin_folder="assets/skins/car4_wit" weapon_id="new_m4">
+		<skin_attachments>
+			<value_node value="wpn_fps_m4_uupg_draghandle"/>
+			<value_node value="wpn_fps_upg_ass_ns_surefire"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_m4_upg_m_quick"/>
+			<value_node value="wpn_fps_m4_upper_reciever_edge"/>
+			<value_node value="wpn_fps_m4_lower_reciever"/>
+			<value_node value="wpn_fps_amcar_bolt_standard"/>
+			<value_node value="wpn_fps_m4_uupg_b_short"/>
+			<value_node value="wpn_fps_upg_m4_g_ergo"/>
+			<value_node value="wpn_fps_m4_uupg_o_flipup"/>
+			<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+			<value_node value="wpn_fps_upg_m4_s_pts"/>
+			<value_node value="wpn_fps_upg_m4_s_adapter"/>
+			<value_node value="wpn_fps_upg_fg_jp"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<WeaponSkin desc="arbiter_clowns_desc" id="arbiter_clowns" name="arbiter_clowns_name" rarity="rare" skin_folder="assets/skins/arbiter_clowns" weapon_id="arbiter">
+		<skin_attachments>
+			<value_node value="wpn_fps_gre_arbiter_charginghandle"/>
+			<value_node value="wpn_fps_addon_ris"/>
+			<value_node value="wpn_fps_upg_o_acog"/>
+			<value_node value="wpn_fps_upg_fl_ass_peq15"/>
+			<value_node value="wpn_fps_gre_arbiter_s_standard"/>
+			<value_node value="wpn_fps_gre_arbiter_body_standard"/>
+			<value_node value="wpn_fps_gre_arbiter_ejector"/>
+			<value_node value="wpn_fps_gre_arbiter_m_standard"/>
+			<value_node value="wpn_fps_gre_arbiter_bolt"/>
+			<value_node value="wpn_fps_gre_arbiter_b_comp"/>
+			<value_node value="wpn_fps_upg_o_acog_steelsight"/>
+		</skin_attachments>
+	</WeaponSkin>
+	<Achievements banner="guis/achievements/package_banner" desc="achievements_desc" icon="guis/achievements/package_icon" id="achievements">
+		<achievement icon="guis/achievements/gs_normal" id="ach_normal" rank="1"/>
+		<achievement icon="guis/achievements/gs_hard" id="ach_hard" rank="1"/>
+		<achievement icon="guis/achievements/gs_veryhard" id="ach_veryHard" rank="1"/>
+		<achievement icon="guis/achievements/gs_overkill" id="ach_overkill" rank="1"/>
+		<achievement icon="guis/achievements/gs_mayhem" id="ach_mayhem" rank="2"/>
+		<achievement icon="guis/achievements/gs_deathwish" id="ach_deathwish" rank="3"/>
+		<achievement icon="guis/achievements/gs_deathsentence" id="ach_deathSentence" rank="3"/>
+		<achievement icon="guis/achievements/gs_onedown" id="ach_oneDown" rank="4"/>
+		<achievement icon="guis/achievements/bob" id="ach_bob" rank="2"/>
+		<achievement icon="guis/achievements/zip" id="ach_zip" rank="1"/>
+		<achievement icon="guis/achievements/speedrun" id="ach_speedrun" rank="2"/>
+		<achievement icon="guis/achievements/greedy" id="ach_greedy" rank="3"/>
+		<achievement icon="guis/achievements/vault" id="ach_vault" rank="2"/>
+		<achievement icon="guis/achievements/guardian" id="ach_guardian" rank="3"/>
+		<achievement icon="guis/achievements/pre" id="ach_pre" rank="2"/>
+		<achievement icon="guis/achievements/lode" id="ach_lode" rank="2"/>
+		<achievement icon="guis/achievements/bank" id="ach_bank" rank="2"/>
+		<achievement icon="guis/achievements/inv" id="ach_inv" rank="3"/>
+		<achievement icon="guis/achievements/paws" id="ach_paws" rank="2"/>
+		<achievement icon="guis/achievements/fast" id="ach_fast" rank="2"/>
+		<achievement icon="guis/achievements/kill" id="ach_kill" rank="1"/>
+		<achievement icon="guis/achievements/server" id="ach_server" rank="2"/>
+		<achievement icon="guis/achievements/zap" id="ach_zap" rank="1"/>
+		<achievement icon="guis/achievements/cam" id="ach_cam" rank="1"/>
+		<achievement icon="guis/achievements/master" id="ach_master" rank="4"/>
+		<achievement icon="guis/achievements/mori" id="ach_mori" rank="3"/>
+		<achievement icon="guis/achievements/siren" id="ach_siren" rank="1"/>
+		<achievement icon="guis/achievements/flemi" id="ach_flemi" rank="1"/>
+		<achievement icon="guis/achievements/ral" id="ach_ral" rank="1"/>
+		<achievement hidden_achievement="true" icon="guis/achievements/secret" id="ach_secret" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<png path="guis/achievements/package_icon"/>
+		<png path="guis/achievements/gs_normal"/>
+		<png path="guis/achievements/gs_hard"/>
+		<png path="guis/achievements/gs_veryhard"/>
+		<png path="guis/achievements/gs_overkill"/>
+		<png path="guis/achievements/gs_mayhem"/>
+		<png path="guis/achievements/gs_deathwish"/>
+		<png path="guis/achievements/gs_deathsentence"/>
+		<png path="guis/achievements/gs_onedown"/>
+		<png path="guis/achievements/bob"/>
+		<png path="guis/achievements/greedy"/>
+		<png path="guis/achievements/guardian"/>
+		<png path="guis/achievements/pre"/>
+		<png path="guis/achievements/speedrun"/>
+		<png path="guis/achievements/vault"/>
+		<png path="guis/achievements/zip"/>
+		<png path="guis/achievements/lode"/>
+		<png path="guis/achievements/master"/>
+		<png path="guis/achievements/mori"/>
+		<png path="guis/achievements/cam"/>
+		<png path="guis/achievements/bank"/>
+		<png path="guis/achievements/inv"/>
+		<png path="guis/achievements/zap"/>
+		<png path="guis/achievements/paws"/>
+		<png path="guis/achievements/fast"/>
+		<png path="guis/achievements/kill"/>
+		<png path="guis/achievements/server"/>
+		<png path="guis/achievements/secret"/>
+		<png path="guis/achievements/siren"/>
+		<png path="guis/achievements/flemi"/>
+		<png path="guis/achievements/ral"/>
+		<texture path="guis/achievements/package_banner"/>
+		<texture path="guis/dlcs/commando101_clash/weapon_skins/commando101_clash"/>
+		<texture path="guis/dlcs/scar_ruby/weapon_skins/scar_ruby"/>
+		<texture path="guis/dlcs/m1_gensec/weapon_skins/m1_gensec"/>
+		<texture path="guis/dlcs/littlefriend_car/weapon_skins/littlefriend_car"/>
+		<texture path="guis/dlcs/steakout_squad/weapon_skins/steakout_squad"/>
+		<texture path="guis/dlcs/krissvector_face/weapon_skins/krissvector_face"/>
+		<texture path="guis/dlcs/amr_klad/weapon_skins/amr_klad"/>
+		<texture path="guis/dlcs/contractor_safe/weapon_skins/contractor_safe"/>
+		<texture path="guis/dlcs/car4_wit/weapon_skins/car4_wit"/>
+		<texture path="guis/dlcs/arbiter_clowns/weapon_skins/arbiter_clowns"/>
+	</AddFiles>
+	<AssetUpdates id="39447" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<assets/>
+	<environment_effects>
+		<value_node value="rain"/>
+		<value_node value="raindrop_screen"/>
+		<value_node value="lightning"/>
+	</environment_effects>
+	<narrative briefing_event="GenSec Headquarters" contact="custom" id="GenSec HQ Raid">
+		<chain>
+			<table level_id="Security_Avenue" type="d" type_id="heist_type_assault"/>
+			<table level_id="Gensec_HQ" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="24000"/>
+			<value_node value="48000"/>
+			<value_node value="120000"/>
+			<value_node value="240000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="crimenet_hacked"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value="This is a debriefing event"/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="70000"/>
+			<value_node value="200000"/>
+			<value_node value="400000"/>
+			<value_node value="650000"/>
+			<value_node value="900000"/>
+			<value_node value="900000"/>
+			<value_node value="900000"/>
+		</payout>
+	</narrative>
+</table>

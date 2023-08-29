@@ -1,0 +1,120 @@
+{
+	"hunt_storage" : "These storage units also hold some loot we can grab, so if you want to open them, go ahead.",
+	"restoration_level_data_hunter_party":"3:56 PM, Nikolai's Penthouse",
+	"restoration_level_data_hunter_departure":"10:13 PM, Aleksandr's Private Airport",
+	"restoration_level_data_hunter_fall":"1:36 AM, Somewhere Over International Waters",
+	"hunt_grabequip" : "That's the equipment we're after, go grab it.",
+	"party_intro" : "We have some time to kill, so its nice to relax every once in awhile.",
+	"departure_intro" : "Alright, we're at the airport.",
+	"hunt_ambush":"Damn, it's going to take awhile for Nikolai's crew to get to you, hold out til they can breach the doors.",
+	"hunt_backup":"Shit. They got Nikolai. get to the intercom and call for Nikolai's crew",
+	"hunt_equip":"We have a problem, Nikolais crew said the plane took heavy damage. They need equipment from one of the storage units to fix the plane.",
+	"hunt_fedorescape":"Fedor arrived, get out of there."
+	"hunt_findalex":"Fight your way to Aleksandr, he'll probably be in one of the crew compartments.",
+	"hunt_hangerdoor":"Okay open up the hanger doors.",
+	"hunt_hanger":"Alright, Nikolais crew is in one of the hangers, search them for the plane. I also got word that Aleksandr has some valuables stored in some of the hangers. It be a nice bonus to get if you want.",
+	"hunt_nikolai":"Meet up with Nikolai, he wants to talk to us.",
+	"hunt_planeescape":"The planes ready to leave.",
+	"hunt_parachute":"Alright time to use your parachutes to get out of the plane.",
+	"hunt_security":"They triggered Nikolais security system and locked us in here, we need to open up these doors. Get me on a computer.",
+	"hunt_server":"Now to stop the cops from reactivating the security systems, destroy the terminals servers.",
+	"hunt_signal":"Signal Fedor with a flare.",		
+	"hunt_sniper":"Fedor can't arrive with the snipers around, get rid of them.",
+	"hunt_sprinkler":"Figures. The doors are hard locked. Good news however, in cases of emergency if the fire system goes off and cant put out the fire, the doors will open up. Disable the sprinkler system.",
+	"hunt_pc":"Get me on the computer.",
+	"hunt_terminal":"The cops blocked in Nikolais crew, we need to get to the airport terminal to open up the gate.",
+	"hunt_waitfedor":"Alright, it's going to take Fedor about two minutes to get to your location, you'll have to hold out til then.",
+	"hunt_waitrepair":"It's going to take some time to fix the plane, maybe you guys can go steal some of the valuables lying around in the other hangers while we wait.",
+	"hunt_chopper":"That helicopters blocking Fedor from landing, you'll have to get rid of it.",		
+	"hunt_gas":"Get some gasoline from the kitchen and torch one of the rooms, it may take a bit for the fire alarms to go off.",
+	"hunt_roof":"Get to the roof, we'll signal Fedor to pick us up.",
+	"hunt_helidone" : "The helicopter's running away now, just wait a little bit longer for Fedor to arrive.",
+	"huntd_objwait_desc":"It's going to take some time to fix the plane, maybe you guys can go steal some of the valuables lying around in the other hangers while we wait.",
+	"heist_hunter_departure_name":"Departure Time",
+	"huntf_obj2":"Parachute out of the Plane",
+	"huntd_objdestroyserver_desc":"Now to stop the cops from reactivating the security systems, destroy the terminals servers.",
+	"huntp_objwaitescape":"Wait for Fedor",
+	"huntd_obj1_desc":"The cops blocked in Nikolais crew, we need to get to the airport terminal to open up the gate.",
+	"huntp_objambush":"Call for backup",
+	"huntp_obj1":"Meet up with Nikolai",
+	"heist_Hunter_narrative_name":"Hunter and Hunted",
+	"huntf_obj1_desc":"Fight your way to Aleksandr, he'll probably be in one of the crew compartments.",
+	"huntd_objescape":"Escape or Secure Loot",
+	"huntp_objsniper":"Kill the Snipers",
+	"huntd_objhanger":"Open Hanger Doors",
+	"contact_constantine_name":"Constantine",
+	"huntp_objchopper":"Deal With the Helicopter",
+	"huntf_obj2_desc":"Alright time to use your parachutes to get out of the plane.",
+	"heist_hunter_departure_brief":"We are meeting up with Nikolais crew who managed to hijack a plane in Aleksandrs private airport, Aleksandr has already taken off and we're going to use the plane to intercept his flight. Get to the hangers and help Nikolai's crew.",
+	"huntd_obj1":"Head to the Terminal",
+	"huntp_objambush_desc":"Shit. They got Nikolai. get to the intercom and call for Nikolai's crew",
+	"huntp_objsprinkler_desc":"Figures. The doors are hard locked. Good news however, in cases of emergency if the fire system goes off and cant put out the fire, the doors will open up. Disable the sprinkler system.",
+	"huntp_obj1_desc":"Meet up with Nikolai, he wants to talk to us.",
+	"heist_hunter_party_name":"Party's Over",
+	"huntp_objescape":"Escape",
+	"huntd_objhanger_desc":"Okay open up the hanger doors.",
+	"huntd_objhackpc_desc":"Get me on the computer.",
+	"huntd_objequipment":"Get Repair Equipment",
+	"huntp_objwaitescape_desc":"Alright, it's going to take Fedor about two minutes to get to your location, you'll have to hold out til then.",
+	"huntp_objsniper_desc":"Fedor can't arrive with the snipers around, get rid of them.",
+	"huntp_objsignal_desc":"Signal Fedor with a flare.",
+	"contact_constantine_desc":"",
+	"huntd_objwait":"Wait for Repairs",
+	"huntd_objhackpc":"Hack Terminal Computer",
+	"huntp_objfire":"Set Fire to the building",
+	"huntd_objescape_desc":"The planes ready to leave.",
+	"huntp_objhack_desc":"They triggered Nikolais security system and locked us in here, we need to open up these doors. Get me on a computer.",
+	"heist_hunter_fall_name":"A Long Way to Fall",
+	"huntd_objequipment_desc":"We have a problem, Nikolais crew said the plane took heavy damage. They need equipment from one of the storage units to fix the plane.",
+	"heist_hunter_party_brief":"Nikolai told us to visit his penthouse, wants to celebrate our success against the mob before leaving for the airport to kill Aleksandr. I say its a bit too early to party, but we still have some time before we can leave.",
+	"heist_Hunter_narrative_brief":"It's time to strike, after that incident in the hospital we managed to find and track Aleksandr. However he got word of this and is now on the run, we'll need to intercept him at the airport. Nikolai wants to meet up with you at his penthouse and celebrate our victory, I say its a bit too early to party, but we still have some time before we can leave.\n\n»Meet up with Nikolai \n»Get to the Airport\n»Take out Aleksandr Kosolov",
+	"huntd_objfindplane_desc":"Alright, Nikolais crew is in one of the hangers, search them for the plane. I also got word that Aleksandr has some valuables stored in some of the hangers. It be a nice bonus to get if you want.",
+	"huntp_objwaitbackup_desc":"Damn, it's going to take awhile for Nikolai's crew to get to you, hold out til they can breach the doors.",
+	"huntp_objchopper_desc":"That helicopters blocking Fedor from landing, you'll have to get rid of it.",
+	"huntp_objroof":"Head to the Roof",
+	"huntd_objfindplane":"Search Hangars for Plane",
+	"huntd_objdestroyserver":"Destroy Terminal Server",
+	"huntp_objwaitbackup":"Survive the Ambush",
+	"huntp_objsignal":"Signal Fedor",
+	"huntp_objsprinkler":"Disable Sprinkler System",
+	"huntf_obj1":"Find and Kill Aleksandr",
+	"huntp_objhack":"Hack Security System",
+	"heist_hunter_fall_brief":"We got an insider whos going to open up the planes cargo door. Nikolais crew will fly us over Aleksandrs plane, you guys will parachute into the plane and deal with Aleksandr once and for all.",
+	"huntp_objroof_desc":"Get to the roof, we'll signal Fedor to pick us up.",
+	"huntp_objfire_desc":"Get some gasoline from the kitchen and torch one of the rooms, it may take a bit for the fire alarms to go off.",
+	"huntp_objescape_desc":"Fedor arrived, get out of there."
+"hunter_normal_name": "Hunted"
+	"hunter_normal_desc": ""
+	"hunter_normal_objective": "Complete the Hunter And Hunted job on the Normal difficulty or above."	
+	"hunter_hard_name": "Prey"
+	"hunter_hard_desc": ""
+	"hunter_hard_objective": "Complete the Hunter And Hunted job on the Hard difficulty or above."
+	"hunter_veryhard_name": "Producer"
+	"hunter_veryhard_desc": ""
+	"hunter_veryhard_objective": "Complete the Hunter And Hunted job on the Very Hard difficulty or above."
+	"hunter_ovk_name": "Consumer"
+	"hunter_ovk_desc": ""
+	"hunter_ovk_objective": "Complete the SHunter And Hunted job on the Overkill difficulty or above."
+	"hunter_mayhem_name": "Herbivore"
+	"hunter_mayhem_desc": ""
+	"hunter_mayhem_objective": "Complete the Hunter And Hunted job on the Mayhem difficulty or above."
+	"hunter_dw_name": "Carnivore"
+	"hunter_dw_desc": ""
+	"hunter_dw_objective": "Complete the Hunter And Hunted job on the Death Wish difficulty or above."
+	"hunter_ds_name": "Apex Predator"
+	"hunter_ds_desc": ""
+	"hunter_ds_objective": "Complete the Hunter And Hunted job on the Death Sentence difficulty."
+	"hunter_dsod_name": "Hunter"
+	"hunter_dsod_desc": ""
+	"hunter_dsod_objective": "Complete the Hunter And Hunted job on the Death Sentence difficulty with the One Down mechanic activated."
+	"hunter_speedrun_name": "Drop In, Drop Out"
+	"hunter_speedrun_desc": ""
+	"hunter_speedrun_objective": "On day 3 - A Long Way To Fall, escape in under 60 seconds."
+	"hunter_loot_name": "Luggage On Board"
+	"hunter_loot_desc": ""
+	"hunter_loot_objective": "On day 2 - Departure Time, secure all loot on the Overkill difficulty or above."
+	"hunter_party_name": "Life Of The Party"
+	"hunter_party_desc": ""
+	"hunter_party_objective": "On Day 1 - Party's Over, escape without killing any civilians on the Overkill difficulty or above."
+	"hunter_all_name": "Hunter And Hunted"
+}

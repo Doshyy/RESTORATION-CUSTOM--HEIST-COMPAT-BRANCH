@@ -1,0 +1,118 @@
+    {
+
+
+
+	"heist_constantine_harbor_nar_name" : "Harboring a Grudge",
+	"heist_constantine_harbor_nar_brief" : "Constantine here, triads are about to export narcotics and weapons from their dockyard, I want you to hit the place and steal what you can from their trucks.\n\n»Enter the harbor\n»Open warehouse doors\n»Secure weapons/coke and escape",
+	"restoration_level_data_constantine_harbor_lvl":"9:12 PM, Dockyard Warehouses",
+	"heist_constantine_harbor_lvl_name" : "Harboring a Grudge",
+	"heist_constantine_harbor_lvl_brief" : "I got word that triads are sitting on a lot of weapons and drugs and are ready to ship them out, we'll need to hit them before they can. Expect things to go loud.",
+
+	"charbor_manifest" : "We'll have to hack the warehouse manifest to figure out where the trucks are stored.",
+	"charbor_hack" : "There's a security box by the warehouse gate, hack it to open up the doors.",
+	"charbor_c4" : "Use the c4 to blow open the gate to the warehouse.",
+	"charbor_signal" : "The boat won't be able to fit you, signal the pilot for the escape.",
+	"charbor_escape" : "The escapes here, you can leave if you want.",
+	"charbor_secure" : "Coke and weapons will be in the trucks, also look around the crates, maybe some of them are storing weapons. They have a methlab nearby but our main priority are the coke and weapons.",
+
+	"charbor_intro" : "Remember, we're going after the weapons and coke, anything else is additional loot.",
+
+
+
+
+
+
+	"charbor_obj1" : "Hack Warehouse Manifest",
+	"charbor_obj1_desc" : "We'll have to hack the warehouse manifest to figure out where the trucks are stored.",
+
+
+	"charbor_objtablet" : "Hack Warehouse Gate",
+	"charbor_objtablet_desc" : "There's a security box by the warehouse gate, hack it to open up the doors.",
+
+
+	"charbor_objc4" : "C4 Warehouse Gate",
+	"charbor_objc4" : "Use the c4 to blow open the gate to the warehouse.",
+
+
+	"charbor_objsecure" : "Secure Weapons or Coke",
+	"charbor_objsecure_desc" : "The coke and weapons will be in the trucks, also look around the crates, maybe some of them are storing weapons. They have a methlab nearby but our main priority are the coke and weapons.",
+
+	"charbor_objsignal" : "Signal Escape",
+	"charbor_objsignal_desc" : "The boat won't be able to fit you, signal the pilot for the escape.",
+
+
+	"charbor_objescape" : "Escape or Secure loot",
+	"charbor_objescape_desc" : "The escapes here, you can leave if you want.",
+
+
+	"menu_pp_charbor_backup_crew" : "Backup Crew",
+	"menu_pp_charbor_backup_crew_desc" : "Constantine will hire an additional crew to help aide you.",
+
+	"menu_pp_charbor_expert_pilot" : "Expert Pilot",
+	"menu_pp_charbor_expert_pilot_desc" : "Hires an expert pilot for your escape, you won't have to wait long for the escape vehicle to arrive.",
+
+
+
+	"menu_pp_charbor_c4" : "C4 Equipment",
+	"menu_pp_charbor_c4_desc" : "We'll use C4 to blow our way into the warehouse stashing the trucks, skips needing to hack warehouse gates open.",
+
+
+
+
+	"menu_pp_charbor_manifest" : "Manifest Equipment",
+	"menu_pp_charbor_manifest_desc" : "We have the manifest containing the trucks location, we won't need to hack the central computers to locate the trucks.",
+
+
+
+
+	"menu_pp_charbor_longfellow" : "Longfellow",
+	"menu_pp_charbor_longfellow_desc" : "A longfellow will be waiting near the entrance of the warehouse, it'll be a good way to transport bags to the boat drop.",
+
+
+
+	"menu_h_drop_preplan_001" : "Warehouse A Side",
+
+	"menu_h_drop_preplan_002" : "Warehouse C Side",
+
+	"menu_h_drop_preplan_003" : "Warehouse C Front",
+	
+	"menu_h_drop_preplan_004" : "Warehouse C Side Dock",
+
+
+	"menu_h_drop_preplan_005" : "Warehouse Main Interior",
+
+	"menu_h_drop_preplan_006" : "Warehouse Main Side Dock",
+
+
+
+	"menu_h_drop_preplan_007" : "Warehouse Main Interior",
+
+	"menu_h_drop_preplan_008" : "Warehouse Main Side Dock",
+
+
+	"menu_crowbar_preplan" : "Crowbar Box",
+
+	"menu_hlongfellow_preplan" : "Longfellow Entrance",
+
+	"menu_hc4_preplan" : "C4 Equipment",
+
+
+	"menu_hmanifest_preplan" : "Manifest Equipment",
+	"menu_hbackup_preplan" : "Backup Crew",
+	"menu_hexpert_preplan" : "Expert Pilot",
+
+
+	"menu_pp_constantine_harbor_a" : "Harbor",
+	"menu_pp_constantine_harbor_b" : "Harbor",
+	"menu_pp_constantine_harbor_c" : "Harbor",
+	
+	
+
+	"contact_constantine_name":"Constantine",
+	"contact_constantine_desc":"",	
+
+
+
+
+}
+

@@ -1,0 +1,151 @@
+<table name="TonCont">
+	<Achievements icon="textures/CustomAchievements/TonCont_pack" id="toncont_package">
+		<achievement icon="textures/CustomAchievements/TonCont_fast" id="TonCont_fast" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_miserable" id="TonCont_miserable" rank="4" reward_amount="20" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_criminalmastermind" id="TonCont_criminalmastermind" rank="4" reward_amount="10" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_normal" id="TonCont_normal" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_hard" id="TonCont_hard" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_veryhard" id="TonCont_veryhard" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_OVK" id="TonCont_OVK" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_mayhem" id="TonCont_mayhem" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_DW" id="TonCont_DW" rank="3" reward_amount="7" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/TonCont_DS" id="TonCont_DS" rank="4" reward_amount="8" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<png force="true" path="textures/CustomAchievements/TonCont_pack"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_normal"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_hard"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_veryhard"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_OVK"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_mayhem"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_DW"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_DS"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_criminalmastermind"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_miserable"/>
+		<png force="true" path="textures/CustomAchievements/TonCont_fast"/>
+		<texture force="true" load="true" path="textures/atriumicon"/>
+		<texture path="textures/test1" force="true" unload="true"/>
+		<texture path="textures/test2" force="true" unload="true"/>
+		<texture path="textures/test3" force="true" unload="true"/>
+		<texture path="textures/test4" force="true" unload="true"/>
+	</AddFiles>
+	<AssetUpdates id="31370" provider="modworkshop" use_local_dir="true" version="1.51"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<hooks directory="hooks">
+			<hook file="achievementcontroller.lua" source_file="lib/managers/dialogmanager"/>
+		</hooks>
+	<Sounds directory="assets/audio/vo">
+		<sound id="TonCont_vo_obj1" path="tonis/TonCont_vo_obj1.ogg" subtitle_id="TonCont_vo_obj1"/>
+		<sound id="TonCont_vo_obj2hit1" path="tonis/TonCont_vo_obj2hit1.ogg" subtitle_id="TonCont_vo_obj2hit1"/>
+		<sound id="TonCont_vo_obj2hit2" path="tonis/TonCont_vo_obj2hit2.ogg" subtitle_id="TonCont_vo_obj2hit2"/>
+		<sound id="TonCont_vo_obj2hit3" path="tonis/TonCont_vo_obj2hit3.ogg" subtitle_id="TonCont_vo_obj2hit3"/>
+		<sound id="TonCont_vo_obj2hit4" path="tonis/TonCont_vo_obj2hit4.ogg" subtitle_id="TonCont_vo_obj2hit4"/>
+		<sound id="TonCont_vo_obj2hit5" path="tonis/TonCont_vo_obj2hit5.ogg" subtitle_id="TonCont_vo_obj2hit5"/>
+		<sound id="TonCont_vo_obj2hit6" path="tonis/TonCont_vo_obj2hit6.ogg" subtitle_id="TonCont_vo_obj2hit6"/>
+		<sound id="TonCont_vo_obj260sec" path="tonis/TonCont_vo_obj260sec.ogg" subtitle_id="TonCont_vo_obj260sec"/>
+		<sound id="TonCont_vo_obj3van" path="tonis/TonCont_vo_obj3van.ogg" subtitle_id="TonCont_vo_obj3van"/>
+		<sound id="TonCont_vo_obj3heli" path="tonis/TonCont_vo_obj3heli.ogg" subtitle_id="TonCont_vo_obj3heli"/>
+		<sound id="TonCont_vo_obj3pickup" path="tonis/TonCont_vo_obj3pickup.ogg" subtitle_id="TonCont_vo_obj3pickup"/>
+		<sound id="TonCont_vo_obj3swat" path="tonis/TonCont_vo_obj3swat.ogg" subtitle_id="TonCont_vo_obj3swat"/>
+		<sound id="TonCont_vo_obj3half" path="tonis/TonCont_vo_obj3half.ogg" subtitle_id="TonCont_vo_obj3half"/>
+		<sound id="TonCont_vo_obj4" path="tonis/TonCont_vo_obj4.ogg" subtitle_id="TonCont_vo_obj4"/>
+		<sound id="TonCont_vo_bank" path="tonis/TonCont_vo_bank.ogg" subtitle_id="TonCont_vo_bank"/>
+		<sound id="TonCont_vo_brief" path="tonis/TonCont_vo_brief.ogg" subtitle_id="TonCont_vo_brief"/>
+	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
+	<level ai_group_type="america" briefing_dialog="TonCont_vo_brief" id="TonCont" max_bags="114" orig_id="TonCont" player_style="jumpsuit">
+		<add file="levels/TonCont/add.xml"/>
+		<addfiles directory="assets">
+			<texture path="textures/test1"/>
+		</addfiles>
+		<hooks directory="hooks">
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="achievementcontroller.lua" source_file="lib/managers/dialogmanager"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/mt_art/mt_art"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/vlad/mallcrasher/ed3_world/ed3_world"/>
+			<value_node value="levels/narratives/vlad/moon/world/world"/>
+			<value_node value="levels/narratives/vlad/four_stores/world/world"/>
+			<value_node value="levels/narratives/bain/cage/tunnel/tunnel"/>
+			<value_node value="levels/instances/unique/hox_breakout_road001/world/world"/>
+			<value_node value="levels/narratives/bain/cage/world"/>
+			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
+			<value_node value="packages/narr_arm_fac"/>
+			<value_node value="packages/escape_park"/>
+			<value_node value="levels/instances/unique/rvd/rvd_storage_unit/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
+			<value_node value="levels/instances/unique/bph/bph_c4_wall/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="Tonis" icon="textures/atriumicon" id="TonCont">
+		<chain>
+			<table level_id="TonCont" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

@@ -1,0 +1,185 @@
+<table name="A Touch of Class">
+	<Sounds directory="assets/sfx">
+		<sound id="rus_dsp_radio_query_1_a" path="rus_dsp_radio_query_1_a.ogg"/>
+		<sound id="rus_dsp_radio_query_1_b" path="rus_dsp_radio_query_1_b.ogg"/>
+		<sound id="rus_dsp_radio_query_1_c" path="rus_dsp_radio_query_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_a" path="rus_dsp_radio_fooled_1_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_b" path="rus_dsp_radio_fooled_1_b.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_c" path="rus_dsp_radio_fooled_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_a" path="rus_dsp_radio_fooled_4_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_b" path="rus_dsp_radio_fooled_4_b.ogg"/>
+		<random id="rus_dispatch_generic_message">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_query_1">
+			<sound id="rus_dsp_radio_query_1_a"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+		</random>
+		<sound id="rus_dsp_radio_reminder_1" path="rus_dsp_radio_reminder_1.ogg"/>
+		<random id="rus_dsp_radio_fooled_1">
+			<sound id="rus_dsp_radio_fooled_1_a"/>
+			<sound id="rus_dsp_radio_fooled_1_b"/>
+			<sound id="rus_dsp_radio_fooled_1_c"/>
+		</random>
+		<random id="rus_dsp_radio_fooled_4">
+			<sound id="rus_dsp_radio_fooled_4_a"/>
+			<sound id="rus_dsp_radio_fooled_4_b"/>
+		</random>
+		<random id="rus_dsp_radio_alarm_1">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_checking_1">
+			<sound id="fri_dsp_radio_checking_1"/>
+		</random>
+		<random id="rus_dsp_stop_all">
+			<sound id="fri_dsp_stop_all"/>
+		</random>
+	</Sounds>
+
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/atocicon"/>
+	</AddFiles>
+	<AssetUpdates id="32605" provider="modworkshop" version="1.4"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="atoc_brief" ghost_bonus="0.1" id="atocl" intro_event="atoc_intro" max_bags="54" player_style="continental">
+	
+	
+	<sounds directory="assets/sound">
+		<sound id="atoc_brief" path="Brief.ogg"/>
+		<sound id="atoc_intro" path="Intro.ogg" subtitle_id="atoc_intro"/>
+		<sound id="atoc_upstairs" path="HeadUpstairsHint.ogg" subtitle_id="atoc_upstairs"/>
+		<sound id="atoc_findserver" path="ServerHint.ogg" subtitle_id="atoc_findserver"/>
+		<sound id="atoc_keycard" path="KeycardHint.ogg" subtitle_id="atoc_keycard"/>
+		<sound id="atoc_serverpc" path="ServerPCHint.ogg" subtitle_id="atoc_serverpc"/>
+		<sound id="atoc_device" path="DeviceHint.ogg" subtitle_id="atoc_device"/>
+		<sound id="atoc_phone" path="PhoneHint.ogg" subtitle_id="atoc_phone"/>
+		<sound id="atoc_enteroffice" path="OfficeHint.ogg" subtitle_id="atoc_enteroffice"/>
+		<sound id="atoc_officepc" path="OfficePCHint.ogg" subtitle_id="atoc_officepc"/>
+		<sound id="atoc_escape" path="EscapeHint.ogg" subtitle_id="atoc_escape"/>
+	</sounds>	
+		<add file="levels/atocl/add.xml"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/atocl">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/backdrop/backdrop"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/editor_only/editor_only"/>
+			<value_node value="levels/narratives/safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/short2/stage1/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/instances/unique/bex/bex_double_doors/world"/>
+			<value_node value="levels/instances/unique/bex/bex_double_doors/world/world"/>
+			<value_node value="levels/narratives/classics/dah/backdrop/backdrop"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/security_room_door/world"/>
+			<value_node value="packages/dlcs/sah/job_sah"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/gear_case/world"/>
+			<value_node value="levels/instances/unique/kenaz/gear_case/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/vit/vit_telephone/world"/>
+			<value_node value="levels/instances/unique/vit/vit_telephone/world/world"/>
+			<value_node value="levels/narratives/skm/skm_run/collision/collision"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/atocicon" id="atoc">
+		<chain>
+			<table level_id="atocl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="225000"/>
+			<value_node value="275000"/>
+			<value_node value="275000"/>
+			<value_node value="275000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

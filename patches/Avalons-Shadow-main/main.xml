@@ -1,0 +1,156 @@
+<table name="Avalon's Shadow">
+	<instance id="hwu_laptop">
+		<add file="levels/instances/hwu_laptop/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="hwu_documents">
+		<add file="levels/instances/hwu_documents/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="hwu_server">
+		<add file="levels/instances/hwu_server/add.xml"/>
+		<packages/>
+	</instance>
+	<instance id="hwu_thermite_crate">
+		<add file="levels/instances/hwu_thermite_crate/add.xml"/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<Achievements icon="guis/dlcs/pic/textures/achievements/hwu_pack" id="achievements_hwu">
+		<achievement desc_id="achievement_hwu_wd_0_desc" icon="guis/dlcs/pic/textures/achievements/hwu_normal" id="achievement_hwu_wd_0" name_id="achievement_hwu_wd_0" rank="1"/>
+		<achievement desc_id="achievement_hwu_wd_1_desc" icon="guis/dlcs/pic/textures/achievements/hwu_hard" id="achievement_hwu_wd_1" name_id="achievement_hwu_wd_1" rank="1"/>
+		<achievement desc_id="achievement_hwu_wd_2_desc" icon="guis/dlcs/pic/textures/achievements/hwu_veryhard" id="achievement_hwu_wd_2" name_id="achievement_hwu_wd_2" rank="1"/>
+		<achievement desc_id="achievement_hwu_wd_3_desc" icon="guis/dlcs/pic/textures/achievements/hwu_overkill" id="achievement_hwu_wd_3" name_id="achievement_hwu_wd_3" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_pick_desc" icon="guis/dlcs/pic/textures/achievements/hwu_mayhem" id="achievement_hwu_pick" name_id="achievement_hwu_pick" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_death_desc" icon="guis/dlcs/pic/textures/achievements/hwu_deathwish" id="achievement_hwu_death" name_id="achievement_hwu_death" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_ggez_desc" icon="guis/dlcs/pic/textures/achievements/hwu_deathsentence" id="achievement_hwu_ggez" name_id="achievement_hwu_ggez" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_axe_desc" icon="guis/dlcs/pic/textures/achievements/hwu_onedown" id="achievement_hwu_axe" name_id="achievement_hwu_axe" rank="4" reward_amount="10" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_sword_desc" icon="guis/dlcs/pic/textures/achievements/hwu_sword" id="achievement_hwu_sword" name_id="achievement_hwu_sword" rank="3" reward_amount="3" reward_type="cc"/>
+		<achievement desc_id="achievement_hwu_toast_desc" icon="guis/dlcs/pic/textures/achievements/hwu_toast" id="achievement_hwu_toast" name_id="achievement_hwu_toast" rank="2" reward_amount="1" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="guis/dlcs/pic/textures/loading/job_hwu"/>
+		<texture force="true" path="guis/dlcs/pic/textures/icon/job_hwu"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_pack"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_sword"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_toast"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_normal"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_hard"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_veryhard"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_overkill"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_mayhem"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_deathwish"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_deathsentence"/>
+		<texture force="true" path="guis/dlcs/pic/textures/achievements/hwu_onedown"/>
+	</AddFiles>
+	<Dependencies>
+		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
+	</Dependencies>
+	<AssetUpdates id="34760" provider="modworkshop" use_local_dir="true" version="12"/>
+	<Interactions>
+		<interaction id="hwu_toast" sound_event="money_grab"/>
+	</Interactions>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/hwu.package" id="packages/levels/hwu/world/world" unload_on_restart="true"/>
+	<level ai_group_type="murkywater" briefing_dialog="hwu_brief" ghost_bonus="0.15" id="hwu" intro_event="" load_screen="guis/dlcs/pic/textures/loading/job_hwu" max_bags="54" flashlights_on="true" player_style="sneak_suit">
+		<add file="levels/hwu/add.xml"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="DialogManager.lua" source_file="lib/managers/dialogmanager"/>
+		</hooks>
+		<outro_event>
+			<value_node value="hwu_ending"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/vit/vit_wire_box/world"/>
+			<value_node value="levels/instances/unique/vit/vit_wire_box/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_keypad/world_sounds"/>
+			<value_node value="packages/levels/hwu/world/world"/>
+		</packages>
+		<xml>
+			<file path="scriptdata/job_c_hwu.sounds"/>
+		</xml>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="s_hwu_stage1.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/s_hwu_stage1">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="pd2maps" icon="guis/dlcs/pic/textures/icon/job_hwu" id="Avalon's Shadow">
+		<chain>
+			<table level_id="hwu" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="62000"/>
+			<value_node value="124000"/>
+			<value_node value="310000"/>
+			<value_node value="620000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+			<value_node value="67500"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="50000"/>
+			<value_node value="100000"/>
+			<value_node value="130000"/>
+			<value_node value="130000"/>
+			<value_node value="130000"/>
+		</payout>
+	</narrative>
+</table>

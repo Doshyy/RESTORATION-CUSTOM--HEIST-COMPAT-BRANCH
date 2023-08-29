@@ -1,0 +1,33 @@
+{	
+	"heist_AnotherFourStores_name" : "Four More Stores",
+	"heist_AnotherFourStores_brief" : 'These store owners work for the Russians after an unfortunate "accident" with a business associate of Vlad. Show them where they went wrong.\n\n» Locate the four stores\n» Steal all their money\n» See if you can find any safes to crack',
+	"heist_lvl_fourmorestores_name" : "Four More Stores",
+	"heist_lvl_fourmorestores_brief" : "Vlad wants us to disrupt the Russians stolen businesses. See what you can find and take it. Do your best to keep it quiet- there wont be many exits if we take too long.",
+
+	"menu_asset_four_asset_intel" : "The Four Stores",
+
+	"obj_fms_001" : "Scout the Stores",
+	"obj_fms_001_desc" : "Scout the stores for valuables and mask up when you're ready.",
+	"obj_fms_002" : "Steal $10,000",
+	"obj_fms_002_desc" : "Steal $10,000 of valuables.",
+	"obj_fms_002b" : "Steal $20,000",
+	"obj_fms_002b_desc" : "Steal $20,000 of valuables.",
+	"obj_fms_002c" : "Steal $30,000",
+	"obj_fms_002c_desc" : "Steal $30,000 of valuables.",
+	"obj_fms_002d" : "Steal $40,000",
+	"obj_fms_002d_desc" : "Steal $40,000 of valuables.",
+	"obj_fms_002e" : "Steal $50,000",
+	"obj_fms_002e_desc" : "Steal $50,000 of valuables.",
+	"obj_fms_002f" : "Steal $100,000",
+	"obj_fms_002f_desc" : "Steal $100,000 of valuables.",
+	"obj_fms_003" : "Wait for the Van",
+	"obj_fms_003_desc" : "Wait for escape to arrive.",
+	"obj_fms_003b" : "Survive",
+	"obj_fms_003b_desc" : "Hold your ground until Bain gets a new escape for you.",
+	"obj_fms_004" : "Escape",
+	"obj_fms_004_desc" : "Escape!",
+	"obj_fms_005" : "Defend the Helicopter",
+	"obj_fms_005_desc" : "Shoot down any snipers on the nearby rooftops so the pilot can land safely.",
+	"loc_fms_street" : "Center Road",
+	"restoration_level_data_lvl_fourmorestores":"3:12 PM, Storefronts"
+}

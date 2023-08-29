@@ -1,0 +1,83 @@
+<table directory="assets">
+	<texture path="perks/deadshot"/>
+	<texture path="perks/doubletap"/>
+	<texture path="perks/juggernog"/>
+	<texture path="perks/revive"/>
+	<texture path="perks/speedcola"/>
+	<texture path="perks/staminup"/>
+	<add path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" type="unit">
+		<cooked_physics force="true" path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" unload="true"/>
+		<model force="true" path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" unload="true"/>
+		<object force="true" path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_mex/terrain/mex_terrain_bag/mex_terrain_bag" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" type="unit">
+		<material_config force="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
+		<object force="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
+		<unit force="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
+		<material_config force="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<object force="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" type="unit">
+		<bnk force="true" path="soundbanks/zipline" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
+		<material_config force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" type="unit">
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/car_forklift" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" type="unit">
+		<unit path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_aa_turret_spawner/des_aa_turret_spawner/des_aa_turret_spawner" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<material_config path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/vehicles/des_aa_turret/des_aa_turret" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_turret_debris" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_front" unload="true"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion" unload="true"/>
+		<unit path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper" unload="true"/>
+		<object path="units/pd2_dlc_des/vehicles/des_aa_turret/spawn_shield_upper" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<bnk path="soundbanks/weapon_swatturret" unload="true"/>
+	</add>
+</table>

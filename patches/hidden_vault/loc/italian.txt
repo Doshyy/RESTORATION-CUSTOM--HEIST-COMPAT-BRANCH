@@ -1,0 +1,118 @@
+{
+
+
+	"heist_contact_the_chameleon" 					: 	"The Chameleon"
+	"heist_hidden_vault_name" 						: 	"Caveau Nascosto"
+	"heist_hidden_vault_brief" 						: 	"Ora, le persone mi conoscono come The Chameleon. Io e Bain abbiamo avuto un colpo speciale tutto pianificato per voi. Ma, lui non si trova qui per fornire il briefing, dai la colpa alla vecchia fortuna ed al suo gioco di eventi sfortunati. Ora a parte le sfortunate circostanze dovute all'assenza attuale di Bain, ti informerò sulle notizie di un caveau nascosto che sono riuscito a trovare. E' una vera bellazza, situato in un posto semplice con un inferno di un giorno di paga. Prima di iniziare a pensare, questo è tutto riguardo a qualche mucchio di soldi regolari, ma fermati proprio lì e troverai un diamante, ora questo avvantaggerà tutti molto più di qualche soldo, va bene? Dimmi che ci sei e ti ricompenserò profumatamente. Entriamo, prendo il diamante, e tu prendi tutto il bottino che vuoi in quel bel caveau in cima al mio pagamento."
+	
+	"hidden_vault_obj_001" 							: 	"Entra nell'edificio"
+	"hidden_vault_obj_002" 							: 	"Prendi l'ascensore"
+	
+	"hidden_vault_obj_003" 							: 	"Apri la porta"
+		"hidden_vault_obj_003_1" 					: 	"Prendi il piede di porco"
+		"hidden_vault_obj_003_2" 					: 	"Prendi la fiamma ossidrica"
+	
+	"hidden_vault_obj_004" 							: 	"Hackera il pc"
+		"hidden_vault_obj_004_1" 					: 	"Aspetta che l'hacking finisca"
+		
+	"hidden_vault_obj_005" 							: 	"Entra nel caveau"
+		"hidden_vault_obj_005_1" 					: 	"Scopri chi ha le chiavi di crittografia"
+		"hidden_vault_obj_005_2" 					: 	"Aspetta la ricerca"
+		"hidden_vault_obj_005_3" 					: 	"Ottieni le chiavi di crittografia"
+		"hidden_vault_obj_005_4" 					: 	"Apri il caveau principale"
+	
+	"hidden_vault_obj_006" 							: 	"Aspetta l'idea di bain"
+	"hidden_vault_obj_007" 							: 	"Hackera le porte del caveau"
+		"hidden_vault_obj_007_1" 					: 	"Prendi il server rack"
+		"hidden_vault_obj_007_2" 					: 	"Posiziona il server rack"
+		"hidden_vault_obj_007_3" 					: 	"Prendi i server giusti"
+		"hidden_vault_obj_007_4" 					: 	"Posiziona il server dentro il server rack"
+		"hidden_vault_obj_007_5" 					: 	"Posiziona il pc e inizia l'hacking"
+		"hidden_vault_obj_007_6" 					: 	"Aspetta che il caveau si apra"
+		"hidden_vault_obj_007_7" 					: 	"Metti al sicuro il bottino del caveau"
+	
+	"hidden_vault_obj_008" 							: 	"Scappa o prendi altro bottino"
+		"hidden_vault_obj_008_1" 					: 	"Prendi il c4"
+			"hidden_vault_obj_008_1_stealth" 		: 	"Prendi la sega"
+		"hidden_vault_obj_008_2" 					: 	"Posiziona il c4"
+			"hidden_vault_obj_008_2_stealth" 		: 	"Posiziona la sega"
+		"hidden_vault_obj_008_3" 					: 	"Attraversa il tunnel"
+		"hidden_vault_obj_008_4" 					: 	"Fuga disponibile"
+		
+	"objective_diamond_001" 						: 	"Spegni i laser"
+	"objective_diamond_002" 						: 	"Prendi il diamante"
+	"objective_diamond_003" 						: 	"Metti al sicuro il diamante"
+	
+	"hidden_vault_obj_fail" 						: 	"L'hai fatto esplodere!"
+	"hidden_vault_obj_fail_desc" 					: 	"Sei stupido ragazzo"
+	"hidden_vault_obj_jam"							:	"Trova un quadro elettrico per continuare l'hacking"
+	"hidden_vault_obj_kc_hint"						:	"Hai bisogno di una scheda magnetica per avviare il pc"
+	
+
+	"hidden_vault_obj_001_desc" 					: 	"Entra nell'edificio usando la finestra"
+	"hidden_vault_obj_002_desc" 					: 	"Prendi l'ascensore per entrare nell'area nascosta"
+	
+	"hidden_vault_obj_003_desc" 					: 	"Apri la porta con un piede di porco"
+		"hidden_vault_obj_003_1_desc" 				: 	"Prendi il piede di porco dentro la borsa"
+		"hidden_vault_obj_003_2_desc" 				: 	"L'operaio deve avere la fiamma ossidrica da qualche parte in giro, trovala"
+	
+	"hidden_vault_obj_004_desc" 					: 	"Hackera il pc per aprire la porta del caveau, ma c'è bisogno di una scheda magnetica. Potrebbe trovarsi da qualche parte negli uffici"
+		"hidden_vault_obj_004_1_desc" 				: 	"//Hacking in corso//"
+		
+	"hidden_vault_obj_005_desc" 					: 	"Le porte del caveau sono aperte, cosa stai aspettando"
+		"hidden_vault_obj_005_1_desc" 				: 	"Puoi trovarle hackerando uno dei pc"
+		"hidden_vault_obj_005_2_desc" 				: 	"//Ricerca in corso//"
+		"hidden_vault_obj_005_3_desc" 				: 	"Devono essere da qualche parte sulla scrivania, stai cercando un piccolo disco rigido"
+		"hidden_vault_obj_005_4_desc" 				: 	" "
+	
+	"hidden_vault_obj_006_desc" 					: 	"Aspetta l'idea di bain"
+	"hidden_vault_obj_007_desc" 					: 	"Hackera le porte del caveau"
+		"hidden_vault_obj_007_1_desc" 				: 	"vai a prenderli"
+		"hidden_vault_obj_007_2_desc" 				: 	"posizionali e collegali"
+		"hidden_vault_obj_007_3_desc" 				: 	"Trova il server giusto per aprire il caveau"
+		"hidden_vault_obj_007_4_desc" 				: 	"Connetti il server principale con il server rack"
+		"hidden_vault_obj_007_5_desc" 				: 	"posiziona il tuo portatile e inizia l'hacking"
+		"hidden_vault_obj_007_6_desc" 				: 	"//Hacking in corso//"
+		"hidden_vault_obj_007_7_desc" 				: 	"E' il giorno di paga ragazzi"
+	
+	"hidden_vault_obj_008_desc" 					: 	"Scappa o prendi altro bottino"
+		"hidden_vault_obj_008_1_desc" 				: 	"Prendi il c4 fuori dall'ascensore"
+			"hidden_vault_obj_008_1_stealth_desc" 	: 	"Prendi la sega fuori dall'ascensore"
+		"hidden_vault_obj_008_2_desc" 				: 	"piazza il c4"
+			"hidden_vault_obj_008_2_stealth_desc" 	: 	"piazza la sega"
+		"hidden_vault_obj_008_3_desc" 				: 	"attraversa il tunnel"
+		"hidden_vault_obj_008_4_desc" 				: 	"Fuga disponibile"
+		
+	"objective_diamond_001_desc" 					: 	"Spegni i laser hackerando il pc nella sala principale"
+	"objective_diamond_002_desc" 					:	"Finalmente c'è, prendilo!"
+	"objective_diamond_003_desc" 					: 	"E' quasi nostro, dobbiamo solo portarlo al sicuro"
+	
+	"hidden_vault_obj_jam_desc"						:	"Il pc è bloccato, devi riattivare la corrente"
+	"hidden_vault_obj_kc_hint_desc"					:	"La scheda magnetica si trova negli uffici"
+	
+	
+	
+	"test_hidden_vault"					:	"Funziona!"
+	"scr_001_take_password"				:	"Tieni premuto $BTN_INTERACT per prendere la password"
+	"scr_002_open_scr"					:	"Tieni premuto $BTN_INTERACT per muovere i muri"
+	"kick_trashcan"						:	"PREMI $BTN_INTERACT PER CALCIARE QUESTO CESTINO"
+	"take_crowbar_bag"					:	"Tieni premuto $BTN_INTERACT per prendere il piede di porco dalla borsa"
+	"place_down_laptop"					:	"Premi $BTN_INTERACT per posizionare il portatile"
+	"start_open_vaults"					:	"Tieni premuto $BTN_INTERACT per iniziare l'hacking della porta del caveau"
+	"place_down_server"					:	"Tieni premuto $BTN_INTERACT per posizionare il sever rack"
+	"scr_active_laptop"					:	"Tieni premuto $BTN_INTERACT per accendere il portatile ed inserire la password"
+	"scr_no_password"					:	"Hai bisogno della password"
+	"scr_password"						:	"Password"
+	
+	"hidden_bag_shortcut"				:	"Scorciatoia per i borsoni"
+	"hidden_bag_shortcut_desc"			:	"Metti al sicuro i borsoni utilizzando una scorciatoia nel salone"
+	"hidden_vault_cams_name"			:	"Camion con telecamere"
+	"hidden_vault_cams_desc"			:	"Camion modificato con telecamere di alta tecnologia"
+	"hidden_vault_mute_contractor_name"	:	"Muta il contatto"
+	"hidden_vault_mute_contractor_desc"	:	"Ma per favore non farlo :c"
+	"hidden_vault_bag_escape"			:	"Scorciatoia per i borsoni"
+	"hidden_vault_bag_escape_desc"		:	"Assumi un ragazzo per spostare i borsoni"	
+	"restoration_level_data_hidden_vault":"23:08, Kranich facility downtown"
+	"menu_jukebox_enemy_super_blt_heist" 		: 	"Enemy"
+    "menu_jukebox_screen_enemy_super_blt_heist" : 	"Enemy"
+	}

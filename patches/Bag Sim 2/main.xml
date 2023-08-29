@@ -1,0 +1,144 @@
+<table name="colosseum">
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/bag_sim2_icon"/>
+	</AddFiles>
+	<level ai_group_type="america" id="bag_sim_2" max_bags="9999" player_style="suit_sunny">
+		<add file="levels/bag_sim_2/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="NewRaycastWeaponBase.lua" source_file="lib/units/weapons/newraycastweaponbase"/>
+			<hook file="PlayerDamage.lua" source_file="lib/units/beings/player/playerdamage"/>
+			<hook file="PlayerStandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+			<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+			<hook file="civilianlogicflee.lua" source_file="lib/units/civilians/logics/civilianlogicflee"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="hintmanager.lua" source_file="lib/managers/hintmanager"/>
+			<hook file="SentryGunMovement.lua" source_file="lib/units/equipment/sentry_gun/sentrygunmovement"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+			<hook file="huskplayermovement.lua" source_file="lib/units/beings/player/huskplayermovement"/>
+			<hook file="vehicledamage.lua" source_file="lib/units/vehicles/vehicledamage.lua"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="packages/job_mex"/>
+			<value_node value="levels/narratives/locke/mex/world"/>
+			<value_node value="levels/narratives/locke/mex/world_sounds"/>
+			<value_node value="levels/narratives/locke/mex/art2/art2"/>
+			<value_node value="levels/narratives/locke/mex/collision/collision"/>
+			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
+			<value_node value="levels/narratives/locke/mex/lights/lights"/>
+			<value_node value="levels/narratives/locke/mex/world/world"/>
+			<value_node value="levels/narratives/locke/mex/art/art"/>
+			<value_node value="levels/narratives/locke/mex/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="levels/narratives/bain/help/collision/collision"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
+			<value_node value="levels/instances/unique/haunted_trap001/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="instance_bag_crate" max_bags="54">
+		<add file="levels/instance_bag_crate/add.xml"/>
+		<include directory="levels/instance_bag_crate">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/instances/unique/mex/mex_tunnel_exit/world/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AssetUpdates id="26444" provider="modworkshop" use_local_dir="true" version="6"/>
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="Capcake" name_id="contract_capcake" package="packages/contact_the_dentist"/>
+	<instance id="instance_bag_crate">
+		<add file="levels/instance_bag_crate/add.xml"/>
+		<include directory="levels/instance_bag_crate">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods/>
+	</instance>
+	<narrative contact="Capcake" icon="guis/textures/bag_sim2_icon" id="colosseum" load_screen="guis/dlcs/mex/textures/loading/job_mex_df">
+		<chain>
+			<table level_id="bag_sim_2" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</payout>
+	</narrative>
+</table>

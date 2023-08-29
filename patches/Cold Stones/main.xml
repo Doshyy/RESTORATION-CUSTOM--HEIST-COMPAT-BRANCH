@@ -1,0 +1,149 @@
+<table name="Cold Stones">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/coldstoneicon"/>
+	</AddFiles>
+	<AssetUpdates id="32670" provider="modworkshop" version="1.2"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="rusd_brief" id="rusdl" intro_event="rusd_intro" max_bags="54" player_style="winter_suit">
+	<sounds directory="assets/sound">
+		<sound id="rusd_brief" path="Brief.ogg"/>
+		<sound id="rusd_intro" path="Intro.ogg" subtitle_id="rusd_intro"/>
+		<sound id="rusd_thermite" path="ThermiteHint.ogg" subtitle_id="rusd_thermite"/>
+		<sound id="rusd_thermitevariant" path="ThermiteHintVariant.ogg" subtitle_id="rusd_thermitevariant"/>
+		<sound id="rusd_diamond" path="DiamondHint.ogg" subtitle_id="rusd_diamond"/>
+		<sound id="rusd_escape" path="EscapeHint.ogg" subtitle_id="rusd_escape"/>
+		<sound id="rusd_entervault" path="EnterVaultHint.ogg" subtitle_id="rusd_entervault"/>
+		<sound id="rusd_start" path="StartHint.ogg" subtitle_id="rusd_start"/>
+		<sound id="rusd_thermitewait" path="ThermiteDefendHint.ogg" subtitle_id="rusd_thermitewait"/>
+		<sound id="rusd_manager" path="FindManagerHint.ogg" subtitle_id="rusd_manager"/>
+		<sound id="rusd_vaultdialogueone" path="VaultDialogueOne.ogg" subtitle_id="rusd_vaultdialogueone"/>
+		<sound id="rusd_vaultdialoguetwo" path="VaultDialogueTwo.ogg" subtitle_id="rusd_vaultdialoguetwo"/>
+		<sound id="rusd_vaultdialoguethree" path="VaultDialogueThree.ogg" subtitle_id="rusd_vaultdialoguethree"/>
+		<sound id="rusd_timelock" path="TimelockHint.ogg" subtitle_id="rusd_timelock"/>
+	</sounds>
+		<add file="levels/rusdl/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<include directory="levels/rusdl">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage1/collision/collision"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/backdrop/backdrop"/>
+			<value_node value="levels/instances/unique/brb/brb_vault/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/narr_roberts"/>
+			<value_node value="levels/narratives/pbr/jerry/world"/>
+			<value_node value="levels/narratives/safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/narratives/locke/tag/shadow_caster/shadow_caster"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_thermite/world"/>
+			<value_node value="levels/instances/unique/fex/fex_thermite/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/narratives/elephant/chew/e_three/e_three"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/bag_collision/bag_collision"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/narratives/locke/sah/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_door/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/coldstoneicon" id="rusd">
+		<chain>
+			<table level_id="rusdl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="200000"/>
+			<value_node value="250000"/>
+			<value_node value="250000"/>
+			<value_node value="250000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+		</payout>
+	</narrative>
+</table>

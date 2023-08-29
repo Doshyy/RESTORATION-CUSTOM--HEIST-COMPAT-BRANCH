@@ -1,0 +1,2842 @@
+<table min_lib_ver="4.5" name="Constantine Scores">
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<instance id="constantine_smackdown_van_escape">
+		<packages/>
+	</instance>
+	<instance id="constantine_smackdown_truck">
+		<packages/>
+	</instance>
+	<instance id="constantine_clubhouse_truck">
+		<packages/>
+	</instance>
+	<instance id="constantine_clubhouse_safe">
+		<packages/>
+	</instance>
+	<instance id="constantine_mobsterclub_stealth_hack">
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mobsterclub_intercom">
+		<packages/>
+	</instance>
+	<instance id="constantine_mobsterclub_server_computer">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mobsterclub_circuit_breaker">
+		<packages>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world_sounds"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mobsterclub_c4_placeable">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+	</instance>
+	<narrative briefing_event="" contact="constantine" icon="textures/smackdownicon" id="constantine_smackdown_nar">
+		<chain>
+			<table level_id="constantine_smackdown_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="70000"/>
+			<value_node value="90000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</payout>
+	</narrative>
+	<narrative briefing_event="" contact="constantine" icon="textures/truckhustleicon" id="constantine_smackdown2_nar">
+		<chain>
+			<table level_id="constantine_smackdown2_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="14000"/>
+			<value_node value="18000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="smackdown_brief" id="constantine_smackdown_lvl" intro_event="smackdown_intro" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/ukrainian_job"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="packages/levels/constantine_smackdown/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="smackdown_brief" path="smackdownbrief.ogg"/>
+			<sound id="smackdown_intro" path="smackdownintro.ogg" subtitle_id="smackdown_intro_sub"/>
+			<sound id="smackdown_dialogue1" path="smackdownobj1.ogg" subtitle_id="smackdown_dialogue1_sub"/>
+			<sound id="smackdown_dialogue2" path="smackdownobj2.ogg" subtitle_id="smackdown_dialogue2_sub"/>
+			<sound id="smackdown_dialogue3" path="smackdownobj3.ogg" subtitle_id="smackdown_dialogue3_sub"/>
+			<sound id="smackdown_damage1" path="smackdowndamage1.ogg" subtitle_id="smackdown_damage1_sub"/>
+			<sound id="smackdown_damage2" path="smackdowndamage2.ogg" subtitle_id="smackdown_damage2_sub"/>
+			<sound id="smackdown_damage3" path="smackdowndamage3.ogg" subtitle_id="smackdown_damage3_sub"/>
+		</sounds>
+	</level>
+	<level ai_group_type="america" briefing_dialog="truckhustle_brief" id="constantine_smackdown2_lvl" intro_event="truckhustle_intro" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_smackdown/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="truckhustle_brief" path="truckhustlebrief.ogg"/>
+			<sound id="truckhustle_intro" path="truckhustleintro.ogg" subtitle_id="truckhustle_intro_sub"/>
+			<sound id="truckhustle_dialogue1" path="truckhustleobj1.ogg" subtitle_id="truckhustle_dialogue1_sub"/>
+			<sound id="truckhustle_dialogue2" path="truckhustleobj2.ogg" subtitle_id="truckhustle_dialogue2_sub"/>
+			<sound id="truckhustle_dialogue3" path="truckhustleobj3.ogg" subtitle_id="truckhustle_dialogue3_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/auroraicon" id="constantine_mobsterclub_nar">
+		<chain>
+			<table level_id="constantine_mobsterclub_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+		</payout>
+	</narrative>
+	<narrative briefing_event="" contact="constantine" icon="textures/ondisplayicon" id="constantine_ondisplay_nar">
+		<chain>
+			<table level_id="constantine_ondisplay_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="90000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="ondisplay_brief" ghost_bonus="0.1" ghost_required="true" id="constantine_ondisplay_lvl" intro_event="ondisplay_intro" max_bags="54" music="ghost" music_ext_start="suspense_1" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/narr_firestarter2"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="packages/narr_mus"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/narratives/vlad/chca/art_lighting/art_lighting"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="packages/job_framing_frame"/>
+			<value_node value="levels/instances/unique/pex/pex_double_doors/world"/>
+			<value_node value="levels/instances/unique/pex/pex_double_doors/world/world"/>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world"/>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world/world"/>
+			<value_node value="packages/levels/constantine_ondisplay/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="ondisplay_brief" path="ondisplaybrief.ogg"/>
+			<sound id="ondisplay_intro" path="ondisplayintro.ogg" subtitle_id="ondisplay_intro_sub"/>
+			<sound id="ondisplay_dialogue1" path="ondisplayobj1.ogg" subtitle_id="ondisplay_dialogue1_sub"/>
+			<sound id="ondisplay_dialogue2" path="ondisplayobj2.ogg" subtitle_id="ondisplay_dialogue2_sub"/>
+			<sound id="ondisplay_dialogue3" path="ondisplayobj3.ogg" subtitle_id="ondisplay_dialogue3_sub"/>
+			<sound id="ondisplay_dialogue4" path="ondisplayobj4.ogg" subtitle_id="ondisplay_dialogue4_sub"/>
+			<sound id="ondisplay_dialogue5" path="ondisplayobj5.ogg" subtitle_id="ondisplay_dialogue5_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_smackdown_security_room">
+		<packages>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world"/>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world_sounds"/>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world/world"/>
+		</packages>
+	</instance>
+	<level ai_group_type="america" briefing_dialog="mobclub_brief" ghost_bonus="0.1" id="constantine_mobsterclub_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_wire_box/world/world"/>
+			<value_node value="packages/vlad_nightclub"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="packages/levels/constantine_mobsterclub/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="mobclub_brief" path="mobclubbrief.ogg"/>
+			<sound id="mobclub_rewire" path="mobclubrewire.ogg" subtitle_id="mobclub_rewire_sub"/>
+			<sound id="mobclub_c4" path="mobclubc4.ogg" subtitle_id="mobclub_c4_sub"/>
+			<sound id="mobclub_c4door" path="mobclubc4door.ogg" subtitle_id="mobclub_c4door_sub"/>
+			<sound id="mobclub_stealthpc" path="mobclubstealthpc.ogg" subtitle_id="mobclub_stealthpc_sub"/>
+			<sound id="mobclub_stealthcode" path="mobclubstealthcode.ogg" subtitle_id="mobclub_stealthcode_sub"/>
+			<sound id="mobclub_stealthcoke" path="mobclubstealthcoke.ogg" subtitle_id="mobclub_stealthcoke_sub"/>
+			<sound id="mobclub_stealthslice" path="mobclubstealthslice.ogg" subtitle_id="mobclub_stealthslice_sub"/>
+			<sound id="mobclub_stealthwait" path="mobclubstealthwait.ogg" subtitle_id="mobclub_stealthwait_sub"/>
+			<sound id="mobclub_intercom" path="mobclubintercom.ogg" subtitle_id="mobclub_intercom_sub"/>
+			<sound id="mobclub_escape" path="mobclubescape.ogg" subtitle_id="mobclub_escape_sub"/>
+			<sound id="mobclub_tie" path="mobclubtie.ogg" subtitle_id="mobclub_tie_sub"/>
+			<sound id="mobclub_beat" path="mobclubbeat.ogg" subtitle_id="mobclub_beat_sub"/>
+			<sound id="mobclub_son" path="mobclubson.ogg" subtitle_id="mobclub_son_sub"/>
+			<sound id="mobclub_owner" path="mobclubowner.ogg" subtitle_id="mobclub_owner_sub"/>
+			<sound id="mobclub_security" path="mobclubsecurity.ogg" subtitle_id="mobclub_security_sub"/>
+			<sound id="mobclub_server" path="mobclubserver.ogg" subtitle_id="mobclub_server_sub"/>
+			<sound id="mobclub_tablet" path="mobclubtablet.ogg" subtitle_id="mobclub_tablet_sub"/>
+			<sound id="mobclub_money" path="mobclubmoney.ogg" subtitle_id="mobclub_money_sub"/>
+			<sound id="mobclub_book" path="mobclubbook.ogg" subtitle_id="mobclub_book_sub"/>
+			<sound id="mobclub_wait" path="mobclubwaitone.ogg" subtitle_id="mobclub_wait_sub"/>
+			<sound id="mobclub_wait2" path="mobclubwaittwo.ogg" subtitle_id="mobclub_wait2_sub"/>
+			<sound id="mobclub_timer" path="mobclubtimer.ogg" subtitle_id="mobclub_timer_sub"/>
+			<sound id="score_reader" path="scorereader.ogg" subtitle_id="score_reader_sub"/>
+			<sound id="score_reader2" path="scorereader2.ogg" subtitle_id="score_reader2_sub"/>
+			<sound id="score_reader3" path="scorereader3.ogg" subtitle_id="score_reader3_sub"/>
+			<sound id="score_power" path="scorepower.ogg" subtitle_id="score_power_sub"/>
+			<sound id="score_power2" path="scorepower2.ogg" subtitle_id="score_power2_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_ondisplay_bandcase">
+		<packages/>
+	</instance>
+	<narrative briefing_event="" contact="constantine" icon="textures/clubhouseicon" id="constantine_clubhouse_nar">
+		<chain>
+			<table level_id="constantine_clubhouse_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="110000"/>
+			<value_node value="110000"/>
+			<value_node value="110000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="clubhouse_brief" ghost_bonus="0.1" id="constantine_clubhouse_lvl" intro_event="clubhouse_intro" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/instances/unique/shout_crowbar/world_sounds"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_loot/world/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world"/>
+			<value_node value="core/packages/debug"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world_sounds"/>
+			<value_node value="packages/levels/constantine_clubhouse/world/world"/>
+			<value_node value="levels/narratives/locke/brb/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="clubhouse_brief" path="clubhousebrief.ogg"/>
+			<sound id="clubhouse_intro" path="clubhouseintro.ogg" subtitle_id="clubhouse_intro_sub"/>
+			<sound id="clubhouse_dialogue1" path="clubhouseobj1.ogg" subtitle_id="clubhouse_dialogue1_sub"/>
+			<sound id="score_gotloot" path="score_gotloot.ogg" subtitle_id="score_gotloot_sub"/>
+			<sound id="score_gotloot2" path="score_gotloot2.ogg" subtitle_id="score_gotloot2_sub"/>
+			<sound id="score_gotloot3" path="score_gotloot3.ogg" subtitle_id="score_gotloot3_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_clubhouse_crate">
+		<packages>
+			<value_node value="levels/instances/unique/shout_crate/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_clubhouse_shed_methlab_loot">
+		<packages>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world_sounds"/>
+			<value_node value="levels/instances/unique/crojob/meth_lab/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_clubhouse_methcrate">
+		<packages>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world_sounds"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mobsterclub_hackbox">
+		<packages>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world_sounds"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_door_reinforced">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+		</packages>
+	</instance>
+	<narrative briefing_event="" contact="constantine" icon="textures/apartmenticon" id="constantine_apartment_nar">
+		<chain>
+			<table level_id="constantine_apartment_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="motel_brief" id="constantine_apartment_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/instances/unique/shout_loot/world/world"/>
+			<value_node value="packages/levels/constantine_apartment/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="motel_brief" path="motelbrief.ogg"/>
+			<sound id="motel_dialogue1" path="motelobj1.ogg" subtitle_id="motel_dialogue1_sub"/>
+			<sound id="motel_dialogue2" path="motelobj2.ogg" subtitle_id="motel_dialogue2_sub"/>
+			<sound id="motel_dialogue3" path="motelobj3.ogg" subtitle_id="motel_dialogue3_sub"/>
+			<sound id="motel_dialogue4" path="motelobj4.ogg" subtitle_id="motel_dialogue4_sub"/>
+			<sound id="motel_dialogue5" path="motelobj5.ogg" subtitle_id="motel_dialogue5_sub"/>
+			<sound id="motel_dialogue6" path="motelobj6.ogg" subtitle_id="motel_dialogue6_sub"/>
+			<sound id="motel_dialogue7" path="motelobj7.ogg" subtitle_id="motel_dialogue7_sub"/>
+			<sound id="motel_dialogue_drill" path="moteldrill.ogg" subtitle_id="motel_dialogue_drill_sub"/>
+			<sound id="motel_dialogue_c4skip" path="motelc4preplan.ogg" subtitle_id="motel_dialogue_c4skip_sub"/>
+			<sound id="motel_dialogue_boxes" path="motelboxes.ogg" subtitle_id="motel_dialogue_boxes_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="score_hd" path="scorehd.ogg" subtitle_id="score_hd_sub"/>
+			<sound id="score_reader" path="scorereader.ogg" subtitle_id="score_reader_sub"/>
+			<sound id="score_reader2" path="scorereader2.ogg" subtitle_id="score_reader2_sub"/>
+			<sound id="score_reader3" path="scorereader3.ogg" subtitle_id="score_reader3_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_mobsterclub_keycard_reader">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mobsterclub_laptop">
+		<packages/>
+	</instance>
+	<instance id="constantine_mobsterclub_panel_wire">
+		<packages>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+		</packages>
+	</instance>
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<narrative contact="constantine" icon="textures/butcherbayicon" id="constantine_butcher_nar">
+		<chain>
+			<table level_id="constantine_butcher_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+			<value_node value="35000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+			<value_node value="67000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="butcher_brief" id="constantine_butcher_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="packages/narr_dinner"/>
+			<value_node value="packages/levels/constantine_butcher/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="butcher_brief" path="butcherbrief.ogg"/>
+			<sound id="butcher_rewire" path="butcherrewire.ogg" subtitle_id="butcher_rewire_sub"/>
+			<sound id="butcher_c4" path="butcherc4.ogg" subtitle_id="butcher_c4_sub"/>
+			<sound id="butcher_bile" path="butcherbile.ogg" subtitle_id="butcher_bile_sub"/>
+			<sound id="butcher_bilepreplan" path="butcherbilepreplan.ogg" subtitle_id="butcher_bilepreplan_sub"/>
+			<sound id="butcher_signal" path="butchersignal.ogg" subtitle_id="butcher_signal_sub"/>
+			<sound id="butcher_escort" path="butcherescort.ogg" subtitle_id="butcher_escort_sub"/>
+			<sound id="butcher_adrenaline" path="butcheradrenaline.ogg" subtitle_id="butcher_adrenaline_sub"/>
+			<sound id="butcher_adrenaline2" path="butcheradrenaline2.ogg" subtitle_id="butcher_adrenaline2_sub"/>
+			<sound id="butcher_adrenaline3" path="butcheradrenaline3.ogg" subtitle_id="butcher_adrenaline3_sub"/>
+			<sound id="butcher_cut" path="butchercut.ogg" subtitle_id="butcher_cut_sub"/>
+			<sound id="butcher_button" path="butcherbutton.ogg" subtitle_id="butcher_button_sub"/>
+			<sound id="butcher_sniper" path="butchersniper.ogg" subtitle_id="butcher_sniper_sub"/>
+			<sound id="butcher_server" path="butcherserver.ogg" subtitle_id="butcher_server_sub"/>
+			<sound id="butcher_code" path="butchercode.ogg" subtitle_id="butcher_code_sub"/>
+			<sound id="butcher_power" path="butcherpower.ogg" subtitle_id="butcher_power_sub"/>
+			<sound id="butcher_manifest" path="butchermanifest.ogg" subtitle_id="butcher_manifest_sub"/>
+			<sound id="butcher_manager" path="butchermanager.ogg" subtitle_id="butcher_manager_sub"/>
+			<sound id="butcher_locker" path="butcherlocker.ogg" subtitle_id="butcher_locker_sub"/>
+			<sound id="butcher_security" path="butchersecurity.ogg" subtitle_id="butcher_security_sub"/>
+			<sound id="butcher_tablet" path="butchertablet.ogg" subtitle_id="butcher_tablet_sub"/>
+			<sound id="score_reader" path="scorereader.ogg" subtitle_id="score_reader_sub"/>
+			<sound id="score_reader2" path="scorereader2.ogg" subtitle_id="score_reader2_sub"/>
+			<sound id="score_reader3" path="scorereader3.ogg" subtitle_id="score_reader3_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_score_button">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_button/world"/>
+			<value_node value="levels/instances/unique/sand/sand_button/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_button/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_first_aid_station">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world"/>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/kozlovmansionicon" id="constantine_mansion_nar">
+		<chain>
+			<table level_id="constantine_mansion_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="america" briefing_dialog="mansion_brief" ghost_bonus="0.1" id="constantine_mansion_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_mansion/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="mansion_brief" path="mansionbrief.ogg"/>
+			<sound id="mansion_obj1" path="mansionobj1.ogg" subtitle_id="mansion_obj1_sub"/>
+			<sound id="score_gotloot" path="score_gotloot.ogg" subtitle_id="score_gotloot_sub"/>
+			<sound id="score_gotloot2" path="score_gotloot2.ogg" subtitle_id="score_gotloot2_sub"/>
+			<sound id="score_gotloot3" path="score_gotloot3.ogg" subtitle_id="score_gotloot3_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_mansion_money">
+		<packages>
+			<value_node value="levels/instances/unique/pent/pent_coke/world"/>
+			<value_node value="levels/instances/unique/pent/pent_coke/world_sounds"/>
+			<value_node value="levels/instances/unique/pent/pent_coke/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mansion_window_white">
+		<packages/>
+	</instance>
+	<instance id="constantine_mansion_safe">
+		<packages>
+			<value_node value="levels/instances/unique/fex/fex_loot_safe/world"/>
+			<value_node value="levels/instances/unique/fex/fex_loot_safe/world_sounds"/>
+			<value_node value="levels/instances/unique/fex/fex_loot_safe/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mansion_boat_escape">
+		<packages/>
+	</instance>
+	<instance id="constantine_butcher_coketable">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/policestationicon" id="constantine_policestation_nar">
+		<chain>
+			<table level_id="constantine_policestation_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+			<value_node value="28000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="fbi" briefing_dialog="police_brief" id="constantine_policestation_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/armadillo/arm_cro/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world_sounds"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+			<value_node value="packages/narr_hox_2"/>
+			<value_node value="packages/levels/constantine_policestation/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="police_brief" path="policebrief.ogg"/>
+			<sound id="police_obj1" path="policeobj1.ogg" subtitle_id="police_obj1_sub"/>
+			<sound id="police_obj2" path="policeobj2.ogg" subtitle_id="police_obj2_sub"/>
+			<sound id="police_archive" path="policearchive.ogg" subtitle_id="police_archive_sub"/>
+			<sound id="police_hd" path="policehd.ogg" subtitle_id="police_hd_sub"/>
+			<sound id="police_hack2" path="policehack2.ogg" subtitle_id="police_hack2_sub"/>
+			<sound id="police_code" path="policecode.ogg" subtitle_id="police_code_sub"/>
+			<sound id="police_rewire" path="policerewire.ogg" subtitle_id="police_rewire_sub"/>
+			<sound id="police_informant" path="policeinformant.ogg" subtitle_id="police_informant_sub"/>
+			<sound id="police_box" path="policebox.ogg" subtitle_id="police_box_sub"/>
+			<sound id="police_agent" path="policeagent.ogg" subtitle_id="police_agent_sub"/>
+			<sound id="police_c4" path="policec4.ogg" subtitle_id="police_c4_sub"/>
+			<sound id="police_escape" path="policeescape.ogg" subtitle_id="police_escape_sub"/>
+			<sound id="score_power" path="scorepower.ogg" subtitle_id="score_power_sub"/>
+			<sound id="score_power2" path="scorepower2.ogg" subtitle_id="score_power2_sub"/>
+		</sounds>
+	</level>
+	<narrative contact="constantine" icon="textures/gunrunnericon" id="constantine_gunrunnerclubhouse_nar">
+		<chain>
+			<table level_id="constantine_gunrunnerclubhouse_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="28000"/>
+			<value_node value="38000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="murkywater" briefing_dialog="gunrunner_brief" id="constantine_gunrunnerclubhouse_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/narratives/bain/big/day/day"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world_sounds"/>
+			<value_node value="packages/levels/constantine_gunrunner/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="gunrunner_brief" path="gunrunnerbrief.ogg"/>
+			<sound id="gunrunner_obj1" path="gunrunnerobj1.ogg" subtitle_id="gunrunner_obj1_sub"/>
+			<sound id="gunrunner_obj2" path="gunrunnerobj2.ogg" subtitle_id="gunrunner_obj2_sub"/>
+			<sound id="gunrunner_obj3" path="gunrunnerobj3.ogg" subtitle_id="gunrunner_obj3_sub"/>
+			<sound id="gunrunner_objc4" path="gunrunnerc4.ogg" subtitle_id="gunrunner_objc4_sub"/>
+			<sound id="gunrunner_objcaptain" path="gunrunnercaptain.ogg" subtitle_id="gunrunner_objcaptain_sub"/>
+			<sound id="gunrunner_objintercom" path="gunrunnerintercom.ogg" subtitle_id="gunrunner_objintercom_sub"/>
+			<sound id="gunrunner_objescort" path="gunrunnerescort.ogg" subtitle_id="gunrunner_objescort_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_gunrunner_firetrap">
+		<packages>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world_sounds"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_gunrunner_shack">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/cresorticon" id="constantine_resort_nar">
+		<chain>
+			<table level_id="constantine_resort_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+			<value_node value="54000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+			<value_node value="48000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="nypd" briefing_dialog="cresort_brief" ghost_bonus="0.1" id="constantine_resort_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="gensec_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="packages/levels/constantine_cresort/world/world"/>
+			<value_node value="packages/levels/constantine_resort_turret/world/world"/>
+			<value_node value="packages/overkill_290_sc_america"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="cresort_brief" path="cresort_brief.ogg"/>
+			<sound id="cresort_keycard" path="cresort_keycard.ogg" subtitle_id="cresort_keycard_sub"/>
+			<sound id="cresort_laptop" path="cresort_laptop.ogg" subtitle_id="cresort_laptop_sub"/>
+			<sound id="cresort_slice" path="cresort_slice.ogg" subtitle_id="cresort_slice_sub"/>
+			<sound id="cresort_timer" path="cresort_timer.ogg" subtitle_id="cresort_timer_sub"/>
+			<sound id="cresort_openvault" path="cresort_openvault.ogg" subtitle_id="cresort_openvault_sub"/>
+			<sound id="cresort_secure" path="cresort_secure.ogg" subtitle_id="cresort_secure_sub"/>
+			<sound id="cresort_turretwait" path="cresort_turretwait.ogg" subtitle_id="cresort_turretwait_sub"/>
+			<sound id="cresort_signal" path="cresort_signal.ogg" subtitle_id="cresort_signal_sub"/>
+			<sound id="cresort_panel" path="cresort_panel.ogg" subtitle_id="cresort_panel_sub"/>
+			<sound id="cresort_assemble" path="cresort_assemble.ogg" subtitle_id="cresort_assemble_sub"/>
+			<sound id="cresort_sechelicopter" path="cresort_sechelicopter.ogg" subtitle_id="cresort_sechelicopter_sub"/>
+			<sound id="cresort_start_turret" path="cresort_start_turret.ogg" subtitle_id="cresort_start_turret_sub"/>
+			<sound id="cresort_waitpilot" path="cresort_waitpilot.ogg" subtitle_id="cresort_waitpilot_sub"/>
+			<sound id="cresort_outage1" path="cresort_outage1.ogg" subtitle_id="cresort_outage1_sub"/>
+			<sound id="cresort_outage2" path="cresort_outage2.ogg" subtitle_id="cresort_outage2_sub"/>
+			<sound id="cresort_outage3" path="cresort_outage3.ogg" subtitle_id="cresort_outage3_sub"/>
+			<sound id="cresort_outage4" path="cresort_outage4.ogg" subtitle_id="cresort_outage4_sub"/>
+			<sound id="cresort_restart1" path="cresort_restart1.ogg" subtitle_id="cresort_restart1_sub"/>
+			<sound id="cresort_restart2" path="cresort_restart2.ogg" subtitle_id="cresort_restart2_sub"/>
+			<sound id="cresort_restart3" path="cresort_restart3.ogg" subtitle_id="cresort_restart3_sub"/>
+			<sound id="cresort_restart4" path="cresort_restart4.ogg" subtitle_id="cresort_restart4_sub"/>
+			<sound id="cresort_on1" path="cresort_on1.ogg" subtitle_id="cresort_on1_sub"/>
+			<sound id="cresort_on2" path="cresort_on2.ogg" subtitle_id="cresort_on2_sub"/>
+			<sound id="cresort_on3" path="cresort_on3.ogg" subtitle_id="cresort_on3_sub"/>
+			<sound id="cresort_on4" path="cresort_on4.ogg" subtitle_id="cresort_on4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_resort_turret">
+		<packages>
+			<value_node value="packages/levels/constantine_resort_turret/world/world"/>
+		</packages>
+	</instance>
+	<Package file="scriptdata/mobsterclub.package" id="packages/levels/constantine_mobsterclub/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cresort.package" id="packages/levels/constantine_cresort/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cdwtd.package" id="packages/levels/constantine_cdwtd/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/jungle_columbia.package" id="packages/levels/constantine_jungle_columbia/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/csuburbia.package" id="packages/levels/constantine_csuburbia/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cyacht.package" id="packages/levels/constantine_cyacht/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/ctransport.package" id="packages/levels/constantine_transport/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/columbia_train.package" id="packages/levels/constantine_columbia_train/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cartel_faction.package" id="packages/levels/constantine_cartel_faction/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/gensec_faction.package" id="packages/levels/constantine_gensec_faction/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cluxpack.package" id="packages/levels/constantine_cluxpack/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/resort_turret.package" id="packages/levels/constantine_resort_turret/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/ondisplay.package" id="packages/levels/constantine_ondisplay/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/smackdown.package" id="packages/levels/constantine_smackdown/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/policestation.package" id="packages/levels/constantine_policestation/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/clubhouse.package" id="packages/levels/constantine_clubhouse/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/mansion.package" id="packages/levels/constantine_mansion/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/gunrunner.package" id="packages/levels/constantine_gunrunner/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/butcher.package" id="packages/levels/constantine_butcher/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/apartment.package" id="packages/levels/constantine_apartment/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/murkyairport.package" id="packages/levels/constantine_murkyairport/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/restaurant.package" id="packages/levels/constantine_restaurant/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cpenthouse.package" id="packages/levels/constantine_cpenthouse/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cgoldenbank.package" id="packages/levels/constantine_cgoldenbank/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/ctargethitbox.package" id="packages/levels/constantine_ctargethitbox/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cmeleebox.package" id="packages/levels/constantine_cmeleebox/world/world" unload_on_restart="true"/>
+	<Package file="scriptdata/cwintersniper.package" id="packages/levels/constantine_cwintersniper/world/world" unload_on_restart="true"/>
+	<instance id="constantine_murkyairport_vaultcontainer">
+		<packages>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/murkyairporticon" id="constantine_murkyairport_nar">
+		<chain>
+			<table level_id="constantine_murkyairport_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+			<value_node value="45000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="murkywater" briefing_dialog="murkyairportbrief" id="constantine_murkyairport_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="murkyairportcarrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="packages/levels/constantine_murkyairport/world/world"/>
+			<value_node value="levels/instances/unique/shout_loot/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/narr_jerry1"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/des/des_crowbar/world"/>
+			<value_node value="levels/instances/unique/des/des_crowbar/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="murkyairportbrief" path="murkyairportbrief.ogg"/>
+			<sound id="murkyairportc4" path="murkyairportc4.ogg" subtitle_id="murkyairportc4_sub"/>
+			<sound id="murkyairportcrate" path="murkyairportcrate.ogg" subtitle_id="murkyairportcrate_sub"/>
+			<sound id="murkyairportcrew" path="murkyairportcrew.ogg" subtitle_id="murkyairportcrew_sub"/>
+			<sound id="murkyairportsecureturret" path="murkyairportsecureturret.ogg" subtitle_id="murkyairportsecureturret_sub"/>
+			<sound id="murkyairportcontainer" path="murkyairportcontainer.ogg" subtitle_id="murkyairportcontainer_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_score_keycard">
+		<packages>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/restauranticon" id="constantine_restaurant_nar">
+		<chain>
+			<table level_id="constantine_restaurant_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+			<value_node value="26000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="nypd" briefing_dialog="restaurant_brief" ghost_bonus="0.1" id="constantine_restaurant_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_restaurant/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="packages/dlcs/sah/job_sah"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="restaurant_brief" path="restaurant_brief.ogg"/>
+			<sound id="restaurant_keycard" path="restaurant_keycard.ogg" subtitle_id="restaurant_keycard_sub"/>
+			<sound id="restaurant_kill" path="restaurant_kill.ogg" subtitle_id="restaurant_kill_sub"/>
+			<sound id="restaurant_bomb" path="restaurant_bomb.ogg" subtitle_id="restaurant_bomb_sub"/>
+			<sound id="restaurant_laptop" path="restaurant_laptop.ogg" subtitle_id="restaurant_laptop_sub"/>
+			<sound id="restaurant_mobboss1" path="restaurant_mobboss1.ogg" subtitle_id="restaurant_mobboss1_sub"/>
+			<sound id="restaurant_mobboss2" path="restaurant_mobboss2.ogg" subtitle_id="restaurant_mobboss2_sub"/>
+			<sound id="restaurant_mobboss3" path="restaurant_mobboss3.ogg" subtitle_id="restaurant_mobboss3_sub"/>
+			<sound id="restaurant_mobboss4" path="restaurant_mobboss4.ogg" subtitle_id="restaurant_mobboss4_sub"/>
+			<sound id="restaurant_mobboss5" path="restaurant_mobboss5.ogg" subtitle_id="restaurant_mobboss5_sub"/>
+			<sound id="restaurant_mobboss6" path="restaurant_mobboss6.ogg" subtitle_id="restaurant_mobboss6_sub"/>
+			<sound id="restaurant_mobbossintro" path="restaurant_mobbossintro.ogg" subtitle_id="restaurant_mobbossintro_sub"/>
+			<sound id="restaurant_painting" path="restaurant_painting.ogg" subtitle_id="restaurant_painting_sub"/>
+			<sound id="restaurant_tablet" path="restaurant_tablet.ogg" subtitle_id="restaurant_tablet_sub"/>
+			<sound id="restaurant_safe" path="restaurant_safe.ogg" subtitle_id="restaurant_safe_sub"/>
+			<sound id="restaurant_server" path="restaurant_server.ogg" subtitle_id="restaurant_server_sub"/>
+			<sound id="restaurant_waitloud1" path="restaurant_waitloud1.ogg" subtitle_id="restaurant_waitloud1_sub"/>
+			<sound id="restaurant_waitloud2" path="restaurant_waitloud2.ogg" subtitle_id="restaurant_waitloud2_sub"/>
+			<sound id="restaurant_waitloud3" path="restaurant_waitloud3.ogg" subtitle_id="restaurant_waitloud3_sub"/>
+			<sound id="restaurant_waitstealth" path="restaurant_waitstealth.ogg" subtitle_id="restaurant_waitstealth_sub"/>
+			<sound id="restaurant_slice" path="restaurant_slice.ogg" subtitle_id="restaurant_slice_sub"/>
+			<sound id="restaurant_vent" path="restaurant_vent.ogg" subtitle_id="restaurant_vent_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_restaurant_explosive">
+		<packages>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world_sounds"/>
+			<value_node value="levels/instances/unique/fex/fex_explosives/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_titan_door_black">
+		<packages/>
+	</instance>
+	<instance id="constantine_restaurant_painting">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/penthouseicon" id="constantine_penthouse_nar">
+		<chain>
+			<table level_id="constantine_penthouse_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="nypd" briefing_dialog="cpenthouse_brief" id="constantine_penthouse_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="gensec_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cpenthouse/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="packages/dlcs/sah/job_sah"/>
+			<value_node value="packages/job_branchbank_deposit"/>
+			<value_node value="levels/narratives/classics/man/world_sounds"/>
+			<value_node value="packages/overkill_290_sc_america"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cpenthouse_brief" path="penthouse_brief.ogg"/>
+			<sound id="butcher_power" path="butcherpower.ogg" subtitle_id="butcher_power_sub"/>
+			<sound id="cresort_waitpilot" path="cresort_waitpilot.ogg" subtitle_id="cresort_waitpilot_sub"/>
+			<sound id="cpenthouse_damage" path="penthouse_damage.ogg" subtitle_id="cpenthouse_damage_sub"/>
+			<sound id="cpenthouse_escape" path="penthouse_escape.ogg" subtitle_id="cpenthouse_escape_sub"/>
+			<sound id="cpenthouse_secureserver" path="penthouse_secureserver.ogg" subtitle_id="cpenthouse_secureserver_sub"/>
+			<sound id="cpenthouse_hackorsecure" path="penthouse_hackorsecure.ogg" subtitle_id="cpenthouse_hackorsecure_sub"/>
+			<sound id="cpenthouse_hackorsecure2" path="penthouse_hackorsecure2.ogg" subtitle_id="cpenthouse_hackorsecure2_sub"/>
+			<sound id="cpenthouse_hackorsecure3" path="penthouse_hackorsecure3.ogg" subtitle_id="cpenthouse_hackorsecure3_sub"/>
+			<sound id="cpenthouse_serverhack" path="penthouse_serverhack.ogg" subtitle_id="cpenthouse_serverhack_sub"/>
+			<sound id="cpenthouse_escort" path="penthouse_escort.ogg" subtitle_id="cpenthouse_escort_sub"/>
+			<sound id="cpenthouse_signal" path="penthouse_signal.ogg" subtitle_id="cpenthouse_signal_sub"/>
+			<sound id="cpenthouse_interrogate" path="penthouse_interrogate.ogg" subtitle_id="cpenthouse_interrogate_sub"/>
+			<sound id="police_obj2" path="policeobj2.ogg" subtitle_id="police_obj2_sub"/>
+			<sound id="score_power" path="scorepower.ogg" subtitle_id="score_power_sub"/>
+			<sound id="score_power2" path="scorepower2.ogg" subtitle_id="score_power2_sub"/>
+			<sound id="smackdown_damage1" path="smackdowndamage1.ogg" subtitle_id="smackdown_damage1_sub"/>
+			<sound id="smackdown_damage2" path="smackdowndamage2.ogg" subtitle_id="smackdown_damage2_sub"/>
+			<sound id="smackdown_damage3" path="smackdowndamage3.ogg" subtitle_id="smackdown_damage3_sub"/>
+		</sounds>
+	</level>
+	<narrative contact="constantine" icon="textures/goldicon" id="constantine_gold_nar">
+		<chain>
+			<table level_id="constantine_gold_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+			<value_node value="9000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="nypd" briefing_dialog="gold_brief" ghost_bonus="0.1" id="constantine_gold_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_cgoldenbank/world/world"/>
+			<value_node value="packages/narr_big"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="gold_brief" path="gold_brief.ogg"/>
+			<sound id="gold_slice" path="gold_slice.ogg" subtitle_id="gold_slice_sub"/>
+			<sound id="gold_button" path="gold_button.ogg" subtitle_id="gold_button_sub"/>
+			<sound id="gold_secure" path="gold_secure.ogg" subtitle_id="gold_secure_sub"/>
+			<sound id="gold_timer" path="gold_timer.ogg" subtitle_id="gold_timer_sub"/>
+			<sound id="gold_drill" path="gold_drill.ogg" subtitle_id="gold_drill_sub"/>
+			<sound id="gold_laptop" path="gold_laptop.ogg" subtitle_id="gold_laptop_sub"/>
+			<sound id="gold_hack" path="gold_hack.ogg" subtitle_id="gold_hack_sub"/>
+			<sound id="gold_c4" path="gold_c4.ogg" subtitle_id="gold_c4_sub"/>
+			<sound id="gold_code" path="gold_code.ogg" subtitle_id="gold_code_sub"/>
+			<sound id="cresort_openvault" path="cresort_openvault.ogg" subtitle_id="cresort_openvault_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_gold_vault">
+		<packages/>
+	</instance>
+	<instance id="constantine_gold_deposit">
+		<packages>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_penthouse_server">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/wintersnipericon" id="constantine_wintersniper_nar">
+		<chain>
+			<table level_id="constantine_wintersniper_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+			<value_node value="4500"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+			<value_node value="15000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="murkywater" briefing_dialog="wintersniper_brief" ghost_bonus="0.05" ghost_required="true" id="constantine_wintersniper_lvl" max_bags="54" music="ghost" music_ext_start="suspense_1" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="packages/levels/constantine_ctargethitbox/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_cwintersniper/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="wintersniper_brief" path="wintersniper_brief.ogg"/>
+			<sound id="wintersniper_watchtower" path="wintersniper_watchtower.ogg" subtitle_id="wintersniper_watchtower_sub"/>
+			<sound id="wintersniper_patrol" path="wintersniper_patrol.ogg" subtitle_id="wintersniper_patrol_sub"/>
+			<sound id="wintersniper_power" path="wintersniper_power.ogg" subtitle_id="wintersniper_power_sub"/>
+			<sound id="wintersniper_sniper" path="wintersniper_sniper.ogg" subtitle_id="wintersniper_sniper_sub"/>
+			<sound id="wintersniper_alert" path="wintersniper_alert.ogg" subtitle_id="wintersniper_alert_sub"/>
+			<sound id="wintersniper_turret" path="wintersniper_turret.ogg" subtitle_id="wintersniper_turret_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_wintersniper_enemyturret">
+		<packages>
+			<value_node value="packages/levels/constantine_ctargethitbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_wintersniper_circuitbox">
+		<packages>
+			<value_node value="packages/levels/constantine_ctargethitbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_wintersniper_helicopter_sniper">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_secure_elevator">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/dwtdicon" id="constantine_dwtd_nar">
+		<chain>
+			<table level_id="constantine_dwtd_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+			<value_node value="29000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="dwtd_brief" id="constantine_dwtd_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="healrangetweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cdwtd/world/world"/>
+			<value_node value="levels/instances/unique/chca/chca_armored_wooden_door/world/world"/>
+			<value_node value="packages/levels/constantine_ctargethitbox/world/world"/>
+			<value_node value="packages/levels/constantine_cmeleebox/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/lvl_friend"/>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="dwtd_brief" path="dwtd_brief.ogg"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="gold_button" path="gold_button.ogg" subtitle_id="gold_button_sub"/>
+			<sound id="dwtd_c4" path="dwtd_c4.ogg" subtitle_id="dwtd_c4_sub"/>
+			<sound id="dwtd_cartel" path="dwtd_cartel.ogg" subtitle_id="dwtd_cartel_sub"/>
+			<sound id="dwtd_deposit" path="dwtd_deposit.ogg" subtitle_id="dwtd_deposit_sub"/>
+			<sound id="dwtd_entrance" path="dwtd_entrance.ogg" subtitle_id="dwtd_entrance_sub"/>
+			<sound id="dwtd_secure" path="dwtd_secure.ogg" subtitle_id="dwtd_secure_sub"/>
+			<sound id="dwtd_manager" path="dwtd_manager.ogg" subtitle_id="dwtd_manager_sub"/>
+			<sound id="dwtd_obj1" path="dwtd_obj1.ogg" subtitle_id="dwtd_obj1_sub"/>
+			<sound id="dwtd_rfid" path="dwtd_rfid.ogg" subtitle_id="dwtd_rfid_sub"/>
+			<sound id="dwtd_tablet" path="dwtd_tablet.ogg" subtitle_id="dwtd_tablet_sub"/>
+			<sound id="dwtd_vip1" path="dwtd_vip1.ogg" subtitle_id="dwtd_vip1_sub"/>
+			<sound id="dwtd_vip2" path="dwtd_vip2.ogg" subtitle_id="dwtd_vip2_sub"/>
+			<sound id="dwtd_shoot" path="dwtd_shoot.ogg" subtitle_id="dwtd_shoot_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_dwtd_deposit">
+		<packages/>
+	</instance>
+	<instance id="constantine_score_punch_box">
+		<packages>
+			<value_node value="packages/levels/constantine_cmeleebox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_escape_zone">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/csuburbiaicon" id="constantine_suburbia_nar">
+		<chain>
+			<table level_id="constantine_suburbia_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="suburbia_brief" id="constantine_suburbia_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="healrangetweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cluxpack/world/world"/>
+			<value_node value="levels/instances/unique/crojob/the_bomb/world"/>
+			<value_node value="packages/levels/constantine_csuburbia/world/world"/>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="suburbia_brief" path="suburbia_brief.ogg"/>
+			<sound id="gold_drill" path="gold_drill.ogg" subtitle_id="gold_drill_sub"/>
+			<sound id="cresort_openvault" path="cresort_openvault.ogg" subtitle_id="cresort_openvault_sub"/>
+			<sound id="cpenthouse_hackorsecure2" path="penthouse_hackorsecure2.ogg" subtitle_id="cpenthouse_hackorsecure2_sub"/>
+			<sound id="cpenthouse_hackorsecure3" path="penthouse_hackorsecure3.ogg" subtitle_id="cpenthouse_hackorsecure3_sub"/>
+			<sound id="cpenthouse_serverhack" path="penthouse_serverhack.ogg" subtitle_id="cpenthouse_serverhack_sub"/>
+			<sound id="suburbia_laptop" path="suburbia_laptop.ogg" subtitle_id="suburbia_laptop_sub"/>
+			<sound id="suburbia_power" path="suburbia_power.ogg" subtitle_id="suburbia_power_sub"/>
+			<sound id="suburbia_server" path="suburbia_server.ogg" subtitle_id="suburbia_server_sub"/>
+			<sound id="suburbia_power" path="suburbia_power.ogg" subtitle_id="suburbia_power_sub"/>
+			<sound id="suburbia_artifact" path="suburbia_artifact.ogg" subtitle_id="suburbia_artifact_sub"/>
+			<sound id="suburbia_cartel" path="suburbia_cartel.ogg" subtitle_id="suburbia_cartel_sub"/>
+		</sounds>
+	</level>
+	<narrative contact="constantine" icon="textures/derailedicon" id="constantine_train_nar">
+		<chain>
+			<table level_id="constantine_train_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="140000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+			<value_node value="150000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="train_brief" id="constantine_train_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="healrangetweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="packages/levels/constantine_columbia_train/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="train_brief" path="train_brief.ogg"/>
+			<sound id="gold_button" path="gold_button.ogg" subtitle_id="gold_button_sub"/>
+			<sound id="train_keycard" path="train_keycard.ogg" subtitle_id="train_keycard_sub"/>
+			<sound id="train_block" path="train_block.ogg" subtitle_id="train_block_sub"/>
+			<sound id="train_gold" path="train_gold.ogg" subtitle_id="train_gold_sub"/>
+			<sound id="score_gotloot" path="score_gotloot.ogg" subtitle_id="score_gotloot_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_train_yakuza">
+		<packages/>
+	</instance>
+	<instance id="constantine_weapon_part_crate">
+		<packages/>
+	</instance>
+	<instance id="constantine_score_rfid_hack">
+		<packages/>
+	</instance>
+	<instance id="constantine_train_hackstation">
+		<packages/>
+	</instance>
+	<instance id="constantine_score_thermal_drill">
+		<packages/>
+	</instance>
+	<narrative contact="constantine" icon="textures/jungleicon" id="constantine_jungle_nar">
+		<chain>
+			<table level_id="constantine_jungle_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="cjungle_brief" id="constantine_jungle_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+			<value_node value="packages/levels/constantine_jungle_columbia/world/world"/>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cjungle_brief" path="cjungle_brief.ogg"/>
+			<sound id="cjungle_bunker" path="cjungle_bunker.ogg" subtitle_id="cjungle_bunker_sub"/>
+			<sound id="cjungle_c4" path="cjungle_c4.ogg" subtitle_id="cjungle_c4_sub"/>
+			<sound id="cjungle_compound" path="cjungle_compound.ogg" subtitle_id="cjungle_compound_sub"/>
+			<sound id="cjungle_gas" path="cjungle_gas.ogg" subtitle_id="cjungle_gas_sub"/>
+			<sound id="cjungle_gensec" path="cjungle_gensec.ogg" subtitle_id="cjungle_gensec_sub"/>
+			<sound id="cjungle_saw" path="cjungle_saw.ogg" subtitle_id="cjungle_saw_sub"/>
+			<sound id="cjungle_escort" path="cjungle_escort.ogg" subtitle_id="cjungle_escort_sub"/>
+			<sound id="cjungle_weapon" path="cjungle_weapon.ogg" subtitle_id="cjungle_weapon_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<narrative contact="constantine" icon="textures/fiestaicon" id="constantine_fiesta_nar">
+		<chain>
+			<table level_id="constantine_fiesta_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+			<value_node value="40000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="fedarales" briefing_dialog="cfiesta_brief" id="constantine_fiesta_lvl" max_bags="54" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_jungle_columbia/world/world"/>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cfiesta_brief" path="cfiesta_brief.ogg"/>
+			<sound id="cfiesta_coke" path="cfiesta_coke.ogg" subtitle_id="cfiesta_coke_sub"/>
+			<sound id="cfiesta_hd" path="cfiesta_hd.ogg" subtitle_id="cfiesta_hd_sub"/>
+			<sound id="cfiesta_kill" path="cfiesta_kill.ogg" subtitle_id="cfiesta_kill_sub"/>
+			<sound id="cfiesta_weapon" path="cfiesta_weapon.ogg" subtitle_id="cfiesta_weapon_sub"/>
+			<sound id="cfiesta_turret" path="cfiesta_turret.ogg" subtitle_id="cfiesta_turret_sub"/>
+			<sound id="cfiesta_tent" path="cfiesta_tent.ogg" subtitle_id="cfiesta_tent_sub"/>
+			<sound id="cfiesta_repair" path="cfiesta_repair.ogg" subtitle_id="cfiesta_repair_sub"/>
+			<sound id="cfiesta_equipment" path="cfiesta_equipment.ogg" subtitle_id="cfiesta_equipment_sub"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_gensec_enemies_helicopter_spawn">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_gensec_sniper_helicopter">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_score_fiesta_van_equipment">
+		<packages>
+			<value_node value="levels/instances/unique/pent/pent_van_tools/world"/>
+			<value_node value="levels/instances/unique/pent/pent_van_tools/world_sounds"/>
+			<value_node value="levels/instances/unique/pent/pent_van_tools/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/conyachticon" id="constantine_yacht_nar">
+		<chain>
+			<table level_id="constantine_yacht_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+			<value_node value="42000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="cyacht_brief" id="constantine_yacht_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cyacht/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_sniper/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="packages/levels/constantine_ctargethitbox/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cyacht_brief" path="cyacht_brief.ogg"/>
+			<sound id="cyacht_bollard" path="cyacht_bollard.ogg" subtitle_id="cyacht_bollard_sub"/>
+			<sound id="cyacht_button" path="cyacht_button.ogg" subtitle_id="cyacht_button_sub"/>
+			<sound id="cyacht_truck" path="cyacht_truck.ogg" subtitle_id="cyacht_truck_sub"/>
+			<sound id="cyacht_deck" path="cyacht_deck.ogg" subtitle_id="cyacht_deck_sub"/>
+			<sound id="cyacht_regroup" path="cyacht_regroup.ogg" subtitle_id="cyacht_regroup_sub"/>
+			<sound id="cyacht_engine" path="cyacht_engine.ogg" subtitle_id="cyacht_engine_sub"/>
+			<sound id="cyacht_tablet" path="cyacht_tablet.ogg" subtitle_id="cyacht_tablet_sub"/>
+			<sound id="cyacht_money" path="cyacht_money.ogg" subtitle_id="cyacht_money_sub"/>
+			<sound id="cyacht_escape" path="cyacht_escape.ogg" subtitle_id="cyacht_escape_sub"/>
+			<sound id="cyacht_sniper" path="cyacht_sniper.ogg" subtitle_id="cyacht_sniper_sub"/>
+			<sound id="cyacht_cartel" path="cyacht_cartel.ogg" subtitle_id="cyacht_cartel_sub"/>
+		</sounds>
+	</level>
+	<instance id="gensec_spawn_enemies_assault_wave">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+			<value_node value="packages/levels/constantine_gensec_faction/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_valve_waypoint">
+		<packages>
+			<value_node value="levels/instances/unique/pet_valve/world"/>
+			<value_node value="levels/instances/unique/pet_valve/world_sounds"/>
+			<value_node value="levels/instances/unique/pet_valve/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_c4_bag">
+		<packages/>
+	</instance>
+	<instance id="constantine_yacht_sliding_door">
+		<packages>
+			<value_node value="levels/instances/unique/fish/sliding_door/world"/>
+			<value_node value="levels/instances/unique/fish/sliding_door/world_sounds"/>
+			<value_node value="levels/instances/unique/fish/sliding_door/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/cartdwnicon" id="constantine_cart_dwn_nar">
+		<chain>
+			<table level_id="constantine_cart_dwn_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="ctransport_brief" id="constantine_cart_dwn_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="healrangetweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="packages/levels/constantine_transport/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="ctransport_brief" path="ctransport_brief.ogg"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="ctransport_saw" path="ctransport_saw.ogg" subtitle_id="ctransport_saw_sub"/>
+			<sound id="ctransport_secure" path="ctransport_secure.ogg" subtitle_id="ctransport_secure_sub"/>
+			<sound id="score_gotloot" path="score_gotloot.ogg" subtitle_id="score_gotloot_sub"/>
+		</sounds>
+	</level>
+	<instance id="constantine_score_cartel_truck">
+		<packages>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+		</packages>
+	</instance>
+	<narrative contact="constantine" icon="textures/cartconicon" id="constantine_cart_con_nar">
+		<chain>
+			<table level_id="constantine_cart_con_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+			<value_node value="36000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+			<value_node value="10000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="federales" briefing_dialog="ctransport_brief" id="constantine_cart_con_lvl" max_bags="54" narrator="locke">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="smackdown_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="civiliandamage.lua" source_file="lib/units/civilians/civiliandamage"/>
+			<hook file="cartel_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="bosslogicattack.lua" source_file="lib/units/enemies/boss/logics/bosslogicattack"/>
+			<hook file="healrangetweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="packages/levels/constantine_cartel_faction/world/world"/>
+			<value_node value="packages/levels/constantine_transport/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="ctransport_brief" path="ctransport_brief.ogg"/>
+			<sound id="score_escape" path="scoreescape.ogg" subtitle_id="score_escape_sub"/>
+			<sound id="score_escape2" path="scoreescape2.ogg" subtitle_id="score_escape2_sub"/>
+			<sound id="score_escape3" path="scoreescape3.ogg" subtitle_id="score_escape3_sub"/>
+			<sound id="score_escape4" path="scoreescape4.ogg" subtitle_id="score_escape4_sub"/>
+			<sound id="ctransport_saw" path="ctransport_saw.ogg" subtitle_id="ctransport_saw_sub"/>
+			<sound id="ctransport_secure" path="ctransport_secure.ogg" subtitle_id="ctransport_secure_sub"/>
+			<sound id="score_gotloot" path="score_gotloot.ogg" subtitle_id="score_gotloot_sub"/>
+		</sounds>
+	</level>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/ondisplayicon"/>
+		<texture force="true" load="true" path="textures/smackdownicon"/>
+		<texture force="true" load="true" path="textures/truckhustleicon"/>
+		<texture force="true" load="true" path="textures/clubhouseicon"/>
+		<texture force="true" load="true" path="textures/apartmenticon"/>
+		<texture force="true" load="true" path="textures/auroraicon"/>
+		<texture force="true" load="true" path="textures/butcherbayicon"/>
+		<texture force="true" load="true" path="textures/kozlovmansionicon"/>
+		<texture force="true" load="true" path="textures/policestationicon"/>
+		<texture force="true" load="true" path="textures/gunrunnericon"/>
+		<texture force="true" load="true" path="textures/cresorticon"/>
+		<texture force="true" load="true" path="textures/murkyairporticon"/>
+		<texture force="true" load="true" path="textures/restauranticon"/>
+		<texture force="true" load="true" path="textures/penthouseicon"/>
+		<texture force="true" load="true" path="textures/wintersnipericon"/>
+		<texture force="true" load="true" path="textures/goldicon"/>
+		<texture force="true" load="true" path="textures/derailedicon"/>
+		<texture force="true" load="true" path="textures/csuburbiaicon"/>
+		<texture force="true" load="true" path="textures/dwtdicon"/>
+		<texture force="true" load="true" path="textures/fiestaicon"/>
+		<texture force="true" load="true" path="textures/jungleicon"/>
+		<texture force="true" load="true" path="textures/conyachticon"/>
+		<texture force="true" load="true" path="textures/cartdwnicon"/>
+		<texture force="true" load="true" path="textures/cartconicon"/>
+	</AddFiles>
+	<AssetUpdates id="37297" provider="modworkshop" version="4.02"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+</table>

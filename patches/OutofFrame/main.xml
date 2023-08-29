@@ -1,0 +1,133 @@
+<table name="Out of Frame">
+	<AddFiles directory="assets">
+		<texture path="guis/job_highrisefix"/>
+		<texture path="guis/job_highrisefix_load"/>
+	</AddFiles>
+    <Localization directory="Localizations" default="english.txt">
+    </Localization>
+    <narrative id="highrise" name_id="heist_highrise" brief_id="restoration_brief_data_highrise_briefing" contact="shatter" icon="guis/job_highrisefix" briefing_event="Play_bot_watchdogs_new_stage2_01">
+        <chain>
+            <table level_id="highrise_stage1" type_id="heist_type_assault" type="d">
+            </table>
+        </chain>
+        <crimenet_callouts>
+            <value_node value="Play_bot_watchdogs_new_stage2_02"/>
+        </crimenet_callouts>
+        <crimenet_videos>
+            <value_node value="cn_branchbank2"/>
+        </crimenet_videos>
+        <payout>
+            <value_node value="22000"/>
+            <value_node value="25000"/>
+            <value_node value="44000"/>
+            <value_node value="66000"/>
+			<value_node value="66000"/>
+			<value_node value="66000"/>
+            <value_node value="99000"/>
+        </payout>
+        <contract_cost>
+            <value_node value="39000"/>
+            <value_node value="78000"/>
+            <value_node value="195000"/>
+            <value_node value="390000"/>
+			<value_node value="390000"/>
+            <value_node value="500000"/>
+			<value_node value="500000"/>
+        </contract_cost>
+        <experience_mul>
+            <value_node value="1.2"/>
+            <value_node value="1.2"/>
+            <value_node value="1.2"/>
+			<value_node value="1.2"/>
+            <value_node value="1.5"/>
+            <value_node value="2.5"/>
+			<value_node value="2.5"/>
+        </experience_mul>
+        <min_mission_xp>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+            <value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+        </min_mission_xp>
+        <max_mission_xp>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+            <value_node value="44000"/>
+			<value_node value="44000"/>
+			<value_node value="44000"/>
+        </max_mission_xp>
+    </narrative>
+
+    <level id="highrise_stage1" name_id="heist_highrise_stage1" brief_id="restoration_brief_data_highrise_briefing" max_bags="54" ai_group_type="nypd" briefing_dialog="Play_bot_watchdogs_new_stage2_07" outro_event="Play_plt_watchdogs_stage1_04" ghost_bonus="0.1" load_screen="guis/job_highrisefix_load" player_style="sneak_suit" flashlights_on="true">
+        <include directory="world">
+            <file type="generic_xml" file="nav_manager_data.nav_data"/>
+            <file type="generic_xml" file="world.world"/>
+            <file type="custom_xml" file="world_sounds.world_sounds"/>
+            <file type="custom_xml" file="mission.mission"/>
+            <file type="custom_xml" file="cover_data.cover_data"/>
+            <file type="custom_xml" file="continents.continents"/>
+
+            <file type="custom_xml" file="editor_only/editor_only.continent"/>
+            <file type="generic_xml" file="editor_only/editor_only.mission"/>
+
+            <file type="custom_xml" file="pc_only/pc_only.continent"/>
+            <file type="generic_xml" file="pc_only/pc_only.mission"/>
+
+            <file type="custom_xml" file="prop/prop.continent"/>
+            <file type="generic_xml" file="prop/prop.mission"/>
+
+            <file type="custom_xml" file="backdrop/backdrop.continent"/>
+            <file type="generic_xml" file="backdrop/backdrop.mission"/>
+
+            <file type="custom_xml" file="world/world.continent"/>
+            <file type="generic_xml" file="world/world.mission"/>
+        </include>
+        <hooks>
+            <hook file="Hooks/elementcounter.lua" source_file="core/lib/managers/mission/coreelementcounter"/>
+            <hook file="Hooks/elementdialogue.lua" source_file="lib/managers/mission/elementdialogue"/>
+            <hook file="Hooks/elementobjective.lua" source_file="lib/managers/mission/elementobjective"/>
+			<hook file="Hooks/Elementmodifyplayer.lua" source_file="lib/managers/mission/elementmodifyplayer"/>
+        </hooks>
+        <script_data_mods>
+            <mod replacement="scriptdata/objectives.objective" replacement_type="custom_xml" target_path="gamedata/objectives" target_ext="objective">
+                <options merge_mode="add"/>
+            </mod>
+            <mod replacement="scriptdata/pd2_env_framing_frame_stage_3.environment" replacement_type="custom_xml" target_path="environments/pd2_env_framing_frame_stage_3/pd2_env_framing_frame_stage_3" target_ext="environment"/>
+        </script_data_mods>
+        <packages>
+            <value_node value="levels/narratives/bain/rat/world_sounds"/>
+            <value_node value="levels/narratives/vlad/ukrainian_job/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/pc_only/pc_only"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world/world"/>
+			<value_node value="levels/instances/unique/hox_breakout_serverroom001/world/world"/>
+			<value_node value="levels/instances/unique/shout_loot/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/world_sounds"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_2/world_sounds"/>
+            <value_node value="packages/narr_framing_3"/>
+			<value_node value="packages/job_firestarter"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/editor_only/editor_only"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/editor_only/editor_only_init"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/pc_only/pc_only"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/pc_only/pc_only_init"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/backdrop/backdrop"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/backdrop/backdrop_init"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/world/world_init"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/world"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/world_init"/>
+            <value_node value="levels/narratives/e_framing_frame/stage_3/world_sounds"/>
+        </packages>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+    </level>
+</table>

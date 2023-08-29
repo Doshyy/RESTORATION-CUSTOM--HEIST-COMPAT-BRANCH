@@ -1,0 +1,382 @@
+<table min_lib_ver="4.5" name="Deep Inside">
+	<instance id="dwn_sideroom">
+		<packages/>
+	</instance>
+	<instance id="dwn_keycard_lockers">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world/world"/>
+		</packages>
+	</instance>
+	<instance id="dwn_crate">
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/unique/shout_crate/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+		</packages>
+	</instance>
+	<instance id="dwn_equipment_bench">
+		<packages/>
+	</instance>
+	<instance id="dwn_alarm_box_hack">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_fire_extinguisher">
+		<packages/>
+	</instance>
+	<instance id="dwn_collectable">
+		<interactions>
+			<interaction id="dwn_pku_wtf" interact_distance="150" sound_done="bar_bag_generic_finished" sound_interupt="bar_bag_generic_cancel" sound_start="bar_bag_generic" timer="3"/>
+		</interactions>
+		<packages/>
+	</instance>
+	<Achievements banner="textures/ach/dwn_banner" icon="textures/ach/dwn_pack" id="dwn_pack">
+		<achievement icon="textures/ach/dwn_slide" id="dwn_slide" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement icon="textures/ach/dwn_pacifist" id="dwn_pacifist" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement icon="textures/ach/dwn_defend" id="dwn_defend" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="textures/ach/dwn_gangster" id="dwn_gangster" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/ach/dwn_normal" id="dwn_normal" rank="1"/>
+		<achievement icon="textures/ach/dwn_hard" id="dwn_hard" rank="1"/>
+		<achievement icon="textures/ach/dwn_vhard" id="dwn_vhard" rank="2"/>
+		<achievement icon="textures/ach/dwn_ovk" id="dwn_ovk" rank="2"/>
+		<achievement icon="textures/ach/dwn_mayhem" id="dwn_mayhem" rank="3"/>
+		<achievement icon="textures/ach/dwn_dw" id="dwn_dw" rank="3"/>
+		<achievement icon="textures/ach/dwn_ds" id="dwn_ds" rank="4"/>
+		<achievement icon="textures/ach/dwn_dsod" id="dwn_dsod" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="textures/mission_briefing/richie/bd_pattern"/>
+		<texture path="textures/dwn_pamphlet" unload="true"/>
+		<texture path="textures/dwn_icon" unload="true"/>
+		<texture path="textures/dwn_loading" unload="true"/>
+		<texture path="textures/ach/dwn_pack"/>
+		<texture path="textures/ach/dwn_banner"/>
+		<texture path="textures/ach/dwn_normal"/>
+		<texture path="textures/ach/dwn_hard"/>
+		<texture path="textures/ach/dwn_vhard"/>
+		<texture path="textures/ach/dwn_ovk"/>
+		<texture path="textures/ach/dwn_mayhem"/>
+		<texture path="textures/ach/dwn_dw"/>
+		<texture path="textures/ach/dwn_ds"/>
+		<texture path="textures/ach/dwn_dsod"/>
+		<texture path="textures/ach/dwn_slide"/>
+		<texture path="textures/ach/dwn_defend"/>
+		<texture path="textures/ach/dwn_gangster"/>
+		<texture path="textures/ach/dwn_pacifist"/>
+		<gui load="true" path="textures/mission_briefing/richie/preload_contact_richie"/>
+		<movie force="true" path="movies/codex/richie"/>
+	</AddFiles>
+	<AssetUpdates id="38621" provider="modworkshop" use_local_dir="true" version="2.1"/>
+	<Elements directory="elements">
+		<element name="ExpandedModifyPlayer"/>
+	</Elements>
+	<Hooks directory="Hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/package_dwn.package" id="package_dwn" unload_on_restart="true"/>
+	<HeistMusic directory="assets/music/Firepower" id="firepower" volume="0.5">
+		<event name="setup" source="stealth.ogg"/>
+		<event name="anticipation" source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg"/>
+		<event name="control" source="control.ogg"/>
+	</HeistMusic>
+	<contact assets_gui="textures/mission_briefing/richie/preload_contact_richie" desc_id="contact_richie_desc" id="richie" name_id="contact_richie_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" briefing_dialog="dwn_brief" id="dwn1" intro_event="dwn_intro" max_bags="54" narrator="locke" load_screen="textures/dwn_loading" ghost_bonus="0.15" player_style="slaughterhouse">
+		<assets>
+			<asset name="dwn_pamphlet"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="timergui.lua" source_file="lib/units/props/timergui"/>
+			<hook file="hudiconstweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
+			<hook file="TextTemplateBase.lua" source_file="lib/units/props/texttemplatebase"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="DialogManager.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<interactions>
+			<interaction id="dwn_pku_wtf" interact_distance="150" sound_done="bar_bag_generic_finished" sound_interupt="bar_bag_generic_cancel" sound_start="bar_bag_generic" timer="3"/>
+			<interaction id="dwn_remove_wall" interact_distance="150" sound_done="bar_crowbar_end" sound_interupt="bar_crowbar_cancel" sound_start="bar_crowbar" timer="3"/>
+		</interactions>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/locke/mex/world"/>
+			<value_node value="levels/narratives/locke/mex/art/art"/>
+			<value_node value="levels/narratives/locke/mex/mexico/mexico"/>
+			<value_node value="package_dwn"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+                        <value_node value="packages/miscassets"/> 
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sound id="radio_beg" path="vo/radio_beg.ogg"/>
+			<sound id="radio_end" path="vo/radio_end.ogg"/>
+			<sound id="dwn_brief" path="vo/dwn_brief.ogg" subtitle_id="dwn_brief"/>
+			<sound id="dwn_intro" path="vo/dwn_intro.ogg" subtitle_id="dwn_intro"/>
+			<sound id="1dwn_obj_1" path="vo/dwn_obj_1.ogg" subtitle_id="dwn_obj_1"/>
+			<sound id="1dwn_obj_1_remind" path="vo/dwn_obj_1_remind.ogg" subtitle_id="dwn_obj_1_remind"/>
+			<sound id="1dwn_obj_2" path="vo/dwn_obj_2.ogg" subtitle_id="dwn_obj_2"/>
+			<sound id="1dwn_obj_2_nogrid" path="vo/dwn_obj_2_nogrid.ogg" subtitle_id="dwn_obj_2_nogrid"/>
+			<sound id="1dwn_obj_2_yesgrid" path="vo/dwn_obj_2_yesgrid.ogg" subtitle_id="dwn_obj_2_yesgrid"/>
+			<sound id="1dwn_obj_3" path="vo/dwn_obj_3.ogg" subtitle_id="dwn_obj_3"/>
+			<sound id="1dwn_obj_3_remind" path="vo/dwn_obj_3_remind.ogg" subtitle_id="dwn_obj_3_remind"/>
+			<sound id="1dwn_obj_4" path="vo/dwn_obj_4.ogg" subtitle_id="dwn_obj_4"/>
+			<sound id="1dwn_obj_4_keycard" path="vo/dwn_obj_4_keycard.ogg" subtitle_id="dwn_obj_4_keycard"/>
+			<sound id="1dwn_obj_5_stealth" path="vo/dwn_obj_5_stealth.ogg" subtitle_id="dwn_obj_5_stealth"/>
+			<sound id="1dwn_obj_5_hack" path="vo/dwn_obj_5_hack.ogg" subtitle_id="dwn_obj_5_hack"/>
+			<sound id="1dwn_obj_5_box" path="vo/dwn_obj_5_box.ogg" subtitle_id="dwn_obj_5_box"/>
+			<sound id="1dwn_obj_5_loud" path="vo/dwn_obj_5_loud.ogg" subtitle_id="dwn_obj_5_loud"/>
+			<sound id="1dwn_obj_5_plan" path="vo/dwn_obj_5_plan.ogg" subtitle_id="dwn_obj_5_plan"/>
+			<sound id="1dwn_obj_5_drop" path="vo/dwn_obj_5_drop.ogg" subtitle_id="dwn_obj_5_drop"/>
+			<sound id="1dwn_obj_6" path="vo/dwn_obj_6.ogg" subtitle_id="dwn_obj_6"/>
+			<sound id="1dwn_hack_free" path="vo/dwn_hack_free.ogg" subtitle_id="dwn_hack_free"/>
+			<sound id="1dwn_hack_basic" path="vo/dwn_hack_basic.ogg" subtitle_id="dwn_hack_basic"/>
+			<sound id="1dwn_hack_expert" path="vo/dwn_hack_expert.ogg" subtitle_id="dwn_hack_expert"/>
+			<sound id="1dwn_hack_restart" path="vo/dwn_hack_restart.ogg" subtitle_id="dwn_hack_restart"/>
+			<sound id="1dwn_hack2" path="vo/dwn_hack2.ogg" subtitle_id="dwn_hack2"/>
+			<sound id="1dwn_hack_free2" path="vo/dwn_hack_free2.ogg" subtitle_id="dwn_hack_free2"/>
+			<sound id="1dwn_hack_basic2" path="vo/dwn_hack_basic2.ogg" subtitle_id="dwn_hack_basic2"/>
+			<sound id="1dwn_hack_expert2" path="vo/dwn_hack_expert2.ogg" subtitle_id="dwn_hack_expert2"/>
+			<sound id="1dwn_hack_restart2" path="vo/dwn_hack_restart2.ogg" subtitle_id="dwn_hack_restart2"/>
+			<sound id="1dwn_cloud" path="vo/dwn_cloud.ogg" subtitle_id="dwn_cloud"/>
+			<sound id="1dwn_cloud_half" path="vo/dwn_cloud_half.ogg" subtitle_id="dwn_cloud_half"/>
+			<sound id="1dwn_cloud_done" path="vo/dwn_cloud_done.ogg" subtitle_id="dwn_cloud_done"/>
+			<sound id="1dwn_mine" path="vo/dwn_mine.ogg" subtitle_id="dwn_mine"/>
+			<sound id="1dwn_mine_half" path="vo/dwn_mine_half.ogg" subtitle_id="dwn_mine_half"/>
+			<sound id="1dwn_mine_all" path="vo/dwn_mine_all.ogg" subtitle_id="dwn_mine_all"/>
+			<sound id="1dwn_escape" path="vo/dwn_escape.ogg" subtitle_id="dwn_escape"/>
+			<queue id="dwn_obj_1">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_1"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_1_remind">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_1_remind"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_2">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_2"/>
+			</queue>
+			<queue id="dwn_obj_2_nogrid">
+				<sound id="1dwn_obj_2_nogrid"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_2_yesgrid">
+				<sound id="1dwn_obj_2_yesgrid"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_3">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_3"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_3_remind">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_3_remind"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_4">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_4"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_4_keycard">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_4_keycard"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_stealth">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_stealth"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_hack">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_hack"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_box">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_box"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_loud">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_loud"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_plan">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_plan"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_5_drop">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_5_drop"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_obj_6">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_obj_6"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_free">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_free"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_basic">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_basic"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_expert">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_expert"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_restart">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_restart"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack2">
+				<sound id="1dwn_hack2"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_free2">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_free2"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_basic2">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_basic2"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_expert2">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_expert2"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_hack_restart2">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_hack_restart2"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_cloud">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_cloud"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_cloud_half">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_cloud_half"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_cloud_done">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_cloud_done"/>
+			</queue>
+			<queue id="dwn_mine">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_mine"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_mine_half">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_mine_half"/>
+				<sound id="radio_end"/>
+			</queue>
+			<queue id="dwn_mine_all">
+				<sound id="radio_beg"/>
+				<sound id="1dwn_mine_all"/>
+			</queue>
+			<queue id="dwn_escape">
+				<sound id="1dwn_escape"/>
+				<sound id="radio_end"/>
+			</queue>
+			<sound id="dwn_gangster_edition" loop="true" path="dwn_gangster_edition.ogg"/>
+		</sounds>
+	</level>
+	<narrative contact="richie" id="dwn" icon="textures/dwn_icon">
+		<chain>
+			<table level_id="dwn1" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

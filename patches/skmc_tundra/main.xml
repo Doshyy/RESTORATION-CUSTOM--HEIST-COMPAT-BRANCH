@@ -1,0 +1,129 @@
+<table name="skmc_tundra">
+	<instance id="snowrat_trap">
+		<add file="levels/instances/snowrat_trap/add.xml"/>
+		<include directory="levels/instances/snowrat_trap">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/kenaz/elevator_openable/world/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/narratives/bain/big/day/day"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="snowrat_locke">
+		<add directory="assets"/>
+		<include directory="levels/instances/snowrat_locke">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/pbr/berry/editor_only/editor_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="units/pd2_mod_snowrat/guis/menus/crimenet_icon"/>
+	</AddFiles>
+	<AssetUpdates id="28006" provider="modworkshop" version="1"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="murkywater" briefing_dialog="Play_loc_skm_brf" group_ai_state="skirmish" id="snowrat" intro_event="Play_loc_skm_intro" music="heist" narrator="locke" orig_id="snowrat" player_style="winter_suit" wave_count="9">
+		<add file="levels/snowrat/add.xml"/>
+		<assets/>
+		<include directory="levels/snowrat">
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="coverpoints/coverpoints.continent" type="custom_xml"/>
+			<file file="coverpoints/coverpoints.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/snowrat.environment" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value="Play_pln_uno_end_win"/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/skm_sc_murkywater"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/unobtanium/world/world"/>
+			<value_node value="levels/instances/unique/unobtanium/world"/>
+			<value_node value="levels/instances/unique/unobtanium/world_sounds"/>
+			<value_node value="packages/dlcs/bph/job_bph"/>
+			<value_node value="packages/job_short2_stage2b"/>
+			<value_node value="levels/narratives/elephant/mad/world"/>
+			<value_node value="levels/narratives/elephant/mad/terrain/terrain"/>
+			<value_node value="levels/instances/unique/cane/cane_santa_event/world"/>
+			<value_node value="levels/narratives/locke/brb/lights/lights"/>
+			<value_node value="levels/narratives/vlad/cane/world"/>
+			<value_node value="levels/narratives/locke/vit/collision/collision"/>
+			<value_node value="levels/narratives/pbr/berry/editor_only/editor_only"/>
+			<value_node value="packages/dlcs/vit/job_vit"/>
+			<value_node value="packages/lvl_wwh"/>
+			<value_node value="levels/narratives/locke/vit/world"/>
+			<value_node value="levels/instances/shared/obj_skm/world"/>
+			<value_node value="levels/instances/shared/obj_skm/world/world"/>
+			<value_node value="levels/instances/shared/obj_skm/world_sounds"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world/world"/>
+			<value_node value="levels/instances/shared/skm_negotiator/world_sounds"/>
+			<value_node value="packages/dlcs/skm/job_skm"/>
+			<value_node value="levels/narratives/safehouse/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_fence_cut/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="skirmish" icon="units/pd2_mod_snowrat/guis/menus/crimenet_icon" id="snowrat" region="street" max_mission_xp="135900"  min_mission_xp="135900" payout="0">
+		<chain>
+			<table level_id="snowrat" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul/>
+	</narrative>
+</table>

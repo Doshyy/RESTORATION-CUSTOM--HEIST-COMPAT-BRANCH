@@ -1,0 +1,310 @@
+<table name="A House of Pleasure">
+	<instance id="ahop_security_hack">
+		<add file="levels/instances/ahop_security_hack/add.xml"/>
+		<include directory="levels/instances/ahop_security_hack">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="ahop_titan_door_box">
+		<add file="levels/instances/ahop_titan_door_box/add.xml"/>
+		<include directory="levels/instances/ahop_titan_door_box">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="ahop_reinforced_door_not_interactable">
+		<add file="levels/instances/ahop_reinforced_door_not_interactable/add.xml"/>
+		<include directory="levels/instances/ahop_reinforced_door_not_interactable">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="ahop_keycard_locker">
+		<add directory="assets"/>
+		<include directory="levels/instances/ahop_keycard_locker">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="ahop_c4_charge">
+		<add directory="assets"/>
+		<include directory="levels/instances/ahop_c4_charge">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<Sounds directory="assets/sfx">
+		<sound id="rus_dsp_radio_query_1_a" path="rus_dsp_radio_query_1_a.ogg"/>
+		<sound id="rus_dsp_radio_query_1_b" path="rus_dsp_radio_query_1_b.ogg"/>
+		<sound id="rus_dsp_radio_query_1_c" path="rus_dsp_radio_query_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_a" path="rus_dsp_radio_fooled_1_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_b" path="rus_dsp_radio_fooled_1_b.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_c" path="rus_dsp_radio_fooled_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_a" path="rus_dsp_radio_fooled_4_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_b" path="rus_dsp_radio_fooled_4_b.ogg"/>
+		<random id="rus_dispatch_generic_message">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_query_1">
+			<sound id="rus_dsp_radio_query_1_a"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+		</random>
+		<sound id="rus_dsp_radio_reminder_1" path="rus_dsp_radio_reminder_1.ogg"/>
+		<random id="rus_dsp_radio_fooled_1">
+			<sound id="rus_dsp_radio_fooled_1_a"/>
+			<sound id="rus_dsp_radio_fooled_1_b"/>
+			<sound id="rus_dsp_radio_fooled_1_c"/>
+		</random>
+		<random id="rus_dsp_radio_fooled_4">
+			<sound id="rus_dsp_radio_fooled_4_a"/>
+			<sound id="rus_dsp_radio_fooled_4_b"/>
+		</random>
+		<random id="rus_dsp_radio_alarm_1">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_checking_1">
+			<sound id="fri_dsp_radio_checking_1"/>
+		</random>
+		<random id="rus_dsp_stop_all">
+			<sound id="fri_dsp_stop_all"/>
+		</random>
+	</Sounds>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/ahopicon"/>
+	</AddFiles>
+	<AssetUpdates id="32924" provider="modworkshop" version="1.7"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="ahop_brief" ghost_bonus="0.1" id="ahopl" intro_event="ahop_intro" max_bags="54">
+		<add file="levels/ahopl/add.xml"/>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/haunted_safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world/world"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="packages/kenaz"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_alarm_box_hack/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/bag_collision/bag_collision"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world"/>
+			<value_node value="levels/instances/unique/chas/chas_keycard_lockers_office/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_safe/world"/>
+			<value_node value="levels/instances/unique/fex/fex_safe/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_loot_safe/world"/>
+			<value_node value="levels/instances/unique/fex/fex_loot_safe/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_event/world/world"/>
+			<value_node value="levels/instances/unique/chill/players_van/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/train_cam_computer/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_turret/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_turret/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_blowtorch/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_code/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_code/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_code/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		
+	<sounds directory="assets/sound">
+		<sound id="ahop_brief" path="Brief.ogg"/>
+		<sound id="ahop_intro" path="Intro.ogg" subtitle_id="ahop_intro"/>
+		<sound id="ahop_override" path="OverrideHint.ogg" subtitle_id="ahop_override"/>
+		<sound id="ahop_saw" path="SawHint.ogg" subtitle_id="ahop_saw"/>
+		<sound id="ahop_keycard" path="KeycardHint.ogg" subtitle_id="ahop_keycard"/>
+		<sound id="ahop_escape" path="EscapeHint.ogg" subtitle_id="ahop_escape"/>
+		<sound id="ahop_timelockblock" path="TimelockBlockHint.ogg" subtitle_id="ahop_timelockblock"/>
+		<sound id="ahop_contactdied" path="ContactDiedHint.ogg" subtitle_id="ahop_contactdied"/>
+		<sound id="ahop_code" path="CodeHint.ogg" subtitle_id="ahop_code"/>
+		<sound id="ahop_disarmc4" path="DisarmHint.ogg" subtitle_id="ahop_disarmc4"/>
+		<sound id="ahop_cutter" path="CutHint.ogg" subtitle_id="ahop_cutter"/>
+		<sound id="ahop_delay" path="DelayHint.ogg" subtitle_id="ahop_delay"/>
+		<sound id="ahop_delaytwo" path="DelayHintTwo.ogg" subtitle_id="ahop_delaytwo"/>
+		<sound id="ahop_c4" path="C4Hint.ogg" subtitle_id="ahop_c4"/>
+		<sound id="ahop_ripeye" path="RipEyeHint.ogg" subtitle_id="ahop_ripeye"/>
+		<sound id="ahop_scaneye" path="ScanEyeHint.ogg" subtitle_id="ahop_scaneye"/>
+		<sound id="ahop_stealthbox" path="StealthBoxHint.ogg" subtitle_id="ahop_stealthbox"/>
+		<sound id="ahop_stealthcomputer" path="ComputerHint.ogg" subtitle_id="ahop_stealthcomputer"/>
+		<sound id="ahop_kill" path="KillHint.ogg" subtitle_id="ahop_kill"/>
+		<sound id="ahop_escort" path="EscortHint.ogg" subtitle_id="ahop_escort"/>
+		<sound id="ahop_contactlist" path="ContactListHint.ogg" subtitle_id="ahop_contactlist"/>
+		<sound id="ahop_defendescort" path="DefendEscort.ogg" subtitle_id="ahop_defendescort"/>
+		<sound id="ahop_beatupitguy" path="BeatUpITGuyHint.ogg" subtitle_id="ahop_beatupitguy"/>
+		<sound id="ahop_timelock" path="TimelockHint.ogg" subtitle_id="ahop_timelock"/>
+	</sounds>		
+		
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/ahopicon" id="ahop">
+		<chain>
+			<table level_id="ahopl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+			<value_node value="150000"/>
+			<value_node value="175000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+			<value_node value="22000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+			<value_node value="47000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="65000"/>
+			<value_node value="65000"/>
+			<value_node value="65000"/>
+			<value_node value="65000"/>
+			<value_node value="65000"/>
+			<value_node value="65000"/>
+			<value_node value="64000"/>
+		</payout>
+	</narrative>
+</table>

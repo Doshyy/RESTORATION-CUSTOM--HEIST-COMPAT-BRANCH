@@ -1,0 +1,215 @@
+<table name="Scorched Earth">
+	<AssetUpdates id="32550" provider="modworkshop" version="1.1"/>
+	<Sounds directory="assets/sfx">
+		<sound id="rus_dsp_radio_query_1_a" path="rus_dsp_radio_query_1_a.ogg"/>
+		<sound id="rus_dsp_radio_query_1_b" path="rus_dsp_radio_query_1_b.ogg"/>
+		<sound id="rus_dsp_radio_query_1_c" path="rus_dsp_radio_query_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_a" path="rus_dsp_radio_fooled_1_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_b" path="rus_dsp_radio_fooled_1_b.ogg"/>
+		<sound id="rus_dsp_radio_fooled_1_c" path="rus_dsp_radio_fooled_1_c.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_a" path="rus_dsp_radio_fooled_4_a.ogg"/>
+		<sound id="rus_dsp_radio_fooled_4_b" path="rus_dsp_radio_fooled_4_b.ogg"/>
+		<random id="rus_dispatch_generic_message">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_query_1">
+			<sound id="rus_dsp_radio_query_1_a"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+			<sound id="rus_dsp_radio_query_1_b"/>
+		</random>
+		<sound id="rus_dsp_radio_reminder_1" path="rus_dsp_radio_reminder_1.ogg"/>
+		<random id="rus_dsp_radio_fooled_1">
+			<sound id="rus_dsp_radio_fooled_1_a"/>
+			<sound id="rus_dsp_radio_fooled_1_b"/>
+			<sound id="rus_dsp_radio_fooled_1_c"/>
+		</random>
+		<random id="rus_dsp_radio_fooled_4">
+			<sound id="rus_dsp_radio_fooled_4_a"/>
+			<sound id="rus_dsp_radio_fooled_4_b"/>
+		</random>
+		<random id="rus_dsp_radio_alarm_1">
+			<sound id="dsp_radio_russian"/>
+		</random>
+		<random id="rus_dsp_radio_checking_1">
+			<sound id="fri_dsp_radio_checking_1"/>
+		</random>
+		<random id="rus_dsp_stop_all">
+			<sound id="fri_dsp_stop_all"/>
+		</random>
+	</Sounds>
+	<Hooks directory="hooks">
+		<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="russia" briefing_dialog="rusw_brief" id="ruswl" intro_event="rusw_intro" max_bags="54" player_style="winter_suit">
+		<sounds directory="assets/sound">
+		<sound id="rusw_brief" path="Brief.ogg"/>
+		<sound id="rusw_intro" path="Intro.ogg" subtitle_id="rusw_intro"/>
+		<sound id="rusw_armory" path="ArmoryHint.ogg" subtitle_id="rusw_armory"/>
+		<sound id="rusw_concoction" path="ConcoctionHint.ogg" subtitle_id="rusw_concoction"/>
+		<sound id="rusw_destroyserver" path="DestroyServerHint.ogg" subtitle_id="rusw_destroyserver"/>
+		<sound id="rusw_door" path="DoorHint.ogg" subtitle_id="rusw_door"/>
+		<sound id="rusw_down" path="DownstairsHint.ogg" subtitle_id="rusw_down"/>
+		<sound id="rusw_escapehalf" path="EscapeHalfWayHint.ogg" subtitle_id="rusw_escapehalf"/>
+		<sound id="rusw_escape" path="EscapeHint.ogg" subtitle_id="rusw_escape"/>
+		<sound id="rusw_findcharge" path="FindChargeHint.ogg" subtitle_id="rusw_findcharge"/>
+		<sound id="rusw_gas" path="GasHint.ogg" subtitle_id="rusw_gas"/>
+		<sound id="rusw_lab" path="LabHint.ogg" subtitle_id="rusw_lab"/>
+		<sound id="rusw_labtwo" path="LabHintTwo.ogg" subtitle_id="rusw_labtwo"/>
+		<sound id="rusw_laptop" path="LaptopHint.ogg" subtitle_id="rusw_laptop"/>
+		<sound id="rusw_money" path="MoneyHint.ogg" subtitle_id="rusw_money"/>
+		<sound id="rusw_movecharge" path="MoveChargeHint.ogg" subtitle_id="rusw_movecharge"/>
+		<sound id="rusw_placecharge" path="PlaceChargeHint.ogg" subtitle_id="rusw_placecharge"/>
+		<sound id="rusw_prison" path="PrisonHint.ogg" subtitle_id="rusw_prison"/>
+		<sound id="rusw_server" path="ServerHint.ogg" subtitle_id="rusw_server"/>
+		<sound id="rusw_signal" path="SignalHint.ogg" subtitle_id="rusw_signal"/>
+		<sound id="rusw_vault" path="VaultHint.ogg" subtitle_id="rusw_vault"/>
+		<sound id="rusw_waitone" path="WaitHintOne.ogg" subtitle_id="rusw_waitone"/>
+		<sound id="rusw_waittwo" path="WaitHintTwo.ogg" subtitle_id="rusw_waittwo"/>
+		<sound id="rusw_warehouse" path="WarehouseHint.ogg" subtitle_id="rusw_warehouse"/>
+		<sound id="rusw_waitescape" path="WaitEscapeHint.ogg" subtitle_id="rusw_waitescape"/>
+		<sound id="rusw_cover" path="CoverHint.ogg" subtitle_id="rusw_cover"/>
+		<sound id="rusw_addone" path="AddHintOne.ogg" subtitle_id="rusw_addone"/>
+		<sound id="rusw_addtwo" path="AddHintTwo.ogg" subtitle_id="rusw_addtwo"/>
+		<sound id="rusw_addthree" path="AddHintThree.ogg" subtitle_id="rusw_addthree"/>
+		<sound id="rusw_donecook" path="DoneCookingHint.ogg" subtitle_id="rusw_donecook"/>
+		<sound id="rusw_rightone" path="RightHintOne.ogg" subtitle_id="rusw_rightone"/>
+		<sound id="rusw_righttwo" path="RightHintTwo.ogg" subtitle_id="rusw_righttwo"/>
+		<sound id="rusw_rightthree" path="RightHintThree.ogg" subtitle_id="rusw_rightthree"/>
+		<sound id="rusw_rightfour" path="RightHintFour.ogg" subtitle_id="rusw_rightfour"/>
+		<sound id="rusw_wrongone" path="WrongHintOne.ogg" subtitle_id="rusw_wrongone"/>
+		<sound id="rusw_wrongtwo" path="WrongHintTwo.ogg" subtitle_id="rusw_wrongtwo"/>
+		<sound id="rusw_wrongthree" path="WrongHintThree.ogg" subtitle_id="rusw_wrongthree"/>
+		<sound id="rusw_wrongfour" path="WrongHintFour.ogg" subtitle_id="rusw_wrongfour"/>
+	</sounds>
+		<add file="levels/ruswl/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<include directory="levels/ruswl">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/classics/pal/lights/lights"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/skm/skm_big2/day/day"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/des/des_lab/world"/>
+			<value_node value="levels/instances/unique/des/des_lab/world/world"/>
+			<value_node value="levels/instances/unique/des/des_lab_b/world/world"/>
+			<value_node value="levels/instances/unique/des/des_lab_b/world"/>
+			<value_node value="levels/instances/unique/des/des_fridge/world"/>
+			<value_node value="levels/instances/unique/des/des_fridge/world/world"/>
+			<value_node value="levels/instances/unique/des/des_whiteboard/world"/>
+			<value_node value="levels/instances/unique/des/des_whiteboard/world/world"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="levels/instances/unique/born/born_crate/world"/>
+			<value_node value="levels/instances/unique/born/born_crate/world/world"/>
+			<value_node value="levels/instances/unique/mex/mex_tunnel_exit/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_1/world"/>
+			<value_node value="levels/narratives/haunted_safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/instances/unique/brb/brb_sniper_spawns/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="packages/narr_rat"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/scorchedicon" id="rusw">
+		<chain>
+			<table level_id="ruswl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="70000"/>
+			<value_node value="80000"/>
+			<value_node value="140000"/>
+			<value_node value="200000"/>
+			<value_node value="240000"/>
+			<value_node value="240000"/>
+			<value_node value="240000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+			<value_node value="85000"/>
+		</payout>
+	</narrative>
+</table>

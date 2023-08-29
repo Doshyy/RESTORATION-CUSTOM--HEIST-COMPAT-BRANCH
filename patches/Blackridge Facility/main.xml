@@ -1,0 +1,116 @@
+<table name="Blackridge Facility">
+	<AddFiles directory="assets">
+		<texture force="true" path="textures/btms_icon"/>
+		<texture force="true" path="textures/btms_preplanning"/>
+		<texture force="true" path="textures/btms_loading_screen"/>
+	</AddFiles>
+	<AssetUpdates id="22392" provider="modworkshop" use_local_dir="true" version="1.17.1"/>
+	<Hooks>
+		<hook file="hooks/contractbrokerheistitem.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
+		<hook file="hooks/contractbrokergui.lua" source_file="lib/managers/menu/contractbrokergui"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Sounds directory="assets/voice_lines/M0rtifier">
+		<sound id="btms_managercall1" path="security_manager_call_01.ogg" subtitle_id="btms_managercall1"/>
+		<sound id="btms_managercall2" path="security_manager_call_02.ogg" subtitle_id="btms_managercall2"/>
+		<sound id="btms_managercall3" path="security_manager_call_03.ogg" subtitle_id="btms_managercall3"/>
+		<sound id="btms_manageralarm" path="security_manager_alarm.ogg" subtitle_id="btms_manageralarm"/>
+		<sound id="btms_crimenet_callout" path="crimenet_callout.ogg"/>
+	</Sounds>
+	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="miamicenter" name_id="heist_contact_miamicenter" package="packages/contact_locke"/>
+	<level ai_group_type="murkywater" briefing_dialog="btms_crimenet_callout" cube="cube_apply_heist_bank" ghost_bonus="0.28" ghost_required="true" id="btms" intro_event="Play_mer_jr1_intro_01" max_bags="20" music="heist" player_style="sneak_suit">
+		<add file="levels/btms/add.xml"/>
+		<hooks>
+			<hook file="hooks/hintmanager.lua" source_file="lib/managers/hintmanager"/>
+			<hook file="hooks/preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="hooks/interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="hooks/playersound.lua" source_file="lib/units/beings/player/playersound"/>
+		</hooks>
+		<outro_event>
+			<value_node value="Play_pln_jr1_09"/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/sm_wish"/>
+			<value_node value="packages/narr_jerry1"/>
+			<value_node value="levels/narratives/pbr/berry/world"/>
+			<value_node value="levels/narratives/vlad/ukrainian_job/world_sounds"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/world_sounds"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="levels/instances/unique/dark/keycard/world_sounds"/>
+			<value_node value="levels/narratives/classics/red2/world_sounds"/>
+			<value_node value="levels/narratives/elephant/chew/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="btms_crimenet_callout" contact="miamicenter" dlc="berry" icon="textures/btms_icon" id="Blackridge Facility" is_custom="true" jc="30" load_screen="textures/btms_loading_screen" region="street">
+		<chain>
+			<table dlc="berry" level_id="btms" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="31000"/>
+			<value_node value="62000"/>
+			<value_node value="155000"/>
+			<value_node value="310000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="btms_crimenet_callout"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="contact_locke1"/>
+		</crimenet_videos>
+		<date_added>
+			<value_node value="2021"/>
+			<value_node value="3"/>
+			<value_node value="16"/>
+		</date_added>
+		<debrief_event>
+			<value_node value="btms_crimenet_callout"/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+			<value_node value="32000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+			<value_node value="22400"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="74000"/>
+			<value_node value="125000"/>
+			<value_node value="185000"/>
+			<value_node value="260000"/>
+			<value_node value="260000"/>
+			<value_node value="260000"/>
+		</payout>
+	</narrative>
+</table>

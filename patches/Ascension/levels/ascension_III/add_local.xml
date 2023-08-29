@@ -1,0 +1,24 @@
+<table>
+	<world path="world" script_data_type="binary"/>
+	<continents path="continents" script_data_type="binary"/>
+	<mission path="mission" script_data_type="binary"/>
+	<nav_data path="nav_manager_data" script_data_type="binary"/>
+	<world_sounds path="world_sounds" script_data_type="binary"/>
+	<world_cameras path="world_cameras" script_data_type="binary"/>
+	<continent path="brushes/brushes" script_data_type="binary"/>
+	<mission path="brushes/brushes" script_data_type="binary"/>
+	<continent path="world/world" script_data_type="binary"/>
+	<mission path="world/world" script_data_type="binary"/>
+	<continent path="collisions/collisions" script_data_type="binary"/>
+	<mission path="collisions/collisions" script_data_type="binary"/>
+	<continent path="editor_only/editor_only" script_data_type="binary"/>
+	<mission path="editor_only/editor_only" script_data_type="binary"/>
+	<cover_data path="cover_data" script_data_type="binary"/>
+	<environment path="environments/nepgearsy_clearsky_secret_resolved" script_data_type="custom_xml"/>
+	<environment path="environments/nepgearsy_redclipse2" script_data_type="custom_xml"/>
+	<environment path="environments/nepgearsy_purpleclipse" script_data_type="custom_xml"/>
+	<environment path="environments/nepgearsy_greenclipse" script_data_type="custom_xml"/>
+	<environment path="environments/nepgearsy_redclipse" script_data_type="custom_xml"/>
+	<environment path="environments/nepgearsy_eclipse" script_data_type="custom_xml"/>
+	<environment path="environments/default" script_data_type="custom_xml"/>
+</table>

@@ -1,0 +1,163 @@
+<table image="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_pack" name="Santa's Hardware Store">
+	<level ai_group_type="lapd" briefing_dialog="Play_pln_can_brf_01" id="santas_hardware_store" intro_event="Play_pln_can_intro_01" is_christmas_heist="true" load_screen="guis/shs_loadingScreen" max_bags="3600" orig_id="santas_hardware_store" player_style="winter_suit">
+		<add file="levels/santas_hardware_store/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/cane"/>
+			<value_node value="levels/narratives/locke/brb/world"/>
+			<value_node value="levels/narratives/vlad/cane/new_geo/new_geo"/>
+			<value_node value="levels/narratives/vlad/cane/world_sounds"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world_sounds"/>
+			<value_node value="levels/narratives/bain/rat/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="tj_shs_planecage" max_bags="54">
+		<add file="levels/instances/tj_shs_planecage/add.xml"/>
+		<include directory="levels/instances/tj_shs_planecage">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/pet_planecage/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</level>
+	<Achievements icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_pack" id="tj_shs_achievements">
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_6-1D" id="tj_shs_deathSentence_OD" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_6" id="tj_shs_deathSentence" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_5" id="tj_shs_deathWish" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_4" id="tj_shs_mayhem" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_3" id="tj_shs_overkill" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_2" id="tj_shs_veryHard" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_1" id="tj_shs_hard" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_0" id="tj_shs_normal" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_KissTheElf" id="tj_shs_kissTheElf" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_kitcoin" id="tj_shs_kitcoin" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_LightsOut" id="tj_shs_lightsOut" rank="3"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/shs_icon"/>
+		<texture force="true" path="icons/shs_modIcon"/>
+		<texture force="true" path="guis/shs_loadingScreen"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_pack"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_6-1D"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_6"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_5"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_4"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_3"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_2"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_1"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_diff_0"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_KissTheElf"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_kitcoin"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_shs/hws_xmas_LightsOut"/>
+	</AddFiles>
+	<AssetUpdates id="30399" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1.2"/>
+	<Dependencies>
+		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
+	</Dependencies>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<instance id="tj_shs_planecage">
+		<add directory="assets"/>
+		<include directory="levels/instances/tj_shs_planecage">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/pet_planecage/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<narrative briefing_event="vld_can_cbf_01" contact="pd2maps" icon="icons/shs_icon" id="santas_hardware_store_wrapper" is_christmas_heist="true" jc="10" region="street">
+		<chain>
+			<table level_id="santas_hardware_store" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="24000"/>
+			<value_node value="48000"/>
+			<value_node value="120000"/>
+			<value_node value="240000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="vld_can_cnc_01"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_ukr1"/>
+			<value_node value="cn_ukr2"/>
+			<value_node value="cn_ukr3"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+			<value_node value="6.218e+006"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+			<value_node value="10900"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="30000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+		</payout>
+	</narrative>
+</table>

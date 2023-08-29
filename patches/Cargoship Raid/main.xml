@@ -1,0 +1,268 @@
+<table image="guis/preview_image" name="Cargoship Raid" min_lib_ver="4.5">
+	<AssetUpdates id="25979" provider="modworkshop" use_local_dir="true" version="1.7.2" />
+	<Package file="levels/instances/PC/add.xml" id="packages/instances/unique/Xanax/PC"/>
+	<Package file="levels/instances/LootContainer/add.xml" id="packages/instances/unique/Xanax/LootContainer"/>
+	<Package file="levels/instances/WireBox/add.xml" id="packages/instances/unique/Xanax/WireBox"/>
+	<instance id="PC">
+		<packages>
+			<value_node value="packages/instances/unique/Xanax/PC"/>
+		</packages>
+	</instance>
+	<instance id="LootContainer">
+		<packages>
+			<value_node value="packages/instances/unique/XanaxLootContainerPC"/>
+		</packages>
+	</instance>
+	<instance id="WireBox">
+		<packages>
+			<value_node value="packages/instances/unique/WireBox"/>
+		</packages>
+	</instance>
+	<Sounds directory="assets/levels/mods/Xanax/voice_lines/Hazzalaw">
+		<sound id="Xanax_Briefing" path="Xanax_Briefing.ogg"/>
+		<sound id="Xanax_halucinations" path="xanax_halucinations.ogg" subtitle_id="xanax_halucinations"/>
+		<sound id="xanax_crimenet_1" path="xanax_crimenet_1.ogg"/>
+		<sound id="xanax_crimenet_2" path="xanax_crimenet_2.ogg"/>
+		<sound id="xanax_crimenet_3" path="xanax_crimenet_2.ogg"/>
+		<sound id="xanax_1" path="xanax_1.ogg" subtitle_id="xanax_1"/>
+		<sound id="xanax_2" path="xanax_2.ogg" subtitle_id="xanax_2"/>
+		<sound id="xanax_3" path="xanax_3.ogg" subtitle_id="xanax_3"/>
+		<sound id="xanax_4" path="xanax_4.ogg" subtitle_id="xanax_4"/>
+		<sound id="xanax_5" path="xanax_5.ogg" subtitle_id="xanax_5"/>
+		<sound id="xanax_6" path="xanax_6.ogg" subtitle_id="xanax_6"/>
+		<sound id="xanax_7" path="xanax_7.ogg" subtitle_id="xanax_7"/>
+		<sound id="xanax_8" path="xanax_8.ogg" subtitle_id="xanax_8"/>
+		<sound id="xanax_9" path="xanax_9.ogg" subtitle_id="xanax_9"/>
+		<sound id="xanax_0" path="xanax_0.ogg" subtitle_id="xanax_0"/>
+		<sound id="xanax_alarm_triggered" path="xanax_alarm_triggered.ogg" subtitle_id="xanax_alarm_triggered"/>
+		<sound id="xanax_answer_phone" path="xanax_answer_phone.ogg" subtitle_id="xanax_answer_phone_desc"/>
+		<sound id="xanax_code_found_1" path="xanax_code_found_1.ogg" subtitle_id="xanax_code_found_1"/>
+		<sound id="xanax_code_found_2" path="xanax_code_found_2.ogg" subtitle_id="xanax_code_found_2"/>
+		<sound id="xanax_escape_desc" path="xanax_escape_desc.ogg" subtitle_id="xanax_escape_desc"/>
+		<sound id="xanax_find_code_desc" path="xanax_find_code_desc.ogg" subtitle_id="xanax_find_code_desc"/>
+		<sound id="xanax_find_office_desc" path="xanax_find_office_desc.ogg" subtitle_id="xanax_find_office_desc"/>
+		<sound id="xanax_hack_pc_desc" path="xanax_hack_pc_desc.ogg" subtitle_id="xanax_hack_pc_desc"/>
+		<sound id="xanax_hardcore_intro_text_1" path="xanax_hardcore_intro_text_1.ogg" subtitle_id="xanax_hardcore_intro_text_1"/>
+		<sound id="xanax_hardcore_intro_text_2" path="xanax_hardcore_intro_text_2.ogg" subtitle_id="xanax_hardcore_intro_text_2"/>
+		<sound id="xanax_hardcore_intro_text_3" path="xanax_hardcore_intro_text_3.ogg" subtitle_id="xanax_hardcore_intro_text_3"/>
+		<sound id="xanax_hardcore_intro_text_4" path="xanax_hardcore_intro_text_4.ogg" subtitle_id="xanax_hardcore_intro_text_4"/>
+		<sound id="xanax_hardcore_keycard" path="xanax_hardcore_keycard.ogg" subtitle_id="xanax_hardcore_keycard"/>
+		<sound id="xanax_hardcore_outro_text_1" path="xanax_hardcore_outro_text_1.ogg" subtitle_id="xanax_hardcore_outro_text_1"/>
+		<sound id="xanax_hardcore_outro_text_2" path="xanax_hardcore_outro_text_2.ogg" subtitle_id="xanax_hardcore_outro_text_2"/>
+		<sound id="xanax_murky_no_flashlight_comment" path="xanax_murky_no_flashlight_comment.ogg" subtitle_id="xanax_murky_no_flashlight_comment"/>
+		<sound id="xanax_normal_intro_text_1" path="xanax_normal_intro_text_1.ogg" subtitle_id="xanax_normal_intro_text_1"/>
+		<sound id="xanax_normal_intro_text_2" path="xanax_normal_intro_text_2.ogg" subtitle_id="xanax_normal_intro_text_2"/>
+		<sound id="xanax_normal_keycard" path="xanax_normal_keycard.ogg" subtitle_id="xanax_normal_keycard"/>
+		<sound id="xanax_normal_outro_text_1" path="xanax_normal_outro_text_1.ogg" subtitle_id="xanax_normal_outro_text_1"/>
+		<sound id="xanax_normal_outro_text_2" path="xanax_normal_outro_text_2.ogg" subtitle_id="xanax_normal_outro_text_2"/>
+		<sound id="xanax_pc_ecm_jammed" path="xanax_pc_ecm_jammed.ogg" subtitle_id="xanax_pc_ecm_jammed"/>
+		<sound id="xanax_phone1_2" path="xanax_phone1_2.ogg" subtitle_id="xanax_phone1_2"/>
+		<sound id="xanax_phone1_4" path="xanax_phone1_4.ogg" subtitle_id="xanax_phone1_4"/>
+		<sound id="xanax_phone2_2" path="xanax_phone2_2.ogg" subtitle_id="xanax_phone2_2"/>
+		<sound id="xanax_phone2_4" path="xanax_phone2_4.ogg" subtitle_id="xanax_phone2_4"/>
+		<sound id="xanax_rewire_2nd_box" path="xanax_rewire_2nd_box.ogg" subtitle_id="xanax_rewire_2nd_box"/>
+		<sound id="xanax_rewire_3rd_box" path="xanax_rewire_3rd_box.ogg" subtitle_id="xanax_rewire_3rd_box"/>
+		<sound id="xanax_rewire_box_desc" path="xanax_rewire_box_desc.ogg" subtitle_id="xanax_rewire_box_desc"/>
+		<sound id="xanax_rewire_box_reminder_1_1" path="xanax_rewire_box_reminder_1_1.ogg" subtitle_id="xanax_rewire_box_reminder_1_1"/>
+		<sound id="xanax_rewire_box_reminder_1_2" path="xanax_rewire_box_reminder_1_2.ogg" subtitle_id="xanax_rewire_box_reminder_1_2"/>
+		<sound id="xanax_rewire_box_reminder_1_3" path="xanax_rewire_box_reminder_1_3.ogg" subtitle_id="xanax_rewire_box_reminder_1_3"/>
+		<sound id="xanax_rewire_box_reminder_2_1" path="xanax_rewire_box_reminder_2_1.ogg" subtitle_id="xanax_rewire_box_reminder_2_1"/>
+		<sound id="xanax_rewire_box_reminder_2_2" path="xanax_rewire_box_reminder_2_2.ogg" subtitle_id="xanax_rewire_box_reminder_2_2"/>
+		<sound id="xanax_rewire_box_reminder_2_3" path="xanax_rewire_box_reminder_2_3.ogg" subtitle_id="xanax_rewire_box_reminder_2_3"/>
+		<sound id="xanax_rewire_box_reminder_3_1" path="xanax_rewire_box_reminder_3_1.ogg" subtitle_id="xanax_rewire_box_reminder_3_1"/>
+		<sound id="xanax_rewire_box_reminder_3_2" path="xanax_rewire_box_reminder_3_2.ogg" subtitle_id="xanax_rewire_box_reminder_3_2"/>
+		<sound id="xanax_rewire_box_reminder_3_3" path="xanax_rewire_box_reminder_3_3.ogg" subtitle_id="xanax_rewire_box_reminder_3_3"/>
+		<sound id="xanax_rewire_PC_reminder_1_1" path="xanax_rewire_PC_reminder_1_1.ogg" subtitle_id="xanax_rewire_PC_reminder_1_1"/>
+		<sound id="xanax_rewire_PC_reminder_1_2" path="xanax_rewire_PC_reminder_1_2.ogg" subtitle_id="xanax_rewire_PC_reminder_1_2"/>
+		<sound id="xanax_rewire_PC_reminder_1_3" path="xanax_rewire_PC_reminder_1_3.ogg" subtitle_id="xanax_rewire_PC_reminder_1_3"/>
+		<sound id="xanax_rewire_PC_reminder_2_1" path="xanax_rewire_PC_reminder_2_1.ogg" subtitle_id="xanax_rewire_PC_reminder_2_1"/>
+		<sound id="xanax_rewire_PC_reminder_2_2" path="xanax_rewire_PC_reminder_2_2.ogg" subtitle_id="xanax_rewire_PC_reminder_2_2"/>
+		<sound id="xanax_rewire_PC_reminder_2_3" path="xanax_rewire_PC_reminder_2_3.ogg" subtitle_id="xanax_rewire_PC_reminder_2_3"/>
+		<sound id="xanax_rewire_PC_reminder_3_1" path="xanax_rewire_PC_reminder_3_1.ogg" subtitle_id="xanax_rewire_PC_reminder_3_1"/>
+		<sound id="xanax_rewire_PC_reminder_3_2" path="xanax_rewire_PC_reminder_3_2.ogg" subtitle_id="xanax_rewire_PC_reminder_3_2"/>
+		<sound id="xanax_rewire_PC_reminder_3_3" path="xanax_rewire_PC_reminder_3_3.ogg" subtitle_id="xanax_rewire_PC_reminder_3_3"/>
+		<sound id="xanax_secure_loot_desc" path="xanax_secure_loot_desc.ogg" subtitle_id="xanax_secure_loot_desc"/>
+		<sound id="xanax_unjam_pc_desc" path="xanax_unjam_pc_desc.ogg" subtitle_id="xanax_unjam_pc_desc"/>
+		<sound id="xanax_wait_for_hack_desc" path="xanax_wait_for_hack_desc.ogg" subtitle_id="xanax_wait_for_hack_desc"/>
+		<sound id="xanax_work_to_do" path="xanax_work_to_do.ogg" subtitle_id="xanax_work_to_do"/>
+		<sound id="xanax_wrong_PC_hacked" path="xanax_wrong_PC_hacked.ogg" subtitle_id="xanax_wrong_PC_hacked"/>
+		<sound id="xanax_dis_security_desc" path="xanax_dis_security_desc.ogg" subtitle_id="xanax_dis_security_desc"/>
+		<sound id="xanax_crowbar_found" path="xanax_crowbar_found.ogg" subtitle_id="xanax_crowbar_found"/>
+		<sound id="Xanax_Managercalling1" path="security_is_calling_one_of_the_guards.ogg" subtitle_id="security_is_calling_one_of_the_guards"/>
+		<sound id="Xanax_Managercalling2" path="security_manager_was_about_to_call_one_of_the_guards.ogg" subtitle_id="security_manager_was_about_to_call_one_of_the_guards"/>
+		<sound id="Xanax_DidntLie" path="security_manager_didnt_lie.ogg" subtitle_id="security_manager_didnt_lie"/>
+		<sound id="Xanax_ManagerEnd" path="you_heard_the_man.ogg" subtitle_id="you_heard_the_man"/>
+		<sound id="Xanax_ManagerSpeech" path="voielineaggressive.ogg" subtitle_id="voielineaggressive"/>
+	</Sounds>
+	<Sounds directory="assets/levels/mods/Xanax/voice_lines/Alex">
+		<sound id="xanax_phone1_1" path="xanax_phone1_1.ogg" subtitle_id="xanax_phone1_1"/>
+		<sound id="xanax_phone1_3" path="xanax_phone1_3.ogg" subtitle_id="xanax_phone1_3"/>
+		<random id="xanax_phone2_1">
+			<sound id="xanax_phone2_1_r1"/>
+			<sound id="xanax_phone2_1_r2"/>
+		</random>
+		<random id="xanax_phone2_5">
+			<sound id="xanax_phone2_5_r1"/>
+			<sound id="xanax_phone2_5_r2"/>
+			<sound id="xanax_phone2_5_r3"/>
+			<sound id="xanax_phone2_5_r4"/>
+			<sound id="xanax_phone2_5_r5"/>
+		</random>
+		<sound id="xanax_phone2_1_r1" path="xanax_phone2_1_r1.ogg" subtitle_id="xanax_phone2_1_r1"/>
+		<sound id="xanax_phone2_1_r2" path="xanax_phone2_1_r2.ogg" subtitle_id="xanax_phone2_1_r2"/>
+		<sound id="xanax_phone2_3" path="xanax_phone2_3.ogg" subtitle_id="xanax_phone2_3"/>
+		<sound id="xanax_phone2_5_r1" path="xanax_phone2_5_r1.ogg" subtitle_id="xanax_phone2_5_r1"/>
+		<sound id="xanax_phone2_5_r2" path="xanax_phone2_5_r2.ogg" subtitle_id="xanax_phone2_5_r2"/>
+		<sound id="xanax_phone2_5_r3" path="xanax_phone2_5_r3.ogg" subtitle_id="xanax_phone2_5_r3"/>
+		<sound id="xanax_phone2_5_r4" path="xanax_phone2_5_r4.ogg" subtitle_id="xanax_phone2_5_r4"/>
+		<sound id="xanax_phone2_5_r5" path="xanax_phone2_5_r5.ogg" subtitle_id="xanax_phone2_5_r5"/>
+	</Sounds>
+	<Achievements icon="guis/achiev/csr_pack" id="xanax">
+		<achievement desc_id="xanax_achiev_normal_desc" icon="guis/achiev/csr_diff_0" id="xanax_achiev_normal" name_id="xanax_achiev_normal" rank="1"/>
+		<achievement desc_id="xanax_achiev_hard_desc" icon="guis/achiev/csr_diff_1" id="xanax_achiev_hard" name_id="xanax_achiev_hard" rank="1"/>
+		<achievement desc_id="xanax_achiev_vhard_desc" icon="guis/achiev/csr_diff_2" id="xanax_achiev_vhard" name_id="xanax_achiev_vhard" rank="1"/>
+		<achievement desc_id="xanax_achiev_ovkl_desc" icon="guis/achiev/csr_diff_3" id="xanax_achiev_ovkl" name_id="xanax_achiev_ovkl" rank="1"/>
+		<achievement desc_id="xanax_achiev_mh_desc" icon="guis/achiev/csr_diff_4" id="xanax_achiev_mh" name_id="xanax_achiev_mh" rank="1"/>
+		<achievement desc_id="xanax_achiev_dw_desc" icon="guis/achiev/csr_diff_5" id="xanax_achiev_dw" name_id="xanax_achiev_dw" rank="1"/>
+		<achievement desc_id="xanax_achiev_ds_desc" icon="guis/achiev/csr_diff_6" id="xanax_achiev_ds" name_id="xanax_achiev_ds" rank="1"/>
+		<achievement desc_id="xanax_achiev_dsod_desc" icon="guis/achiev/csr_diff_6_1d" id="xanax_achiev_dsod" name_id="xanax_achiev_dsod" rank="2"/>
+		<achievement desc_id="xanax_achiev_hardcore_dsod_desc" icon="guis/achiev/csr_diff_6_1d_hardmode" id="xanax_achiev_hardcore_dsod" name_id="xanax_achiev_hardcore_dsod" rank="3"/>
+		<achievement desc_id="xanax_achiev_just_a_dream_desc" icon="guis/achiev/csr_itwasonlyjustadream" id="xanax_achiev_just_a_dream" name_id="xanax_achiev_just_a_dream" rank="2"/>
+		<achievement desc_id="xanax_achiev_pacifist_desc" icon="guis/achiev/csr_pacifish" id="xanax_achiev_pacifist" name_id="xanax_achiev_pacifist" rank="4"/>
+		<achievement desc_id="xanax_achiev_empty_ship_desc" icon="guis/achiev/csr_emptyship" id="xanax_achiev_empty_ship" name_id="xanax_achiev_empty_ship" rank="4"/>
+		<achievement desc_id="xanax_achiev_annoyer_desc" icon="guis/achiev/csr_annoyer" id="xanax_achiev_annoyer" name_id="xanax_achiev_annoyer" rank="2"/>
+		<achievement desc_id="xanax_achiev_shinobi_desc" icon="guis/achiev/csr_shinobi" id="xanax_achiev_shinobi" name_id="xanax_achiev_shinobi" rank="4"/>
+		<achievement desc_id="xanax_achiev_ninja_desc" icon="guis/achiev/csr_ninja" id="xanax_achiev_ninja" name_id="xanax_achiev_ninja" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture path="levels/mods/Xanax/textures/cr_brokericon"/>
+		<texture path="levels/mods/Xanax/textures/cr_loading"/>
+		<texture path="guis/achiev/csr_diff_0"/>
+		<texture path="guis/achiev/csr_diff_1"/>
+		<texture path="guis/achiev/csr_diff_2"/>
+		<texture path="guis/achiev/csr_diff_3"/>
+		<texture path="guis/achiev/csr_diff_4"/>
+		<texture path="guis/achiev/csr_diff_5"/>
+		<texture path="guis/achiev/csr_diff_6"/>
+		<texture path="guis/achiev/csr_diff_6_1d"/>
+		<texture path="guis/achiev/csr_diff_6_1d_hardmode"/>
+		<texture path="guis/achiev/csr_itwasonlyjustadream"/>
+		<texture path="guis/achiev/csr_pacifish"/>
+		<texture path="guis/achiev/csr_emptyship"/>
+		<texture path="guis/achiev/csr_annoyer"/>
+		<texture path="guis/achiev/csr_shinobi"/>
+		<texture path="guis/achiev/csr_ninja"/>
+		<texture path="guis/achiev/csr_pack"/>
+		<png force="true" path="guis/preview_image"/>
+	</AddFiles>
+	<HeistMusic directory="assets/levels/mods/Xanax/music" id="music_murkycargo" volume="0.8">
+		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
+	</HeistMusic>
+	<Hooks>
+		<hook file="hooks/contractbrokergui.lua" source_file="lib/managers/menu/contractbrokergui"/>
+		<hook file="hooks/guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="hooks/crimenetmanager.lua" source_file="lib/managers/crimenetmanager"/>
+		<hook file="hooks/crimenetmanager.lua" source_file="lib/managers/menu/menucomponentmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/dlcs/berry/guis/preload_contact_locke" id="shinobi" name_id="heist_contact_shinobi" package="packages/contact_locke"/>
+	<level ai_group_type="murkywater" briefing_dialog="Xanax_Briefing" cube="cube_apply_heist_bank" ghost_bonus="0.15" ghost_required="true" id="Xanax" load_screen="levels/mods/Xanax/textures/cr_loading" max_bags="20" music="no_music" narrator="hazzalaw" player_style="sneak_suit">
+		<add file="levels/Xanax/add.xml"/>
+		<assets>
+			<asset name="bodybags_bag"/>
+			<asset name="hardcore"/>
+			<asset name="xanax_disable_box"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
+			<hook file="hintmanager.lua" source_file="lib/managers/hintmanager"/>
+			<hook file="dialogmanager.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="achievementmanager.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="playersound.lua" source_file="lib/units/beings/player/playersound"/>
+			<hook file="groupaistatebase.lua" source_file="lib/managers/group_ai_states/groupaistatebase"/>
+			<hook file="enemymanager.lua" source_file="lib/managers/enemymanager"/>
+			<hook file="enemymanager.lua" source_file="lib/units/enemies/cop/logics/coplogicintimidated"/>
+			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="coremissionmanager.lua" source_file="core/lib/managers/mission/coremissionscriptelement"/>
+			<hook file="elementfilter.lua" source_file="lib/managers/mission/elementfilter"/>
+			<hook file="enemymanager.lua" source_file="lib/managers/mission/elementspawnenemydummy"/>
+		</hooks>
+		<ic_data length="15" title="Cargoship Raid">
+			<from pos="Vector3(-1400, -2145, 145)" rot="Rotation(-45, 0, 0)"/>
+			<hologram pos="Vector3(-425, 625, 335)" rot="Rotation(180, 0, 0)" size="400" start="25"/>
+			<to easing="easeOutQuart" pos="Vector3(-1375, 2815, 375)" rot="Rotation(-120, -15, 0)"/>
+		</ic_data>
+		<outro_event/>
+		<packages>
+			<value_node value="packages/instances/unique/Xanax/PC"/>
+			<value_node value="packages/instances/unique/Xanax/WireBox"/>
+			<value_node value="packages/instances/unique/Xanax/LootContainer"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="shinobi" icon="levels/mods/Xanax/textures/cr_brokericon" id="YouAreNeverAloneInTheDark" is_custom="true" jc="30">
+		<chain>
+			<table level_id="Xanax" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts/>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+			<value_node value="4000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="9000"/>
+			<value_node value="15000"/>
+			<value_node value="40000"/>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="100000"/>
+		</payout>
+	</narrative>
+</table>

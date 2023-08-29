@@ -1,0 +1,192 @@
+<table min_lib_ver="4.5" name="End of an Era">
+	<instance id="constantine_mex_circuit_breaker">
+		<packages>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world_sounds"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mex_c4_placeable">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mex_c4_bag">
+		<packages/>
+	</instance>
+	<instance id="constantine_mex_server_computer">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mex_computer_hack_quick_stealth">
+		<packages>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mex_stealth_hack">
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_mex_intercom">
+		<packages/>
+	</instance>
+	<instance id="constantine_mex_safe">
+		<packages/>
+	</instance>
+	<instance id="constantine_mex_gas_burn">
+		<packages>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world"/>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/painting_stack_burn/world/world"/>
+		</packages>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/endofaneraicon"/>
+	</AddFiles>
+	<AssetUpdates id="35021" provider="modworkshop" version="1.77"/>
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/endofanera.package" id="packages/levels/constantine_endofanera/world/world" unload_on_restart="true"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="federales" briefing_assets_gui="@ID22163786cf7929ac@" briefing_dialog="cmex_brief" cube="cube_apply_heist_bank" ghost_bonus="0.1" id="constantine_mex_level" intro_event="cmex_intro" max_bags="54" music="heist" narrator="locke" player_style="suit_sunny">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/backdrop/backdrop"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/editor_only/editor_only"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/nature/nature"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+			<value_node value="packages/job_bex"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world"/>
+			<value_node value="levels/instances/unique/friend/interactable_coke/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_stair_door/world/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_wire_box/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/levels/constantine_endofanera/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cmex_brief" path="Brief.ogg"/>
+			<sound id="cmex_intro" path="Intro.ogg"/>
+			<sound id="cmex_blocker" path="Blocker.ogg" subtitle_id="cmex_blocker"/>
+			<sound id="cmex_ambush" path="Ambush.ogg" subtitle_id="cmex_ambush"/>
+			<sound id="cmex_c4door" path="C4Door.ogg" subtitle_id="cmex_c4door"/>
+			<sound id="cmex_car" path="Car.ogg" subtitle_id="cmex_car"/>
+			<sound id="cmex_escape" path="Escape.ogg" subtitle_id="cmex_escape"/>
+			<sound id="cmex_escort" path="Escort.ogg" subtitle_id="cmex_escort"/>
+			<sound id="cmex_gas" path="Gas.ogg" subtitle_id="cmex_gas"/>
+			<sound id="cmex_intercom" path="Intercom.ogg" subtitle_id="cmex_intercom"/>
+			<sound id="cmex_keycard" path="Keycard.ogg" subtitle_id="cmex_keycard"/>
+			<sound id="cmex_kill" path="Kill.ogg" subtitle_id="cmex_kill"/>
+			<sound id="cmex_masterpc" path="MasterPC.ogg" subtitle_id="cmex_masterpc"/>
+			<sound id="cmex_package" path="Package.ogg" subtitle_id="cmex_package"/>
+			<sound id="cmex_poison" path="Poison.ogg" subtitle_id="cmex_poison"/>
+			<sound id="cmex_power" path="Power.ogg" subtitle_id="cmex_power"/>
+			<sound id="cmex_safe" path="Safe.ogg" subtitle_id="cmex_safe"/>
+			<sound id="cmex_secure" path="Secure.ogg" subtitle_id="cmex_secure"/>
+			<sound id="cmex_signal" path="Signal.ogg" subtitle_id="cmex_signal"/>
+			<sound id="cmex_stealthpc" path="StealthPC.ogg" subtitle_id="cmex_stealthpc"/>
+			<sound id="cmex_wait" path="Wait.ogg" subtitle_id="cmex_wait"/>
+			<sound id="cmex_wait2" path="Wait2.ogg" subtitle_id="cmex_wait2"/>
+			<sound id="cmex_wait3" path="Wait3.ogg" subtitle_id="cmex_wait3"/>
+			<sound id="cmex_waitescort" path="WaitEscort.ogg" subtitle_id="cmex_waitescort"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/endofaneraicon" id="constantine_mex_nar">
+		<chain>
+			<table level_id="constantine_mex_level" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="300000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+			<value_node value="27000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

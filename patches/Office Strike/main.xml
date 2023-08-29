@@ -1,0 +1,156 @@
+<table image="guis/textures/mods/CustomAchievement/office_strike/os_pack" name="Office Strike">
+	<Achievements icon="guis/textures/mods/CustomAchievement/office_strike/os_pack" id="os_achievements">
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_deathSentence_od" id="os_deathSentence_od" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_deathSentence" id="os_deathSentence" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_deathWish" id="os_deathWish" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_mayhem" id="os_mayhem" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_overkill" id="os_overkill" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_veryHard" id="os_veryHard" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_hard" id="os_hard" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_normal" id="os_normal" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_clearedout" id="os_clearedout" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_powerup" id="os_powerup" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_terroristswin" id="os_terroristswin" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/office_strike/os_secret" id="os_secret" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/os_icon"/>
+		<texture force="true" path="guis/os_loadingScreen"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_clearedout"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_deathSentence"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_deathSentence_od"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_deathWish"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_hard"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_mayhem"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_normal"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_overkill"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_pack"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_powerup"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_secret"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_terroristswin"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/office_strike/os_veryHard"/>
+		<object path="units/custom/dragon_calendar_01/dragon_calendar_01"/>
+		<material_config path="units/custom/dragon_calendar_01/dragon_calendar_01"/>
+		<model path="units/custom/dragon_calendar_01/dragon_calendar_01"/>
+		<texture path="units/custom/dragon_calendar_01/dragon_calendar_01_df"/>
+		<cooked_physics path="units/custom/dragon_calendar_01/dragon_calendar_01"/>
+		<object path="units/custom/os_custom_projector_screen/os_custom_projector_screen"/>
+		<material_config path="units/custom/os_custom_projector_screen/os_custom_projector_screen"/>
+		<model path="units/custom/os_custom_projector_screen/os_custom_projector_screen"/>
+		<texture path="units/custom/os_custom_projector_screen/os_custom_projector_screen_df"/>
+		<cooked_physics path="units/custom/os_custom_projector_screen/os_custom_projector_screen"/>
+		<unit path="units/custom/dragon_calendar_01/dragon_calendar_01"/>
+	</AddFiles>
+	<AssetUpdates id="21032" provider="modworkshop" use_local_dir="true" version="1.6"/>
+	<Hooks directory="hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="trooperjack" name_id="heist_contact_trooperjack" package="packages/contact_bain"/>
+	<level ai_group_type="fbi" briefing_dialog="" id="office_strike" load_screen="guis/os_loadingScreen" max_bags="26" player_style="slaughterhouse">
+		<add file="levels/office_strike/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="election_day_1_keycard"/>
+		</assets>
+		<include directory="levels/office_strike">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_run"/>
+			<value_node value="packages/narr_cage"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/world"/>
+			<value_node value="levels/narratives/dentist/mus/world_sounds"/>
+			<value_node value="levels/narratives/classics/man/world_sounds"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/world_sounds"/>
+			<value_node value="levels/narratives/bain/cage/world_sounds"/>
+			<value_node value="levels/narratives/bain/big/world_sounds"/>
+			<value_node value="levels/instances/unique/moon/santa/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_vault_gate_blowtorch/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="trooperjack" icon="icons/os_icon" id="office_strike_wrapper">
+		<chain>
+			<table level_id="office_strike" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="60000"/>
+			<value_node value="100000"/>
+			<value_node value="140000"/>
+			<value_node value="250000"/>
+			<value_node value="290000"/>
+			<value_node value="320000"/>
+			<value_node value="360000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+			<value_node value="12000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="10000"/>
+			<value_node value="220000"/>
+			<value_node value="242500"/>
+			<value_node value="320000"/>
+			<value_node value="410000"/>
+			<value_node value="490000"/>
+		</payout>
+	</narrative>
+</table>

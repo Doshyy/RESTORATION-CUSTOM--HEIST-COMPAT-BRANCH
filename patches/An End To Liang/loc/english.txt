@@ -1,0 +1,128 @@
+{
+	"heist_anlh_name":"An End To Liang",
+	"anl_objstealth2":"Wait for Adrian",
+	"restoration_level_data_anlh":"2:35 PM, Jian Liang's Villa",
+	"anl_objc4":"Place the C4",
+	"anl_objstealth5":"Search for a button",
+	"anl_objstealth8":"Grab the Keycard and use it on the reader",
+	"anl_objbile2":"Wait for Bile",
+	"anl_objbile2_desc":"Hold out for bile it should take him about a minute and a half to get to you.",
+	"anl_objstealth3":"Turn on the party music",
+	"anl_obj4_desc":"Take back the painting that was stolen from one of my associates.",
+	"heist_anl_name":"An End To Liang",
+	"anl_obj2":"Head into the House",
+	"anl_objvault_desc":"Move the Equipment to the Vault.",
+	"anl_obj5_desc":"Secure the painting.",
+	"anl_obj4":"Take the Painting",
+	"anl_obj3_desc":"Head into the vault and take out Jian Liang.",
+	"heist_anl_brief":"I am requesting your assistance in dealing with a matter, one that requires your skill. I need you to eliminate a man named Jian Liang. He is located in Santa Monica and is well guarded in his house in the suburbs. You will have to infiltrate his house and deal with him. \n\n»Inflitrate his house\n»Make your way to his sanctuary\n»Kill Liang\n»Open his personal safe\n»Steal the loot\n»Escape",
+	"anl_objstealth1":"Find a laptop to turn off the music",
+	"heist_anlh_brief":"Jian Liang is an advisor for the Golden Lotus and caused quite alot of trouble for me, ruining a few operations I had back in the day. I want you to visit him and return the favour. However, it won't be easy. From what I've heard Liang has major connections to the democratic party in California. His influence with the politicians have allowed him to operate virtually unapposed. If that wasn't bad enough he has quite alot of cops on his payroll so you can expect alot of heat if you attempt to do this loud.",
+	"anl_objnitrogen_desc":"Place the nitrogen on the vault.",
+	"anl_objc4_desc":"Place the c4 on the vault.",
+	"anl_obj1":"Enter the Backyard",
+	"anl_objstealth6_desc":"Enter the office.",
+	"anl_objstealth1_desc":"Look around for a laptop to shut off that party music, maybe you can try looking in those sheds for one.",
+	"anl_objdrill2_desc":"The drill won't jam however it needs power so you got to defend those power boxes and keep the cops off it.",
+	"anl_objstealth3_desc":"We don't want to arouse suspicion turn on the party music so that the guests don't get anxious.",
+	"anl_objnitrogen2":"Wait for the Process to finish",
+	"anl_obj6":"Escape or Secure more loot",
+	"anl_objdrill2":"Defend the Drill",
+	"anl_objbile_desc":"Signal bile so that he can drop you the equipment to get into that vault.",
+	"anl_objstealth6":"Enter the Office",
+	"anl_objbile_desc2":"Wait for Bile to arrive with the equipment",
+	"anl_objdrill1":"Set up the Drill",
+	"anl_objdrill1_desc":"Set up the drill on the vault.",
+	"anl_obj1_desc":"Enter the Backyard, you can try to do this stealthy or go in loud.",
+	"anl_objnitrogen2_desc":"The nitrogen process is going to take some time, I'd say it will take about a minute til the process is done.",
+	"anl_objstealth7":"Find Liangs fingerprints and open the safe",
+	"anl_objhack_desc":"Set up the override hack.",
+	"anl_objbile":"Signal Bile",
+	"anl_objhack":"Set up Override Hack",
+	"anl_objhack2":"Defend The Hack",
+	"anl_objhack2_desc":"Keep the cops off the hack.",
+	"anl_objstealth7_desc":"Grab some tape and find Liangs finger prints. Try looking for a cup or something.",
+	"anl_obj3":"Kill Jian Liang",
+	"anl_objnitrogen":"Place the Nitrogen",
+	"anl_objstealth4_desc":"Look around for an alarm box, we need to cut that before we enter to Jians private quarters.",
+	"anl_objstealth2_desc":"Adrian noticed the party music stopped and he's moving your way, just wait to ambush him and take his card.",
+	"anl_obj5":"Secure the Painting",
+	"anl_obj6_desc":"You can leave now or you can stay behind and secure more loot.",
+	"anl_objstealth5_desc":"Look around for a hidden button, should be one in those bookcases.",
+	"anl_objvault":"Move Equipment to the Vault",
+	"anl_obj2_desc":"Enter into the house.",
+	"anl_objstealth4":"Disable Alarm System",
+	"anl_objstealth8_desc":"Grab that keycard and use it on the reader."
+	"contact_constantine_desc":"",
+	"contact_constantine_name":"Constantine",
+	"anl_objbutton":"Push the Button",
+	"anl_objbutton_desc":"You need to push that button so that we can get into the safe and get the loot.",
+
+	"anl_objmoney":"Secure the Money Bags",
+	"anl_objmoney_desc":"I want you to take back the money that Liang has stolen from me.",
+
+	"anl_objhackrestart":"Restart the Hack",
+	"anl_objhackrestart_desc":"Restart the hack."
+
+	"anl_objstealthsafe" : "Open the Safe",
+	"anl_objstealthsafe_desc" : "Open the safe with that fingerprint",
+	"anl_objdrillrestart":"Restore the Power",
+	
+	
+	"anl_laptop":"Liangs son Adrian has a keycard to the lower sanctuary and we need to get that keycard. He's currently partying with some guests. So maybe you can find a laptop to turn off that music. I suggest looking in one of those sheds for a laptop.",
+	"anl_adrian":"Adrian's moving to your location to turn the music back on. Wait for him, them ambush him and get his keycard.",
+	"anl_music":"Turn the music back on we don't want to arouse any suspicion.",
+	"anl_house":"Alright, make your way into his house.",
+	"anl_alarmbox":"Before we enter Liangs Sanctuary we're going to have to find an alarm box. Try looking for a gray box on the wall. If you don't disable that box the alarms will go off when you open that door.",	
+	"anl_officeone":"Alright, open that door and enter the office.",	
+	"anl_officetwo":"Head into Liangs office.",	
+	"anl_hiddenbutton":"Look around those bookshelves for a hidden button.",
+	"anl_fingerprint":"Looks like we need Liangs finger print to get into that safe. Grab some tape and find something that may have his fingerprints. Maybe look for a coffee cup or something.",
+	"anl_keycard":"Grab that keycard and use it on the reader.",	
+	"anl_kill":"Enter Liangs sanctuary and deal with him.",
+	"anl_pushbutton":"Push that button we need it to raise Liangs safe.",
+	"anl_securemoney":"Secure those money bags.",
+	"anl_escape":"You can leave now or you can stay for more loot.",
+	"anl_override":"The alarms activated a security override, get me on that computer.",
+	"anl_signal":"The vaults too heavy to get into with a normal drill. Signal bile he'll send over some equipment.",	
+	"anl_bilewait":"You're going to have to wait for bile it should take him about two minutes to get to your location.",	
+	"anl_bilewaittwo":"We're going to use liquid nitrogen and c4 to get into that vault, I also have a drill that will get us through the vault. It won't jam however it requires alot of power.",	
+	"anl_bilehalf":"Bile's about half way there, you're just going to have to wait out a little bit longer.",	
+	"anl_equipment":"Bile's here get the equipment to the vault.",	
+	"anl_drill":"Set up that drill and don't forget to take the nitrogen.",	
+	"anl_defenddrill":"That drill won't jam. However, it requires power to run so don't let the cops turn off the power.",
+	"anl_powerone":"The cops got the power, you're going to have to fix it.",
+	"anl_powertwo":"Cops turned off the power go fix it.",
+	"anl_powerthree":"The cops got the power. Fix it.",
+	"anl_powerfour":"Cops killed the power turn it back on.",	
+	"anl_powerfour":"Cops killed the power turn it back on.",	
+	"anl_nitrogen":"Attach the nitrogen to the vault.",		
+	"anl_c4":"Attach the c4 to the vault.",	
+	"anl_intro":"From what I've heard Liang tends to hide out in his inner sanctuary. You're going to have to infiltrate his house and find a way in there.",	
+	
+	"anl_objvanc4" : "Grab C4 from van and place it on the door",
+	"anl_objvanc4_desc" : "Grab that c4 from the van and use it on the door.",	
+	
+	"anl_bilenear" : "Biles almost there, its going to be about 30 seconds til he arrives.",
+	"anl_blowtorchone" : "Liang activated security locks on his safe, you're going to have to blowtorch them off.",
+	"anl_blowtorchtwo" : "If you don't have a blow torch try looking around one of those basement shelves, or maybe try looking in the sheds",
+	"anl_c4van" : "The alarm activated a security override get the c4 from the truck and place it on the door downstairs.",	
+	"anl_nitrogenprocess" : "The nitrogen will take about a minute to completely freeze the vaults mechanism, so you're going to have to wait til it's done.",	
+	"anl_objblowtorch" : "Blowtorch security locks off",
+	"anl_objblowtorch_desc" : "Blowtorch the security locks off so that we can open up that safe.",
+	
+
+
+	"anl_objdrillrestart_desc":"Restore the Power."
+	
+
+
+
+
+
+
+
+
+
+
+}

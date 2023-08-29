@@ -1,0 +1,118 @@
+{
+
+
+	"heist_contact_the_chameleon" 					: 	"The Chameleon"
+	"heist_hidden_vault_name" 						: 	"Hidden Vault"
+	"heist_hidden_vault_brief" 						: 	"Now, people know me as the Chameleon. Bain and I had a special heist all planned out for y'all. But, he ain't here to provide the briefing, blame it on old lady luck and her game of unfortunate events. Now aside from the unfortunate circumstances due to Bain's current absence, I'm gonna brief you on news of a hidden vault that ive manage to catch wind of. Its a real beauty, sitting in plain site with one hell of a pay day in it. Before you start thinking this is all about some pile regular old cash, imma stop you right there and say that the red diamond in there, now that's gonna benefit everyone far more than some cash, alright? Say you're all in, and ill reward you handsomely. Sounds solid don't it? We pull this through, I get the diamond, and you get all the loot you want that's in that nice looking vault on top of my payout."
+	
+	"hidden_vault_obj_001" 							: 	"Enter the building"
+	"hidden_vault_obj_002" 							: 	"Take the zipline"
+	
+	"hidden_vault_obj_003" 							: 	"Open the door"
+		"hidden_vault_obj_003_1" 					: 	"Get a crowbar"
+		"hidden_vault_obj_003_2" 					: 	"Get a Blowtorch"
+	
+	"hidden_vault_obj_004" 							: 	"Hack the pc"
+		"hidden_vault_obj_004_1" 					: 	"Wait for the hack to Finish"
+		
+	"hidden_vault_obj_005" 							: 	"Enter the vault"
+		"hidden_vault_obj_005_1" 					: 	"Find out who has the encryption keys"
+		"hidden_vault_obj_005_2" 					: 	"Wait for the search"
+		"hidden_vault_obj_005_3" 					: 	"Get encryption keys"
+		"hidden_vault_obj_005_4" 					: 	"Open the main vault"
+	
+	"hidden_vault_obj_006" 							: 	"Wait for bains idea"
+	"hidden_vault_obj_007" 							: 	"Hack the vault doors"
+		"hidden_vault_obj_007_1" 					: 	"Get server rack"
+		"hidden_vault_obj_007_2" 					: 	"Place server rack"
+		"hidden_vault_obj_007_3" 					: 	"Get the right servers"
+		"hidden_vault_obj_007_4" 					: 	"Place the server into server rack"
+		"hidden_vault_obj_007_5" 					: 	"place pc and start the hack"
+		"hidden_vault_obj_007_6" 					: 	"Wait for the vault to open"
+		"hidden_vault_obj_007_7" 					: 	"Secure the loot in the vault"
+	
+	"hidden_vault_obj_008" 							: 	"Escape or get more loot"
+		"hidden_vault_obj_008_1" 					: 	"Get the c4"
+			"hidden_vault_obj_008_1_stealth" 		: 	"Get the saw"
+		"hidden_vault_obj_008_2" 					: 	"place down the c4"
+			"hidden_vault_obj_008_2_stealth" 		: 	"place down the saw"
+		"hidden_vault_obj_008_3" 					: 	"go through the tunnel"
+		"hidden_vault_obj_008_4" 					: 	"Escape available"
+		
+	"objective_diamond_001" 						: 	"Turn off the lasers"
+	"objective_diamond_002" 						: 	"Take the diamond"
+	"objective_diamond_003" 						: 	"Secure the diamond"
+	
+	"hidden_vault_obj_fail" 						: 	"You blew it!"
+	"hidden_vault_obj_fail_desc" 					: 	"You dumb boi"
+	"hidden_vault_obj_jam"							:	"Find a power box to continue the hack"
+	"hidden_vault_obj_kc_hint"						:	"You need a key card to start the pc"
+	
+
+	"hidden_vault_obj_001_desc" 					: 	"Enter the building by climbing though the window"
+	"hidden_vault_obj_002_desc" 					: 	"Take the zipline to get in the hidden area"
+	
+	"hidden_vault_obj_003_desc" 					: 	"Get the door open with a crowbar"
+		"hidden_vault_obj_003_1_desc" 				: 	"Take the crowbar in the bag"
+		"hidden_vault_obj_003_2_desc" 				: 	"The worker must have a blowtorch somewhere lying around, find it"
+	
+	"hidden_vault_obj_004_desc" 					: 	"Hack the pc to open the vault door, but it needs a key card. Its probably somewhere in the office area"
+		"hidden_vault_obj_004_1_desc" 				: 	"//Hacking in progress//"
+		
+	"hidden_vault_obj_005_desc" 					: 	"The vault doors are open what are you waiting for"
+		"hidden_vault_obj_005_1_desc" 				: 	"You can find them by hacking one of the pcs"
+		"hidden_vault_obj_005_2_desc" 				: 	"//searching in progress//"
+		"hidden_vault_obj_005_3_desc" 				: 	"They have to somewhere on the desks, you are looking for a small hard drive"
+		"hidden_vault_obj_005_4_desc" 				: 	"open it!"
+	
+	"hidden_vault_obj_006_desc" 					: 	"Wait for bains idea"
+	"hidden_vault_obj_007_desc" 					: 	"Hack the vault doors"
+		"hidden_vault_obj_007_1_desc" 				: 	"go get them"
+		"hidden_vault_obj_007_2_desc" 				: 	"place them down and connect them"
+		"hidden_vault_obj_007_3_desc" 				: 	"Find the right sever to open the vaults"
+		"hidden_vault_obj_007_4_desc" 				: 	"Connect the master server with the server rack"
+		"hidden_vault_obj_007_5_desc" 				: 	"put down your laptop and start the hack"
+		"hidden_vault_obj_007_6_desc" 				: 	"//hacking in progress//"
+		"hidden_vault_obj_007_7_desc" 				: 	"Its payday fellas"
+	
+	"hidden_vault_obj_008_desc" 					: 	"Escape or get more loot"
+		"hidden_vault_obj_008_1_desc" 				: 	"Get the c4 out the elevator"
+			"hidden_vault_obj_008_1_stealth_desc" 	: 	"Get the saw out the elevator"
+		"hidden_vault_obj_008_2_desc" 				: 	"place down the c4"
+			"hidden_vault_obj_008_2_stealth_desc" 	: 	"place down the saw"
+		"hidden_vault_obj_008_3_desc" 				: 	"go through the tunnel"
+		"hidden_vault_obj_008_4_desc" 				: 	"Escape available"
+		
+	"objective_diamond_001_desc" 					: 	"Shut down the lasers by hacking the pc in the lobby"
+	"objective_diamond_002_desc" 					:	"Finally there it is, take it!"
+	"objective_diamond_003_desc" 					: 	"Its almost ours, we just have to secure it"
+	
+	"hidden_vault_obj_jam_desc"						:	"The pc is jammed you need to reactivate the power"
+	"hidden_vault_obj_kc_hint_desc"					:	"The key card is in the office area"
+	
+	
+	
+	"test_hidden_vault"					:	"It works!"
+	"scr_001_take_password"				:	"Hold $BTN_INTERACT to take the password"
+	"scr_002_open_scr"					:	"Hold $BTN_INTERACT to move the walls"
+	"kick_trashcan"						:	"PRESS $BTN_INTERACT TO KICK THAT TRASH CAN"
+	"take_crowbar_bag"					:	"Hold $BTN_INTERACT to take the crowbar out of the bag"
+	"place_down_laptop"					:	"Press $BTN_INTERACT to place down the laptop"
+	"start_open_vaults"					:	"Hold $BTN_INTERACT to start the vault door hack"
+	"place_down_server"					:	"Hold $BTN_INTERACT to place down the sever rack"
+	"scr_active_laptop"					:	"Hold $BTN_INTERACT to open laptop and type in password"
+	"scr_no_password"					:	"You need a password"
+	"scr_password"						:	"Password"
+	
+	"hidden_bag_shortcut"				:	"Bag shortcut"
+	"hidden_bag_shortcut_desc"			:	"Secure bags via bag shortcut in the lounge"
+	"hidden_vault_cams_name"			:	"Camera truck"
+	"hidden_vault_cams_desc"			:	"A truck that is modified with high tech cam equipment"
+	"hidden_vault_mute_contractor_name"	:	"Mute the contractor"
+	"hidden_vault_mute_contractor_desc"	:	"But please dont do it :c"
+	"hidden_vault_bag_escape"			:	"Escape bag shortcut"
+	"hidden_vault_bag_escape_desc"		:	"Hire a guy to move the bags"
+	"restoration_level_data_hidden_vault":"11:08 PM, Kranich facility downtown"
+	"menu_jukebox_enemy_super_blt_heist" 		: 	"Enemy"
+    "menu_jukebox_screen_enemy_super_blt_heist" : 	"Enemy"
+	}

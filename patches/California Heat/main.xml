@@ -1,0 +1,348 @@
+<table min_lib_ver="4.5" name="California Heat">
+	<instance id="lit_door_reinforced">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+		</packages>
+	</instance>
+	<instance id="lit_shutter">
+		<packages>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+		</packages>
+	</instance>
+	<narrative briefing_event="" contact="richie" icon="textures/lit_icon" id="lit">
+		<chain>
+			<table level_id="lit1" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank1"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+	<narrative briefing_event="" contact="richie" id="lit_bonus" icon="textures/lit_bonus_icon">
+		<chain>
+			<table level_id="lit2" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="2000"/>
+			<value_node value="4000"/>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+			<value_node value="50000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="12000"/>
+			<value_node value="24000"/>
+			<value_node value="60000"/>
+			<value_node value="100000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+			<value_node value="120000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="lapd" briefing_dialog="lit1_brief" ghost_bonus="0.1" id="lit1" intro_event="lit_intro" load_screen="textures/lit_loading" max_bags="54" narrator="locke" player_style="suit_sunny">
+		<sounds directory="assets/sounds">
+			<sound id="lit1_brief" path="lit1_brief.ogg" subtitle_id="lit1_brief"/>
+			<sound id="lit_intro" path="lit_intro.ogg" subtitle_id="lit_intro"/>
+			<sound id="lit_cashier" path="lit_cashier.ogg" subtitle_id="lit_cashier"/>
+			<sound id="lit_alarm" path="lit_alarm.ogg" subtitle_id="lit_alarm"/>
+			<sound id="lit_cams" path="lit_cams.ogg" subtitle_id="lit_cams"/>
+			<sound id="lit_found" path="lit_found.ogg" subtitle_id="lit_found"/>
+			<sound id="lit_obj_1" path="lit_obj_1.ogg" subtitle_id="lit_obj_1"/>
+			<sound id="lit_obj_2" path="lit_obj_2.ogg" subtitle_id="lit_obj_2"/>
+			<sound id="lit_obj_2_case" path="lit_obj_2_case.ogg" subtitle_id="lit_obj_2_case"/>
+			<sound id="lit_obj_3_some" path="lit_obj_3_some.ogg" subtitle_id="lit_obj_3_some"/>
+			<sound id="lit_obj_3_all" path="lit_obj_3_all.ogg" subtitle_id="lit_obj_3_all"/>
+			<sound id="lit_obj_4" path="lit_obj_4.ogg" subtitle_id="lit_obj_4"/>
+			<sound id="lit_obj_5" path="lit_obj_5.ogg" subtitle_id="lit_obj_5"/>
+			<sound id="lit_obj_5_burn" path="lit_obj_5_burn.ogg" subtitle_id="lit_obj_5_burn"/>
+			<sound id="lit_obj_6" path="lit_obj_6.ogg" subtitle_id="lit_obj_6"/>
+			<sound id="lit_obj_6_early" path="lit_obj_6_early.ogg" subtitle_id="lit_obj_6_early"/>
+			<sound id="lit_obj_7_armored" path="lit_obj_7_armored.ogg" subtitle_id="lit_obj_7_armored"/>
+			<sound id="lit_obj_7_heat" path="lit_obj_7_heat.ogg" subtitle_id="lit_obj_7_heat"/>
+			<sound id="lit_obj_7_cashier" path="lit_obj_7_cashier.ogg" subtitle_id="lit_obj_7_cashier"/>
+			<sound id="lit_obj_7_play" path="lit_obj_7_play.ogg" subtitle_id="lit_obj_7_play"/>
+			<sound id="lit_obj_7_vans" path="lit_obj_7_vans.ogg" subtitle_id="lit_obj_7_vans"/>
+			<sound id="lit_obj_8_heli" path="lit_obj_8_heli.ogg" subtitle_id="lit_obj_8_heli"/>
+			<sound id="lit_obj_8_land" path="lit_obj_8_land.ogg" subtitle_id="lit_obj_8_land"/>
+			<sound id="lit_obj_8_van" path="lit_obj_8_van.ogg" subtitle_id="lit_obj_8_van"/>
+			<sound id="lit_obj_8_wait" path="lit_obj_8_wait.ogg" subtitle_id="lit_obj_8_wait"/>
+		</sounds>
+		<packages>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/miscassets"/>
+		</packages>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage2/world"/>
+		</packages>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+		</packages>
+		<packages>
+			<value_node value="packages/lvl_friend"/>
+		</packages>
+		<packages>
+			<value_node value="packages/narr_framing_1"/>
+		</packages>
+		<packages>
+			<value_node value="packages/narr_red2"/>
+		</packages>
+		<packages>
+			<value_node value="packages/jolly"/>
+		</packages>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+			<asset name="lit_shortcut"/>
+			<asset name="lit_equipment"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+			<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+		</hooks>
+		<outro_event/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="lapd" briefing_dialog="lit2_brief" ghost_bonus="0.05" id="lit2" intro_event="lit2_intro" load_screen="textures/lit_bonus_loading" max_bags="54" narrator="locke" player_style="suit_sunny">
+		<sounds directory="assets/sounds">
+			<sound id="lit2_brief" path="lit2/lit2_brief.ogg" subtitle_id="lit2_brief"/>
+			<sound id="lit2_intro" path="lit2/lit2_intro.ogg" subtitle_id="lit2_intro"/>
+			<sound id="bonus_obj_1" path="lit2/bonus_obj_1.ogg" subtitle_id="bonus_obj_1"/>
+			<sound id="bonus_obj_2" path="lit2/bonus_obj_2.ogg" subtitle_id="bonus_obj_2"/>
+			<sound id="bonus_obj_3" path="lit2/bonus_obj_3.ogg" subtitle_id="bonus_obj_3"/>
+			<sound id="bonus_obj_3_talk" path="lit2/bonus_obj_3_talk.ogg" subtitle_id="bonus_obj_3_talk"/>
+			<sound id="bonus_obj_4" path="lit2/bonus_obj_4.ogg" subtitle_id="bonus_obj_4"/>
+			<sound id="bonus_obj_4_button" path="lit2/bonus_obj_4_button.ogg" subtitle_id="bonus_obj_4_button"/>
+			<sound id="bonus_obj_5" path="lit2/bonus_obj_5.ogg" subtitle_id="bonus_obj_5"/>
+			<sound id="bonus_obj_5_talk" path="lit2/bonus_obj_5_talk.ogg" subtitle_id="bonus_obj_5_talk"/>
+			<sound id="bonus_obj_6" path="lit2/bonus_obj_6.ogg" subtitle_id="bonus_obj_6"/>
+			<sound id="bonus_obj_6_hack" path="lit2/bonus_obj_6_hack.ogg" subtitle_id="bonus_obj_6_hack"/>
+			<sound id="bonus_obj_7" path="lit2/bonus_obj_7.ogg" subtitle_id="bonus_obj_7"/>
+			<sound id="bonus_obj_8" path="lit2/bonus_obj_8.ogg" subtitle_id="bonus_obj_8"/>
+			<sound id="bonus_obj_8_talk" path="lit2/bonus_obj_8_talk.ogg" subtitle_id="bonus_obj_8_talk"/>
+			<sound id="bonus_obj_9" path="lit2/bonus_obj_9.ogg" subtitle_id="bonus_obj_9"/>
+			<sound id="insider_1" path="lit2/insider_1.ogg" subtitle_id="insider_1"/>
+			<sound id="insider_2" path="lit2/insider_2.ogg" subtitle_id="insider_2"/>
+			<sound id="insider_3" path="lit2/insider_3.ogg" subtitle_id="insider_3"/>
+			<sound id="insider_4" path="lit2/insider_4.ogg" subtitle_id="insider_4"/>
+			<sound id="insider_pain" path="lit2/insider_pain.ogg" subtitle_id="insider_pain"/>
+			<sound id="insider_save" path="lit2/insider_save.ogg" subtitle_id="insider_save"/>
+		</sounds>
+		<packages>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="packages/miscassets"/>
+		</packages>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage2/world"/>
+		</packages>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+		</packages>
+		<packages>
+			<value_node value="packages/lvl_friend"/>
+		</packages>
+		<packages>
+			<value_node value="packages/narr_framing_1"/>
+		</packages>
+		<packages>
+			<value_node value="packages/narr_red2"/>
+		</packages>
+		<packages>
+			<value_node value="packages/jolly"/>
+		</packages>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+      <hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+			<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+		</hooks>
+		<outro_event/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<instance id="lit_gamebox">
+		<packages/>
+	</instance>
+	<Achievements banner="textures/lit_banner" icon="textures/lit_pack" id="lit_pack">
+		<achievement icon="textures/lit_safe" id="lit_safe" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement icon="textures/lit_time" id="lit_time" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="textures/lit_early" id="lit_early" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/lit_armored" id="lit_armored" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement icon="textures/lit_normal" id="lit_normal" rank="1"/>
+		<achievement icon="textures/lit_hard" id="lit_hard" rank="1"/>
+		<achievement icon="textures/lit_veryhard" id="lit_veryhard" rank="2"/>
+		<achievement icon="textures/lit_ovk" id="lit_ovk" rank="2"/>
+		<achievement icon="textures/lit_mayhem" id="lit_mayhem" rank="3"/>
+		<achievement icon="textures/lit_dw" id="lit_dw" rank="3"/>
+		<achievement icon="textures/lit_ds" id="lit_ds" rank="4"/>
+		<achievement icon="textures/lit_dsod" id="lit_dsod" rank="4"/>
+		<achievement icon="textures/lit_bonus_complete" id="lit_bonus_complete" rank="2"/>
+		<achievement icon="textures/lit_bonus_awards" id="lit_bonus_awards" rank="3" reward_amount="4" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="textures/lit_bonus_tonis" id="lit_bonus_tonis" rank="4" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/lit_bonus_mask" id="lit_bonus_mask" rank="1" reward_amount="2" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<gui load="true" path="textures/mission_briefing/richie/preload_contact_richie"/>
+		<movie force="true" path="movies/codex/richie"/>
+		<texture force="true" path="textures/mission_briefing/richie/bd_pattern"/>
+		<texture force="true" path="textures/lit_banner"/>
+		<png force="true" path="textures/lit_shortcut"/>
+		<png force="true" path="textures/lit_equipment"/>
+		<texture force="true" path="textures/lit_icon"/>
+		<texture force="true" path="textures/lit_loading"/>
+		<texture force="true" path="textures/lit_bonus_icon"/>
+		<texture force="true" path="textures/lit_bonus_loading"/>
+		<png force="true" path="textures/lit_pack"/>
+		<png force="true" path="textures/lit_normal"/>
+		<png force="true" path="textures/lit_hard"/>
+		<png force="true" path="textures/lit_veryhard"/>
+		<png force="true" path="textures/lit_ovk"/>
+		<png force="true" path="textures/lit_mayhem"/>
+		<png force="true" path="textures/lit_dw"/>
+		<png force="true" path="textures/lit_ds"/>
+		<png force="true" path="textures/lit_dsod"/>
+		<png force="true" path="textures/lit_safe"/>
+		<png force="true" path="textures/lit_early"/>
+		<png force="true" path="textures/lit_armored"/>
+		<png force="true" path="textures/lit_time"/>
+		<texture force="true" path="textures/lit_bonus_complete"/>
+		<texture force="true" path="textures/lit_bonus_mask"/>
+		<texture force="true" path="textures/lit_bonus_tonis"/>
+		<texture force="true" path="textures/lit_bonus_awards"/>
+	</AddFiles>
+	<AssetUpdates id="35162" provider="modworkshop" use_local_dir="true" version="3.0"/>
+	<HeistMusic directory="assets/music/Burning One Down" id="bod" volume="0.5">
+		<event name="setup" source="stealth.ogg" start_source="stealth_intro.ogg"/>
+		<event name="anticipation" source="anticipation.ogg" start_source="anticipation_intro.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assault_intro.ogg"/>
+		<event name="control" source="control.ogg" start_source="control_intro.ogg"/>
+	</HeistMusic>
+	<Hooks directory="Hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="textures/mission_briefing/richie/preload_contact_richie" desc_id="contact_richie_desc" id="richie" name_id="contact_richie_name" package="packages/contact_bain"/>
+</table>

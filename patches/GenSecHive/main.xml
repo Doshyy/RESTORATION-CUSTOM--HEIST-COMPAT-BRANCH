@@ -1,0 +1,107 @@
+<table min_lib_ver="4.5" name="GenSecHive">
+	<instance id="bnktower_room">
+		<packages/>
+	</instance>
+	<instance id="bnktower_equipment">
+		<packages/>
+	</instance>
+	<instance id="bnktower_stash">
+		<packages/>
+	</instance>
+	<Achievements icon="guis/achi/bnktower" id="bnktower">
+		<achievement desc_id="bnktower_1_desc" icon="guis/achi/bnktower_1" id="bnktower_1" name_id="bnktower_1_name" rank="1"/>
+		<achievement desc_id="bnktower_2_desc" icon="guis/achi/bnktower_2" id="bnktower_2" name_id="bnktower_2_name" rank="2"/>
+		<achievement desc_id="bnktower_3_desc" icon="guis/achi/bnktower_3" id="bnktower_3" name_id="bnktower_3_name" rank="3"/>
+		<achievement amount="145" desc_id="bnktower_4_desc" icon="guis/achi/bnktower_4" id="bnktower_4" name_id="bnktower_4_name" rank="4"/>
+		<achievement desc_id="bnktower_5_desc" hidden_achievement="true" icon="guis/achi/bnktower_4" id="bnktower_5" name_id="bnktower_5_name" rank="4"/>
+		<achievement desc_id="bnktower_6_desc" hidden_achievement="true" icon="guis/achi/bnktower_6" id="bnktower_6" name_id="bnktower_6_name" rank="2"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="guis/bnktower"/>
+		<texture force="true" load="true" path="guis/achi/bnktower"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_1"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_2"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_3"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_4"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_5"/>
+		<texture force="true" load="true" path="guis/achi/bnktower_6"/>
+	</AddFiles>
+	<AssetUpdates id="36368" provider="modworkshop" version="1.5"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<level ai_group_type="nypd" briefing_id="heist_bnktower_level_brief" id="bnktower" max_bags="9999" name_id="heist_bnktower_level_name" player_style="loud_suit">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/narratives/bain/revenge/world"/>
+			<value_node value="levels/instances/unique/hox_estate_heli_spawn/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_escape_heli/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative brief_id="heist_bnktower_brief_crimenet" contact="custom" day_1_sticker="guis/achi/bnktower_1" icon="guis/bnktower" id="bnktower">
+		<chain>
+			<table level_id="bnktower" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+			<value_node value="1.2"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+			<value_node value="9.6e+006"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="90000"/>
+			<value_node value="135000"/>
+			<value_node value="180000"/>
+			<value_node value="310000"/>
+			<value_node value="380000"/>
+			<value_node value="380000"/>
+			<value_node value="380000"/>
+		</payout>
+	</narrative>
+</table>

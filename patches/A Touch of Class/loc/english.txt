@@ -1,0 +1,46 @@
+{
+	"heist_atocl_brief":"I've managed to track down the guy who has been setting up the police raids against my contacts. I don't know who he is working for so, I need you to infiltrate his penthouse and set me up on his devices. Currently he is hosting some big event, and I managed to get you in with an invintation. An insider hid your gear in a guitar case by one of the closets. This job has to go smoothly, that means no going all guns blazing. Also make sure you don't alert or kill the guy if you do then shits over and you need to pull out.",
+	"atoc_objofficecomputer":"Hack Office PC",
+	"atoc_objcomputer_desc":"Get me on that server computer.",
+	"atoc_objescape":"Place your gear away and escape",
+	"atoc_objofficecomputer_desc":"Get me on his pc. It shouldn't take me to long to hack in.",
+	"atoc_objenteroffice_desc":"Alright he's moving. Remember we can't alert or kill this guy, so when he's away from his office go and enter his room.",
+	"atoc_obj1":"Get your gear",
+	"contact_constantine_name" : "Constantine",
+	"contact_constantine_desc" : "",
+	"atoc_objkeycard":"Get and Use Keycards",
+	"atoc_objcomputer":"Hack Server Computer",
+	"heist_atocl_name":"A Touch of Class",
+	"atoc_obj2":"Head upstairs",
+	"atoc_objphone_desc":"The guy is currently in his office and we need to get him out of there, get me on his phone. I'll be able to distract him",
+	"atoc_objphone":"Get to Phone",
+	"atoc_objescape_desc":"Okay we are good. Go back to where you picked up your gear and put it back, then you can escape.",
+	"atoc_objdevice":"Place Devices on Phones",
+	"atoc_obj1_desc":"The insider hid your gear in one of the closets, go get it.",
+	"atoc_objkeycard_desc":"The server room requires two keycards. You'll have to look around the rooms for them.",
+	"atoc_objfindserver":"Head to Server Room",
+	"heist_atoc_name":"A Touch of Class",
+	"restoration_level_data_atocl":"7:03 PM, Penthouse Party",
+	"atoc_objdevice_desc":"Okay, with the server out of the way we need to place listening devices on his phones. Look around for his phones and place those devices.",
+	"atoc_objenteroffice":"Enter Office",
+	"atoc_objfindserver_desc":"The insider told me that the server room is on the top floor, head there.",
+	"atoc_obj2_desc":"Alright, now that you have your gear head upstairs.",
+	"atoc_upstairs":"Alright, now that you have your gear head upstairs.",
+	"atoc_device":"Okay, with the server out of the way we need to place listening devices on his phones. Look around for his phones and place those devices.",
+	"atoc_keycard":"The server room requires two keycards. You'll have to look around the rooms for them.",
+	"atoc_findserver":"The insider told me that the server room is on the top floor, head there.",
+	"atoc_escape":"Okay we are good. Go back to where you picked up your gear and put it back, and then you can escape.",
+	"atoc_phone":"The guy is currently in his office and we need to get him out of there. Get me on the phone I'll be able to distract him",
+	"atoc_enteroffice":"Alright he's moving. Remember we can't alert or kill this guy, so when he's away from his office enter his room.",
+	"atoc_officepc":"Get me on his pc. It shouldn't take me to long to hack in.",
+	"atoc_serverpc":"Get me on that server computer.",
+	"atoc_intro":"The insider hid your gear in the closets. So when you are ready to end this charade go get your gear and get ready.",
+							
+	"heist_atoc_brief":"I've managed to track down the guy who has been setting up the police raids against my contacts. I don't know who he is working for so, I need you to infiltrate his penthouse and set me up on his devices. This job has to go smoothly, that means no going all guns blazing. Also make sure you don't alert or kill the guy if you do then shits over and you need to pull out.\n\n»Gather your gear\n»Set up devices \n» Put away your gear and escape",
+
+
+
+
+
+
+}

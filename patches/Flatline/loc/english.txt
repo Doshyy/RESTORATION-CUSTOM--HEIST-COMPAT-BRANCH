@@ -1,0 +1,64 @@
+{
+
+
+"hud_hold_place_mold":"Hold $BTN_INTERACT to place hand mesh mold",
+"flatline_wrong_1" :"That's not him.",
+"flatline_wrong_2" :"Nope, That's not him.",
+"flatline_wrong_3" :"That's not Mikhail.",
+"flatline_wrong_4" :"Nope, thats the wrong guy.",
+"flatline_wrong_5" :"No, that's not him.",
+"flatline_escape" : "You can escape at any time now.",
+"flatline_alarmbox":"Mikhails father pulled some strings and has the hospital to shut down to the public, if you open that door it will alarm the whole place, find a security box outside and disable it.",
+"flatline_keycard":"That door requires a keycard look around the offices.",
+"flatline_stealthbox":"We don't know what room Mikhails in so slice the security panels to open the doors, Ill let you know when you found him.",
+"flatline_mold":"That's our guy. We need to get an exact handprint replica, so place that mesh on him.",
+"flatline_tablet":"Place the devices on the security boxes, we should be able to open each room when they're all are hacked.",
+"flatline_saw":"We don't know what room Mikhails in so saw them all open, Ill let you know when you found him.",
+"flatline_computer":"Get me on one of the lobby computers, the alarm locked the door.",
+
+
+"flatline_intro" : "I'm hearing police chatter all across the radios, looks like Aleksandr's got alot of security up in here. You can expect alot of heat if you go loud.",
+
+"flatline_obj1":"Disable Hospital Security System",
+"flatline_obj1_desc":"Mikhails father pulled some strings and has the hospital to shut down to the public, if you open that door it will alarm the whole place, find a security box outside and disable it.",
+"flatline_objkeycard":"Find and Use Keycard",
+"flatline_objkeycard_desc":"That door requires a keycard look around the offices.",
+"flatline_objcomputer":"Hack Computer",
+"flatline_objcomputer_desc":"Get me on one of the lobby computers, the alarm locked the door.",
+
+"flatline_objtablet":"Hack Security Boxes",
+"flatline_objtablet_desc":"Place the devices on the security boxes, we should be able to open each room when they're all are hacked.",
+
+"flatline_objsaw":"Saw Correct Door",
+"flatline_objsaw_desc":"We don't know what room Mikhails in so saw them all open, Ill let you know when you found him.",
+
+"flatline_objescape":"Escape",
+"flatline_objescape_desc":"You guys can leave now.",
+
+
+"flatline_objcutstealth":"Slice Correct Security Box",
+"flatline_objcutstealth_desc":"We don't know what room Mikhails in so slice the security panels to open the doors, Ill let you know when you found him.",
+
+"menu_asset_nikolai_backup" : "Nikolai Crew",
+
+"menu_asset_nikolai_backup_desc" : "Nikolai is willing to lend his crew to help us, he however is unable to join the job.",
+
+
+"flatline_objmold":"Place Hand Mesh Mold",
+"flatline_objmold_desc":"That's our guy. We need to get an exact handprint replica, so place that mesh on him.",
+
+
+"heist_flatline_lvl_name":"Flatline",
+"heist_flatline_lvl_brief":"That hard drive we got from the club manager indentified the mob boss we are looking for as a Aleksandr Kosolov, unfortunetly we are unable to get his location, as, it is hidden behind a security lock that requres a fingerprint from his son Mikhail. However luck is on our side. From what I know currently he's flatlining in a hospital over a drug overdose. So, head over to the hospital get to his bedroom and apply a hand mold to his hand. That way we can replicate his fingerprints whenever we need to.",
+
+"contact_constantine_name":"Constantine",
+"contact_constantine_desc":"",
+	
+
+"heist_flatline_nar_name":"Flatline",
+"heist_flatline_nar_brief":"That hard drive we got from the club manager indentified the mob boss we are looking for as a Aleksandr Kosolov, unfortunetly we are unable to get his location, as, it is hidden behind a security lock that requres a fingerprint from his son Mikhail. However luck is on our side. From what I know currently he's flatlining in a hospital over a drug overdose. So, head over to the hospital get to his bedroom and apply a hand mold to his hand. That way we can replicate his fingerprints whenever we need to.\n\n»Inflitrate the hospital\n»Find Mikhail \n»Place Hand Mesh on his hand\n»Escape with the mesh",
+	
+"restoration_level_data_flatline_lvl":"10:26 PM, Милосердие Hospital"
+
+
+}

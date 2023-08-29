@@ -1,0 +1,38 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_wwh/equipment/wwh_interactable_saw_no_jam/wwh_interactable_saw_no_jam" type="unit">
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active" unload="true"/>
+		<effect load="true" path="effects/particles/equipment/apartment_saw/saw_active" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/equipment/apartment_saw/apartment_saw" unload="true"/>
+		<object path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_glace/equipment/gen_interactable_saw_no_jam/gen_interactable_saw_no_jam" unload="true"/>
+		<unit path="units/pd2_dlc_wwh/equipment/wwh_interactable_saw_no_jam/wwh_interactable_saw_no_jam" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/pickups/wwh_pku_saw/wwh_pku_saw" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_wwh/pickups/wwh_pku_saw/wwh_pku_saw" unload="true"/>
+		<object path="units/pd2_dlc_wwh/pickups/wwh_pku_saw/wwh_pku_saw" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_wwh/pickups/wwh_pku_saw/wwh_pku_saw" unload="true"/>
+		<unit path="units/pd2_dlc_wwh/pickups/wwh_pku_saw/wwh_pku_saw" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" type="unit">
+		<unit path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" unload="true"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" unload="true"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_shutter_02/brb_prop_shutter_02" unload="true"/>
+	</add>
+</table>

@@ -1,0 +1,356 @@
+<table min_lib_ver="4.5" name="Hunter and Hunted">
+
+
+
+	<Achievements icon="textures/hunter_all" id="hunter_all">
+        <achievement icon="textures/hunter_party" id="hunter_party" rank="4" reward_amount="10" reward_type="cc"/>
+        <achievement icon="textures/hunter_loot" id="hunter_loot" rank="3" reward_amount="6" reward_type="cc"/>
+        <achievement icon="textures/hunter_speedrun" id="hunter_speedrun" rank="2" reward_amount="4" reward_type="cc"/>
+        <achievement icon="textures/hunter_normal" id="hunter_normal" rank="1"/>
+        <achievement icon="textures/hunter_hard" id="hunter_hard" rank="1"/>
+        <achievement icon="textures/hunter_veryhard" id="hunter_veryhard" rank="2"/>
+        <achievement icon="textures/hunter_ovk" id="hunter_ovk" rank="2"/>
+        <achievement icon="textures/hunter_mayhem" id="hunter_mayhem" rank="3"/>
+        <achievement icon="textures/hunter_dw" id="hunter_dw" rank="3"/>
+        <achievement icon="textures/hunter_ds" id="hunter_ds" rank="4"/>
+        <achievement icon="textures/hunter_dsod" id="hunter_dsod" rank="4"/>
+    </Achievements>
+
+	<level ai_group_type="russia" briefing_dialog="party_brief" id="hunter_party" intro_event="party_intro" max_bags="54" player_style="continental">
+		<assets/>
+	<sounds directory="assets/sound">
+		<sound id="party_brief" path="PBrief.ogg"/>
+		<sound id="fall_brief" path="FBrief.ogg"/>
+		<sound id="departure_brief" path="DBrief.ogg"/>
+		<sound id="party_intro" path="PIntro.ogg" subtitle_id="party_intro"/>
+		<sound id="departure_intro" path="DIntro.ogg" subtitle_id="departure_intro"/>
+		<sound id="fall_intro" path="FIntro.ogg"/>
+		<sound id="hunt_ambush" path="AmbushHint.ogg" subtitle_id="hunt_ambush"/>
+		<sound id="hunt_backup" path="BackupHint.ogg" subtitle_id="hunt_backup"/>
+		<sound id="hunt_equip" path="EquipmentHint.ogg" subtitle_id="hunt_equip"/>
+		<sound id="hunt_sniper" path="SniperHint.ogg" subtitle_id="hunt_sniper"/>
+		<sound id="hunt_fedorescape" path="FedorEscapeHint.ogg" subtitle_id="hunt_fedorescape"/>
+		<sound id="hunt_findalex" path="FindAlexHint.ogg" subtitle_id="hunt_findalex"/>
+		<sound id="hunt_gas" path="GasHint.ogg" subtitle_id="hunt_gas"/>
+		<sound id="hunt_grabequip" path="GrabEquipmentHint.ogg" subtitle_id="hunt_grabequip"/>
+		<sound id="hunt_hangerdoor" path="HangerDoorHint.ogg" subtitle_id="hunt_hangerdoor"/>
+		<sound id="hunt_hanger" path="HangerHint.ogg" subtitle_id="hunt_hanger"/>
+		<sound id="hunt_nikolai" path="NikolaiHint.ogg" subtitle_id="hunt_nikolai"/>
+		<sound id="hunt_planeescape" path="PlaneEscapeHint.ogg" subtitle_id="hunt_planeescape"/>
+		<sound id="hunt_parachute" path="ParachutePlane.ogg" subtitle_id="hunt_parachute"/>
+		<sound id="hunt_security" path="SecurityHint.ogg" subtitle_id="hunt_security"/>
+		<sound id="hunt_server" path="ServerHint.ogg" subtitle_id="hunt_server"/>
+		<sound id="hunt_signal" path="SignalHint.ogg" subtitle_id="hunt_signal"/>
+		<sound id="hunt_roof" path="RoofHint.ogg" subtitle_id="hunt_roof"/>
+		<sound id="hunt_sprinkler" path="SprinklerHint.ogg" subtitle_id="hunt_sprinkler"/>
+		<sound id="hunt_storage" path="StorageLootHint.ogg" subtitle_id="hunt_storage"/>
+		<sound id="hunt_terminal" path="TerminalHint.ogg" subtitle_id="hunt_terminal"/>
+		<sound id="hunt_pc" path="TerminalPCHint.ogg" subtitle_id="hunt_pc"/>
+		<sound id="hunt_waitfedor" path="WaitFedorHint.ogg" subtitle_id="hunt_waitfedor"/>
+		<sound id="hunt_waitrepair" path="WaitRepairHint.ogg" subtitle_id="hunt_waitrepair"/>
+		<sound id="hunt_chopper" path="ChopperHint.ogg" subtitle_id="hunt_chopper"/>
+		<sound id="hunt_helidone" path="HelicopterRun.ogg" subtitle_id="hunt_helidone"/>
+	</sounds>			
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/fish/server_rack/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+			<value_node value="packages/dlcs/sah/job_sah"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="russia" briefing_dialog="departure_brief" id="hunter_departure" flashlights_on="true" intro_event="departure_intro" max_bags="54" player_style="winter_suit">
+	<sounds directory="assets/sound">
+		<sound id="party_brief" path="PBrief.ogg"/>
+		<sound id="fall_brief" path="FBrief.ogg"/>
+		<sound id="departure_brief" path="DBrief.ogg"/>
+		<sound id="party_intro" path="PIntro.ogg" subtitle_id="party_intro"/>
+		<sound id="departure_intro" path="DIntro.ogg" subtitle_id="departure_intro"/>
+		<sound id="fall_intro" path="FIntro.ogg"/>
+		<sound id="hunt_ambush" path="AmbushHint.ogg" subtitle_id="hunt_ambush"/>
+		<sound id="hunt_backup" path="BackupHint.ogg" subtitle_id="hunt_backup"/>
+		<sound id="hunt_equip" path="EquipmentHint.ogg" subtitle_id="hunt_equip"/>
+		<sound id="hunt_sniper" path="SniperHint.ogg" subtitle_id="hunt_sniper"/>
+		<sound id="hunt_fedorescape" path="FedorEscapeHint.ogg" subtitle_id="hunt_fedorescape"/>
+		<sound id="hunt_findalex" path="FindAlexHint.ogg" subtitle_id="hunt_findalex"/>
+		<sound id="hunt_gas" path="GasHint.ogg" subtitle_id="hunt_gas"/>
+		<sound id="hunt_grabequip" path="GrabEquipmentHint.ogg" subtitle_id="hunt_grabequip"/>
+		<sound id="hunt_hangerdoor" path="HangerDoorHint.ogg" subtitle_id="hunt_hangerdoor"/>
+		<sound id="hunt_hanger" path="HangerHint.ogg" subtitle_id="hunt_hanger"/>
+		<sound id="hunt_nikolai" path="NikolaiHint.ogg" subtitle_id="hunt_nikolai"/>
+		<sound id="hunt_planeescape" path="PlaneEscapeHint.ogg" subtitle_id="hunt_planeescape"/>
+		<sound id="hunt_parachute" path="ParachutePlane.ogg" subtitle_id="hunt_parachute"/>
+		<sound id="hunt_security" path="SecurityHint.ogg" subtitle_id="hunt_security"/>
+		<sound id="hunt_server" path="ServerHint.ogg" subtitle_id="hunt_server"/>
+		<sound id="hunt_signal" path="SignalHint.ogg" subtitle_id="hunt_signal"/>
+		<sound id="hunt_roof" path="RoofHint.ogg" subtitle_id="hunt_roof"/>
+		<sound id="hunt_sprinkler" path="SprinklerHint.ogg" subtitle_id="hunt_sprinkler"/>
+		<sound id="hunt_storage" path="StorageLootHint.ogg" subtitle_id="hunt_storage"/>
+		<sound id="hunt_terminal" path="TerminalHint.ogg" subtitle_id="hunt_terminal"/>
+		<sound id="hunt_pc" path="TerminalPCHint.ogg" subtitle_id="hunt_pc"/>
+		<sound id="hunt_waitfedor" path="WaitFedorHint.ogg" subtitle_id="hunt_waitfedor"/>
+		<sound id="hunt_waitrepair" path="WaitRepairHint.ogg" subtitle_id="hunt_waitrepair"/>
+		<sound id="hunt_chopper" path="ChopperHint.ogg" subtitle_id="hunt_chopper"/>
+		<sound id="hunt_helidone" path="HelicopterRun.ogg" subtitle_id="hunt_helidone"/>
+	</sounds>	
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/mex/mex_runway_gate/world"/>
+			<value_node value="levels/instances/unique/mex/mex_runway_gate/world/world"/>
+			<value_node value="levels/instances/unique/mex/mex_runway_gate/world_sounds"/>
+			<value_node value="levels/instances/unique/mex/mex_plane_cessna/world"/>
+			<value_node value="levels/instances/unique/mex/mex_plane_cessna/world/world"/>
+			<value_node value="levels/instances/unique/mex/mex_plane_cessna/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/security_room_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/security_room_door/world/world"/>
+			<value_node value="levels/narratives/jiu/chas/world"/>
+			<value_node value="packages/job_branchbank_gold"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="russia" briefing_dialog="fall_brief" id="hunter_fall" intro_event="fall_intro" max_bags="54" player_style="loud_suit">
+		<assets/>
+		<sounds directory="assets/sound">
+		<sound id="party_brief" path="PBrief.ogg"/>
+		<sound id="fall_brief" path="FBrief.ogg"/>
+		<sound id="departure_brief" path="DBrief.ogg"/>
+		<sound id="party_intro" path="PIntro.ogg" subtitle_id="party_intro"/>
+		<sound id="departure_intro" path="DIntro.ogg" subtitle_id="departure_intro"/>
+		<sound id="fall_intro" path="FIntro.ogg"/>
+		<sound id="hunt_ambush" path="AmbushHint.ogg" subtitle_id="hunt_ambush"/>
+		<sound id="hunt_backup" path="BackupHint.ogg" subtitle_id="hunt_backup"/>
+		<sound id="hunt_equip" path="EquipmentHint.ogg" subtitle_id="hunt_equip"/>
+		<sound id="hunt_sniper" path="SniperHint.ogg" subtitle_id="hunt_sniper"/>
+		<sound id="hunt_fedorescape" path="FedorEscapeHint.ogg" subtitle_id="hunt_fedorescape"/>
+		<sound id="hunt_findalex" path="FindAlexHint.ogg" subtitle_id="hunt_findalex"/>
+		<sound id="hunt_gas" path="GasHint.ogg" subtitle_id="hunt_gas"/>
+		<sound id="hunt_grabequip" path="GrabEquipmentHint.ogg" subtitle_id="hunt_grabequip"/>
+		<sound id="hunt_hangerdoor" path="HangerDoorHint.ogg" subtitle_id="hunt_hangerdoor"/>
+		<sound id="hunt_hanger" path="HangerHint.ogg" subtitle_id="hunt_hanger"/>
+		<sound id="hunt_nikolai" path="NikolaiHint.ogg" subtitle_id="hunt_nikolai"/>
+		<sound id="hunt_planeescape" path="PlaneEscapeHint.ogg" subtitle_id="hunt_planeescape"/>
+		<sound id="hunt_parachute" path="ParachutePlane.ogg" subtitle_id="hunt_parachute"/>
+		<sound id="hunt_security" path="SecurityHint.ogg" subtitle_id="hunt_security"/>
+		<sound id="hunt_server" path="ServerHint.ogg" subtitle_id="hunt_server"/>
+		<sound id="hunt_signal" path="SignalHint.ogg" subtitle_id="hunt_signal"/>
+		<sound id="hunt_roof" path="RoofHint.ogg" subtitle_id="hunt_roof"/>
+		<sound id="hunt_sprinkler" path="SprinklerHint.ogg" subtitle_id="hunt_sprinkler"/>
+		<sound id="hunt_storage" path="StorageLootHint.ogg" subtitle_id="hunt_storage"/>
+		<sound id="hunt_terminal" path="TerminalHint.ogg" subtitle_id="hunt_terminal"/>
+		<sound id="hunt_pc" path="TerminalPCHint.ogg" subtitle_id="hunt_pc"/>
+		<sound id="hunt_waitfedor" path="WaitFedorHint.ogg" subtitle_id="hunt_waitfedor"/>
+		<sound id="hunt_waitrepair" path="WaitRepairHint.ogg" subtitle_id="hunt_waitrepair"/>
+		<sound id="hunt_chopper" path="ChopperHint.ogg" subtitle_id="hunt_chopper"/>
+		<sound id="hunt_helidone" path="HelicopterRun.ogg" subtitle_id="hunt_helidone"/>
+	</sounds>		
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="packages/narr_mia_2"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<instance id="hunter_door_not_interactable">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+		</packages>
+	</instance>
+	<instance id="hunter_crew">
+		<packages>
+			<value_node value="levels/instances/unique/pbr/pbr_plane_crew/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_plane_crew/world_sounds"/>
+			<value_node value="levels/instances/unique/pbr/pbr_plane_crew/world/world"/>
+		</packages>
+	</instance>
+	<instance id="hunter_intercom">
+		<packages/>
+	</instance>
+	<instance id="hunter_sawdoor">
+		<packages>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+		</packages>
+	</instance>
+	<instance id="hunter_spawn_enemies">
+		<add directory="assets"/>
+		<include directory="levels/instances/hunter_spawn_enemies">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="hunter_generic_door_reinforced">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_generic_door_reinforced/world/world"/>
+		</packages>
+	</instance>
+	<instance id="departure_plane">
+		<packages/>
+	</instance>
+	<instance id="hunter_crate">
+		<packages>
+			<value_node value="levels/instances/unique/shout_crate/world"/>
+			<value_node value="levels/instances/unique/shout_crate/world_sounds"/>
+			<value_node value="levels/instances/unique/shout_crate/world/world"/>
+		</packages>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/huntericon"/>
+    <png force="true" path="textures/hunter_all"/>
+    <png force="true" path="textures/hunter_normal"/>
+    <png force="true" path="textures/hunter_hard"/>
+    <png force="true" path="textures/hunter_veryhard"/>
+    <png force="true" path="textures/hunter_ovk"/>
+    <png force="true" path="textures/hunter_mayhem"/>
+    <png force="true" path="textures/hunter_dw"/>
+    <png force="true" path="textures/hunter_ds"/>
+    <png force="true" path="textures/hunter_dsod"/>
+    <png force="true" path="textures/hunter_speedrun"/>
+    <png force="true" path="textures/hunter_loot"/>
+    <png force="true" path="textures/hunter_party"/>
+	</AddFiles>
+	<AssetUpdates id="34674" provider="modworkshop" version="1.4"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<narrative briefing_event="" contact="constantine" icon="textures/huntericon" id="Hunter_narrative">
+		<chain>
+			<table level_id="hunter_party" type="d" type_id="heist_type_assault"/>
+			<table level_id="hunter_departure" type="d" type_id="heist_type_assault"/>
+			<table level_id="hunter_fall" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="400000"/>
+			<value_node value="420000"/>
+			<value_node value="420000"/>
+			<value_node value="420000"/>
+		</contract_cost>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<huntnet_callouts>
+			<value_node value="nothing"/>
+		</huntnet_callouts>
+		<huntnet_videos>
+			<value_node value="cn_branchbank2"/>
+		</huntnet_videos>
+		<max_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+			<value_node value="16000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+			<value_node value="80000"/>
+		</payout>
+	</narrative>
+</table>

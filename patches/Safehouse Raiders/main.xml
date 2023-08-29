@@ -1,0 +1,162 @@
+<table name="sh_raiders">
+	<Achievements icon="textures/ach/ach_icon" id="ach_all">
+		<achievement icon="textures/ach/ach_speed" id="ach_speed" rank="1"/>
+		<achievement icon="textures/ach/ach_distract" id="ach_distract" rank="2"/>
+		<achievement icon="textures/ach/ach_pain" id="ach_pain" rank="4"/>
+		<achievement icon="textures/ach/ach_trashbag" id="ach_trashbag" rank="3"/>
+		<achievement icon="textures/ach/ach_normal" id="ach_normal" rank="1"/>
+		<achievement icon="textures/ach/ach_hard" id="ach_hard" rank="1"/>
+		<achievement icon="textures/ach/ach_veryhard" id="ach_veryhard" rank="2"/>
+		<achievement icon="textures/ach/ach_ovk" id="ach_ovk" rank="2"/>
+		<achievement icon="textures/ach/ach_mayhem" id="ach_mayhem" rank="3"/>
+		<achievement icon="textures/ach/ach_dw" id="ach_dw" rank="3"/>
+		<achievement icon="textures/ach/ach_ds" id="ach_ds" rank="4"/>
+		<achievement icon="textures/ach/ach_dsod" id="ach_dsod" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<png force="true" path="textures/ach/ach_icon"/>
+		<png force="true" path="textures/ach/ach_normal"/>
+		<png force="true" path="textures/ach/ach_hard"/>
+		<png force="true" path="textures/ach/ach_veryhard"/>
+		<png force="true" path="textures/ach/ach_ovk"/>
+		<png force="true" path="textures/ach/ach_mayhem"/>
+		<png force="true" path="textures/ach/ach_dw"/>
+		<png force="true" path="textures/ach/ach_ds"/>
+		<png force="true" path="textures/ach/ach_dsod"/>
+		<png force="true" path="textures/ach/ach_speed"/>
+		<png force="true" path="textures/ach/ach_distract"/>
+		<png force="true" path="textures/ach/ach_pain"/>
+		<png force="true" path="textures/ach/ach_trashbag"/>
+		<texture path="sh_icon"/>
+	</AddFiles>
+	<AssetUpdates id="31366" provider="modworkshop" use_local_dir="true" version="2.2"/>
+	<Hooks directory="hooks">
+		<hook file="Music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<instance id="sh_circuitbreaker">
+		<add directory="assets"/>
+		<include directory="levels/instances/sh_circuitbreaker">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<level ai_group_type="America" briefing_dialog="" ghost_bonus="0.1" id="sh_raiders" intro_event="Play_pln_ko1_intro_01" max_bags="54" music="heist" player_style="hiphop" team_ai_off="false">
+		<add file="levels/sh_raiders/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="Characters.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="PrePlanningTweakData.lua" source_file="lib/tweak_data/PrePlanningTweakData"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/escapes/escape_street/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/mt_temp/mt_temp"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/run/editor only/editor only"/>
+			<value_node value="levels/instances/shared/helicopter_secure_escape/world/world"/>
+			<value_node value="levels/instances/unique/tag/tag_office/world"/>
+			<value_node value="levels/narratives/escapes/escape_cafe_day/world/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_park_day/world/world"/>
+			<value_node value="levels/narratives/continental/spa/regin_art/regin_art"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
+			<value_node value="levels/narratives/safehouse/safehouse_worldmesh/safehouse_worldmesh"/>
+			<value_node value="levels/instances/unique/dark/thermal_paste/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+			<value_node value="levels/narratives/classics/pal/world_sounds"/>
+			<value_node value="levels/narratives/classics/flat/world_sounds"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world_sounds"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+			<value_node value="packages/escape_cafe"/>
+			<value_node value="packages/narr_firestarter1"/>
+			<value_node value="packages/narr_alex2"/>
+			<value_node value="packages/miscassets"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative contact="custom" icon="sh_icon" id="sh_raiders" name_id="heist_sh_raiders" region="street">
+		<chain>
+			<table level_id="sh_raiders" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+			<value_node value="33000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+			<value_node value="24000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="60000"/>
+			<value_node value="120000"/>
+			<value_node value="300000"/>
+			<value_node value="500000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
+			<value_node value="600000"/>
+		</payout>
+	</narrative>
+</table>

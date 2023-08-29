@@ -1,0 +1,52 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light" type="unit">
+		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<effect load="true" path="effects/payday2/particles/fire/thermite_infinite"/>
+		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook" type="unit">
+		<unit path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_hook"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_winch/cas_gen_square_drop_marker_2x3_winch" type="unit">
+		<unit path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_winch/cas_gen_square_drop_marker_2x3_winch"/>
+		<object path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_winch/cas_gen_square_drop_marker_2x3_winch"/>
+		<material_config path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_winch/cas_gen_square_drop_marker_2x3_winch"/>
+		<sequence_manager path="units/pd2_dlc_casino/dev/cas_gen_square_drop_marker_2x3_winch/cas_gen_square_drop_marker_2x3_winch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch" type="unit">
+		<unit path="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_winch/brb_prop_winch"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15" type="unit">
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<material_config path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_8x15/gen_prop_square_goal_marker_8x15"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/equipment/thermite_interactable_no_consume/thermite_interactable_no_consume" type="unit">
+		<unit path="units/pd2_dlc_brb/equipment/thermite_interactable_no_consume/thermite_interactable_no_consume"/>
+		<object path="units/pd2_dlc_brb/equipment/thermite_interactable_no_consume/thermite_interactable_no_consume"/>
+		<material_config path="units/pd2_dlc_cro/thermite_interactable/thermite_interactable"/>
+		<sequence_manager path="units/pd2_dlc_brb/equipment/thermite_interactable_no_consume/thermite_interactable_no_consume"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw" type="unit">
+		<unit path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_winch/cas_prop_winch_screw"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_button"/>
+	</add>
+</table>

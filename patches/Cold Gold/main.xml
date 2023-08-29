@@ -1,0 +1,155 @@
+<table name="Cold Gold">
+	<contact assets_gui="guis/dlcs/big_bank/guis/preload_contact_the_dentist" id="quackertree" name_id="heist_contact_quackertree" package="packages/contact_the_dentist"/>
+	<Localization default="english.txt" directory="loc"/>
+	<AddFiles>
+		<texture force="true" path="assets/guis/loading/coldgold_broker"/>
+		<texture force="true" path="assets/guis/loading/coldgold_day1"/>
+		<movie force="true" path="vo/briefing_cg"/>
+		<movie force="true" path="vo/alex_bag1"/>
+		<movie force="true" path="vo/alex_bag2"/>
+		<movie force="true" path="vo/alex_bag3"/>
+		<movie force="true" path="vo/alex_chopperhere1"/>
+		<movie force="true" path="vo/alex_chopperhere2"/>
+		<movie force="true" path="vo/alex_chopperin1"/>
+		<movie force="true" path="vo/alex_chopperin2"/>
+		<movie force="true" path="vo/alex_chopperin3"/>
+		<movie force="true" path="vo/aory_cablecut"/>
+		<movie force="true" path="vo/aory_chopper"/>
+		<movie force="true" path="vo/aory_container"/>
+		<movie force="true" path="vo/aory_escape"/>
+		<movie force="true" path="vo/aory_forklift"/>
+		<movie force="true" path="vo/aory_forkliftdone"/>
+		<movie force="true" path="vo/aory_hackdone"/>
+		<movie force="true" path="vo/aory_nearvault"/>
+		<movie force="true" path="vo/aory_vaultcorrect"/>
+		<movie force="true" path="vo/aory_vaultwrong"/>
+		<movie force="true" path="vo/slavik_c4"/>
+		<movie force="true" path="vo/slavik_container1"/>
+		<movie force="true" path="vo/slavik_container2"/>
+		<movie force="true" path="vo/slavik_container3"/>
+		<movie force="true" path="vo/slavik_cutred"/>
+		<movie force="true" path="vo/slavik_cutyellow"/>
+		<movie force="true" path="vo/slavik_forklift"/>
+		<movie force="true" path="vo/slavik_forklift_slow"/>
+		<movie force="true" path="vo/slavik_hackrestart1"/>
+		<movie force="true" path="vo/slavik_hackrestart2"/>
+		<movie force="true" path="vo/slavik_hackstart"/>
+		<movie force="true" path="vo/slavik_keycard"/>
+		<movie force="true" path="vo/slavik_killciv"/>
+		<movie force="true" path="vo/slavik_snipers"/>
+		<movie force="true" path="vo/slavik_vaultcorrect"/>
+		<movie force="true" path="vo/slavik_vaultwrong"/>
+	</AddFiles>
+	<narrative briefing_event="" contact="quackertree" icon="assets/guis/loading/coldgold_broker" id="cold_gold_wrapper">
+		<chain>
+			<table level_id="cold_gold" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="5000"/>
+			<value_node value="7500"/>
+			<value_node value="10000"/>
+			<value_node value="15000"/>
+			<value_node value="25000"/>
+			<value_node value="35000"/>
+			<value_node value="50000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+			<value_node value="8100"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+			<value_node value="6000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="10000"/>
+			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="75000"/>
+			<value_node value="90000"/>
+		</payout>
+	</narrative>
+	<level ai_group_type="russia" briefing_dialog="" id="cold_gold" load_screen="assets/guis/loading/coldgold_day1" max_bags="9">
+		<add file="levels/cold_gold/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+		</assets>
+		<hooks>
+			<hook file="hooks/Interactiontweak.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
+		<include directory="levels/cold_gold">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/narratives/vlad/shout/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/world"/>
+			<value_node value="levels/instances/unique/cane/cane_trap_flame/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_panic_room/world/world"/>
+			<value_node value="packages/kosugi"/>
+			<value_node value="levels/instances/unique/san_helicopter001/world/world"/>
+			<value_node value="levels/narratives/dentist/mus/editor_only/editor_only"/>
+			<value_node value="levels/narratives/bain/cage/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/crojob/random_c4/world/world"/>
+			<value_node value="levels/instances/unique/stash_c4_wall/world/world"/>
+		</packages>
+		<script_data_mods directory="/scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<AssetUpdates id="20469" provider="modworkshop" use_local_dir="true" version="2.0"/>
+</table>

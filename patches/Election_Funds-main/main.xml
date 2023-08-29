@@ -1,0 +1,132 @@
+<table name="Election_Funds">
+	<Achievements icon="guis/achiev/elfu_pack" id="elfu_pack">
+		<achievement desc_id="elfu_achiev_desc_normal" icon="guis/achiev/elfu_diff_0-n" id="elfu_achiev_normal" name_id="elfu_achiev_normal" rank="1"/>
+		<achievement desc_id="elfu_achiev_desc_hard" icon="guis/achiev/elfu_diff_1-h" id="elfu_achiev_hard" name_id="elfu_achiev_hard" rank="1"/>
+		<achievement desc_id="elfu_achiev_desc_veryhard" icon="guis/achiev/elfu_diff_2-vh" id="elfu_achiev_veryhard" name_id="elfu_achiev_veryhard" rank="1"/>
+		<achievement desc_id="elfu_achiev_desc_overkill" icon="guis/achiev/elfu_diff_3-ovkl" id="elfu_achiev_overkill" name_id="elfu_achiev_overkill" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_mayhem" icon="guis/achiev/elfu_diff_4-mh" id="elfu_achiev_mayhem" name_id="elfu_achiev_mayhem" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_deathwish" icon="guis/achiev/elfu_diff_5-dw" id="elfu_achiev_deathwish" name_id="elfu_achiev_deathwish" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_onedown" icon="guis/achiev/elfu_diff_6-ds" id="elfu_achiev_onedown" name_id="elfu_achiev_onedown" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_allloot" icon="guis/achiev/elfu_allloot" id="elfu_achiev_allloot" name_id="elfu_achiev_allloot" rank="3" reward_amount="5" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_noalert" icon="guis/achiev/elfu_noalert" id="elfu_achiev_noalert" name_id="elfu_achiev_noalert" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_speedrun" icon="guis/achiev/elfu_speedrun" id="elfu_achiev_speedrun" name_id="elfu_achiev_speedrun" rank="3" reward_amount="4" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_vent" icon="guis/achiev/elfu_vents" id="elfu_achiev_vent" name_id="elfu_achiev_vent" rank="1"/>
+		<achievement desc_id="elfu_achiev_desc_punition" icon="guis/achiev/elfu_punition" id="elfu_achiev_punition" name_id="elfu_achiev_punition" rank="3"/>
+		<achievement desc_id="elfu_achiev_desc_nokill" icon="guis/achiev/elfu_nokill" id="elfu_achiev_nokill" name_id="elfu_achiev_nokill" rank="2" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_noecm" icon="guis/achiev/elfu_noecm" id="elfu_achiev_noecm" name_id="elfu_achiev_noecm" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement desc_id="elfu_achiev_desc_hardway" icon="guis/achiev/elfu_hardway" id="elfu_achiev_hardway" name_id="elfu_achiev_hardway" rank="4" reward_amount="10" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/bmr_brokericon"/>
+		<texture force="true" path="icons/bmr_modIcon"/>
+		<texture force="true" path="guis/bmr_loading"/>
+		<texture force="true" path="guis/achiev/elfu_diff_0-n"/>
+		<texture force="true" path="guis/achiev/elfu_diff_1-h"/>
+		<texture force="true" path="guis/achiev/elfu_diff_2-vh"/>
+		<texture force="true" path="guis/achiev/elfu_diff_3-ovkl"/>
+		<texture force="true" path="guis/achiev/elfu_diff_4-mh"/>
+		<texture force="true" path="guis/achiev/elfu_diff_5-dw"/>
+		<texture force="true" path="guis/achiev/elfu_diff_6-ds"/>
+		<texture force="true" path="guis/achiev/elfu_allloot"/>
+		<texture force="true" path="guis/achiev/elfu_hardway"/>
+		<texture force="true" path="guis/achiev/elfu_noalert"/>
+		<texture force="true" path="guis/achiev/elfu_noecm"/>
+		<texture force="true" path="guis/achiev/elfu_nokill"/>
+		<texture force="true" path="guis/achiev/elfu_punition"/>
+		<texture force="true" path="guis/achiev/elfu_speedrun"/>
+		<texture force="true" path="guis/achiev/elfu_pack"/>
+		<texture force="true" path="guis/achiev/elfu_vents"/>
+		<texture force="true" path="guis/buyable/bmr_gateopen"/>
+	</AddFiles>
+	<AssetUpdates id="cr002ef" provider="payday2concepts" use_local_dir="true" version="5"/>
+	<Dependencies>
+		<Dependency id="pd2mcore" min_ver="0.8" name="PD2MapsCore" provider="payday2concepts" type="mod_overrides"/>
+	</Dependencies>
+	<Localization default="english.txt" directory="loc"/>
+	<Package file="scriptdata/election_funds.package" id="package_election_funds" unload_on_restart="true"/>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<level ai_group_type="america" ghost_bonus="0.1" ghost_required="true" music="ghost" music_ext_start="suspense_1" briefing_dialog="bmr_briefing" id="Election_Funds" load_screen="guis/bmr_loading" max_bags="15" player_style="sneak_suit">
+		<add file="levels/Election_Funds/add.xml"/>
+		<xml>
+			<file path="scriptdata/sound.xml"/>
+		</xml>
+		<assets>
+			<asset name="bodybags_bag"/>
+			<pd2c_gateopen name_id = "pd2c_gateopen" unlock_desc_id = "pd2c_gateopen_desc" texture = "guis/buyable/bmr_gateopen" visible_if_locked="true" no_mystery="true" money_lock="10000" server_lock="true">
+				<stages>
+					<value_node value="Election_Funds"/>
+				</stages>
+			</pd2c_gateopen>
+		</assets>
+		<packages>
+			<value_node value="packages/ukrainian_job"/>
+			<value_node value="packages/narr_framing_3"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world_sounds"/>
+			<value_node value="package_election_funds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="pd2maps" icon="icons/bmr_brokericon" id="Election_Funds">
+		<chain>
+			<table level_id="Election_Funds" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="18600"/>
+			<value_node value="18700"/>
+			<value_node value="18800"/>
+			<value_node value="18900"/>
+			<value_node value="19600"/>
+			<value_node value="19700"/>
+			<value_node value="19800"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="11600"/>
+			<value_node value="11700"/>
+			<value_node value="11800"/>
+			<value_node value="11900"/>
+			<value_node value="14600"/>
+			<value_node value="14700"/>
+			<value_node value="14800"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="62000"/>
+			<value_node value="70000"/>
+		</payout>
+	</narrative>
+</table>

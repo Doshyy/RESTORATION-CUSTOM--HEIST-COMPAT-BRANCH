@@ -1,0 +1,130 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" type="unit">
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_roof" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_small_01" type="unit">
+		<object path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_small_01" unload="true"/>
+		<material_config path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_small_01" unload="true"/>
+		<unit path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_small_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" type="unit">
+		<object path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/cs_office/light_security" type="unit">
+		<object path="units/pd2_dlc2/csgo_models/props/cs_office/light_security" unload="true"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props/cs_office/light_security" unload="true"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/cs_office/light_security" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" type="unit">
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" unload="true"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" unload="true"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_crate/mus_prop_exhibit_crate" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/vehicles/gen_vehicle_phenom300c/gen_vehicle_phenom300c" type="unit">
+		<object path="units/pd2_dlc_mex/vehicles/gen_vehicle_phenom300c/gen_vehicle_phenom300c" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/vehicles/gen_vehicle_phenom300c/gen_vehicle_phenom300c" unload="true"/>
+		<unit path="units/pd2_dlc_mex/vehicles/gen_vehicle_phenom300c/gen_vehicle_phenom300c" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_mex/vehicles/gen_vehicle_phenom300c/gen_vehicle_phenom300c" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" type="unit">
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" type="unit">
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" type="unit">
+		<object path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<unit path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/dev/are_gen_square_goal_marker_2_4x4_35/are_gen_square_goal_marker_2_4x4_35" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/ind_ext_water_pump_generator/ind_ext_water_pump_generator" type="unit">
+		<object path="units/pd2_dlc_cro/ind_ext_water_pump_generator/ind_ext_water_pump_generator" unload="true"/>
+		<material_config path="units/pd2_dlc_cro/ind_ext_water_pump_generator/ind_ext_water_pump_generator" unload="true"/>
+		<unit path="units/pd2_dlc_cro/ind_ext_water_pump_generator/ind_ext_water_pump_generator" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cro/ind_ext_water_pump_generator/ind_ext_water_pump_generator" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" type="unit">
+		<object path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<unit path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<material_config path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_mex/architecture/mex_hangar/mex_hangar_doors" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container/gen_prop_container" type="unit">
+		<unit path="units/payday2/props/gen_prop_container/gen_prop_container" unload="true"/>
+		<object path="units/payday2/props/gen_prop_container/gen_prop_container" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_container/gen_prop_container_1" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_container/gen_prop_container" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_on" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" type="unit">
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit">
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+	</add>
+</table>

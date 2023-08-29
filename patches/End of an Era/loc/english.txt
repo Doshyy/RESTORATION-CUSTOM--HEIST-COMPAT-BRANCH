@@ -1,0 +1,265 @@
+{
+
+"cmex_car": "Let's see if we can provoke him again, plant c4 on his cars and blow them up.",
+"cmex_waitescort": "Look's like Carlos won't budge at all, I have word that his son was at the party, wait for bile then escort him in the helicopter, maybe that will get Carlos to change his mind.",
+"cmex_escort": "Bile's here escort his son to the helicopter.",
+"cmex_intercom": "Time to use that voice recording on the intercom.",
+"cmex_package": "Our insider left a recording inside a cocaine package around the house, he said we could use the recording to call the head of security to meet by the airplane. Search around the house for that package.",
+"cmex_ambush": "Alright the head of security moving, when he's isolated from people kill him and take his keycard.",
+"cmex_keycard": "Grab his keycard and use it to open the door.",
+"cmex_stealthpc": "There's a computer around here that we can use to open the inner sanctuary.",
+"cmex_blocker": "I need you to rewire blockers, I won't be able to send the verifaction code until they are all dealt with.",
+"cmex_kill": "It's time to deal with Carlos.",
+"cmex_signal": "Signal Bile to drop off c4.",
+"cmex_masterpc": "To get into his room we need to hack open the doors, get me on the master computer.",
+"cmex_c4door": "Plant C4 on the door to his sanctuary.",
+"cmex_c4car": "Let's see if we can provoke him again, plant c4 on his cars and blow them up.",
+"cmex_gas": "We'll need to find a way to get him to open up his doors, maybe we can provoke him, get some gas cans and burn his rooms.",
+"cmex_wait": "Maybe that will be enough to anger him, let's wait and see.",
+"cmex_wait2": "Hopefully that's enough to anger him, let's wait and see.",
+"cmex_wait3": "We're just going to have to wait to see if he'll open up the door.",
+"cmex_safe": "Open up his safe.",
+"cmex_poison": "The head of security been poisoned, kill him and take his keycard.",
+"cmex_secure": "Time to finish this, take what you can from his safe and secure it in the plane.",
+"cmex_escape": "You can escape now or secure more loot.",
+"cmex_power" : "The hack can't continue without the power, turn it back on.",			
+ 	
+"restoration_level_data_constantine_mex_level":"3:46 PM, Somewhere in Mexico",		
+		
+				
+	
+	
+
+
+"cmex_objdefendescort" : "Wait for Bile",
+"cmex_objdefendescort_desc": "Look's like Carlos won't budge at all, I have word that his son was at the party, wait for bile then escort him in the helicopter, maybe that will get Carlos to change his mind.",
+
+
+
+
+"cmex_objescortson" : "Escort Son",
+"cmex_objescortson_desc": "Bile's here escort his son to the helicopter.",
+
+
+
+"cmex_obj1" : "Search Cocaine for Microphone",
+"cmex_obj1_desc": "Our insider left a recording inside a cocaine package around the house, he said we could use the recording to call the head of security to meet by the airplane. Search around the house for that package.",
+
+
+"cmex_objintercom" : "Use Intercom",
+"cmex_objintercom_desc": "Time to use that voice recording on the intercom.",
+
+
+"cmex_objambushguard" : "Ambush Vip",
+"cmex_objambushguard_desc": "Alright the head of security moving, when he's isolated from people kill him and take his keycard.",
+
+
+
+
+
+"cmex_objkeycard" : "Use Keycard",
+"cmex_objkeycard_desc": "Grab his keycard and use it to open the door.",
+
+
+"cmex_objkeycard" : "Use Keycard",
+"cmex_objkeycard_desc": "Grab his keycard and use it to open the door.",
+	
+ 
+"cmex_objpcstealth" : "Hack PC",
+"cmex_objpcstealth_desc": "There's a computer around here that we can use to open the inner sanctuary.",
+	
+
+
+
+"cmex_objblocker" : "Rewire Blockers",
+"cmex_objblocker_desc": "I need you to rewire blockers, I won't be able to send the verifaction code until they are all dealt with.",
+
+
+
+"cmex_objkill" : "Kill Carlos",
+"cmex_objkill_desc": "It's time to deal with Carlos.",
+	
+	
+
+
+"cmex_objmasterserver" : "Hack Master PC",
+"cmex_objmasterserver_desc": "To get into his room we need to hack open the doors, get me on the master computer.",
+	
+	
+"cmex_objsignal" : "Signal For C4",
+"cmex_objsignal_desc": "Signal Bile to drop off c4.",
+	
+
+"cmex_objc4door" : "Plant C4 on Door",
+"cmex_objc4door_desc": "Plant C4 on the door to his sanctuary.",
+	
+
+
+"cmex_objc4car" : "Plant C4 on Cars",
+"cmex_objc4car_desc": "Let's see if we can provoke him again, plant c4 on his cars and blow them up.",
+	
+
+"cmex_objgas" : "Burn Rooms",
+"cmex_objgas_desc": "We'll need to find a way to get him to open up his doors, maybe we can provoke him, get some gas cans and burn his rooms.",
+	
+
+
+
+
+
+"cmex_objwaitresponse" : "Wait for Response",
+"cmex_objwaitresponse_desc": "Maybe that will be enough to anger him, let's wait and see.",
+	
+ 
+
+
+
+"cmex_objopensafe" : "Open Safe",
+"cmex_objopensafe_desc": "Open up his safe.",
+	
+
+
+
+
+
+"cmex_objsecure" : "Secure Loot",
+"cmex_objsecure_desc": "Time to finish this, take what you can from his safe and secure it in the plane.",
+	
+
+"contact_constantine_name":"Constantine",
+"contact_constantine_desc":"",
+	
+
+"cmex_objescape" : "Escape or Secure Loot",
+"cmex_objescape_desc": "You can escape now or secure more loot.",
+	
+
+
+
+"heist_constantine_mex_nar_name" : "End of An Era",
+
+
+
+"heist_constantine_mex_nar_brief" : "I need your help dealing with a rival cartel in Mexico, the Serrano family needs to come to an end. \n\n»Inflitrate the mansion\n»Kill Carlos\n»Steal from his safe\n»Escape using his plane",
+
+
+"heist_constantine_mex_level_name" : "End of An Era",
+
+
+"heist_constantine_mex_level_brief" : "Carlos Serrano the head of the Serrano family has been a rival competitor that can no longer stay in power anymore and he needs to be dealt with discreetly. You guys need to infiltrate his mansion, kill him and steal his valuables. An insider of mine will be able to help us plan out our course of action.",
+
+
+
+"menu_pp_cmex_safecode":"Carlos Safe Codes(STEALTH AND LOUD)",
+
+
+"menu_pp_cmex_safecode_desc":"We have codes to Carlos safe, we won't need to drill it open.",
+
+
+"menu_bypass_preplan_stealth" : "Computer Bypass",
+
+
+"menu_pp_cmex_bypass":"Security Bypass(STEALTH)",
+
+
+"menu_pp_cmex_bypass_desc":"Bypass any security system blockers when we hack into computers stealthily.",
+
+
+
+"menu_pp_asset_cmex_vip":"Poisoned Head of Security(STEALTH)",
+
+
+"menu_pp_asset_cmex_vip_desc":"Head of Security will be poisoned, we can easily get to him. Isolates head of security from the party.",
+
+
+
+
+
+"menu_pp_asset_cmex_cam":"Remove Camera Operator(STEALTH)",
+
+
+"menu_pp_asset_cmex_cam_desc":"Removes the camera operator, disables all cameras on the map.",
+
+
+
+"menu_pp_cmex_distracted_police":"Distracted Airspace(LOUD)",
+
+
+"menu_pp_cmex_distracted_police_desc":"Bile won't be harrased by the police, he'll arrive earlier if we need to extract anyone. Saves 60 seconds.",
+
+
+
+"menu_m_deaddrop_001" : "Cliff side",
+
+"menu_m_deaddrop_002" : "Office Room",
+
+"menu_m_deaddrop_003" : "Dining Room",
+
+"menu_m_deaddrop_004" : "Theatre Room",
+
+"menu_m_deaddrop_005" : "Gym Room",
+
+"menu_m_deaddrop_006" : "Upstairs Bathroom",
+
+"menu_m_deaddrop_007" : "Upstairs Guard Room",
+
+"menu_m_deaddrop_008" : "Kitchen",
+
+"menu_m_deaddrop_009" : "Cliff side",
+
+"menu_poison_preplan" : "Head of Security Poisoned",
+
+"menu_distraction_preplan" : "Police Distraction",
+
+"menu_backup_crewmex_preplan" : "Airfield Crew",
+
+
+
+"menu_c4_preplan_start" : "C4 Start",
+
+
+"menu_code_preplan" : "Upstairs Safe Codes",
+
+"menu_m_spy_preplan_001" : "Upstairs Front Window",
+"menu_m_spy_preplan_002" : "Atrium",
+"menu_m_spy_preplan_003" : "Kitchen",
+"menu_m_spy_preplan_004" : "Side Entrance",
+"menu_m_spy_preplan_005" : "Upstairs TV Room ",
+
+
+"menu_camera_preplan" :"Upstairs Camera Operator",
+"menu_pp_cmex_c4":"C4 Equipment(LOUD)",
+
+
+"menu_pp_cmex_c4_desc":"Start off with c4. you won't need to signal pilot to drop off c4.",
+
+
+
+"menu_pp_cmex_backup_crew":"Backup Crew(LOUD)",
+
+
+
+"menu_pp_cmex_backup_crew_desc":"Constantine will hire an additional crew to help aide you.",
+
+
+
+
+"menu_pp_cmex_backup_crew_addon":"Expert Armed Backup Heister(LOUD)",
+
+
+
+"menu_pp_cmex_backup_crew_addon_desc":"Hires an additional backup crew member to help out, they are armed better then the other crew members.",
+
+
+"menu_backup_crew_addon" : "Extra Backup Crew Member"
+
+"menu_pp_constantine_mex_a" : "Mansion",
+
+
+
+"menu_pp_constantine_mex_b" : "Mansion",
+
+"menu_pp_constantine_mex_c" : "Mansion",
+
+
+}

@@ -1,0 +1,168 @@
+<table name="The Skyscraper Heist">
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/skyscraperPicture"/>
+	</AddFiles>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="thenexthorizondesc_id" id="thenexthorizon" name_id="thenexthorizonname_id" package="packages/contact_bain"/>
+	<level ai_group_type="nypd" briefing_dialog="" ghost_bonus="0.1" id="Skyscraper" flashlights_on="true" intro_event="" max_bags="24" orig_id="Skyscraper" player_style="sneak_suit">
+		<add file="levels/Skyscraper/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/red/red_server_room/world/world"/>
+			<value_node value="levels/narratives/classics/dah/backdrop/backdrop"/>
+			<value_node value="levels/narratives/vlad/nightclub/world"/>
+			<value_node value="levels/narratives/vlad/moon/mkp/mkp"/>
+			<value_node value="levels/instances/unique/hox_estate_panic_room/world/world"/>
+			<value_node value="levels/narratives/bain/arena/backdrop/backdrop"/>
+			<value_node value="levels/narratives/butcher/friend/editor_only/editor_only"/>
+			<value_node value="levels/narratives/vlad/jewelry_store/world"/>
+			<value_node value="levels/narratives/locke/tag/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_display/world/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_display_curved/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_2/world"/>
+			<value_node value="levels/instances/unique/brb/player_van/world/world"/>
+			<value_node value="levels/instances/unique/pex/pex_officer_room_2/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/pc_only/pc_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="new_dialogue.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs/rex">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sound id="testaudiosky" path="testaudiosky.ogg" subtitle_id="testaudioskysub"/>
+			<sound id="startdialogue" path="startdialogue.ogg" subtitle_id="startdialoguesub"/>
+			<sound id="allDevicesDialogue" path="allDevicesDialogue.ogg" subtitle_id="allDevicesDialoguesub"/>
+			<sound id="allLootDialogue" path="allLootDialogue.ogg" subtitle_id="allLootDialoguesub"/>
+			<sound id="card1FoundDialogue" path="card1FoundDialogue.ogg" subtitle_id="card1FoundDialoguesub"/>
+			<sound id="card2FoundDialogue" path="card2FoundDialogue.ogg" subtitle_id="card2FoundDialoguesub"/>
+			<sound id="ceoEnterDialogue" path="ceoEnterDialogue.ogg" subtitle_id="ceoEnterDialoguesub"/>
+			<sound id="codeComputerHackedDialogue" path="codeComputerHackedDialogue.ogg" subtitle_id="codeComputerHackedDialoguesub"/>
+			<sound id="codeComputerHackedLasersDialogue" path="codeComputerHackedLasersDialogue.ogg" subtitle_id="codeComputerHackedLasersDialoguesub"/>
+			<sound id="device1Dialogue" path="device1Dialogue.ogg" subtitle_id="device1Dialoguesub"/>
+			<sound id="device2Dialogue" path="device2Dialogue.ogg" subtitle_id="device2Dialoguesub"/>
+			<sound id="elevator1LoudDialogue" path="elevator1LoudDialogue.ogg" subtitle_id="elevator1LoudDialoguesub"/>
+			<sound id="elevator1StealthDialogue" path="elevator1StealthDialogue.ogg" subtitle_id="elevator1StealthDialoguesub"/>
+			<sound id="elevator14Dialogue" path="elevator14Dialogue.ogg" subtitle_id="elevator14Dialoguesub"/>
+			<sound id="elevatorGuardDialogue" path="elevatorGuardDialogue.ogg" subtitle_id="elevatorGuardDialoguesub"/>
+			<sound id="explosion1Dialogue" path="explosion1Dialogue.ogg" subtitle_id="explosion1Dialoguesub"/>
+			<sound id="explosion2Dialogue" path="explosion2Dialogue.ogg" subtitle_id="explosion2Dialoguesub"/>
+			<sound id="findKeycardDialogue" path="findKeycardDialogue.ogg" subtitle_id="findKeycardDialoguesub"/>
+			<sound id="getDrillsDialogue" path="getDrillsDialogue.ogg" subtitle_id="getDrillsDialoguesub"/>
+			<sound id="getToServerDialogue" path="getToServerDialogue.ogg" subtitle_id="getToServerDialoguesub"/>
+			<sound id="grabbedDialogue" path="grabbedDialogue.ogg" subtitle_id="grabbedDialoguesub"/>
+			<sound id="helicopterDialogue" path="helicopterDialogue.ogg" subtitle_id="helicopterDialoguesub"/>
+			<sound id="keycardReader1Dialogue" path="keycardReader1Dialogue.ogg" subtitle_id="keycardReader1Dialoguesub"/>
+			<sound id="keycardReader2Dialogue" path="keycardReader2Dialogue.ogg" subtitle_id="keycardReader2Dialoguesub"/>
+			<sound id="lobbyEnter2Dialogue" path="lobbyEnter2Dialogue.ogg" subtitle_id="lobbyEnter2Dialoguesub"/>
+			<sound id="lobbyEnterDialogue" path="lobbyEnterDialogue.ogg" subtitle_id="lobbyEnterDialoguesub"/>
+			<sound id="lock1DownDialogue" path="lock1DownDialogue.ogg" subtitle_id="lock1DownDialoguesub"/>
+			<sound id="lock2Downc4Dialogue" path="lock2Downc4Dialogue.ogg" subtitle_id="lock2Downc4Dialoguesub"/>
+			<sound id="lock2DownEmpDialogue" path="lock2DownEmpDialogue.ogg" subtitle_id="lock2DownEmpDialoguesub"/>
+			<sound id="lookdialogue" path="lookdialogue.ogg" subtitle_id="lookdialoguesub"/>
+			<sound id="lookdialogue2" path="lookdialogue2.ogg" subtitle_id="lookdialogue2sub"/>
+			<sound id="loudDialogue" path="loudDialogue.ogg" subtitle_id="loudDialoguesub"/>
+			<sound id="objReminderDialogue" path="objReminderDialogue.ogg" subtitle_id="objReminderDialoguesub"/>
+			<sound id="oneButtonDialogue" path="oneButtonDialogue.ogg" subtitle_id="oneButtonDialoguesub"/>
+			<sound id="openVaultDialogue" path="openVaultDialogue.ogg" subtitle_id="openVaultDialoguesub"/>
+			<sound id="outOfTimeDialogue" path="outOfTimeDialogue.ogg" subtitle_id="outOfTimeDialoguesub"/>
+			<sound id="parachuteDialogue" path="parachuteDialogue.ogg" subtitle_id="parachuteDialoguesub"/>
+			<sound id="platformArriveDialogue" path="platformArriveDialogue.ogg" subtitle_id="platformArriveDialoguesub"/>
+			<sound id="requiredLootDialogue" path="requiredLootDialogue.ogg" subtitle_id="requiredLootDialoguesub"/>
+			<sound id="rightWireDialogue" path="rightWireDialogue.ogg" subtitle_id="rightWireDialoguesub"/>
+			<sound id="secretVaultDialogue" path="secretVaultDialogue.ogg" subtitle_id="secretVaultDialoguesub"/>
+			<sound id="server1dialogue" path="server1dialogue.ogg" subtitle_id="server1dialoguesub"/>
+			<sound id="stairsDialogue" path="stairsDialogue.ogg" subtitle_id="stairsDialoguesub"/>
+			<sound id="topOfStairsLoudDialogue" path="topOfStairsLoudDialogue.ogg" subtitle_id="topOfStairsLoudDialoguesub"/>
+			<sound id="topOfStairsStealthDialogue" path="topOfStairsStealthDialogue.ogg" subtitle_id="topOfStairsStealthDialoguesub"/>
+			<sound id="vaultEnteredDialogue" path="vaultEnteredDialogue.ogg" subtitle_id="vaultEnteredDialoguesub"/>
+			<sound id="waitDialogue" path="waitDialogue.ogg" subtitle_id="waitDialoguesub"/>
+			<sound id="ziplineDialogue" path="ziplineDialogue.ogg" subtitle_id="ziplineDialoguesub"/>
+			<sound id="loudServerDialogue" path="loudServerDialogue.ogg" subtitle_id="loudServerDialoguesub"/>
+			<sound id="mainServerHackedDialogue" path="mainServerHackedDialogue.ogg" subtitle_id="mainServerHackedDialoguesub"/>
+			<sound id="smallServerHackedDialogue" path="smallServerHackedDialogue.ogg" subtitle_id="smallServerHackedDialoguesub"/>
+			<sound id="stealthServerDialogue" path="stealthServerDialogue.ogg" subtitle_id="stealthServerDialoguesub"/>
+			<sound id="wireObjectiveDialogue" path="wireObjectiveDialogue.ogg" subtitle_id="wireObjectiveDialoguesub"/>
+			<sound id="mainServerEnterc4Dialogue" path="mainServerEnterc4Dialogue.ogg" subtitle_id="mainServerEnterc4Dialoguesub"/>
+			<sound id="keycardReminderDialogue" path="keycardReminderDialogue.ogg" subtitle_id="keycardReminderDialoguesub"/>
+			<sound id="elevatorSecureDialogue" path="elevatorSecureDialogue.ogg" subtitle_id="elevatorSecureDialoguesub"/>
+			<sound id="keycardsMarkedDialogue" path="keycardsMarkedDialogue.ogg" subtitle_id="keycardsMarkedDialoguesub"/>
+			<sound id="devicesMarkedDialogue" path="devicesMarkedDialogue.ogg" subtitle_id="devicesMarkedDialoguesub"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="thenexthorizon" icon="icons/skyscraperPicture" id="The Skyscraper Heist">
+		<chain>
+			<table level_id="Skyscraper" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="2500"/>
+			<value_node value="3000"/>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="15000"/>
+			<value_node value="19000"/>
+			<value_node value="20000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

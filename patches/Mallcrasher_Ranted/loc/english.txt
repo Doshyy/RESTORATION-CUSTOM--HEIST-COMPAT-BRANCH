@@ -1,0 +1,14 @@
+{
+	"heist_Mallcrasher_Ranted_name":"Mallcrasher: Ranted"
+	"heist_Mallcrasher_Ranted_brief": "Vlad wants Mr. Stone to pay him for protection. To show that he means business, he wants you to destroy Stone's mall."
+
+	"heist_crumch_returns_name":"Shield Mall",
+	"heist_crumch_returns_brief":"Yep. You heard him right. Vlad is serious. We're going to the mall, destroy as much as we can. Enough destruction and his client will rethink his whole stance on prorection money. Dirty job, but you like getting dirty, right?"
+	
+	"menu_asset_crumch_trash":"Loot Dumbster"
+	"menu_asset_plastic_zipline_desc":"Dumbster for securing loot.",
+	"restoration_level_data_crumch_returns":"12:50 PM, Shield Mall",
+	"END":"END"
+	
+	
+}

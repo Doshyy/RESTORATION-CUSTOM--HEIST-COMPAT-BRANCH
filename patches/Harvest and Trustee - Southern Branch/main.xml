@@ -1,0 +1,225 @@
+<table image="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_pack" name="Harvest and Trustee - Southern Branch">
+	<level ai_group_type="fbi" briefing_dialog="Play_pln_branchbank_random_stage1_brief" cube="cube_apply_heist_bank" ghost_bonus="0.1" id="tj_htsb" intro_event="Play_pln_branchbank_random_a_intro_a" max_bags="50" orig_id="tj_htsb">
+		<add file="levels/tj_htsb/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+			<asset name="tj_htsb_asset_planks"/>
+			<asset name="camera_access"/>
+		</assets>
+		<ic_data length="20" title="Southern Branch">
+			<from easing="easeOutQuad" pos="Vector3(-3086.39, -1469.57, 169.116)" rot="Rotation(-50.9922, -80, -3.4150)"/>
+			<hologram pos="Vector3(-265.641, 1492.81, 720.669)" rot="Rotation(270,0,0)" size="600" start="50"/>
+			<to pos="Vector3(-205.843, 424.192, 836.946)" rot="Rotation(-29.9931, -16.3005, -0)"/>
+		</ic_data>
+		<outro_event>
+			<value_node value="Play_pln_branchbank_stage1_end"/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/narr_firestarter3"/>
+			<value_node value="packages/job_branchbank_random"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/bain/rat/world_sounds"/>
+			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
+			<value_node value="levels/narratives/classics/dah/world_sounds"/>
+			<value_node value="levels/instances/unique/pet_pet/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="fbi" briefing_dialog="nothing" cube="cube_apply_heist_bank" id="tj_htsb_escape_level" intro_event="Play_dr1_a01" load_screen="guis/dlcs/pic/textures/loading/escape_overpass" max_bags="20" orig_id="tj_htsb_escape_level" repossess_bags="true">
+		<add file="levels/tj_htsb_escape_level/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+		</hooks>
+		<include directory="levels/tj_htsb_escape_level">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="template/template.continent" type="binary"/>
+			<file file="template/template.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="packages/escape_overpass"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/diamond_store/world/world"/>
+			<value_node value="levels/narratives/e_election_day/stage_1/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+			<value_node value="levels/narratives/bain/cage/tunnel/tunnel"/>
+			<value_node value="levels/narratives/escapes/escape_overpass/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/world"/>
+			<value_node value="levels/narratives/armadillo/arm_for/world/world"/>
+			<value_node value="levels/instances/unique/chew/chew_train_car/world/world"/>
+			<value_node value="levels/narratives/bain/cage/world"/>
+			<value_node value="levels/narratives/escapes/escape_overpass/world/world"/>
+			<value_node value="levels/narratives/bain/cage/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/marac/marac"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<Dependencies>
+		<Dependency name="PD2MapsCore" type="mod_overrides" min_ver="0.8" id="pd2mcore" provider="payday2concepts"/>
+	</Dependenciess>
+	<Achievements banner="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_banner" icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_pack" id="tj_htsb_achievements">
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathSentence_OD" id="tj_htsb_deathSentence_OD" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathSentence" id="tj_htsb_deathSentence" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathWish" id="tj_htsb_deathWish" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_mayhem" id="tj_htsb_mayhem" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_overkill" id="tj_htsb_overkill" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_veryHard" id="tj_htsb_veryHard" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_hard" id="tj_htsb_hard" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_normal" id="tj_htsb_normal" rank="1"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_emptyVault" id="tj_htsb_emptyVault" rank="2"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_nukes" id="tj_htsb_memeVault_nukes" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_goats" id="tj_htsb_memeVault_goats" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_kitteh" id="tj_htsb_memeVault_kitteh" rank="4"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_kingOfTheHill" id="tj_htsb_kingOfTheHill" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_kitcoin" id="tj_htsb_kitcoin" rank="3"/>
+		<achievement icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_secret_room" id="tj_htsb_secret_room" rank="4"/>
+		<achievement hidden_achievement="true" icon="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_golden_kitteh" id="tj_htsb_golden_kitteh" rank="4"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="icons/tj_htsb_broker"/>
+		<texture force="true" path="guis/tj_htsb_loading"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_pack"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathSentence_OD"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathSentence"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_deathWish"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_mayhem"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_overkill"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_veryHard"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_hard"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_normal"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_emptyVault"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_nukes"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_goats"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_memeVault_kitteh"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_kingOfTheHill"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_kitcoin"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_secret_room"/>
+		<texture force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_golden_kitteh"/>
+		<png force="true" path="guis/textures/mods/CustomAchievement/tj_htsb/tj_htsb_banner"/>
+	</AddFiles>
+	<AssetUpdates id="29669" is_standalone="false" provider="modworkshop" use_local_dir="true" version="1.2"/>
+	<HeistMusic directory="assets/sounds/music/htsb" id="music_htsb" volume="0.8">
+		<event name="setup" source="stealth.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
+	</HeistMusic>
+	<Hooks directory="hooks">
+		<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
+		<hook file="equipmentstweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
+		<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<instance id="owp_rex_instance">
+		<add directory="assets"/>
+		<include directory="levels/instances/owp_rex_instance">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<narrative briefing_event="pln_branchbank_random_brf_speak" contact="pd2maps" icon="icons/tj_htsb_broker" id="HarvestTrustee_SouthernBranch" jc="30" load_screen="guis/tj_htsb_loading" region="street">
+		<chain>
+			<table level_id="tj_htsb" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="18000"/>
+			<value_node value="34000"/>
+			<value_node value="82000"/>
+			<value_node value="180000"/>
+			<value_node value="220000"/>
+			<value_node value="220000"/>
+			<value_node value="220000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="pln_branchbank_random_cnc_01"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank1"/>
+			<value_node value="cn_branchbank2"/>
+			<value_node value="cn_branchbank3"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+			<value_node value="14000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="28500"/>
+			<value_node value="40000"/>
+			<value_node value="52000"/>
+			<value_node value="86000"/>
+			<value_node value="97500"/>
+			<value_node value="97500"/>
+			<value_node value="97500"/>
+		</payout>
+	</narrative>
+</table>

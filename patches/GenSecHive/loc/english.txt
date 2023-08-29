@@ -1,0 +1,49 @@
+{
+	"heist_bnktower_name":				"GenSec H.I.V.E",
+	"heist_bnktower_brief_crimenet":	"A hit on a private GenSec 'funding protection' installation site.\n\n» Open the vaults with the provided tools\n» Secure the loot inside\n» Disable the security, and escape at the top via helicopter",
+	"heist_bnktower_level_name":		"The H.I.V.E",
+	"heist_bnktower_brief":				"The H.I.V.E. -- some type of off-the-books installation with tons of vaults, and tons of valuables in the form of money and gold.\n\nAn insertion from underground will allow you to climb up to the main platform with a single lance. Once you're in, it's up to you to... 'divert their funding.'\n\nWe can deliver you more tools as you secure more loot- Check the assets. Good luck.",
+	
+	
+	
+	"obj_hive_esc":					"Secure More Loot Or Escape!",
+	"obj_hive_esc_desc":			"You can go for more loot, or you can signal the escape by disabling the shaft's security.\nOnce activated, it will be a point of no return.\n\nYou will get delivered more equipment for each loot milestone hit.",
+	"obj_hive_loot":				"Break into Vaults and Secure Loot",
+	"obj_hive_loot_desc":			"Throw the bags into the pit. Our guys are set up and waiting in the lower maintenance tunnels to grab them.\n\nThrow enough down there, and they can pass you back some extra equipment.",
+	
+	"restoration_level_data_bnktower":"TIME CLASSIFIED, GenSec H.I.V.E.",	
+	
+	"bnktower_name":				"The GenSec H.I.V.E",
+	
+	"bnktower_1_name":				"Leaving so soon?",
+	"bnktower_1_objective":			"On the GenSec H.I.V.E. heist, escape without securing any extra loot.",
+	"bnktower_1_desc":				"Thank you for visiting the GenSec 'Heavy Impenetrable Vault Edifice'.\nPlease, try again soon.",
+	
+	"bnktower_2_name":				"Getting an upgrade",
+	"bnktower_2_objective":			"On the GenSec H.I.V.E. heist, build 'The Beast' at least once.",
+	"bnktower_2_desc":				"Drill harder, not smarter!",
+	
+	"bnktower_3_name":				"One floor down, Too many to go",
+	"bnktower_3_objective":			"On the GenSec H.I.V.E. heist, open all standard vault doors on any floor, on the OVERKILL difficulty or above.",
+	"bnktower_3_desc":				"Now... do it again.",
+	
+	"bnktower_4_name":				"Defunding GenSec Industries",
+	"bnktower_4_objective":			"On the GenSec H.I.V.E. heist, open 145 vaults.\n\nThis achievement can be completed over multiple attempts.",
+	"bnktower_4_desc":				"Despite having 'bankruptcy immunity', it's sure nice to drain their pockets. Makes those investors weep!",
+	
+	"bnktower_5_name":				"Debt Sentence",
+	"bnktower_5_objective":			"On the GenSec H.I.V.E. heist, survive for 2 consecutive hours on the DEATH SENTENCE difficulty.",
+	"bnktower_5_desc":				"You survived 2 hours in the H.I.V.E. on Death Sentence... madness. Let's hope you never have to hear another jammed drill again.",
+	
+	"bnktower_6_name":				"...Gnome?",
+	"bnktower_6_objective":			"Gnome!",
+	"bnktower_6_desc":				"Gnome.",
+	
+	
+	"bnktower_plan1_name":			"The Beast Parts - For opening the big vaults",
+	"bnktower_plan2_name":			"Equipment - Look out for marked zones",
+	"bnktower_plan3_name":			"Thermal Lance - You know what this does",
+	"bnktower_plan5_name":			"Big Gun - A few mounts around",
+	"bnktower_plan4_name":			"Blueprints"
+	"bnktower_plan6_name":			"Tool Stash"
+}

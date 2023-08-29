@@ -1,0 +1,118 @@
+{
+
+
+	"heist_contact_the_chameleon" 					: 	"El Camaleón"
+	"heist_hidden_vault_name" 						: 	"La Bóveda Oculta"
+	"heist_hidden_vault_brief" 						: 	"La gente me conoce como el Camaleón. Buin y yo teníamos un atraco especial planeado, pero él no está aquí para deciros que hacer. Culpen a la suerte y su juego de eventos desafortunados. Dejando de lado las circunstancias de Bain, les diré que hay una nueva bóveda que encontré. Es una belleza, con un montón de dinero. Antes de que piensen que solo es una bóveda regular con dinero los voy a parar ya que tienen el diamante rojo. Eso sí que nos beneficiara a todos mucho más que el dinero, ¿No es así? Díganme que están dentro, y los recompensaré. Suena bien, ¿No? Entran, me quedo el diamante, y ustedes se quedan con lo demás, además de mi paga."
+	
+	"hidden_vault_obj_001" 							: 	"Entra al Edificio"
+	"hidden_vault_obj_002" 							: 	"Toma el Elevador"
+	
+	"hidden_vault_obj_003" 							: 	"Abre la Puerta"
+		"hidden_vault_obj_003_1" 					: 	"Consigue una Palanca"
+		"hidden_vault_obj_003_2" 					: 	"Consigue un Soplete"
+	
+	"hidden_vault_obj_004" 							: 	"Hackea el Ordenador"
+		"hidden_vault_obj_004_1" 					: 	"Espera a que el Hackeo Termine"
+		
+	"hidden_vault_obj_005" 							: 	"Entra en la Bóveda"
+		"hidden_vault_obj_005_1" 					: 	"Ve Quien Tiene las Claves de Encriptación"
+		"hidden_vault_obj_005_2" 					: 	"Espera a que la Busqueda Termine"
+		"hidden_vault_obj_005_3" 					: 	"Consigue las Claves de Encriptación"
+		"hidden_vault_obj_005_4" 					: 	"Abre la Bóveda Principal"
+	
+	"hidden_vault_obj_006" 							: 	"Espera por la Idea de Bain"
+	"hidden_vault_obj_007" 							: 	"Hackea las Puertas de las Bóvedas"
+		"hidden_vault_obj_007_1" 					: 	"Consigue el Rack de Servidores"
+		"hidden_vault_obj_007_2" 					: 	"Coloca el Rack"
+		"hidden_vault_obj_007_3" 					: 	"Obten los Servidores Correctos"
+		"hidden_vault_obj_007_4" 					: 	"Coloca el Servidor en el Rack"
+		"hidden_vault_obj_007_5" 					: 	"Coloca el Ordenador y Empieza el Hackeo"
+		"hidden_vault_obj_007_6" 					: 	"Espera a que la Bóveda se Abra"
+		"hidden_vault_obj_007_7" 					: 	"Asegura el Botín de la Bóveda"
+	
+	"hidden_vault_obj_008" 							: 	"Escapa o Asegura mas Botín"
+		"hidden_vault_obj_008_1" 					: 	"Consigue C4"
+			"hidden_vault_obj_008_1_stealth" 		: 	"Consigue la Sierra"
+		"hidden_vault_obj_008_2" 					: 	"Coloca el C4"
+			"hidden_vault_obj_008_2_stealth" 		: 	"Coloca la Sierra"
+		"hidden_vault_obj_008_3" 					: 	"Atravieza el Tunel"
+		"hidden_vault_obj_008_4" 					: 	"Escape Disponible"
+		
+	"objective_diamond_001" 						: 	"Ap1aga los Laseres"
+	"objective_diamond_002" 						: 	"Consigue el Diamante"
+	"objective_diamond_003" 						: 	"Asegura el Diamante"
+	
+	"hidden_vault_obj_fail" 						: 	"¡La cagaste!"
+	"hidden_vault_obj_fail_desc" 					: 	"Imbécil"
+	"hidden_vault_obj_jam"							:	"Consigue la Caja Eléctrica para Continuar el Hack"
+	"hidden_vault_obj_kc_hint"						:	"Necesitas una Tarjeta para Acceder el Ordenador"
+	
+
+	"hidden_vault_obj_001_desc" 					: 	"Entra al Edificio por la Ventana"
+	"hidden_vault_obj_002_desc" 					: 	"Toma el Elevador al Área Oculta"
+	
+	"hidden_vault_obj_003_desc" 					: 	"Abre la Puerta con la Palanca"
+		"hidden_vault_obj_003_1_desc" 				: 	"Toma la Palanca de la Bolsa"
+		"hidden_vault_obj_003_2_desc" 				: 	"Un Trabajador debe tener un Soplete, ¡Encuéntralo!"
+	
+	"hidden_vault_obj_004_desc" 					: 	"Hackea el Ordenador para Abrir la Puerta de la Bóveda. Necesita una Tarjeta. Probablemente esta en la Oficina."
+		"hidden_vault_obj_004_1_desc" 				: 	"//Hack en Progreso//"
+		
+	"hidden_vault_obj_005_desc" 					: 	"Las Puertas están Abiertas, ¿Que Esperan?"
+		"hidden_vault_obj_005_1_desc" 				: 	"Pueden Obtenerlas Hackeando un Ordenador"
+		"hidden_vault_obj_005_2_desc" 				: 	"//Búsqueda en Progreso//"
+		"hidden_vault_obj_005_3_desc" 				: 	"Busca un disco duro en los escritorios"
+		"hidden_vault_obj_005_4_desc" 				: 	"¡Hola, Mundo!"
+	
+	"hidden_vault_obj_006_desc" 					: 	"Espera por la Idea de Bain"
+	"hidden_vault_obj_007_desc" 					: 	"Hackea las Puertas de las Bóvedas"
+		"hidden_vault_obj_007_1_desc" 				: 	"Obtenlas"
+		"hidden_vault_obj_007_2_desc" 				: 	"Colócalas y Conéctalas"
+		"hidden_vault_obj_007_3_desc" 				: 	"Busca el Servidor Correcto para Abrirlas"
+		"hidden_vault_obj_007_4_desc" 				: 	"Conecta el Servidor Maestro al Rack"
+		"hidden_vault_obj_007_5_desc" 				: 	"Coloca tu Laptop y Comienza el Hack"
+		"hidden_vault_obj_007_6_desc" 				: 	"//Hack en Progreso//"
+		"hidden_vault_obj_007_7_desc" 				: 	"Es PAYDAY"
+	
+	"hidden_vault_obj_008_desc" 					: 	"Escapa o Consigue más Botín"
+		"hidden_vault_obj_008_1_desc" 				: 	"Consigue el C4 en el Elevador"
+			"hidden_vault_obj_008_1_stealth_desc" 	: 	"Consigue la Sierra del Elevador"
+		"hidden_vault_obj_008_2_desc" 				: 	"Coloca el C4"
+			"hidden_vault_obj_008_2_stealth_desc" 	: 	"Coloca la Sierra"
+		"hidden_vault_obj_008_3_desc" 				: 	"Ve A Través del Túnel"
+		"hidden_vault_obj_008_4_desc" 				: 	"Escape Disponible"
+		
+	"objective_diamond_001_desc" 					: 	"Apaga los Láseres en el Ordenador en el Lobby"
+	"objective_diamond_002_desc" 					:	"¡Ahí esta! Embólsenlo"
+	"objective_diamond_003_desc" 					: 	"Ya Casi es Nuestro, solo hay que Asegurarlo"
+	
+	"hidden_vault_obj_jam_desc"						:	"La PC se paró, Reactiva la Electricidad"
+	"hidden_vault_obj_kc_hint_desc"					:	"La Tarjeta está en las Oficinas"
+	
+	
+	
+	"test_hidden_vault"					:	"Funciona!"
+	"scr_001_take_password"				:	"Mantén $BTN_INTERACT para obtener la contraseña"
+	"scr_002_open_scr"					:	"Mantén $BTN_INTERACT para mover las paredes"
+	"kick_trashcan"						:	"PRESIONA $BTN_INTERACT PARA PATEAR EL BOTE DE BASURA"
+	"take_crowbar_bag"					:	"Mantén $BTN_INTERACT para sacar la palanca de la bolsa"
+	"place_down_laptop"					:	"Presiona $BTN_INTERACT para colocar la laptop"
+	"start_open_vaults"					:	"Mantén $BTN_INTERACT para empezar el hackeo de las puertas"
+	"place_down_server"					:	"Mantén $BTN_INTERACT para colocar el rack"
+	"scr_active_laptop"					:	"Mantén $BTN_INTERACT para abrir la laptop y poner la contraseña"
+	"scr_no_password"					:	"Necesita una contraseña"
+	"scr_password"						:	"Contraseña"
+	
+	"hidden_bag_shortcut"				:	"Atajo de Bolsas"
+	"hidden_bag_shortcut_desc"			:	"Asegura las Bolsas a través del atajo en el salón"
+	"hidden_vault_cams_name"			:	"Cámara del Camión"
+	"hidden_vault_cams_desc"			:	"Un camión modificado con cámaras de la última tecnología"
+	"hidden_vault_mute_contractor_name"	:	"Silencia el contratista"
+	"hidden_vault_mute_contractor_desc"	:	"Por favor no lo hagas :c"
+	"hidden_vault_bag_escape"			:	"Atajo al escape"
+	"hidden_vault_bag_escape_desc"		:	"Contrata a alguien para que mueva las bolsas"
+	"restoration_level_data_hidden_vault":"23:08, Kranich facility downtown"
+	"menu_jukebox_enemy_super_blt_heist" 		: 	"Enemy"
+    "menu_jukebox_screen_enemy_super_blt_heist" : 	"Enemy"
+	}

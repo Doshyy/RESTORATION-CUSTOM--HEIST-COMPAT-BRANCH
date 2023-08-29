@@ -1,0 +1,195 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_ext_plane" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/plane_jet_engine" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_ext_plane" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_ext_plane" unload="true"/>
+	</add>
+	<add>
+		<unit load="true" path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr" unload="true"/>
+		<unit load="true" path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr_husk" unload="true"/>
+		<material_config path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr" unload="true"/>
+		<material_config path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr_contour" unload="true"/>
+		<texture path="units/payday2/characters/ene_rus_aleksandr/alek_df" unload="true"/>
+		<texture path="units/payday2/characters/ene_rus_aleksandr/alek_head_df" unload="true"/>
+		<texture path="units/payday2/characters/ene_rus_aleksandr/alek_nm" unload="true"/>
+		<texture path="units/payday2/characters/ene_rus_aleksandr/alek_head_nm" unload="true"/>
+		<cooked_physics path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr" unload="true"/>
+		<model path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr" unload="true"/>
+		<object path="units/payday2/characters/ene_rus_aleksandr/ene_rus_aleksandr" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_cargobaydoor_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_floor" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_floor" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_floor" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_wall" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_wall" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargohold_a_wall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobaydoor_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_stair_a" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_stair_a" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_stair_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_front_wall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargonet_b" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargonet_b" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargonet_b" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargonet_b" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargonet_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_front" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_container/sand_prop_container_red_open_two_sides" type="unit">
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_container/sand_prop_container_red_open_two_sides" unload="true"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_container/sand_prop_container_red_open_two_sides" unload="true"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_container/sand_prop_container_red_open_two_sides" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red" type="unit">
+		<material_config path="units/payday2/props/gen_prop_container_a/gen_prop_container_a" unload="true"/>
+		<object path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_red" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_prop_hatch" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_service_compartment/jry_int_plane_service_comp_structure" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" type="unit">
+		<material_config path="units/payday2/props/gen_prop_container_a/gen_prop_container_a" unload="true"/>
+		<object path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_container_a/gen_prop_container_a_blue" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider01" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a" type="unit">
+		<material_config path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood" unload="true"/>
+		<object path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" type="unit">
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" unload="true"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" unload="true"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" unload="true"/>
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_b" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_b" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_ladder/dev_ladder" type="unit">
+		<material_config path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<object path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+		<unit path="units/dev_tools/dev_ladder/dev_ladder" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" type="unit">
+		<material_config path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" unload="true"/>
+		<object path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" type="unit">
+		<material_config path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" unload="true"/>
+		<object path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/nature/sah_clouds/sah_clouds" type="unit">
+		<material_config path="units/pd2_dlc_sah/nature/sah_clouds/sah_clouds" unload="true"/>
+		<object path="units/pd2_dlc_sah/nature/sah_clouds/sah_clouds" unload="true"/>
+		<unit path="units/pd2_dlc_sah/nature/sah_clouds/sah_clouds" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" type="unit">
+		<material_config path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" unload="true"/>
+		<object path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_emergency_light" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_emergency_light" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_emergency_light" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_emergency_light" unload="true"/>
+	</add>
+	<add from_db="true" path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" unload="true"/>
+		<unit path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_plane_fluor_lamp" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_plane_fluor_lamp" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_plane_fluor_lamp" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_fluor_lamp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_glow_emergency_lghtsl" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/red_emergency_light" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_glow_emergency_lghtsl" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_glow_emergency_lghtsl" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_glow_emergency_lghtsl" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+	</add>
+</table>

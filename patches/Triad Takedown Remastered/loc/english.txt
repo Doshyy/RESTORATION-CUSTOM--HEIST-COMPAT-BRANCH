@@ -1,0 +1,331 @@
+{
+
+
+
+
+
+"ttr_c4skipintro":"Disable the yachts anti air system, even though you have c4, we'll still need to make sure your pilot can land to extract you.",
+
+"ttr_tablet":"Disable the yachts anti air system, so that we can drop c4 to location and so that your pilot can extract you when your done.",
+
+
+"ttr_waitc4":"It will take a minute for the pilot to drop off the c4.",
+"contact_constantine_name":"Constantine",
+
+"ttr_cutpanel":"Cut the security panel.",
+"restoration_level_data_ttr_yct_lvl":"2:19 PM, Wei Cheng's Yacht",
+"ttr_rewire":"Looks like I hit a security firewall, rewire the blocker.",
+
+
+"ttr_power1" : "The powers been cut, turn it on to restart the computer.",
+
+"ttr_power2" : "The hack can't continue without the power, turn it back on.",
+
+"ttr_power3" : "You'll need need to turn back on the power before you can restart the computer.",
+
+"ttr_escape":"Pilots here, your able to escape whenever you want.",
+
+"ttr_pilotc4":"Alright the pilot arrived with the c4. To open up the rest of the yacht we're going to blow open a shutter thats blocking a security panel. Get the c4 and plant it on the Shutter.",
+
+
+"ttr_coastal":"Our helicopters being blocked off by the coastal guard, destroy that helicopter turret or try to get it to flee.",
+
+
+
+
+"ttr_adrenaline":"Wei looks like he's about to pass out, we need to get another password login from him, get some adrenaline to wake up him.",
+
+
+
+"ttr_waitescape":"I told your pilot to pick you up, you'll have to wait for it to arrive.",
+
+
+"ttr_findwei":"Wei should be on the middle deck of the yacht, search for him.",
+
+
+"ttr_escortwei":"You found Wei now get him to the server room.",
+
+
+"ttr_beatwei":"To get Wei talking, rough him up a bit, just don't kill him.",
+
+
+"ttr_signal":"Signal the pilot to drop off c4.",
+
+
+
+
+"ttr_tiewei":"Tie up Wei, we don't want him escaping on us.",
+"ttr_getweiup" : "It looks like Wei is scared you need to get him back up",
+
+"ttr_grabhd":"Now grab that hard drive and get it to the server room.",
+
+"ttr_secondhack" : "I'm not done sifting through this data, start up the next hack.",
+
+"ttr_finalhack":"Alright final step, I managed to get into there servers and I want to wipe any traces of me, startup that hack.",
+
+
+
+"ttr_intro":"We're getting close to the yacht, once twitch drops us off via boat you'll need to fight our way through the triads and make your way to the deck.",
+
+"ttr_sec":"Looks like we only opened up part of the yacht, find the head of security, get his keycard and use it to open up the rest of the ship.",
+
+
+"ttr_fire":"One of the servers caught fire, get a fire extinguisher and put it out.",
+
+
+"ttr_hd":"Looks like one of these servers is missing a hard drive, head to the lower deck and get a hard drive from the server room.",
+
+
+"ttr_keycard":"That's his keycard, use it to open the yacht up.",
+
+
+"ttr_objcutpanel_desc":"Cut the security panel.",
+
+"ttr_firsthack":"Alright type in that password so that we can enter into his server.",
+
+
+"ttr_c4skipoutro":"To open up the rest of the yacht we're going to blow open a shutter thats blocking a security panel. Get the c4 and plant it on the Shutter.",
+
+
+"ttr_buttonserver":"There's a button there to override the servers door, push it to open up that glass door.",
+"ttr_gaveadrenaline" :"That's enough, it might take a bit for the adrenaline to wake him up",
+
+"ttr_money" :"After Wei hit Murkywater he ran off with a lot of cash. He's bound to have stored it in his yacht, if you want to take it maybe you can look for anything thats marked.",
+
+
+"ttr_leftwei" :"Don't worry about leaving Wei behind, I'm sure the murks will treat him right.",
+
+
+"heist_ttr_yct_nar_name":"Triad Takedown",
+"heist_ttr_yct_lvl_name":"Triad Takedown",
+
+"heist_ttr_yct_nar_brief":"It's been awhile since I've contacted you after what went down in russia, I heard you guy's started getting involved with some triads, even robbed their cruise ship. Impressive work. Seems like we have a common enemy now and I want to repay the favor. I need you to hit one of the Golden Daggers lieutenant.\n\n»Disable yacht anti air system\n»Open rest of yacht\n»Find and escort Wei to server computer\n»Get server information\n»Escape ",
+"heist_ttr_yct_lvl_brief":"Wei Cheng is a lieutenant of the Golden Dagger and I need you to hit is yacht, he has information on me and I'd rather it not end in the hands of the triads. If you help me I'm willing to pay you well for you're time. I'm also willing to give anything interesting I find on these servers to you. I'd say this would be an easy hit however Wei's got himself in trouble. He decided to raid one of Murkywaters cargoships and that didn't sit well with them, it seems that we have little time to get our hands on the servers data.",
+
+"menu_pp_ttr_a":"Yacht",
+
+"menu_pp_ttr_b":"Yacht First Floor",
+
+"menu_pp_ttr_c":"Yacht",
+
+
+"menu_pp_asset_ttr_coastal_distraction":"Coastal Distraction",
+
+
+"menu_pp_asset_ttr_coastal_distraction_desc":"Hire a crew to cause a distraction near the mainland. The coastal guard won't be able to block our helicopter when escaping.",
+
+
+
+"menu_pp_ttr_backup_crew":"Backup Crew",
+
+"ttr_obj1":"Head to Deck",
+
+"ttr_obj1_desc":"Make your way to the deck.",
+
+
+
+"ttr_objtablet":"Disable Anti Air System",
+
+"ttr_objtablet_desc":"Disable the yachts anti air system, we'll need to do it to drop off c4 and so that your pilot can land to extract you.",
+
+
+
+
+
+
+"ttr_objsignal":"Signal Pilot",
+
+"ttr_objsignal_desc":"Signal the pilot to drop off the c4.",
+
+
+
+"ttr_objwaitc4":"Wait for C4",
+
+"ttr_objwaitc4_desc":"It will take a minute for the pilot to drop off the c4.",
+
+
+"ttr_objc4":"Plant C4 on Door",
+
+"ttr_objc4_desc":"Get the c4 and plant it on the door.",
+
+
+"ttr_objc4":"Plant C4 on Shutter",
+
+"ttr_objc4_desc":"Alright the pilot arrived with the c4. To open up the rest of the yacht we're going to blow open a shutter thats blocking a security panel. Get the c4 and plant it on the Shutter.",
+
+
+
+
+"ttr_objcutpanel":"Cut Security Panel",
+
+
+"ttr_objcutpanel_desc":"Alright now cut the security panel.",
+
+
+
+"ttr_objsec":"Find Head of Security",
+
+
+"ttr_objsec_desc":"Looks like we only opened up part of the yacht, find the head of security, get his keycard and use it to open up the rest of the ship.",
+
+
+"ttr_objkeycard":"Get and Use Keycard",
+
+
+"ttr_objkeycard_desc":"That's his keycard, use it to open the yacht up.",
+
+
+
+
+
+"ttr_objfindwei":"Search for Wei",
+
+
+"ttr_objfindwei_desc":"Wei should be on the middle deck of the yacht, search for him.",
+
+
+"ttr_objescortwei":"Escort Wei",
+
+
+"ttr_objescortwei_desc":"You found Wei now get him to the server room.",
+
+
+
+"ttr_objtiewei":"Tie Wei",
+
+
+"ttr_objtiewei_desc":"Tie up Wei, we don't want him escaping on us.",
+
+
+
+"ttr_objbeatwei":"Interrogate Wei",
+
+
+
+"ttr_objbeatwei_desc":"To get Wei talking, rough him up a bit, just don't kill him.",
+
+
+
+"ttr_objfirsthack":"Complete First Hack",
+
+
+"ttr_objfirsthack_desc":"Alright type in that password so that we can enter into his server.",
+
+
+"ttr_objsecondhack":"Complete Second Hack",
+
+
+"ttr_objsecondhack_desc":"I'm not done sifting through this data, start up the next hack.",
+
+
+"ttr_objfinalhack":"Complete Final Hack",
+
+
+"ttr_objfinalhack_desc":"Alright final step, I managed to get into there servers and I want to wipe any traces of me, startup that hack.",
+
+
+
+"ttr_objadrenaline":"Get Adrenaline",
+
+
+"ttr_objadrenaline_desc":"Wei looks like he's about to pass out, we need to get another password login from him, get some adrenaline to wake up him.",
+
+
+
+
+"ttr_objhd":"Get Hard Drive",
+
+
+"ttr_objhd_desc":"Looks like one of these servers is missing a hard drive, head to the lower deck and get a hard drive from the server room.",
+
+
+
+"ttr_objfire":"Put out Fire",
+
+
+"ttr_objfire_desc":"One of the servers caught fire, get a fire extinguisher and put it out.",
+
+
+"ttr_objrewire":"Rewire Security Blocker",
+
+
+"ttr_objrewire_desc":"Looks like I hit a security firewall, rewire the blocker.",
+
+
+
+"ttr_objcoastal":"Fight off Coastal Guard",
+
+
+"ttr_objcoastal_desc":"Our helicopters being blocked off by the coastal guard, destroy that helicopter turret or try to get it to flee.",
+
+
+
+"ttr_objwaitescape":"Wait for Escape",
+
+
+"ttr_objwaitescape_desc":"I told your pilot to pick you up, you'll have to wait for it to arrive.",
+
+
+
+"ttr_objescape":"Escape or Secure Loot",
+
+
+"ttr_objescape_desc":"Pilots here, your able to escape whenever you want.",
+
+
+
+
+
+
+"menu_pp_ttr_backup_crew_desc":"Constantine will hire an additional crew to help aide you.",
+
+"menu_pp_ttr_expert_pilot":"Expert Pilot Bile",
+
+
+"menu_pp_ttr_expert_pilot_desc":"Hiring Bile as an escape pilot will pay off. You won't have to wait long for an escape.",
+
+
+
+"menu_pp_ttr_boat_drop":"Boat Lootdrop",
+
+
+"menu_pp_ttr_boat_drop_desc":"A boat will be stationed near the yacht to secure any loot. You won't need to wait for an escape to secure any loot on the yacht. THIS DOES NOT CHANGE THE ESCAPE",
+
+
+
+"menu_pp_ttr_better_hack":"Improved Hacking Device",
+
+
+"menu_pp_ttr_better_hack_desc":"Reduces the amount of hacking tablets needed to disrupt the yachts anti air system by one.",
+
+
+"menu_pp_ttr_c4":"C4 Equipment",
+
+
+"menu_pp_ttr_c4_desc":"Start off with c4. you won't need to signal pilot to drop off c4. Does not skip disable anti air objective.",
+
+"menu_c4_preplan" : "C4 Equipment Deck",
+
+
+"menu_hack_preplan" : "Deck Hacking Tablets",
+
+
+"menu_pilot_preplan" : "Deck",
+
+"menu_boat_preplan" : "Yacht Side",
+
+"menu_backup_crew_preplan" : "Deck",
+
+"menu_coastal_preplan" : "Deck",
+
+"menu_deaddrop_001" : "Cabin Entrance Left",
+"menu_deaddrop_002" : "Cabin Entrance Right",
+"menu_deaddrop_003" : "Deck Storage Right",
+"menu_deaddrop_004" : "Deck Storage Left",
+"menu_deaddrop_005" : "Cabin Staircase Left",
+"menu_deaddrop_006" : "Cabin Staircase Right",
+
+
+
+
+}

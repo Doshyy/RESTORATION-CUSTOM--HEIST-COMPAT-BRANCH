@@ -1,0 +1,225 @@
+<table name="AnotherFourStores">
+	<level ai_group_type="america" briefing_dialog="mur_job_fms_brief_a" ghost_bonus="0.1" id="lvl_fourmorestores" max_bags="54" world_setting="day" player_style="hiphop">
+		<AddFiles file="add_special.xml"/>
+		<add file="levels/lvl_fourmorestores/add.xml"/>
+		<assets>
+			<asset name="four_asset_intel"/>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<include directory="levels/lvl_fourmorestores">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="coverpoints/coverpoints.continent" type="custom_xml"/>
+			<file file="coverpoints/coverpoints.mission" type="generic_xml"/>
+			<file file="fake_massunits/fake_massunits.continent" type="custom_xml"/>
+			<file file="fake_massunits/fake_massunits.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="mockup/mockup.continent" type="custom_xml"/>
+			<file file="mockup/mockup.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="environments/fms_time_day.environment" type="custom_xml"/>
+			<file file="environments/fms_time_dusk.environment" type="custom_xml"/>
+			<file file="environments/fms_time_rain.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value="mur_job_fms_brief_a"/>
+		</intro_event>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="packages/narr_roberts"/>
+			<value_node value="packages/vlad_four_stores"/>
+			<value_node value="packages/job_four_stores"/>
+			<value_node value="levels/narratives/vlad/four_stores/world_sounds"/>
+			<value_node value="levels/narratives/classics/flat/world_sounds"/>
+			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
+			<value_node value="levels/narratives/bain/rvd/stage2/world_sounds"/>
+			<value_node value="levels/instances/unique/pet_pet/world/world"/>
+			<value_node value="levels/narratives/bain/nail/world"/>
+			<value_node value="levels/narratives/vlad/nightclub/world_sounds"/>
+			<value_node value="packages/narr_mia_2"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sounds directory="four_more_stores">
+				<sound id="mur_job_fms_brief_a" path="mur_job_fms_brief_a.ogg"/>
+				<sound id="mur_job_fms_intro_a" path="mur_job_fms_intro_a.ogg"/>
+				<sound id="mur_job_fms_outro_a" path="mur_job_fms_outro_a.ogg"/>
+				<sound id="mur_job_fms_cash5k" path="mur_job_fms_cash5k.ogg"/>
+				<sound id="mur_job_fms_cash10k" path="mur_job_fms_cash10k.ogg"/>
+				<sound id="mur_job_fms_cash15k" path="mur_job_fms_cash15k.ogg"/>
+				<sound id="mur_job_fms_cash20k" path="mur_job_fms_cash20k.ogg"/>
+				<sound id="mur_job_fms_cash25k" path="mur_job_fms_cash25k.ogg"/>
+				<sound id="mur_job_fms_cash30k" path="mur_job_fms_cash30k.ogg"/>
+				<sound id="mur_job_fms_cash40k" path="mur_job_fms_cash40k.ogg"/>
+				<sound id="mur_job_fms_cash45k" path="mur_job_fms_cash45k.ogg"/>
+				<sound id="mur_job_fms_cash50k" path="mur_job_fms_cash50k.ogg"/>
+				<sound id="mur_job_fms_cash50k_more" path="mur_job_fms_cash50k_more.ogg"/>
+			</sounds>
+		</sounds>
+	</level>
+	<instance id="inst_fms_parkedcars">
+		<add file="levels/inst_fms_parkedcars/add.xml"/>
+		<include directory="levels/inst_fms_parkedcars">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<level ai_group_type="america" id="inst_fms_parkedcars" max_bags="54">
+		<add file="levels/inst_fms_parkedcars/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<include directory="levels/inst_fms_parkedcars">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+		</packages>
+	</level>
+	<instance id="inst_fms_playervan">
+		<add file="levels/inst_fms_playervan/add.xml"/>
+		<include directory="levels/inst_fms_playervan">
+			<file file="world.world" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+	</instance>
+	<level ai_group_type="america" id="inst_fms_playervan" max_bags="54">
+		<add file="levels/inst_fms_playervan/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<include directory="levels/inst_fms_playervan">
+			<file file="world.world" type="generic_xml"/>
+			<file file="continents.continents" type="custom_xml"/>
+			<file file="mission.mission" type="custom_xml"/>
+			<file file="nav_manager_data.nav_data" type="generic_xml"/>
+			<file file="world_sounds.world_sounds" type="generic_xml"/>
+			<file file="world_cameras.world_cameras" type="custom_xml"/>
+			<file file="editor_only/editor_only.continent" type="custom_xml"/>
+			<file file="editor_only/editor_only.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+			<file file="cover_data.cover_data" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/vlad/nightclub/world_sounds"/>
+		</packages>
+		<script_data_mods/>
+	</level>
+	<AddFiles directory="assets">
+		<texture path="guis/fourmorestores/icon_fourmorestores"/>
+	</AddFiles>
+	<Hooks directory="hooks">
+		<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc"/>
+	<Sounds directory="assets/sound">
+		<sounds directory="four_more_stores">
+			<sound id="mur_job_fms_brief_a" path="mur_job_fms_brief_a.ogg"/>
+			<sound id="mur_job_fms_callout_a" path="mur_job_fms_callout_a.ogg"/>
+		</sounds>
+	</Sounds>
+	<narrative briefing_dialog="mur_job_fms_brief_a" briefing_event="" contact="vlad" icon="guis/fourmorestores/icon_fourmorestores" id="AnotherFourStores">
+		<chain>
+			<table level_id="lvl_fourmorestores" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="16000"/>
+			<value_node value="32000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+			<value_node value="200000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="mur_job_fms_callout_a"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_mallcrash1"/>
+			<value_node value="cn_mallcrash2"/>
+			<value_node value="cn_mallcrash3"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value="mur_job_fms_callout_a"/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="2"/>
+			<value_node value="2"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<intro_event>
+			<value_node value="mur_job_fms_brief_a"/>
+		</intro_event>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="24000"/>
+			<value_node value="48000"/>
+			<value_node value="120000"/>
+			<value_node value="240000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+			<value_node value="300000"/>
+		</payout>
+	</narrative>
+</table>

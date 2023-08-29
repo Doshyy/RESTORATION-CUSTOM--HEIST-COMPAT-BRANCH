@@ -1,0 +1,151 @@
+{
+
+
+"heist_deadcargol_name":"Deadly Cargo",
+"heist_deadcargo_name":"Deadly Cargo",
+"heist_deadcargo_brief":"I have a new job for you, my contact Ivan disclosed a weapons depot owned by the mob. I want you to sneak in and hit the place. You'll have to go in quiet. I won't be able to move these weapons if you bring the heat.\n\n»Inflitrate the depot\n»Steal the weapons\n»Escape or secure more loot",
+"heist_deadcargol_brief":"I have a new job for you, my contact Ivan disclosed a weapons depot owned by the mob. I want you to sneak in and hit the place. You'll have to go in quiet. I won't be able to move these weapons if you bring the heat.",
+"contact_constantine_name":"Constantine",
+"contact_constantine_desc":"",
+"restoration_level_data_deadcargol":"8:36 PM, Sewers Under The Depot",
+"deadcargo_objweapon_desc":"You'll have to look around the place for weapons, best bet is to check the sheds or the warehouse for the weapons.",
+"deadcargo_objweapon":"Secure Weapons",
+
+"deadcargo_objescape_desc":"Escapes available for you to leave at any time, though you can stick around and secure more loot.",
+"deadcargo_objescape":"Escape or Secure Loot",
+
+
+
+"deadcargo_intro":"We're hitting this place via the sewers. You'll have to find the weapons in the sheds or the main warehouses.",
+
+
+
+"deadcargo_drone":"Alright, thats the drones. Some of them may take awhile to deactivate though.",
+
+
+
+
+"deadcargo_escape":"That's all of them, you can escape now our secure more loot.",
+
+
+
+
+"deadcargo_secureonev1":"Nice, now just get the rest.",
+
+
+
+"deadcargo_secureonev2":"Good, thats one down. Just get the rest of them.",
+
+
+
+
+"deadcargo_secureonev3":"You got one, now get the others.",
+
+
+"deadcargo_founddrive":"That hard drive you just picked up contains codes to the drones, if you can get me on there servers I can shut those drones down.",
+
+
+"deadcargo_founddriveafter":"Hey, this is the hard drive we need for the server room, place it in and the drones will stop working.",
+
+
+
+
+"deadcargo_foundserver":"Seems like this is their server room, if you can get a hard drive on their servers I'll be able to shut down the drones.",
+
+
+"deadcargo_foundserverafter":"Remember that hard drive you found, place it in the servers and I'll get rid of those drones.",
+
+
+"menu_crowbar_preplanning_001":"Sewer Crowbars",
+
+"menu_keycard_preplanning":"Sewer Keycard",
+
+"menu_preplan_reduceciv":"Front Gate",
+
+"menu_preplan_distract_2":"Back Wall",
+
+
+"menu_preplan_disabledrone_001":"Disable Drones",
+
+
+"menu_pp_asset_deadcargo_loot_drop_off" : "Loot Drop Off",
+
+"menu_pp_asset_deadcargo_loot_drop_off_desc" : "An insider will collect what we store in the dumpsters.",
+
+
+"menu_pp_deadcargol_a" : "Warehouse Exterior",
+
+"menu_pp_deadcargol_b" : "Warehouse Exterior",
+
+"menu_pp_deadcargol_c" : "Warehouse Exterior",
+
+
+"menu_preplan_guard_001" : "Warehouse A Upper Balcony",
+"menu_preplan_guard_002" : "Warehouse B Upper Balcony",
+"menu_preplan_guard_003" : "Warehouse B Lower Side",
+"menu_preplan_guard_004" : "Warehouse A Lower Side",
+
+"menu_preplan_guard_005" : "Front Gate",
+
+
+
+"menu_loot_drop_container_001" : "Warehouse B Side",
+"menu_loot_drop_container_002" : "Warehouse A Side",
+"menu_loot_drop_container_003" : "Front Gate Side B",
+"menu_loot_drop_container_004" : "Back Side B",
+
+"menu_loot_drop_container_005" : "Front Gate Side A",
+"menu_loot_drop_container_006" : "Back Side A",
+
+
+
+"menu_preplandeadrop_001" : "Back Side A",
+
+"menu_preplandeadrop_002" : "Back Wall",
+"menu_preplandeadrop_003" : "Front Gate Side A",
+"menu_preplandeadrop_004" : "Front Gate Side A",
+
+"menu_preplandeadrop_005" : "Back Side B",
+"menu_preplandeadrop_006" : "Back Side B",
+"menu_preplandeadrop_007" : "Front Gate Side B",
+
+"menu_preplandeadrop_008" : "Front Gate Side B",
+
+"menu_preplandeadrop_009" : "Back Wall",
+
+
+
+
+"menu_preplan_spycam_001" : "Warehouse Right Side B",
+
+"menu_preplan_spycam_002" : "Warehouse Left Side B",
+"menu_preplan_spycam_003" : "Front Warehouse B",
+"menu_preplan_spycam_004" : "Back Warehouse B",
+
+"menu_preplanning_unlockdoors" : "Unlock Side Warehouse doors",
+
+"menu_preplan_spycam_005" : "Back Warehouse A",
+
+"menu_preplan_spycam_006" : "Warehouse Left Side A",
+"menu_preplan_spycam_007" : "Front Warehouse A",
+"menu_preplan_spycam_008" : "Warehouse Right Side A",
+
+
+"menu_pp_asset_deadcargo_reduce_civilians" : "Distraction Car Crash",
+
+"menu_pp_asset_reduce_deadcargo_reduce_civilians_desc" : "Hired help will cause a distraction, this will reduce civilians around the map",
+
+"menu_pp_asset_deadcargo_unlocked_door" : "Unlock Doors",
+
+"menu_pp_asset_deadcargo_unlocked_door_desc" : "An insider will unlock some of the warehouse doors for us.",
+
+
+
+"menu_pp_asset_reduce_deadcargo_reduce_guard":"Can only do this once but we can hire an insider to get rid of a guard before hand. Doing this will remove a single guard from patrolling the area.",
+
+"menu_pp_asset_deadcargo_reduce_guard":"Remove Guard",
+
+
+
+
+}

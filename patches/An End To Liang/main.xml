@@ -1,0 +1,190 @@
+<table name="An End To Liang">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/liangicon"/>
+	</AddFiles>
+	<AssetUpdates id="32233" provider="modworkshop" version="1.7"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" briefing_dialog="anl_brief" ghost_bonus="0.1" id="anlh" intro_event="anl_intro" max_bags="54" player_style="suit_sunny">
+		<add file="levels/anlh/add.xml"/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+		</hooks>
+		<include directory="levels/anlh">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/narratives/short2/stage1/nightclub_interior/nightclub_interior"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/dah/world_sounds"/>
+			<value_node value="levels/instances/unique/mus_first_barrier/world/world"/>
+			<value_node value="levels/instances/unique/dinner/keycard_panel/world"/>
+			<value_node value="levels/instances/unique/dinner/keycard_panel/world/world"/>
+			<value_node value="levels/instances/unique/mex/mex_tunnel_exit/world/world"/>
+			<value_node value="levels/narratives/skm/skm_red2/editor_only/editor_only"/>
+			<value_node value="levels/narratives/vlad/shout/editor_only/editor_only"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/instances/unique/vit/vit_bookshelf/world"/>
+			<value_node value="levels/instances/unique/vit/vit_bookshelf/world/world"/>
+			<value_node value="levels/instances/unique/vit/vit_bookshelf/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/narratives/safehouse/prop/prop"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door/world/world"/>
+			<value_node value="levels/instances/unique/sub_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/sub_circuit_breaker/world/world"/>
+			<value_node value="levels/instances/unique/pet_helicopter_swat/world"/>
+			<value_node value="levels/instances/unique/pet_helicopter_swat/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/lights_underground_lab/lights_underground_lab"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_loot_crate/world/world"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
+			<value_node value="levels/narratives/continental/spa/world"/>
+			<value_node value="packages/job_branchbank_gold"/>
+			<value_node value="levels/instances/unique/moon/crate_shoes/world/world"/>
+			<value_node value="levels/instances/unique/fex/fex_blowtorch/world"/>
+			<value_node value="levels/instances/unique/fex/fex_blowtorch/world/world"/>
+			<value_node value="levels/instances/unique/vit/vit_security_room/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="new_dialogue.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets">
+			<sounds directory="sounds">
+				<sound id="anl_brief" path="Brief.ogg"/>
+				<sound id="anl_intro" path="Intro.ogg" subtitle_id="anl_intro"/>
+				<sound id="anl_alarmbox" path="AlarmBoxHint.ogg" subtitle_id="anl_alarmbox"/>
+				<sound id="anl_bilehalf" path="BileHalfWayHint.ogg" subtitle_id="anl_bilehalf"/>
+				<sound id="anl_hiddenbutton" path="ButtonHiddenHint.ogg" subtitle_id="anl_hiddenbutton"/>
+				<sound id="anl_c4" path="C4Hint.ogg" subtitle_id="anl_c4"/>
+				<sound id="anl_defenddrill" path="DefendDrillHint.ogg" subtitle_id="anl_defenddrill"/>
+				<sound id="anl_officeone" path="EnterOfficeHintOne.ogg" subtitle_id="anl_officeone"/>
+				<sound id="anl_officetwo" path="EnterOfficeHintTwo.ogg" subtitle_id="anl_officetwo"/>
+				<sound id="anl_escape" path="EscapeHint.ogg" subtitle_id="anl_escape"/>
+				<sound id="anl_fingerprint" path="FingerPrintHint.ogg" subtitle_id="anl_fingerprint"/>
+				<sound id="anl_house" path="HouseHint.ogg" subtitle_id="anl_house"/>
+				<sound id="anl_keycard" path="KeycardReaderHint.ogg" subtitle_id="anl_keycard"/>
+				<sound id="anl_kill" path="KillLiangHint.ogg" subtitle_id="anl_kill"/>
+				<sound id="anl_laptop" path="LaptopHint.ogg" subtitle_id="anl_laptop"/>
+				<sound id="anl_equipment" path="MoveEquipmentHint.ogg" subtitle_id="anl_equipment"/>
+				<sound id="anl_nitrogen" path="NitrogenHint.ogg" subtitle_id="anl_nitrogen"/>
+				<sound id="anl_override" path="OverrideHint.ogg" subtitle_id="anl_override"/>
+				<sound id="anl_powerone" path="PowerHintOne.ogg" subtitle_id="anl_powerone"/>
+				<sound id="anl_powertwo" path="PowerHintTwo.ogg" subtitle_id="anl_powertwo"/>
+				<sound id="anl_powerthree" path="PowerHintThree.ogg" subtitle_id="anl_powerthree"/>
+				<sound id="anl_powerfour" path="PowerHintFour.ogg" subtitle_id="anl_powerfour"/>
+				<sound id="anl_pushbutton" path="PushButtonHint.ogg" subtitle_id="anl_pushbutton"/>
+				<sound id="anl_securemoney" path="SecureMoneyHint.ogg" subtitle_id="anl_securemoney"/>
+				<sound id="anl_drill" path="SetDrillHint.ogg" subtitle_id="anl_drill"/>
+				<sound id="anl_music" path="TurnOnMusicHint.ogg" subtitle_id="anl_music"/>
+				<sound id="anl_bilewait" path="WaitBileHint.ogg" subtitle_id="anl_bilewait"/>
+				<sound id="anl_bilewaittwo" path="WaitBileTwoHint.ogg" subtitle_id="anl_bilewaittwo"/>
+				<sound id="anl_adrian" path="WaitHint.ogg" subtitle_id="anl_adrian"/>
+				<sound id="anl_signal" path="SignalBile.ogg" subtitle_id="anl_signal"/>
+				<sound id="anl_bilenear" path="BileAlmostThereHint.ogg" subtitle_id="anl_bilenear"/>
+				<sound id="anl_blowtorchone" path="BlowTorchHintOne.ogg" subtitle_id="anl_blowtorchone"/>
+				<sound id="anl_blowtorchtwo" path="BlowTorchHintTwo.ogg" subtitle_id="anl_blowtorchtwo"/>
+				<sound id="anl_c4van" path="C4VanHint.ogg" subtitle_id="anl_c4van"/>
+				<sound id="anl_nitrogenprocess" path="NitrogenProcessHint.ogg" subtitle_id="anl_nitrogenprocess"/>
+			</sounds>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/liangicon" id="anl">
+		<chain>
+			<table level_id="anlh" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="60000"/>
+			<value_node value="80000"/>
+			<value_node value="120000"/>
+			<value_node value="300000"/>
+			<value_node value="320000"/>
+			<value_node value="320000"/>
+			<value_node value="320000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+			<value_node value="42200"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+			<value_node value="24100"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+		</payout>
+	</narrative>
+</table>

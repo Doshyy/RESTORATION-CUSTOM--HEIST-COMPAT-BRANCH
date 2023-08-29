@@ -1,0 +1,1 @@
+CopMovement._action_variants.nikolai = CopMovement._action_variants.hector_boss

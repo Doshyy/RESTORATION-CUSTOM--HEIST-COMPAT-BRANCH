@@ -1,0 +1,224 @@
+<table name="Blood Money">
+	<Achievements icon="guis/achievements/bm_icon" id="BloodMoney">
+		<achievement desc_id="BM_Achieve_DiffN_desc" icon="guis/achievements/bm_diff0" id="BM_Achieve_DiffN" name_id="BM_Achieve_DiffN_name" rank="1"/>
+		<achievement desc_id="BM_Achieve_DiffH_desc" icon="guis/achievements/bm_diff1" id="BM_Achieve_DiffH" name_id="BM_Achieve_DiffH_name" rank="1"/>
+		<achievement desc_id="BM_Achieve_DiffVH_desc" icon="guis/achievements/bm_diff2" id="BM_Achieve_DiffVH" name_id="BM_Achieve_DiffVH_name" rank="2" reward_amount="3" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_DiffO_desc" icon="guis/achievements/bm_diff3" id="BM_Achieve_DiffO" name_id="BM_Achieve_DiffO_name" rank="2" reward_amount="3" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_DiffM_desc" icon="guis/achievements/bm_diff4" id="BM_Achieve_DiffM" name_id="BM_Achieve_DiffM_name" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_DiffDW_desc" icon="guis/achievements/bm_diff5" id="BM_Achieve_DiffDW" name_id="BM_Achieve_DiffDW_name" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_DiffDS_desc" icon="guis/achievements/bm_diff6" id="BM_Achieve_DiffDS" name_id="BM_Achieve_DiffDS_name" rank="4" reward_amount="9" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_DiffOD_desc" icon="guis/achievements/bm_diff7" id="BM_Achieve_DiffOD" name_id="BM_Achieve_DiffOD_name" rank="4" reward_amount="9" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_Chimichanga_desc" icon="guis/achievements/bm_snack" id="BM_Achieve_Chimichanga" name_id="BM_Achieve_Chimichanga_name" rank="1"/>
+		<achievement desc_id="BM_Achieve_Wine_desc" icon="guis/achievements/bm_wine" id="BM_Achieve_Wine" name_id="BM_Achieve_Wine_name" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_Speedhack_desc" icon="guis/achievements/bm_speedhack" id="BM_Achieve_Speedhack" name_id="BM_Achieve_Speedhack_name" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement desc_id="BM_Achieve_Weapons_desc" icon="guis/achievements/bm_weapons" id="BM_Achieve_Weapons" name_id="BM_Achieve_Weapons_name" rank="3" reward_amount="6" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture force="true" path="guis/achievements/bm_icon"/>
+		<texture force="true" path="guis/achievements/bm_diff0"/>
+		<texture force="true" path="guis/achievements/bm_diff1"/>
+		<texture force="true" path="guis/achievements/bm_diff2"/>
+		<texture force="true" path="guis/achievements/bm_diff3"/>
+		<texture force="true" path="guis/achievements/bm_diff4"/>
+		<texture force="true" path="guis/achievements/bm_diff5"/>
+		<texture force="true" path="guis/achievements/bm_diff6"/>
+		<texture force="true" path="guis/achievements/bm_diff7"/>
+		<texture force="true" path="guis/achievements/bm_snack"/>
+		<texture force="true" path="guis/achievements/bm_wine"/>
+		<texture force="true" path="guis/achievements/bm_speedhack"/>
+		<texture force="true" path="guis/achievements/bm_weapons"/>
+		<texture force="true" path="textures/FountainArea"/>
+		<texture force="true" path="textures/UpperAtrium"/>
+		<texture force="true" path="textures/LowerAtrium"/>
+		<texture force="true" path="textures/PreAtrium"/>
+		<texture force="true" path="textures/BM_map_icon"/>
+		<texture force="true" path="textures/BM_loading_screen"/>
+	</AddFiles>
+	<AssetUpdates id="35220" provider="modworkshop" version="2.1"/>
+	<Hooks directory="hooks">
+		<hook file="guitweakdata.lua" source_file="lib/tweak_data/guitweakdata"/>
+		<hook file="BMMusic.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="schinese.txt" language="schinese"/>
+		<loc file="english.txt" language="english"/>
+		<loc file="french.txt" language="french"/>
+	</Localization>
+	<PrePlanning>
+		<locations>
+			<location id="BloodMoney" mission_briefing_texture="textures/LowerAtrium" post_event_prefix="loc" total_budget="12">
+				<table map_size="1.5" map_x="-0.8" map_y="0" name_id="menu_pp_BloodMoney_a" rotation="0" texture="textures/FountainArea" x1="-5600" x2="-550" y1="-7900" y2="935"/>
+				<table map_size="1.5" map_x="0.8" map_y="0" name_id="menu_pp_BloodMoney_b" rotation="0" texture="textures/UpperAtrium" x1="-5600" x2="-550" y1="-7900" y2="935"/>
+				<table map_size="1.5" map_x="-0.8" map_y="-1.25" name_id="menu_pp_BloodMoney_c" rotation="0" texture="textures/LowerAtrium" x1="-6000" x2="-600" y1="-7900" y2="935"/>
+				<table map_size="1.5" map_x="0.8" map_y="-1.25" name_id="menu_pp_BloodMoney_d" rotation="0" texture="textures/PreAtrium" x1="-2056.15" x2="3720.2" y1="-7526.7" y2="991.85"/>
+				<start_location group="c" x="1024" y="1024" zoom="1"/>
+			</location>
+		</locations>
+		<plans>
+			<plan id="mission_equipment"/>
+			<plan id="hired_help"/>
+		</plans>
+		<types>
+			<type budget_cost="8" category="mission_equipment" cost="4500" icon="34" id="BloodMoney_atrium_lootdrop" plan="mission_equipment" post_event="preplan_16" prio="2" total="1"/>
+			<type budget_cost="3" category="hired_help" cost="1500" icon="105" id="BloodMoney_spiked_food" plan="hired_help" pos_not_important="true" post_event="preplan_13" prio="1" total="1"/>
+			<type budget_cost="5" category="hired_help" cost="3500" icon="45" id="BloodMoney_seminar" plan="hired_help" pos_not_important="true" post_event="preplan_13" prio="2" total="1"/>
+			<type budget_cost="2" category="hired_help" cost="3000" icon="24" id="BloodMoney_laptop_cams" plan="hired_help" pos_not_important="true" post_event="preplan_17" prio="4" total="1"/>
+			<type budget_cost="3" category="mission_equipment" cost="2000" icon="62" id="BloodMoney_chute" plan="mission_equipment" post_event="preplan_16" prio="1" total="1"/>
+			<type budget_cost="1" category="hired_help" cost="1500" icon="13" id="BloodMoney_bandcase" plan="hired_help" post_event="preplan_17" prio="5" total="2"/>
+		</types>
+	</PrePlanning>
+	<Sounds directory="assets/vo">
+		<sound id="BM_HeistBriefing" path="BM_HeistBriefing.ogg" subtitle_id="Yaeger_BM_HeistBriefing"/>
+	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
+	<instance id="BM_Whiteboard">
+		<add directory="assets"/>
+		<include directory="levels/instances/BM_Whiteboard">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<level ai_group_type="America" briefing_dialog="BM_LevelBriefing" ghost_bonus="0.15" ghost_required="true" id="BloodMoney" intro_event="BM_IntroEvent" max_bags="32" music="ghost" music_ext_start="suspense_1">
+		<add file="levels/BloodMoney/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="missionendstate.lua" source_file="lib/states/missionendstate"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/short1/stage2/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_1/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/vo">
+			<sound id="BM_LevelBriefing" path="BM_LevelBriefing.ogg" subtitle_id="Yaeger_BM_LevelBriefing"/>
+			<sound id="BM_IntroEvent" path="BM_IntroEvent.ogg" subtitle_id="Yaeger_BM_IntroEvent"/>
+			<sound id="BM_OutroEvent" path="BM_OutroEvent.ogg" subtitle_id="Yaeger_BM_OutroEvent"/>
+			<sound id="BM_obj1" path="BM_obj1.ogg" subtitle_id="Yaeger_BM_obj1vo"/>
+			<sound id="BM_obj4" path="BM_obj4.ogg" subtitle_id="Yaeger_BM_obj4vo"/>
+			<sound id="BM_obj4_Kirk" path="BM_obj4_Kirk.ogg" subtitle_id="Yaeger_BM_obj4_Kirk"/>
+			<sound id="BM_obj4_Myers" path="BM_obj4_Myers.ogg" subtitle_id="Yaeger_BM_obj4_Myers"/>
+			<sound id="BM_obj4_Smith" path="BM_obj4_Smith.ogg" subtitle_id="Yaeger_BM_obj4_Smith"/>
+			<sound id="BM_obj4_Stromberg" path="BM_obj4_Stromberg.ogg" subtitle_id="Yaeger_BM_obj4_Stromberg"/>
+			<sound id="BM_obj5" path="BM_obj5.ogg" subtitle_id="Yaeger_BM_obj5vo"/>
+			<sound id="BM_obj6" path="BM_obj6.ogg" subtitle_id="Yaeger_BM_obj6vo"/>
+			<sound id="BM_obj7" path="BM_obj7.ogg" subtitle_id="Yaeger_BM_obj7vo"/>
+			<sound id="BM_obj8" path="BM_obj8.ogg" subtitle_id="Yaeger_BM_obj8vo"/>
+			<sound id="BM_obj9" path="BM_obj9.ogg" subtitle_id="Yaeger_BM_obj9vo"/>
+			<sound id="BM_obj10" path="BM_obj10.ogg" subtitle_id="Yaeger_BM_obj10vo"/>
+			<sound id="BM_obj11" path="BM_obj11.ogg" subtitle_id="Yaeger_BM_obj11vo"/>
+			<sound id="BM_obj11_remind" path="BM_obj11_remind.ogg" subtitle_id="Yaeger_BM_obj11_remind"/>
+			<sound id="BM_obj11_mark" path="BM_obj11_mark.ogg" subtitle_id="Yaeger_BM_obj11_mark"/>
+			<sound id="BM_obj12" path="BM_obj12.ogg" subtitle_id="Yaeger_BM_obj12vo"/>
+			<sound id="BM_obj12_boxmarked" path="BM_obj12_boxmarked.ogg" subtitle_id="Yaeger_BM_obj12_boxmarked"/>
+			<sound id="BM_obj12_kcmarked" path="BM_obj12_kcmarked.ogg" subtitle_id="Yaeger_BM_obj12_kcmarked"/>
+			<sound id="BM_obj12_remind" path="BM_obj12_remind.ogg" subtitle_id="Yaeger_BM_obj12_remind"/>
+			<sound id="BM_obj12_wire" path="BM_obj12_wire.ogg" subtitle_id="Yaeger_BM_obj12_wire"/>
+			<sound id="BM_obj13" path="BM_obj13.ogg" subtitle_id="Yaeger_BM_obj13vo"/>
+			<sound id="BM_obj14b" path="BM_obj14b.ogg" subtitle_id="Yaeger_BM_obj14bvo"/>
+			<sound id="BM_obj14b_closet" path="BM_obj14b_closet.ogg" subtitle_id="Yaeger_BM_obj14b_closet"/>
+			<sound id="BM_obj14b_copy" path="BM_obj14b_copy.ogg" subtitle_id="Yaeger_BM_obj14b_copy"/>
+			<sound id="BM_obj14b_hallway" path="BM_obj14b_hallway.ogg" subtitle_id="Yaeger_BM_obj14b_hallway"/>
+			<sound id="BM_obj14b_kitchen" path="BM_obj14b_kitchen.ogg" subtitle_id="Yaeger_BM_obj14b_kitchen"/>
+			<sound id="BM_obj14a" path="BM_obj14a.ogg" subtitle_id="Yaeger_BM_obj14avo"/>
+			<sound id="BM_obj14a_early" path="BM_obj14a_early.ogg" subtitle_id="Yaeger_BM_obj14a_early"/>
+			<sound id="BM_obj15a" path="BM_obj15a.ogg" subtitle_id="Yaeger_BM_obj15avo"/>
+			<sound id="BM_obj15b" path="BM_obj15b.ogg" subtitle_id="Yaeger_BM_obj15bvo"/>
+			<sound id="BM_obj16" path="BM_obj16.ogg" subtitle_id="Yaeger_BM_obj16vo"/>
+			<sound id="BM_obj18" path="BM_obj18.ogg" subtitle_id="Yaeger_BM_obj18vo"/>
+			<sound id="BM_obj18_2" path="BM_obj18_2.ogg" subtitle_id="Yaeger_BM_obj18_2"/>
+			<sound id="BM_DefaultDrop" path="BM_DefaultDrop.ogg" subtitle_id="Yaeger_BM_DefaultDrop"/>
+			<sound id="BM_RenovationDrop" path="BM_RenovationDrop.ogg" subtitle_id="Yaeger_BM_RenovationDrop"/>
+			<sound id="BM_ZiplineDrop" path="BM_ZiplineDrop.ogg" subtitle_id="Yaeger_BM_ZiplineDrop"/>
+			<sound id="BM_obj19" path="BM_obj19.ogg" subtitle_id="Yaeger_BM_obj19vo"/>
+			<sound id="BM_obj19_2" path="BM_obj19_2.ogg" subtitle_id="Yaeger_BM_obj19_2"/>
+			<sound id="BM_obj20" path="BM_obj20.ogg" subtitle_id="Yaeger_BM_obj20vo"/>
+			<sound id="BM_alarm" path="BM_alarm.ogg" subtitle_id="Yaeger_BM_alarm"/>
+			<sound id="BM_wine" path="BM_wine.ogg" subtitle_id="Yaeger_BM_wine"/>
+			<sound id="BM_gangster" max_distance="10" min_distance="2" path="BM_gangster.ogg"/>
+			<sound id="BM_obj9_2" path="BM_obj9_2.ogg" subtitle_id="Yaeger_BM_obj9_2"/>
+			<sound id="BM_obj16_2" path="BM_obj16_2.ogg" subtitle_id="Yaeger_BM_obj16_2"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="BM_HeistBriefing" contact="yaeger" id="BloodMoneyNarr">
+		<chain>
+			<table level_id="BloodMoney" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="240000"/>
+			<value_node value="240000"/>
+			<value_node value="240000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value="BM_OutroEvent"/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+			<value_node value="38000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+			<value_node value="21000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="320000"/>
+			<value_node value="480000"/>
+			<value_node value="480000"/>
+			<value_node value="480000"/>
+		</payout>
+	</narrative>
+</table>

@@ -1,0 +1,202 @@
+<table min_lib_ver="4.5" name="Pacific Bank">
+	<instance id="constantine_bank_door">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_deposit_box">
+		<packages>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world_sounds"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_computer_hack">
+		<packages>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world_sounds"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_computer_hack_quick">
+		<packages>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world_sounds"/>
+			<value_node value="levels/instances/unique/red/red_hacking_quick/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_stealth_hack">
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_fence_door">
+		<packages>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world_sounds"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_van_escape">
+		<packages/>
+	</instance>
+	<instance id="constantine_bank_tablet_hack">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world/world"/>
+		</packages>
+	</instance>
+	<instance id="constantine_bank_lance">
+		<packages>
+			<value_node value="levels/instances/unique/bex/bex_lance/world"/>
+			<value_node value="levels/instances/unique/bex/bex_lance/world_sounds"/>
+			<value_node value="levels/instances/unique/bex/bex_lance/world/world"/>
+		</packages>
+	</instance>
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/pacificicon"/>
+	</AddFiles>
+	<AssetUpdates id="34939" provider="modworkshop" version="1.65"/>
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/cbank.package" id="packages/levels/constantine_cbank/world/world" unload_on_restart="true"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" briefing_dialog="cbank_brief" ghost_bonus="0.1" id="constantine_bank_lvl" intro_event="cbank_intro" max_bags="99" narrator="locke">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/bain/big/world"/>
+			<value_node value="packages/narr_big"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world"/>
+			<value_node value="levels/instances/unique/chas/chas_generic_door_reinforced/world/world"/>
+			<value_node value="levels/instances/unique/bex/bex_vault/world"/>
+			<value_node value="levels/instances/unique/bex/bex_vault/world/world"/>
+			<value_node value="levels/instances/unique/bex/bex_drill/world"/>
+			<value_node value="levels/instances/unique/bex/bex_drill/world/world"/>
+			<value_node value="packages/job_big"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world"/>
+			<value_node value="levels/instances/unique/red/red_hacking_computer/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world"/>
+			<value_node value="levels/instances/unique/kenaz/fence_door/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_security_room_door/world_sounds"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world"/>
+			<value_node value="levels/instances/unique/sand/sand_keycard_reader/world/world"/>
+			<value_node value="packages/narr_rvd"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world"/>
+			<value_node value="levels/instances/unique/chas/chas_auction_room_door_hack/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/instances/unique/fex/fex_thermite/world"/>
+			<value_node value="levels/instances/unique/fex/fex_thermite/world/world"/>
+			<value_node value="packages/levels/constantine_cbank/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="cbank_brief" path="Brief.ogg"/>
+			<sound id="cbank_intro" path="Intro.ogg" subtitle_id="cbank_intro"/>
+			<sound id="cbank_blocker" path="Blocker.ogg" subtitle_id="cbank_blocker"/>
+			<sound id="cbank_code" path="Codes.ogg" subtitle_id="cbank_code"/>
+			<sound id="cbank_defenddrill" path="DefendDrill.ogg" subtitle_id="cbank_defenddrill"/>
+			<sound id="cbank_vault" path="EnterVault.ogg" subtitle_id="cbank_vault"/>
+			<sound id="cbank_escape" path="Escape.ogg" subtitle_id="cbank_escape"/>
+			<sound id="cbank_loudhack" path="LoudHack.ogg" subtitle_id="cbank_loudhack"/>
+			<sound id="cbank_magnet" path="MagnetLock.ogg" subtitle_id="cbank_magnet"/>
+			<sound id="cbank_assembledrill" path="AssembleDrill.ogg" subtitle_id="cbank_assembledrill"/>
+			<sound id="cbank_masterserver" path="MasterServer.ogg" subtitle_id="cbank_masterserver"/>
+			<sound id="cbank_secure" path="Secure.ogg" subtitle_id="cbank_secure"/>
+			<sound id="cbank_slice" path="Slice.ogg" subtitle_id="cbank_slice"/>
+			<sound id="cbank_stealthhack" path="StealthHack.ogg" subtitle_id="cbank_stealthhack"/>
+			<sound id="cbank_stealthwait" path="StealthWait.ogg" subtitle_id="cbank_stealthwait"/>
+			<sound id="cbank_thermite" path="Thermite.ogg" subtitle_id="cbank_thermite"/>
+			<sound id="cbank_thermitewait" path="ThermiteWait.ogg" subtitle_id="cbank_thermitewait"/>
+			<sound id="cbank_thermiteminute" path="ThermiteMinute.ogg" subtitle_id="cbank_thermiteminute"/>
+			<sound id="cbank_thermitehalf" path="ThermiteHalf.ogg" subtitle_id="cbank_thermitehalf"/>
+			<sound id="cbank_findthermite" path="FindThermite.ogg" subtitle_id="cbank_findthermite"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/pacificicon" id="constantine_bank_nar">
+		<chain>
+			<table level_id="constantine_bank_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="200000"/>
+			<value_node value="300000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+			<value_node value="30000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+			<value_node value="63000"/>
+		</payout>
+	</narrative>
+</table>

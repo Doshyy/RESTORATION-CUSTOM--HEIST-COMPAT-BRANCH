@@ -1,0 +1,341 @@
+<table directory="assets">
+	<movie path="music/the_shadows_bride"/>
+	<movie path="music/would_you_love_a_monsterman"/>
+	<movie path="music/rules_of_nature"/>
+	<movie path="music/the_sin_and_the_sentence"/>
+	<movie path="music/fire_and_ice"/>
+	<movie path="sound_effects/song_activate"/>
+	<movie path="sound_effects/eetrigger_1"/>
+	<movie path="sound_effects/eetrigger_2"/>
+	<movie path="sound_effects/eetrigger_3"/>
+	<movie path="sound_effects/eetrigger_4"/>
+	<movie path="sound_effects/dozer_1"/>
+	<movie path="sound_effects/dozer_2"/>
+	<movie path="sound_effects/dozer_3"/>
+	<movie path="sound_effects/dozer_4"/>
+	<movie path="sound_effects/dozer_5"/>
+	<cooked_physics path="units/ecl_newspaper/ecl_newspaper"/>
+	<material_config path="units/ecl_newspaper/ecl_newspaper"/>
+	<model path="units/ecl_newspaper/ecl_newspaper"/>
+	<object path="units/ecl_newspaper/ecl_newspaper"/>
+	<unit path="units/ecl_newspaper/ecl_newspaper"/>
+	<texture path="units/ecl_newspaper/newspaper_df"/>
+	<cooked_physics path="units/ecl_paper/paper_blank"/>
+	<material_config path="units/ecl_paper/paper_blank"/>
+	<model path="units/ecl_paper/paper_blank"/>
+	<object path="units/ecl_paper/paper_blank"/>
+	<unit path="units/ecl_paper/paper_blank"/>
+	<texture path="units/ecl_paper/paper_blank"/>
+	<cooked_physics path="units/ecl_paper/paper_procedure"/>
+	<material_config path="units/ecl_paper/paper_procedure"/>
+	<model path="units/ecl_paper/paper_procedure"/>
+	<object path="units/ecl_paper/paper_procedure"/>
+	<unit path="units/ecl_paper/paper_procedure"/>
+	<texture path="units/ecl_paper/paper_procedure"/>
+	<cooked_physics path="units/ecl_paper/paper_next"/>
+	<material_config path="units/ecl_paper/paper_next"/>
+	<model path="units/ecl_paper/paper_next"/>
+	<object path="units/ecl_paper/paper_next"/>
+	<unit path="units/ecl_paper/paper_next"/>
+	<texture path="units/ecl_paper/paper_next"/>
+	<cooked_physics path="units/ecl_paper/paper_warn"/>
+	<material_config path="units/ecl_paper/paper_warn"/>
+	<model path="units/ecl_paper/paper_warn"/>
+	<object path="units/ecl_paper/paper_warn"/>
+	<unit path="units/ecl_paper/paper_warn"/>
+	<texture path="units/ecl_paper/paper_warn"/>
+	<cooked_physics path="units/ecl_decal_emblem/ecl_decal_emblem"/>
+	<material_config path="units/ecl_decal_emblem/ecl_decal_emblem"/>
+	<model path="units/ecl_decal_emblem/ecl_decal_emblem"/>
+	<object path="units/ecl_decal_emblem/ecl_decal_emblem"/>
+	<unit path="units/ecl_decal_emblem/ecl_decal_emblem"/>
+	<texture path="units/ecl_decal_emblem/texture"/>
+	<cooked_physics path="units/loot_table/bnk_prop_vault_table"/>
+	<model path="units/loot_table/bnk_prop_vault_table"/>
+	<unit path="units/loot_table/bnk_prop_vault_table"/>
+	<object path="units/loot_table/bnk_prop_vault_table"/>
+	<material_config path="units/loot_table/bnk_prop_vault_table"/>
+	<texture path="units/loot_table/bnk_prop_vault_table_df"/>
+	<texture path="units/loot_table/bnk_prop_vault_table_nm"/>
+	<texture path="units/loot_table/bnk_prop_vault_table_mull_df"/>
+	<cooked_physics path="units/blood/blood_1"/>
+	<model path="units/blood/blood_1"/>
+	<object path="units/blood/blood_1"/>
+	<unit path="units/blood/blood_1"/>
+	<material_config path="units/blood/blood_shared"/>
+	<texture path="units/blood/blood_df"/>
+	<cooked_physics path="units/blood/blood_3"/>
+	<model path="units/blood/blood_3"/>
+	<object path="units/blood/blood_3"/>
+	<unit path="units/blood/blood_3"/>
+	<cooked_physics path="units/graff/rug"/>
+	<material_config path="units/graff/rug"/>
+	<model path="units/graff/rug"/>
+	<object path="units/graff/rug"/>
+	<unit path="units/graff/rug"/>
+	<texture path="units/graff/rug"/>
+	<cooked_physics path="units/graff/splat"/>
+	<material_config path="units/graff/splat"/>
+	<model path="units/graff/splat"/>
+	<object path="units/graff/splat"/>
+	<unit path="units/graff/splat"/>
+	<texture path="units/graff/splat"/>
+	<cooked_physics path="units/graff/graff_whiteboard"/>
+	<material_config path="units/graff/graff_whiteboard"/>
+	<model path="units/graff/graff_whiteboard"/>
+	<object path="units/graff/graff_whiteboard"/>
+	<unit path="units/graff/graff_whiteboard"/>
+	<texture path="units/graff/graff_whiteboard"/>
+	<cooked_physics path="units/graff/aldoraine"/>
+	<material_config path="units/graff/aldoraine"/>
+	<model path="units/graff/aldoraine"/>
+	<object path="units/graff/aldoraine"/>
+	<unit path="units/graff/aldoraine"/>
+	<texture path="units/graff/aldoraine"/>
+	<cooked_physics path="units/graff/chrom"/>
+	<material_config path="units/graff/chrom"/>
+	<model path="units/graff/chrom"/>
+	<object path="units/graff/chrom"/>
+	<unit path="units/graff/chrom"/>
+	<texture path="units/graff/chrom"/>
+	<cooked_physics path="units/graff/m4rvin"/>
+	<material_config path="units/graff/m4rvin"/>
+	<model path="units/graff/m4rvin"/>
+	<object path="units/graff/m4rvin"/>
+	<unit path="units/graff/m4rvin"/>
+	<texture path="units/graff/m4rvin"/>
+	<cooked_physics path="units/graff/mami"/>
+	<material_config path="units/graff/mami"/>
+	<model path="units/graff/mami"/>
+	<object path="units/graff/mami"/>
+	<unit path="units/graff/mami"/>
+	<texture path="units/graff/mami"/>
+	<cooked_physics path="units/graff/medbag"/>
+	<material_config path="units/graff/medbag"/>
+	<model path="units/graff/medbag"/>
+	<object path="units/graff/medbag"/>
+	<unit path="units/graff/medbag"/>
+	<texture path="units/graff/medbag"/>
+	<cooked_physics path="units/graff/mrlucky"/>
+	<material_config path="units/graff/mrlucky"/>
+	<model path="units/graff/mrlucky"/>
+	<object path="units/graff/mrlucky"/>
+	<unit path="units/graff/mrlucky"/>
+	<texture path="units/graff/mrlucky"/>
+	<cooked_physics path="units/graff/nasheed"/>
+	<material_config path="units/graff/nasheed"/>
+	<model path="units/graff/nasheed"/>
+	<object path="units/graff/nasheed"/>
+	<unit path="units/graff/nasheed"/>
+	<texture path="units/graff/nasheed"/>
+	<cooked_physics path="units/graff/nepnep"/>
+	<material_config path="units/graff/nepnep"/>
+	<model path="units/graff/nepnep"/>
+	<object path="units/graff/nepnep"/>
+	<unit path="units/graff/nepnep"/>
+	<texture path="units/graff/nepnep"/>
+	<cooked_physics path="units/graff/wolv"/>
+	<material_config path="units/graff/wolv"/>
+	<model path="units/graff/wolv"/>
+	<object path="units/graff/wolv"/>
+	<unit path="units/graff/wolv"/>
+	<texture path="units/graff/wolv"/>
+	<cooked_physics path="units/ecl_steps/step1"/>
+	<material_config path="units/ecl_steps/step1"/>
+	<model path="units/ecl_steps/step1"/>
+	<object path="units/ecl_steps/step1"/>
+	<unit path="units/ecl_steps/step1"/>
+	<texture path="units/ecl_steps/step1"/>
+	<cooked_physics path="units/ecl_steps/step2"/>
+	<material_config path="units/ecl_steps/step2"/>
+	<model path="units/ecl_steps/step2"/>
+	<object path="units/ecl_steps/step2"/>
+	<unit path="units/ecl_steps/step2"/>
+	<texture path="units/ecl_steps/step2"/>
+	<cooked_physics path="units/ecl_steps/step3"/>
+	<material_config path="units/ecl_steps/step3"/>
+	<model path="units/ecl_steps/step3"/>
+	<object path="units/ecl_steps/step3"/>
+	<unit path="units/ecl_steps/step3"/>
+	<texture path="units/ecl_steps/step3"/>
+	<cooked_physics path="units/ecl_steps/step4"/>
+	<material_config path="units/ecl_steps/step4"/>
+	<model path="units/ecl_steps/step4"/>
+	<object path="units/ecl_steps/step4"/>
+	<unit path="units/ecl_steps/step4"/>
+	<texture path="units/ecl_steps/step4"/>
+	<cooked_physics path="units/graff/jaytilly"/>
+	<material_config path="units/graff/jaytilly"/>
+	<model path="units/graff/jaytilly"/>
+	<object path="units/graff/jaytilly"/>
+	<unit path="units/graff/jaytilly"/>
+	<texture path="units/graff/jaytilly"/>
+	<cooked_physics path="units/graff/shootx"/>
+	<material_config path="units/graff/shootx"/>
+	<model path="units/graff/shootx"/>
+	<object path="units/graff/shootx"/>
+	<unit path="units/graff/shootx"/>
+	<texture path="units/graff/shootx"/>
+	<texture path="guis/custom_asset/medical_room"/>
+	<texture path="guis/custom_asset/access_camera"/>
+	<texture path="guis/custom_asset/bag_man"/>
+	<texture path="guis/custom_asset/turret_virus"/>
+	<cooked_physics path="units/graff/masterindigo"/>
+	<material_config path="units/graff/masterindigo"/>
+	<model path="units/graff/masterindigo"/>
+	<object path="units/graff/masterindigo"/>
+	<unit path="units/graff/masterindigo"/>
+	<texture path="units/graff/masterindigo"/>
+	<cooked_physics path="units/graff/od_crushers"/>
+	<material_config path="units/graff/od_crushers"/>
+	<model path="units/graff/od_crushers"/>
+	<object path="units/graff/od_crushers"/>
+	<unit path="units/graff/od_crushers"/>
+	<texture path="units/graff/od_crushers"/>
+	<add path="units/world/props/apartment/bed/bed_03" type="unit">
+		<material_config force="true" path="units/world/props/apartment/bed/bed_01" unload="true"/>
+		<object force="true" path="units/world/props/apartment/bed/bed_03" unload="true"/>
+		<unit force="true" path="units/world/props/apartment/bed/bed_03" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_mad/props/mad_prop_emergency_light/mad_prop_emergency_light" type="unit">
+		<material_config force="true" path="units/pd2_dlc_mad/props/mad_prop_emergency_light/mad_prop_emergency_light" unload="true"/>
+		<object force="true" path="units/pd2_dlc_mad/props/mad_prop_emergency_light/mad_prop_emergency_light" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_mad/props/mad_prop_emergency_light/mad_prop_emergency_light" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_mad/props/mad_prop_emergency_light/mad_prop_emergency_light" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" type="unit">
+		<material_config force="true" path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_restroom_toilet/com_prop_restroom_toilet" unload="true"/>
+	</add>
+	<add path="units/world/props/toilet_appliances/toilet_appliances_sink" type="unit">
+		<material_config force="true" path="units/world/props/toilet_appliances/toilet_appliances" unload="true"/>
+		<object force="true" path="units/world/props/toilet_appliances/toilet_appliances_sink" unload="true"/>
+		<unit force="true" path="units/world/props/toilet_appliances/toilet_appliances_sink" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom" type="unit">
+		<material_config force="true" path="units/payday2/architecture/ind/ind" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom_door" type="unit">
+		<material_config force="true" path="units/payday2/architecture/ind/ind" unload="true"/>
+		<object force="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom_door" unload="true"/>
+		<unit force="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_bottom_door" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
+		<effect load="true" path="effects/payday2/particles/explosions/burnpuff"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_lab_door/mad_prop_lab_door" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_lab_door/mad_prop_lab_door"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_lab_door/mad_prop_lab_door"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_lab_door/mad_prop_lab_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_medical_chair/mad_prop_medical_chair" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_medical_chair/mad_prop_medical_chair"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_medical_chair/mad_prop_medical_chair"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_medical_chair/mad_prop_medical_chair"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_warehouse_lamp_ceiling_b_orange/mad_prop_warehouse_lamp_ceiling_b_orange" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/small_lamp_orange_v2"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_warehouse_lamp_ceiling_b_orange/mad_prop_warehouse_lamp_ceiling_b_orange_on"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_warehouse_lamp_ceiling_b_orange/mad_prop_warehouse_lamp_ceiling_b_orange"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_warehouse_lamp_ceiling_b_orange/mad_prop_warehouse_lamp_ceiling_b_orange"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_warehouse_lamp_ceiling_b_orange/mad_prop_warehouse_lamp_ceiling_b_orange"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_whiteboard/mad_prop_whiteboard" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_whiteboard/mad_prop_whiteboard"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_whiteboard/mad_prop_whiteboard"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_whiteboard/mad_prop_whiteboard"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_vent/mad_prop_vent" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_vent/mad_prop_vent"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_vent/mad_prop_vent"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_vent/mad_prop_vent"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_winter_pallets/mad_prop_winter_pallets" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_winter_pallets/mad_prop_winter_pallets"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_winter_pallets/mad_prop_winter_pallets"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_winter_pallets/mad_prop_winter_pallets"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_winter_pallets/mad_prop_winter_pallets"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/radar_explosion"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small_light"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam" type="unit">
+		<animation_def path="anims/units/level/mad/sam_site/def"/>
+		<animation_state_machine path="anims/units/level/mad/sam_site/machine"/>
+		<animation_states path="anims/units/level/mad/sam_site/states"/>
+		<animation_subset path="anims/units/level/mad/sam_site/anims"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_laptop/mad_prop_military_laptop" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_laptop/mad_prop_military_laptop"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_laptop/mad_prop_military_laptop"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_military_laptop/mad_prop_military_laptop"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_laptop/mad_prop_military_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_medical_surgerychair/mad_prop_medical_surgerychair" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_medical_surgerychair/mad_prop_medical_surgerychair"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_medical_surgerychair/mad_prop_medical_surgerychair"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_medical_surgerychair/mad_prop_medical_surgerychair"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_medical_set/mad_prop_medical_trolley" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_medical_set/mad_prop_medical_trolley"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_medical_set/mad_prop_medical_trolley"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_medical_set/mad_prop_medical_trolley"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_forensic_shelf_cupboard_desk/mad_prop_forensic_shelf"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_dead_scientist/mad_prop_dead_scientist" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_dead_scientist/mad_prop_dead_scientist"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_dead_scientist/mad_prop_dead_scientist"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_dead_scientist/mad_prop_dead_scientist"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_dead_scientist/mad_prop_dead_scientist"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_container_a/mad_prop_container_a_yellow" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_container_a/mad_prop_container_a"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_container_a/mad_prop_container_a_yellow"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_container_a/mad_prop_container_a_yellow"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_barrel_01/mad_prop_barrel_01" type="unit">
+		<unit path="units/pd2_dlc_mad/props/mad_prop_barrel_01/mad_prop_barrel_01"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_barrel_01/mad_prop_barrel_01"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_barrel_01/mad_prop_barrel_01"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_barrel_01/mad_prop_barrel_01"/>
+	</add>
+	<unit_load name="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box">
+		<cooked_physics force="true" path="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" unload="true"/>
+		<object force="true" path="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_berry/pickups/bry_pku_prototype_box/bry_pku_prototype_box" unload="true"/>
+	</unit_load>
+</table>

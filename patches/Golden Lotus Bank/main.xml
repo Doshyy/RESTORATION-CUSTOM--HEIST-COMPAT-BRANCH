@@ -1,0 +1,154 @@
+<table name="Golden Lotus Bank">
+	<AddFiles directory="assets">
+		<texture force="true" load="true" path="textures/goldicon"/>
+	</AddFiles>
+	<AssetUpdates id="32092" provider="modworkshop" version="1.6"/>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="lapd" briefing_dialog="glb_brief" ghost_bonus="0.15" id="glb" intro_event="glb_intro" max_bags="99" player_style="suit_sunny">
+		<add file="levels/glb/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<include directory="levels/glb">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/default.environment" type="custom_xml"/>
+		</include>
+		<outro_event>
+			<value_node value="glb_outro"/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/chill/duke/world/world"/>
+			<value_node value="levels/narratives/short2/stage2/backdrop/backdrop"/>
+			<value_node value="levels/narratives/skm/skm_bex/collision/collision"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+			<value_node value="levels/narratives/locke/des/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/glace/editor_only/editor_only"/>
+			<value_node value="levels/narratives/vlad/mallcrasher/world_sounds"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/occluders/occluders"/>
+			<value_node value="levels/instances/unique/hox_estate_bagdrop_heli/world/world"/>
+			<value_node value="packages/job_big"/>
+			<value_node value="levels/narratives/skm/skm_run/collision/collision"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="new_dialogue.dialogue" replacement_type="custom_xml" target_ext="dialog" target_path="gamedata/dialogs">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+			<mod replacement="index.dialog_index" replacement_type="custom_xml" target_ext="dialog_index" target_path="gamedata/dialogs/index">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets">
+			<sounds directory="sounds">
+				<sound id="glb_brief" path="Brief.ogg"/>
+				<sound id="glb_intro" path="Intro.ogg" subtitle_id="glb_intro"/>
+				<sound id="glb_outro" path="Outro.ogg" subtitle_id="glb_outro"/>
+				<sound id="glb_box" path="BoxHint.ogg" subtitle_id="glb_box"/>
+				<sound id="glb_override" path="OverrideHint.ogg" subtitle_id="glb_override"/>
+				<sound id="glb_thermite" path="ThermiteHint.ogg" subtitle_id="glb_thermite"/>
+				<sound id="glb_c4" path="C4Hint.ogg" subtitle_id="glb_c4"/>
+				<sound id="glb_code" path="CodeHint.ogg" subtitle_id="glb_code"/>
+				<sound id="glb_sewer" path="SewerHint.ogg" subtitle_id="glb_sewer"/>
+				<sound id="glb_drill" path="DrillHint.ogg" subtitle_id="glb_drill"/>
+				<sound id="glb_escape" path="EscapeHint.ogg" subtitle_id="glb_escape"/>
+				<sound id="glb_codedoorintro" path="CodeDoorIntro.ogg" subtitle_id="glb_codedoorintro"/>
+				<sound id="glb_codezero" path="CodeZero.ogg" subtitle_id="glb_codezero"/>
+				<sound id="glb_codeone" path="CodeOne.ogg" subtitle_id="glb_codeone"/>
+				<sound id="glb_codetwo" path="CodeTwo.ogg" subtitle_id="glb_codetwo"/>
+				<sound id="glb_codethree" path="CodeThree.ogg" subtitle_id="glb_codethree"/>
+				<sound id="glb_codefour" path="CodeFour.ogg" subtitle_id="glb_codefour"/>
+				<sound id="glb_codefive" path="CodeFive.ogg" subtitle_id="glb_codefive"/>
+				<sound id="glb_codesix" path="CodeSix.ogg" subtitle_id="glb_codesix"/>
+				<sound id="glb_codeseven" path="CodeSeven.ogg" subtitle_id="glb_codeseven"/>
+				<sound id="glb_codeeight" path="CodeEight.ogg" subtitle_id="glb_codeeight"/>
+				<sound id="glb_codenine" path="CodeNine.ogg" subtitle_id="glb_codenine"/>
+				<sound id="glb_gotcode" path="ThreeDigitCode.ogg" subtitle_id="glb_gotcode"/>
+				<sound id="glb_vault" path="VaultHint.ogg" subtitle_id="glb_vault"/>
+				<sound id="glb_door" path="DoorHint.ogg" subtitle_id="glb_door"/>
+				<sound id="glb_hackfinished" path="HackFinishedHint.ogg" subtitle_id="glb_hackfinished"/>
+				<sound id="glb_plantc4" path="PlantC4Hint.ogg" subtitle_id="glb_plantc4"/>
+				<sound id="glb_firewall" path="FirewallHint.ogg" subtitle_id="glb_firewall"/>
+			</sounds>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="textures/goldicon" id="gold2">
+		<chain>
+			<table level_id="glb" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="100000"/>
+			<value_node value="125000"/>
+			<value_node value="185000"/>
+			<value_node value="312500"/>
+			<value_node value="412500"/>
+			<value_node value="412500"/>
+			<value_node value="412500"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+			<value_node value="18000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+			<value_node value="82000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+			<value_node value="92500"/>
+		</payout>
+	</narrative>
+</table>

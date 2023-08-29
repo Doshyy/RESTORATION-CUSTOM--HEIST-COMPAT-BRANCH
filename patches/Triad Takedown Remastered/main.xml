@@ -1,0 +1,221 @@
+<table min_lib_ver="4.5" name="Triad Takedown Remastered">
+	<instance id="ttr_deck_hack">
+		<packages>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world_sounds"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_server">
+		<packages/>
+	</instance>
+	<instance id="ttr_cabin_door">
+		<packages>
+			<value_node value="levels/instances/unique/fish/sliding_door/world"/>
+			<value_node value="levels/instances/unique/fish/sliding_door/world_sounds"/>
+			<value_node value="levels/instances/unique/fish/sliding_door/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_circuit_breaker">
+		<packages>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world_sounds"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_first_aid_station">
+		<packages>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world"/>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_first_aid_kit/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_cut_hack">
+		<packages>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world_sounds"/>
+			<value_node value="levels/instances/unique/tag/tag_hack_box/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_fire_extinguisher">
+		<packages/>
+	</instance>
+	<instance id="ttr_server_computer">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_c4_placeable">
+		<packages>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+		</packages>
+	</instance>
+	<instance id="ttr_c4_bag">
+		<packages/>
+	</instance>
+	<AssetUpdates id="34781" provider="modworkshop" version="1.97"/>
+	<Hooks directory="hooks">
+		<hook file="display_music.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/ttryacht.package" id="packages/levels/constantine_ttryacht/world/world" unload_on_restart="true"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
+	<level ai_group_type="murkywater" briefing_dialog="ttr_brief" cube="cube_apply_heist_bank" id="ttr_yct_lvl" intro_event="ttr_intro" max_bags="99" narrator="locke" player_style="suit_sunny">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+			<hook file="copbrain.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="copmovement.lua" source_file="lib/units/enemies/cop/copmovement"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/continental/fish/world"/>
+			<value_node value="levels/narratives/continental/fish/world_sounds"/>
+			<value_node value="levels/narratives/continental/fish/collision/collision"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/pal/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world"/>
+			<value_node value="levels/instances/unique/brb/single_door_large/world/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world"/>
+			<value_node value="levels/instances/unique/brb/single_door/world/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_hackbox/world/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world"/>
+			<value_node value="levels/instances/unique/man/man_circuit_breaker/world/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world"/>
+			<value_node value="levels/instances/unique/friend/panel_wire/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world"/>
+			<value_node value="levels/instances/unique/chas/chas_store_computer/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world"/>
+			<value_node value="levels/instances/unique/shout_card/world/world"/>
+			<value_node value="levels/instances/unique/shout_card/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world/world"/>
+			<value_node value="levels/instances/unique/chas/chas_c4_wall/world_sounds"/>
+			<value_node value="levels/instances/unique/mus_flare/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world/world"/>
+			<value_node value="levels/instances/unique/mus_flare/world_sounds"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_spawn_enemies/world/world"/>
+			<value_node value="levels/instances/unique/sand/sand_helicopter_turret/world/world"/>
+			<value_node value="levels/narratives/vlad/fex/world_sounds"/>
+			<value_node value="levels/narratives/classics/man/world_sounds"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="packages/dlcs/vit/job_vit"/>
+			<value_node value="packages/levels/constantine_ttryacht/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="ttr_brief" path="Brief.ogg"/>
+			<sound id="ttr_intro" path="Intro.ogg" subtitle_id="ttr_intro"/>
+			<sound id="ttr_adrenaline" path="Adrenaline.ogg" subtitle_id="ttr_adrenaline"/>
+			<sound id="ttr_rewire" path="Blocker.ogg" subtitle_id="ttr_rewire"/>
+			<sound id="ttr_buttonserver" path="ButtonHD.ogg" subtitle_id="ttr_buttonserver"/>
+			<sound id="ttr_pilotc4" path="C4Pilot.ogg" subtitle_id="ttr_pilotc4"/>
+			<sound id="ttr_coastal" path="Coastal.ogg" subtitle_id="ttr_coastal"/>
+			<sound id="ttr_escape" path="Escape.ogg" subtitle_id="ttr_escape"/>
+			<sound id="ttr_escortwei" path="EscortWei.ogg" subtitle_id="ttr_escortwei"/>
+			<sound id="ttr_finalhack" path="FinalHack.ogg" subtitle_id="ttr_finalhack"/>
+			<sound id="ttr_findwei" path="FindWei.ogg" subtitle_id="ttr_findwei"/>
+			<sound id="ttr_fire" path="fire.ogg" subtitle_id="ttr_fire"/>
+			<sound id="ttr_firsthack" path="FirstHack.ogg" subtitle_id="ttr_firsthack"/>
+			<sound id="ttr_gaveadrenaline" path="GaveAdrenaline.ogg" subtitle_id="ttr_gaveadrenaline"/>
+			<sound id="ttr_getweiup" path="GetWeiUp.ogg" subtitle_id="ttr_getweiup"/>
+			<sound id="ttr_grabhd" path="GrabHD.ogg" subtitle_id="ttr_grabhd"/>
+			<sound id="ttr_hd" path="HD.ogg" subtitle_id="ttr_hd"/>
+			<sound id="ttr_beatwei" path="HitWei.ogg" subtitle_id="ttr_beatwei"/>
+			<sound id="ttr_keycard" path="Keycard.ogg" subtitle_id="ttr_keycard"/>
+			<sound id="ttr_leftwei" path="LeaveWei.ogg" subtitle_id="ttr_leftwei"/>
+			<sound id="ttr_tiewei" path="TieWei.ogg" subtitle_id="ttr_tiewei"/>
+			<sound id="ttr_money" path="Money.ogg" subtitle_id="ttr_money"/>
+			<sound id="ttr_cutpanel" path="PanelCut.ogg" subtitle_id="ttr_cutpanel"/>
+			<sound id="ttr_power1" path="Power1.ogg" subtitle_id="ttr_power1"/>
+			<sound id="ttr_power2" path="Power2.ogg" subtitle_id="ttr_power2"/>
+			<sound id="ttr_power3" path="Power3.ogg" subtitle_id="ttr_power3"/>
+			<sound id="ttr_c4skipintro" path="PreplanC4Intro.ogg" subtitle_id="ttr_c4skipintro"/>
+			<sound id="ttr_c4skipoutro" path="PreplanC4Outro.ogg" subtitle_id="ttr_c4skipoutro"/>
+			<sound id="ttr_sec" path="Sec.ogg" subtitle_id="ttr_sec"/>
+			<sound id="ttr_secondhack" path="SecondHack.ogg" subtitle_id="ttr_secondhack"/>
+			<sound id="ttr_signal" path="SignalPilot.ogg" subtitle_id="ttr_signal"/>
+			<sound id="ttr_tablet" path="Tablet.ogg" subtitle_id="ttr_tablet"/>
+			<sound id="ttr_waitc4" path="WaitC4.ogg" subtitle_id="ttr_waitc4"/>
+			<sound id="ttr_waitescape" path="WaitPilot.ogg" subtitle_id="ttr_waitescape"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="constantine" icon="guis/dlcs/bro/textures/pd2/crimenet/yacht" id="ttr_yct_nar" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_yachtheist" region="street">
+		<chain>
+			<table level_id="ttr_yct_lvl" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="39000"/>
+			<value_node value="78000"/>
+			<value_node value="195000"/>
+			<value_node value="350000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+			<value_node value="400000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value=""/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+			<value_node value="62000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+			<value_node value="34000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+			<value_node value="83000"/>
+		</payout>
+	</narrative>
+</table>
