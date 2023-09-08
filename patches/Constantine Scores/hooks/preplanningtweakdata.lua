@@ -553,6 +553,18 @@ Hooks:PostHook(PrePlanningTweakData,"init","init_constantine_ondisplay_lvl",func
 		upgrade = "additional_assets_pro",
 		category = "player"
 	}
+		self.types.cgunner_sentries.upgrade_lock = {
+		upgrade = "additional_assets_pro",
+		category = "player"
+	}
+		self.types.cgunner_firetrap.upgrade_lock = {
+	 	upgrade = "additional_assets_pro",
+	 	category = "player"
+	}
+	  self.types.cgunner_turret.upgrade_lock = {
+		upgrade = "additional_assets_pro",
+		category = "player"
+	}
 end
 	
 	
