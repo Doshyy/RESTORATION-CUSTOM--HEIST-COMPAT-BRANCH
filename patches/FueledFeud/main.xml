@@ -154,6 +154,7 @@
 		</outro_event>
 		<packages>
 			<value_node value="package_fuel"/>
+			<value_node value="packages/miscassets"/>
 			<value_node value="levels/instances/unique/sand/sand_container_fireworks/world/world"/>
 			<value_node value="levels/instances/unique/sand/sand_container_fireworks/world/world"/>
 			<value_node value="levels/instances/unique/pet_planedrop/world/world"/>
