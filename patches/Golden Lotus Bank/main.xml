@@ -88,7 +88,6 @@
 				<sound id="glb_door" path="DoorHint.ogg" subtitle_id="glb_door"/>
 				<sound id="glb_hackfinished" path="HackFinishedHint.ogg" subtitle_id="glb_hackfinished"/>
 				<sound id="glb_plantc4" path="PlantC4Hint.ogg" subtitle_id="glb_plantc4"/>
-				<sound id="glb_firewall" path="FirewallHint.ogg" subtitle_id="glb_firewall"/>
 			</sounds>
 		</sounds>
 	</level>
