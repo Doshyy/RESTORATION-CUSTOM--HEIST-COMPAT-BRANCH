@@ -1,13 +1,13 @@
 <table name="Golden Lotus Bank">
 	<AddFiles directory="assets">
-		<texture force="true" load="true" path="textures/goldicon"/>
+		<texture force="true" load="true" path="textures/glbicon"/>
 	</AddFiles>
-	<AssetUpdates id="32092" provider="modworkshop" version="1.6"/>
+	<AssetUpdates id="32092" provider="modworkshop" version="1.1"/>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
-	<level ai_group_type="lapd" briefing_dialog="glb_brief" ghost_bonus="0.15" id="glb" intro_event="glb_intro" max_bags="99" player_style="suit_sunny">
+	<level ai_group_type="lapd" briefing_dialog="glb_brief" id="glb" intro_event="glb_intro" max_bags="99" player_style="suit_sunny">
 		<add file="levels/glb/add.xml"/>
 		<assets/>
 		<hooks directory="hooks">
@@ -91,7 +91,7 @@
 			</sounds>
 		</sounds>
 	</level>
-	<narrative briefing_event="" contact="constantine" icon="textures/goldicon" id="gold2">
+	<narrative briefing_event="" contact="constantine" icon="textures/glbicon" id="gold">
 		<chain>
 			<table level_id="glb" type="d" type_id="heist_type_assault"/>
 		</chain>

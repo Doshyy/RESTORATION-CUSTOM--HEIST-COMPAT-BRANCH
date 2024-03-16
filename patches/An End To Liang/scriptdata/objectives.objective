@@ -1,0 +1,52 @@
+<table>
+	<objective description="anl_obj1_desc" id="anl_obj1" text="anl_obj1"/>
+	<objective description="anl_obj2_desc" id="anl_obj2" text="anl_obj2"/>
+	<objective description="anl_obj3_desc" id="anl_obj3" text="anl_obj3"/>
+	
+	
+	<objective description="anl_obj4_desc" id="anl_obj4" text="anl_obj4"/>		
+	<objective description="anl_obj5_desc" id="anl_obj5" text="anl_obj5"/>
+	<objective description="anl_obj6_desc" id="anl_obj6" text="anl_obj6"/>
+	
+	
+	<objective description="anl_objbutton_desc" id="anl_objbutton" text="anl_objbutton"/>		
+	<objective amount="4" objective description="anl_objmoney_desc" id="anl_objmoney" text="anl_objmoney"/>	
+	
+	
+	
+	
+	
+	
+	<objective description="anl_objstealth1_desc" id="anl_objstealth1" text="anl_objstealth1"/>
+	<objective description="anl_objstealth2_desc" id="anl_objstealth2" text="anl_objstealth2"/>	
+	<objective description="anl_objstealth3_desc" id="anl_objstealth3" text="anl_objstealth3"/>	
+	<objective description="anl_objstealth4_desc" id="anl_objstealth4" text="anl_objstealth4"/>	
+	<objective description="anl_objstealth5_desc" id="anl_objstealth5" text="anl_objstealth5"/>	
+	<objective description="anl_objstealth6_desc" id="anl_objstealth6" text="anl_objstealth6"/>	
+	<objective description="anl_objstealth7_desc" id="anl_objstealth7" text="anl_objstealth7"/>	
+	<objective description="anl_objstealth8_desc" id="anl_objstealth8" text="anl_objstealth8"/>			
+	<objective description="anl_objstealthsafe_desc" id="anl_objstealthsafe" text="anl_objstealthsafe"/>	
+	<objective description="anl_objhack_desc" id="anl_objhack" text="anl_objhack"/>
+	<objective description="anl_objhack2_desc" id="anl_objhack2" text="anl_objhack2"/>
+	
+	<objective description="anl_objhackrestart_desc" id="anl_objhackrestart" text="anl_objhackrestart"/>
+	
+	
+	<objective description="anl_objblowtorch_desc" id="anl_objblowtorch" text="anl_objblowtorch"/>
+	
+	<objective description="anl_objdrillrestart_desc" id="anl_objdrillrestart" text="anl_objdrillrestart"/>
+	
+	<objective description="anl_objbile_desc" id="anl_objbile" text="anl_objbile"/>
+	<objective description="anl_objbile2_desc" id="anl_objbile2" text="anl_objbile2"/>
+	<objective description="anl_objvault_desc" id="anl_objvault" text="anl_objvault"/>
+	
+	
+	<objective description="anl_objdrill1_desc" id="anl_objdrill1" text="anl_objdrill1"/>
+	<objective description="anl_objdrill2_desc" id="anl_objdrill2" text="anl_objdrill2"/>
+	<objective description="anl_objnitrogen_desc" id="anl_objnitrogen" text="anl_objnitrogen"/>
+	<objective description="anl_objnitrogen2_desc" id="anl_objnitrogen2" text="anl_objnitrogen2"/>
+	<objective description="anl_objc4_desc" id="anl_objc4" text="anl_objc4"/>
+	<objective description="anl_objvanc4_desc" id="anl_objvanc4" text="anl_objvanc4"/>
+	
+	
+</table>

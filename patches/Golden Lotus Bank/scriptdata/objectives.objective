@@ -1,0 +1,27 @@
+<table>
+	<objective description="glb_obj1_desc" id="glb_obj1" text="glb_obj1"/>
+	<objective description="glb_obj2_desc" id="glb_obj2" text="glb_obj2"/>
+	<objective amount="4" objective description="glb_obj3_desc" id="glb_obj3" text="glb_obj3"/>
+	<objective description="glb_obj4_desc" id="glb_obj4" text="glb_obj4"/>
+	<objective description="glb_objstealth1_desc" id="glb_objstealth1" text="glb_objstealth1"/>
+	<objective description="glb_objstealth2_desc" id="glb_objstealth2" text="glb_objstealth2"/>	
+	<objective  amount="3" description="glb_objstealth3_desc" id="glb_objstealth3" text="glb_objstealth3"/>
+	<objective description="glb_objstealth4_desc" id="glb_objstealth4" text="glb_objstealth4"/>	
+	<objective description="glb_objloud1_desc" id="glb_objloud1" text="glb_objloud1"/>
+	<objective description="glb_objloud1s_desc" id="glb_objloud1s" text="glb_objloud1s"/>
+	<objective description="glb_objloud2_desc" id="glb_objloud2" text="glb_objloud2"/>	
+	<objective description="glb_objdrill1_desc" id="glb_objdrill1" text="glb_objdrill1"/>
+	<objective description="glb_objdrill2_desc" id="glb_objdrill2" text="glb_objdrill2"/>
+	<objective description="glb_objdrill3_desc" id="glb_objdrill3" text="glb_objdrill3"/>
+	
+	
+	<objective description="glb_objthermite1_desc" id="glb_objthermite1" text="glb_objthermite1"/>
+	<objective description="glb_objthermite2_desc" id="glb_objthermite2" text="glb_objthermite2"/>
+
+	<objective description="glb_objboat_desc" id="glb_objboat" text="glb_objboat"/>
+	
+	<objective description="glb_objc4h_desc" id="glb_objc4h" text="glb_objc4h"/>
+	<objective description="glb_objc41_desc" id="glb_objc41" text="glb_objc41"/>	
+	<objective description="glb_objc42_desc" id="glb_objc42" text="glb_objc42"/>
+	
+</table>

@@ -37,60 +37,70 @@
 			<sound id="fri_dsp_stop_all"/>
 		</random>
 	</Sounds>
-	<Hooks directory="hooks">
-		<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
-	</Hooks>
+
+	<AddFiles directory="assets">
+		<add>
+			<texture path="guis/russia_backup"/>
+			<texture force="true" load="true" path="textures/scorchedicon"/>
+		</add>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="constantine" name_id="contact_constantine_name" package="packages/contact_bain"/>
 	<level ai_group_type="russia" briefing_dialog="rusw_brief" id="ruswl" intro_event="rusw_intro" max_bags="54" player_style="winter_suit">
 		<sounds directory="assets/sound">
-		<sound id="rusw_brief" path="Brief.ogg"/>
-		<sound id="rusw_intro" path="Intro.ogg" subtitle_id="rusw_intro"/>
-		<sound id="rusw_armory" path="ArmoryHint.ogg" subtitle_id="rusw_armory"/>
-		<sound id="rusw_concoction" path="ConcoctionHint.ogg" subtitle_id="rusw_concoction"/>
-		<sound id="rusw_destroyserver" path="DestroyServerHint.ogg" subtitle_id="rusw_destroyserver"/>
-		<sound id="rusw_door" path="DoorHint.ogg" subtitle_id="rusw_door"/>
-		<sound id="rusw_down" path="DownstairsHint.ogg" subtitle_id="rusw_down"/>
-		<sound id="rusw_escapehalf" path="EscapeHalfWayHint.ogg" subtitle_id="rusw_escapehalf"/>
-		<sound id="rusw_escape" path="EscapeHint.ogg" subtitle_id="rusw_escape"/>
-		<sound id="rusw_findcharge" path="FindChargeHint.ogg" subtitle_id="rusw_findcharge"/>
-		<sound id="rusw_gas" path="GasHint.ogg" subtitle_id="rusw_gas"/>
-		<sound id="rusw_lab" path="LabHint.ogg" subtitle_id="rusw_lab"/>
-		<sound id="rusw_labtwo" path="LabHintTwo.ogg" subtitle_id="rusw_labtwo"/>
-		<sound id="rusw_laptop" path="LaptopHint.ogg" subtitle_id="rusw_laptop"/>
-		<sound id="rusw_money" path="MoneyHint.ogg" subtitle_id="rusw_money"/>
-		<sound id="rusw_movecharge" path="MoveChargeHint.ogg" subtitle_id="rusw_movecharge"/>
-		<sound id="rusw_placecharge" path="PlaceChargeHint.ogg" subtitle_id="rusw_placecharge"/>
-		<sound id="rusw_prison" path="PrisonHint.ogg" subtitle_id="rusw_prison"/>
-		<sound id="rusw_server" path="ServerHint.ogg" subtitle_id="rusw_server"/>
-		<sound id="rusw_signal" path="SignalHint.ogg" subtitle_id="rusw_signal"/>
-		<sound id="rusw_vault" path="VaultHint.ogg" subtitle_id="rusw_vault"/>
-		<sound id="rusw_waitone" path="WaitHintOne.ogg" subtitle_id="rusw_waitone"/>
-		<sound id="rusw_waittwo" path="WaitHintTwo.ogg" subtitle_id="rusw_waittwo"/>
-		<sound id="rusw_warehouse" path="WarehouseHint.ogg" subtitle_id="rusw_warehouse"/>
-		<sound id="rusw_waitescape" path="WaitEscapeHint.ogg" subtitle_id="rusw_waitescape"/>
-		<sound id="rusw_cover" path="CoverHint.ogg" subtitle_id="rusw_cover"/>
-		<sound id="rusw_addone" path="AddHintOne.ogg" subtitle_id="rusw_addone"/>
-		<sound id="rusw_addtwo" path="AddHintTwo.ogg" subtitle_id="rusw_addtwo"/>
-		<sound id="rusw_addthree" path="AddHintThree.ogg" subtitle_id="rusw_addthree"/>
-		<sound id="rusw_donecook" path="DoneCookingHint.ogg" subtitle_id="rusw_donecook"/>
-		<sound id="rusw_rightone" path="RightHintOne.ogg" subtitle_id="rusw_rightone"/>
-		<sound id="rusw_righttwo" path="RightHintTwo.ogg" subtitle_id="rusw_righttwo"/>
-		<sound id="rusw_rightthree" path="RightHintThree.ogg" subtitle_id="rusw_rightthree"/>
-		<sound id="rusw_rightfour" path="RightHintFour.ogg" subtitle_id="rusw_rightfour"/>
-		<sound id="rusw_wrongone" path="WrongHintOne.ogg" subtitle_id="rusw_wrongone"/>
-		<sound id="rusw_wrongtwo" path="WrongHintTwo.ogg" subtitle_id="rusw_wrongtwo"/>
-		<sound id="rusw_wrongthree" path="WrongHintThree.ogg" subtitle_id="rusw_wrongthree"/>
-		<sound id="rusw_wrongfour" path="WrongHintFour.ogg" subtitle_id="rusw_wrongfour"/>
-	</sounds>
+			<sound id="rusw_brief" path="Brief.ogg"/>
+			<sound id="rusw_intro" path="Intro.ogg" subtitle_id="rusw_intro"/>
+			<sound id="rusw_armory" path="ArmoryHint.ogg" subtitle_id="rusw_armory"/>
+			<sound id="rusw_concoction" path="ConcoctionHint.ogg" subtitle_id="rusw_concoction"/>
+			<sound id="rusw_destroyserver" path="DestroyServerHint.ogg" subtitle_id="rusw_destroyserver"/>
+			<sound id="rusw_door" path="DoorHint.ogg" subtitle_id="rusw_door"/>
+			<sound id="rusw_down" path="DownstairsHint.ogg" subtitle_id="rusw_down"/>
+			<sound id="rusw_escapehalf" path="EscapeHalfWayHint.ogg" subtitle_id="rusw_escapehalf"/>
+			<sound id="rusw_escape" path="EscapeHint.ogg" subtitle_id="rusw_escape"/>
+			<sound id="rusw_findcharge" path="FindChargeHint.ogg" subtitle_id="rusw_findcharge"/>
+			<sound id="rusw_gas" path="GasHint.ogg" subtitle_id="rusw_gas"/>
+			<sound id="rusw_lab" path="LabHint.ogg" subtitle_id="rusw_lab"/>
+			<sound id="rusw_labtwo" path="LabHintTwo.ogg" subtitle_id="rusw_labtwo"/>
+			<sound id="rusw_laptop" path="LaptopHint.ogg" subtitle_id="rusw_laptop"/>
+			<sound id="rusw_money" path="MoneyHint.ogg" subtitle_id="rusw_money"/>
+			<sound id="rusw_movecharge" path="MoveChargeHint.ogg" subtitle_id="rusw_movecharge"/>
+			<sound id="rusw_placecharge" path="PlaceChargeHint.ogg" subtitle_id="rusw_placecharge"/>
+			<sound id="rusw_prison" path="PrisonHint.ogg" subtitle_id="rusw_prison"/>
+			<sound id="rusw_server" path="ServerHint.ogg" subtitle_id="rusw_server"/>
+			<sound id="rusw_signal" path="SignalHint.ogg" subtitle_id="rusw_signal"/>
+			<sound id="rusw_vault" path="VaultHint.ogg" subtitle_id="rusw_vault"/>
+			<sound id="rusw_waitone" path="WaitHintOne.ogg" subtitle_id="rusw_waitone"/>
+			<sound id="rusw_waittwo" path="WaitHintTwo.ogg" subtitle_id="rusw_waittwo"/>
+			<sound id="rusw_warehouse" path="WarehouseHint.ogg" subtitle_id="rusw_warehouse"/>
+			<sound id="rusw_waitescape" path="WaitEscapeHint.ogg" subtitle_id="rusw_waitescape"/>
+			<sound id="rusw_cover" path="CoverHint.ogg" subtitle_id="rusw_cover"/>
+			<sound id="rusw_addone" path="AddHintOne.ogg" subtitle_id="rusw_addone"/>
+			<sound id="rusw_addtwo" path="AddHintTwo.ogg" subtitle_id="rusw_addtwo"/>
+			<sound id="rusw_addthree" path="AddHintThree.ogg" subtitle_id="rusw_addthree"/>
+			<sound id="rusw_donecook" path="DoneCookingHint.ogg" subtitle_id="rusw_donecook"/>
+			<sound id="rusw_rightone" path="RightHintOne.ogg" subtitle_id="rusw_rightone"/>
+			<sound id="rusw_righttwo" path="RightHintTwo.ogg" subtitle_id="rusw_righttwo"/>
+			<sound id="rusw_rightthree" path="RightHintThree.ogg" subtitle_id="rusw_rightthree"/>
+			<sound id="rusw_rightfour" path="RightHintFour.ogg" subtitle_id="rusw_rightfour"/>
+			<sound id="rusw_wrongone" path="WrongHintOne.ogg" subtitle_id="rusw_wrongone"/>
+			<sound id="rusw_wrongtwo" path="WrongHintTwo.ogg" subtitle_id="rusw_wrongtwo"/>
+			<sound id="rusw_wrongthree" path="WrongHintThree.ogg" subtitle_id="rusw_wrongthree"/>
+			<sound id="rusw_wrongfour" path="WrongHintFour.ogg" subtitle_id="rusw_wrongfour"/>
+		</sounds>
 		<add file="levels/ruswl/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="russia_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
 		<include directory="levels/ruswl">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>

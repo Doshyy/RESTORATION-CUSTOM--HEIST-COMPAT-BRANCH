@@ -1,0 +1,41 @@
+<table>
+	<dialog id="anl_brief" priority="1" sound="anl_brief"/>
+	<dialog id="anl_intro" priority="1" sound="anl_intro"/>	
+	<dialog id="anl_alarmbox" priority="1" sound="anl_alarmbox"/>
+	<dialog id="anl_bilehalf" priority="1" sound="anl_bilehalf"/>	
+	<dialog id="anl_hiddenbutton" priority="1" sound="anl_hiddenbutton"/>
+	<dialog id="anl_c4" priority="1" sound="anl_c4"/>	
+	<dialog id="anl_defenddrill" priority="1" sound="anl_defenddrill"/>
+	<dialog id="anl_officeone" priority="1" sound="anl_officeone"/>	
+	<dialog id="anl_officetwo" priority="1" sound="anl_officetwo"/>
+	<dialog id="anl_escape" priority="1" sound="anl_escape"/>	
+	<dialog id="anl_fingerprint" priority="1" sound="anl_fingerprint"/>
+	<dialog id="anl_house" priority="1" sound="anl_house"/>	
+	<dialog id="anl_keycard" priority="1" sound="anl_keycard"/>
+	<dialog id="anl_kill" priority="1" sound="anl_kill"/>	
+	<dialog id="anl_laptop" priority="1" sound="anl_laptop"/>
+	<dialog id="anl_equipment" priority="1" sound="anl_equipment"/>	
+	<dialog id="anl_nitrogen" priority="1" sound="anl_nitrogen"/>
+	<dialog id="anl_override" priority="1" sound="anl_override"/>	
+	<dialog id="anl_powerone" priority="1" sound="anl_powerone"/>
+	<dialog id="anl_powertwo" priority="1" sound="anl_powertwo"/>	
+	<dialog id="anl_powerthree" priority="1" sound="anl_powerthree"/>
+	<dialog id="anl_powerfour" priority="1" sound="anl_powerfour"/>	
+	<dialog id="anl_pushbutton" priority="1" sound="anl_pushbutton"/>
+	<dialog id="anl_securemoney" priority="1" sound="anl_securemoney"/>	
+	<dialog id="anl_drill" priority="1" sound="anl_drill"/>
+	<dialog id="anl_music" priority="1" sound="anl_music"/>	
+	<dialog id="anl_bilewait" priority="1" sound="anl_bilewait"/>
+	<dialog id="anl_bilewaittwo" priority="1" sound="anl_bilewaittwo"/>	
+	<dialog id="anl_adrian" priority="1" sound="anl_adrian"/>
+	<dialog id="anl_signal" priority="1" sound="anl_signal"/>	
+	<dialog id="anl_bilenear" priority="1" sound="anl_bilenear"/>	
+	<dialog id="anl_blowtorchone" priority="1" sound="anl_blowtorchone"/>
+	<dialog id="anl_blowtorchtwo" priority="1" sound="anl_blowtorchtwo"/>	
+	<dialog id="anl_c4van" priority="1" sound="anl_c4van"/>
+	<dialog id="anl_nitrogenprocess" priority="1" sound="anl_nitrogenprocess"/>	
+	
+	
+	
+	
+</table>

@@ -10,6 +10,30 @@ Hooks:PostHook(CharacterTweakData, "_init_cop", "russia_cop", function(self, pre
 	self.cop.radio_prefix = "rus_"
 	self.cop.use_radio = "dispatch_generic_message"
 end)
+
+-- Enemies will carry MP5s/M4s/G36s to have correct damage values, but visually they will be carrying AKs to be authentic
+Hooks:PostHook(CharacterTweakData, "_create_table_structure", "SwapWepVisuals", function(self)
+    local weap_unit_names = self.weap_unit_names
+
+    for regular, replacement in pairs({
+        ["units/payday2/weapons/wpn_npc_m4/wpn_npc_m4"] = "units/pd2_dlc_mad/weapons/wpn_npc_ak47/wpn_npc_ak47",
+        ["units/payday2/weapons/wpn_npc_mp5/wpn_npc_mp5"] = "units/pd2_dlc_mad/weapons/wpn_npc_akmsu/wpn_npc_akmsu",
+        ["units/payday2/weapons/wpn_npc_mp5_tactical/wpn_npc_mp5_tactical"] = "units/pd2_dlc_mad/weapons/wpn_npc_asval/wpn_npc_asval",
+        ["units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9"] = "units/pd2_dlc_mad/weapons/wpn_npc_sr2/wpn_npc_sr2",
+        ["units/payday2/weapons/wpn_npc_sniper/wpn_npc_sniper"] = "units/pd2_dlc_mad/weapons/wpn_npc_svd/wpn_npc_svd",
+        ["units/payday2/weapons/wpn_npc_lmg_m249/wpn_npc_lmg_m249"] = "units/pd2_dlc_mad/weapons/wpn_npc_rpk/wpn_npc_rpk",
+        ["units/payday2/weapons/wpn_npc_benelli/wpn_npc_benelli"] = "units/payday2/weapons/wpn_npc_r870/wpn_npc_r870",
+        ["units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"] = "units/pd2_dlc_mad/weapons/wpn_npc_ak47/wpn_npc_ak47",
+        ["units/payday2/weapons/wpn_npc_ump/wpn_npc_ump"] = "units/pd2_dlc_mad/weapons/wpn_npc_asval/wpn_npc_asval",
+    }) do
+        local i = table.get_vector_index(weap_unit_names, Idstring(regular))
+
+        if i then
+            weap_unit_names[i] = Idstring(replacement)
+        end
+    end
+end)
+
 Hooks:PostHook(CharacterTweakData, "init", "cdhook_nikolai", function(self)
     self.nikolai= deep_clone(self.hector_boss)
 	
@@ -91,10 +115,7 @@ Hooks:PostHook(CharacterTweakData, "init", "cdhook_nikolai", function(self)
 	
 	self.nikolai.ecm_vulnerability = 0
 	self.nikolai.ecm_hurts = {
-		ears = {
-			max_duration = 0,
-			min_duration = 0
-		}
+		ears = 0
 	}
 	
 	
@@ -102,10 +123,7 @@ Hooks:PostHook(CharacterTweakData, "init", "cdhook_nikolai", function(self)
 	
 	self.mobster_boss.ecm_vulnerability = 0
 	self.mobster_boss.ecm_hurts = {
-		ears = {
-			max_duration = 0,
-			min_duration = 0
-		}
+		ears = 0
 	}
 	
 	
@@ -114,10 +132,7 @@ Hooks:PostHook(CharacterTweakData, "init", "cdhook_nikolai", function(self)
 	
 	self.drug_lord_boss_stealth.ecm_vulnerability = 0
 	self.drug_lord_boss_stealth.ecm_hurts = {
-		ears = {
-			max_duration = 0,
-			min_duration = 0
-		}
+		ears = 0
 	}
 	
 	

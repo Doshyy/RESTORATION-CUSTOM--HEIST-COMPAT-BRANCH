@@ -1,0 +1,1 @@
+CopBrain._logic_variants.nikolai = CopBrain._logic_variants.hector_boss

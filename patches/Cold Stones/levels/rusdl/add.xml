@@ -1,4 +1,159 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1_husk"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1_contour"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_security_1/ene_rus_security_1"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2_husk"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2_contour"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_security_2/ene_rus_security_2"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_security_cap/ene_acc_rus_security_cap"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_security_cap/ene_acc_rus_security_cap"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_security_cap/ene_acc_rus_security_cap"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_security_cap/ene_acc_rus_security_cap"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_security_cap/ene_acc_rus_security_cap"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3_husk"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3_contour"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_security_3/ene_rus_security_3"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_hat/ene_acc_rus_cop_hat"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_hat/ene_acc_rus_cop_hat"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_hat/ene_acc_rus_cop_hat"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_hat/ene_acc_rus_cop_hat"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_hat/ene_acc_rus_cop_hat"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_1/ene_rus_cop_1_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_2/ene_rus_cop_2_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_3_mp5/ene_rus_cop_3_mp5_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_3_r870/ene_rus_cop_3_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_3_r870/ene_rus_cop_3_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_cop_4_m4/ene_rus_cop_4_m4_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_4_r870/ene_rus_cop_4_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_cop_4_r870/ene_rus_cop_4_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_r870/ene_rus_fsb_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_r870/ene_rus_fsb_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_c45/ene_rus_shield_c45"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_c45/ene_rus_shield_c45_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2/ene_rus_shield_sr2"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2/ene_rus_shield_sr2_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_r870/ene_rus_fsbcity_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_r870/ene_rus_fsbcity_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2_city/ene_rus_shield_sr2_city"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2_city/ene_rus_shield_sr2_city_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_akmsu/ene_rus_fsbzeal_akmsu"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_akmsu/ene_rus_fsbzeal_akmsu_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_heavy_ak47_ass/ene_rus_fsbzeal_heavy_ak47_ass"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_heavy_ak47_ass/ene_rus_fsbzeal_heavy_ak47_ass_husk"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/russian_1_head_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/russian_1_head_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_police_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_police_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swat_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swat_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatheavy_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatheavy_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatcity_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatcityheavy_df"/>
+	</add>
 	<add path="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32_il" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_il" unload="true"/>
 		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_07_32x32_il" unload="true"/>
@@ -1088,6 +1243,77 @@
 		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
 		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
 		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_cop_beret/ene_acc_rus_cop_beret"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_tazer/ene_rus_tazer_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_tazer_helmet/ene_acc_rus_tazer_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_m4/ene_rus_fsb_m4_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_r870/ene_rus_fsb_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_r870/ene_rus_fsb_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_swat_helmet/ene_acc_rus_swat_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_c45/ene_rus_shield_c45"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_c45/ene_rus_shield_c45_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsb_heavy_m4/ene_rus_fsb_heavy_m4_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<model path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<object path="units/pd2_dlc_mad/characters/ene_acc_rus_swatheavy_helmet/ene_acc_rus_swatheavy_helmet"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_sniper/ene_rus_sniper_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2/ene_rus_shield_sr2"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2/ene_rus_shield_sr2_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_g36/ene_rus_fsbcity_g36_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_r870/ene_rus_fsbcity_r870"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_r870/ene_rus_fsbcity_r870_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36_husk"/>
+		<model path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<object path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<cooked_physics path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36"/>
+		<material_config path="units/pd2_dlc_mad/characters/ene_rus_fsbcity_heavy_g36/ene_rus_fsbcity_heavy_g36_contour"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2_city/ene_rus_shield_sr2_city"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_shield_sr2_city/ene_rus_shield_sr2_city_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_akmsu/ene_rus_fsbzeal_akmsu"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_akmsu/ene_rus_fsbzeal_akmsu_husk"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_heavy_ak47_ass/ene_rus_fsbzeal_heavy_ak47_ass"/>
+		<unit load="true" path="units/pd2_dlc_mad/characters/ene_rus_fsbzeal_heavy_ak47_ass/ene_rus_fsbzeal_heavy_ak47_ass_husk"/>
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_df"/>
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_nm"/>
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/russian_1_head_df"/>
@@ -1096,6 +1322,12 @@
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_security_nm"/>
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_police_df"/>
 		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_police_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swat_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swat_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatheavy_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatheavy_nm"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatcity_df"/>
+		<texture path="units/pd2_dlc_mad/characters/shared_textures/rus_swatcityheavy_df"/>
 	</add>
 	<add>
 		<texture path="textures/FirstFloor" unload="true"/>

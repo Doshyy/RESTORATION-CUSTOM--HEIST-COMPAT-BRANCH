@@ -1,0 +1,11 @@
+<table>
+	<objective description="rusd_obj1_desc" id="rusd_obj1" text="rusd_obj1"/>
+	<objective description="rusd_objconstantinedelay_desc" id="rusd_objconstantinedelay" text="rusd_objconstantinedelay"/>
+	<objective description="rusd_objmanager_desc" id="rusd_objmanager" text="rusd_objmanager"/>
+	<objective description="rusd_objtimelock_desc" id="rusd_objtimelock" text="rusd_objtimelock"/>
+	<objective description="rusd_objplacethermite_desc" id="rusd_objplacethermite" text="rusd_objplacethermite"/>	
+	<objective description="rusd_objdefendthermite_desc" id="rusd_objdefendthermite" text="rusd_objdefendthermite"/>	
+	<objective description="rusd_objentervault_desc" id="rusd_objentervault" text="rusd_objentervault"/>
+	<objective amount="6" description="rusd_objdiamond_desc" id="rusd_objdiamond" text="rusd_objdiamond"/>	
+	<objective description="rusd_objescape_desc" id="rusd_objescape" text="rusd_objescape"/>	
+</table>
