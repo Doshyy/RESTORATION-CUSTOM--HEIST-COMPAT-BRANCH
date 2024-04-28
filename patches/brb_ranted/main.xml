@@ -39,6 +39,7 @@
 			<value_node value="Play_loc_brb_end"/>
 		</outro_event>
 		<packages>
+			<value_node value="packages/murkywatermisc"/>
 			<value_node value="packages/lvl_brb"/>
 			<value_node value="levels/narratives/locke/brb/world"/>
 			<value_node value="levels/narratives/locke/brb/world_sounds"/>
