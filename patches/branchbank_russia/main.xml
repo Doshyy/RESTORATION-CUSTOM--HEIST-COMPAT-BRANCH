@@ -161,10 +161,6 @@
 	</AddFiles>
 	<AssetUpdates id="30389" provider="modworkshop" use_local_dir="true" version="2"/>
 	<Hooks directory="hooks">
-		<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
-		<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
-		<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
-		<hook file="russia_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		<hook file="russia_music.lua" source_file="lib/managers/musicmanager"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc">
@@ -213,6 +209,12 @@
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="russia_pager_sfx_fix.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="russia_charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="russia_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="russia_assets.lua" source_file="lib/tweak_data/assetstweakdata"/>
+		</hooks>
 		<include directory="levels/branchbank_russia">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>

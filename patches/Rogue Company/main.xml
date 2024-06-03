@@ -1,5 +1,5 @@
-<table name="gangwar1">
-	<Achievements banner=" " icon="guis/achievements/rc_pack" id="Rogue_Company">
+<table name="Rogue Company">
+	<Achievements icon="guis/achievements/rc_pack" id="Rogue_Company">
 		<achievement desc_id="RC_Achieve_DiffN_desc" icon="guis/achievements/rc_diff_0" id="RC_Achieve_DiffN" name_id="RC_Achieve_DiffN_name" rank="1"/>
 		<achievement desc_id="RC_Achieve_DiffH_desc" icon="guis/achievements/rc_diff_1" id="RC_Achieve_DiffH" name_id="RC_Achieve_DiffH_name" rank="1"/>
 		<achievement desc_id="RC_Achieve_DiffVH_desc" icon="guis/achievements/rc_diff_2" id="RC_Achieve_DiffVH" name_id="RC_Achieve_DiffVH_name" rank="2"/>
@@ -13,7 +13,8 @@
 		<achievement desc_id="RC_Achieve_speedrun_desc" icon="guis/achievements/rc_6mins" id="RC_Achieve_speedrun" name_id="RC_Achieve_speedrun_name" rank="3"/>
 	</Achievements>
 	<AddFiles directory="assets">
-		<texture force="true" path="icons/rc_broker"/>
+		<texture force="true" path="icons/RC_Broker"/>
+		<texture force="true" path="icons/RC_Loading"/>
 		<texture force="true" path="guis/achievements/rc_pack"/>
 		<texture force="true" path="guis/achievements/rc_diff_0"/>
 		<texture force="true" path="guis/achievements/rc_diff_1"/>
@@ -27,7 +28,8 @@
 		<texture force="true" path="guis/achievements/rc_15kills"/>
 		<texture force="true" path="guis/achievements/rc_6mins"/>
 	</AddFiles>
-	<HeistMusic directory="sounds" id="fk" volume="0.7">
+	<AssetUpdates id="32301" provider="modworkshop" version="2.0"/>
+	<HeistMusic directory="sounds" id="track_fk" volume="0.6">
 		<event name="setup" source="stealth.ogg" start_source="stealth_intro.ogg"/>
 		<event name="anticipation" source="anticipation.ogg" start_source="anticipation_intro.ogg"/>
 		<event name="assault" source="assault.ogg" start_source="assault_intro.ogg"/>
@@ -36,47 +38,14 @@
 	<Hooks directory="hooks">
 		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
 	</Hooks>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
+	<Localization default="english.yaml" directory="loc">
+		<loc file="english.yaml" language="english"/>
 	</Localization>
-	<Sounds directory="assets/vo">
-		<sound id="RC_BriefingDialogue" path="RC_BriefingDialogue.ogg" subtitle_id="RC_BriefingDialogue"/>
+	<Sounds directory="assets/vo" unload="true">
 		<sound id="RC_BriefingEvent" path="RC_BriefingEvent.ogg" subtitle_id="RC_BriefingEvent"/>
-		<sound id="RC_Debrief" path="RC_Debrief.ogg" subtitle_id="RC_Debrief"/>
-		<sound id="RC_driver" path="RC_driver.ogg" subtitle_id="RC_driver"/>
-		<sound id="RC_Drones1" path="RC_Drones1.ogg" subtitle_id="RC_Drones1"/>
-		<sound id="RC_Drones2" path="RC_Drones2.ogg" subtitle_id="RC_Drones2"/>
-		<sound id="RC_GenSec1" path="RC_GenSec1.ogg" subtitle_id="RC_GenSec1"/>
-		<sound id="RC_GenSec2" path="RC_GenSec2.ogg" subtitle_id="RC_GenSec2"/>
-		<sound id="RC_Gold1" path="RC_Gold1.ogg" subtitle_id="RC_Gold1"/>
-		<sound id="RC_Gold2" path="RC_Gold2.ogg" subtitle_id="RC_Gold2"/>
-		<sound id="RC_GunTruck1" path="RC_GunTruck1.ogg" subtitle_id="RC_GunTruck1"/>
-		<sound id="RC_GunTruck2" path="RC_GunTruck2.ogg" subtitle_id="RC_GunTruck2"/>
-		<sound id="RC_Hideout1" path="RC_Hideout1.ogg" subtitle_id="RC_Hideout1"/>
-		<sound id="RC_Hideout2" path="RC_Hideout2.ogg" subtitle_id="RC_Hideout2"/>
-		<sound id="RC_KnH1" path="RC_KnH1.ogg" subtitle_id="RC_KnH1"/>
-		<sound id="RC_KnH2" path="RC_KnH2.ogg" subtitle_id="RC_KnH2"/>
-		<sound id="RC_Muscle1" path="RC_Muscle1.ogg" subtitle_id="RC_Muscle1"/>
-		<sound id="RC_Muscle2" path="RC_Muscle2.ogg" subtitle_id="RC_Muscle2"/>
-		<sound id="RC_obj1" path="RC_obj1.ogg" subtitle_id="RC_obj1"/>
-		<sound id="RC_obj2" path="RC_obj2.ogg" subtitle_id="RC_obj2"/>
-		<sound id="RC_obj3" path="RC_obj3.ogg" subtitle_id="RC_obj3"/>
-		<sound id="RC_obj4A" path="RC_obj4A.ogg" subtitle_id="RC_obj4A"/>
-		<sound id="RC_obj4B" path="RC_obj4B.ogg" subtitle_id="RC_obj4B"/>
-		<sound id="RC_obj5A" path="RC_obj5A.ogg" subtitle_id="RC_obj5A"/>
-		<sound id="RC_obj5B" path="RC_obj5B.ogg" subtitle_id="RC_obj5B"/>
-		<sound id="RC_obj6A" path="RC_obj6A.ogg" subtitle_id="RC_obj6A"/>
-		<sound id="RC_obj6B" path="RC_obj6B.ogg" subtitle_id="RC_obj6B"/>
-		<sound id="RC_obj7A" path="RC_obj7A.ogg" subtitle_id="RC_obj7A"/>
-		<sound id="RC_obj7B" path="RC_obj7B.ogg" subtitle_id="RC_obj7B"/>
-		<sound id="RC_obj8B" path="RC_obj8B.ogg" subtitle_id="RC_obj8B"/>
-		<sound id="RC_Server1" path="RC_Server1.ogg" subtitle_id="RC_Server1"/>
-		<sound id="RC_Server2" path="RC_Server2.ogg" subtitle_id="RC_Server2"/>
-		<sound id="RC_WineCont1" path="RC_WineCont1.ogg" subtitle_id="RC_WineCont1"/>
-		<sound id="RC_WineCont2" path="RC_WineCont2.ogg" subtitle_id="RC_WineCont2"/>
 	</Sounds>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="yaeger" name_id="contact_yaeger_name" package="packages/contact_bain"/>
-	<level ai_group_type="America" briefing_dialog="RC_BriefingDialogue" id="RogueCompany" intro_event="" max_bags="32" player_style="hiphop">
+	<level ai_group_type="america" briefing_dialog="RC_BriefingDialogue" id="RogueCompany" intro_event="" max_bags="34" player_style="generic">
 		<add file="levels/RogueCompany/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -87,32 +56,55 @@
 			<value_node value=""/>
 		</outro_event>
 		<packages>
-			<value_node value="levels/narratives/safehouse/pc_only/pc_only"/>
-			<value_node value="levels/narratives/vlad/shout/world/world"/>
-			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
-			<value_node value="levels/instances/unique/fex/fex_loot_safe/world/world"/>
-			<value_node value="packages/job_mex"/>
-			<value_node value="levels/narratives/short1/stage1/editor_only/editor_only"/>
-			<value_node value="packages/miscassets"/>
-		</packages>
+		<value_node value="packages/miscassets"/>
+		</packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<sounds directory="assets/vo" dont_store_float="true" unload="true">
+			<sound id="RC_BriefingDialogue" path="RC_BriefingDialogue.ogg" subtitle_id="RC_BriefingDialogue"/>
+			<sound id="RC_Debrief" path="RC_Debrief.ogg" subtitle_id="RC_Debrief"/>
+			<sound id="RC_Drones1" path="RC_Drones1.ogg" subtitle_id="RC_Drones1"/>
+			<sound id="RC_Drones2" path="RC_Drones2.ogg" subtitle_id="RC_Drones2"/>
+			<sound id="RC_GenSec1" path="RC_GenSec1.ogg" subtitle_id="RC_GenSec1"/>
+			<sound id="RC_GenSec2" path="RC_GenSec2.ogg" subtitle_id="RC_GenSec2"/>
+			<sound id="RC_Gold1" path="RC_Gold1.ogg" subtitle_id="RC_Gold1"/>
+			<sound id="RC_Gold2" path="RC_Gold2.ogg" subtitle_id="RC_Gold2"/>
+			<sound id="RC_GunTruck1" path="RC_GunTruck1.ogg" subtitle_id="RC_GunTruck1"/>
+			<sound id="RC_GunTruck2" path="RC_GunTruck2.ogg" subtitle_id="RC_GunTruck2"/>
+			<sound id="RC_KnH1" path="RC_KnH1.ogg" subtitle_id="RC_KnH1"/>
+			<sound id="RC_KnH2" path="RC_KnH2.ogg" subtitle_id="RC_KnH2"/>
+			<sound id="RC_Muscle1" path="RC_Muscle1.ogg" subtitle_id="RC_Muscle1"/>
+			<sound id="RC_Muscle2" path="RC_Muscle2.ogg" subtitle_id="RC_Muscle2"/>
+			<sound id="RC_obj1" path="RC_obj1.ogg" subtitle_id="RC_obj1"/>
+			<sound id="RC_obj2" path="RC_obj2.ogg" subtitle_id="RC_obj2"/>
+			<sound id="RC_obj3" path="RC_obj3.ogg" subtitle_id="RC_obj3"/>
+			<sound id="RC_obj4A" path="RC_obj4A.ogg" subtitle_id="RC_obj4A"/>
+			<sound id="RC_obj4B" path="RC_obj4B.ogg" subtitle_id="RC_obj4B"/>
+			<sound id="RC_obj5A" path="RC_obj5A.ogg" subtitle_id="RC_obj5A"/>
+			<sound id="RC_obj5B" path="RC_obj5B.ogg" subtitle_id="RC_obj5B"/>
+			<sound id="RC_obj7" path="RC_obj7.ogg" subtitle_id="RC_obj7"/>
+			<sound id="RC_obj8" path="RC_obj8.ogg" subtitle_id="RC_obj8"/>
+			<sound id="RC_Server1" path="RC_Server1.ogg" subtitle_id="RC_Server1"/>
+			<sound id="RC_Server2" path="RC_Server2.ogg" subtitle_id="RC_Server2"/>
+			<sound id="RC_WineCont1" path="RC_WineCont1.ogg" subtitle_id="RC_WineCont1"/>
+			<sound id="RC_WineCont2" path="RC_WineCont2.ogg" subtitle_id="RC_WineCont2"/>
+		</sounds>
 	</level>
-	<narrative briefing_event="RC_BriefingEvent" contact="yaeger" icon="icons/rc_broker" id="RogueCompanyNarr" jc="30">
+	<narrative briefing_event="RC_BriefingEvent" contact="yaeger" id="RogueCompanyNarr" jc="30">
 		<chain>
 			<table level_id="RogueCompany" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="18750"/>
-			<value_node value="37500"/>
-			<value_node value="112500"/>
-			<value_node value="162500"/>
-			<value_node value="206250"/>
-			<value_node value="241250"/>
-			<value_node value="262500"/>
+			<value_node value="10000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="160000"/>
+			<value_node value="160000"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value=""/>
@@ -133,31 +125,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
-			<value_node value="20000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
+			<value_node value="37000"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
-			<value_node value="15000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
+			<value_node value="20000"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="37500"/>
-			<value_node value="75000"/>
-			<value_node value="225000"/>
-			<value_node value="325000"/>
-			<value_node value="412500"/>
-			<value_node value="482500"/>
-			<value_node value="525000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="80000"/>
+			<value_node value="160000"/>
+			<value_node value="320000"/>
+			<value_node value="320000"/>
+			<value_node value="320000"/>
 		</payout>
 	</narrative>
 </table>
