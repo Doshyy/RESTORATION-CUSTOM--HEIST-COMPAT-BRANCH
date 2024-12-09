@@ -1,0 +1,13 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_interactable_first_aid/sand_interactable_first_aid" type="unit">
+		<unit path="units/pd2_dlc_sand/props/sand_interactable_first_aid/sand_interactable_first_aid"/>
+		<object path="units/pd2_dlc_sand/props/sand_interactable_first_aid/sand_interactable_first_aid"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_interactable_first_aid/sand_interactable_first_aid"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_interactable_first_aid/sand_interactable_first_aid"/>
+		<unit path="units/pd2_dlc_sand/pickups/sand_pku_adrenaline_syringe/sand_pku_adrenaline_syringe"/>
+		<object path="units/pd2_dlc_sand/pickups/sand_pku_adrenaline_syringe/sand_pku_adrenaline_syringe"/>
+		<material_config path="units/pd2_dlc_sand/pickups/sand_pku_adrenaline_syringe/sand_pku_adrenaline_syringe_contour"/>
+		<sequence_manager path="units/pd2_dlc_sand/pickups/sand_pku_adrenaline_syringe/sand_pku_adrenaline_syringe"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+</table>

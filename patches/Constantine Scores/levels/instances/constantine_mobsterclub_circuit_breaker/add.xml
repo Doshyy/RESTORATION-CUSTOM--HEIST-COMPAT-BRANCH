@@ -1,0 +1,8 @@
+<table directory="assets">
+	<add from_db="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" type="unit">
+		<unit path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
+		<object path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
+		<material_config path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
+		<sequence_manager path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
+	</add>
+</table>

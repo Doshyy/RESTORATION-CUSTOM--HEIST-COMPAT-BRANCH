@@ -1,0 +1,18 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_door_reinforced/chas_prop_door_reinforced" type="unit">
+		<unit path="units/pd2_dlc_chas/props/chas_prop_door_reinforced/chas_prop_door_reinforced"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_door_reinforced/chas_prop_door_reinforced"/>
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_door_reinforced/chas_prop_door_reinforced"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<object path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+</table>

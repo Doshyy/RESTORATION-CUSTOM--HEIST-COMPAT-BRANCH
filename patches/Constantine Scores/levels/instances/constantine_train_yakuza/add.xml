@@ -1,0 +1,107 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_wall_2m_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_wall_2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_wall2m_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_wall2m_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_wall2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_wall2m_backless" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_wall2m_backless"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_wall2m_backless"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<font path="fonts/font_dunton_writing"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons" type="unit">
+		<font path="fonts/font_arena_icons"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/editable_text_system/editable_text_system" type="unit">
+		<font path="fonts/font_system"/>
+		<material_config path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+		<object path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+		<unit path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/editable_text_proto/editable_text_proto" type="unit">
+		<font path="fonts/font_proto"/>
+		<material_config path="units/pd2_dlc_mad/props/editable_text_proto/editable_text_proto"/>
+		<object path="units/pd2_dlc_mad/props/editable_text_proto/editable_text_proto"/>
+		<unit path="units/pd2_dlc_mad/props/editable_text_proto/editable_text_proto"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura" type="unit">
+		<font path="fonts/font_futura"/>
+		<material_config path="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura"/>
+		<object path="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura"/>
+		<unit path="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_vault_table/bnk_prop_vault_table" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_vault_table/bnk_prop_vault_table"/>
+		<object path="units/payday2/props/bnk_prop_vault_table/bnk_prop_vault_table"/>
+		<unit path="units/payday2/props/bnk_prop_vault_table/bnk_prop_vault_table"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<object path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<unit path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_gold/gen_pku_gold" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold"/>
+		<material_config path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<object path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+		<unit path="units/payday2/pickups/gen_pku_gold/gen_pku_gold"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_carriage" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_carriage"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_carriage"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_carriage"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_doors" type="unit">
+		<unit path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_doors"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_doors"/>
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_doors"/>
+		<unit path="units/pd2_dlc_cro/eus_train_door_cargo/eus_train_l_door_explode"/>
+		<object path="units/pd2_dlc_cro/eus_train_door_cargo/eus_train_l_door_explode"/>
+		<material_config path="units/pd2_dlc_cro/eus_train_door_cargo/eus_train_door_explode"/>
+		<unit path="units/pd2_dlc_cro/eus_train_door_cargo/eus_train_r_door_explode"/>
+		<object path="units/pd2_dlc_cro/eus_train_door_cargo/eus_train_r_door_explode"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_dark/props/drk_prop_train_cargo_carriage/drk_prop_train_cargo_doors"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" type="unit">
+		<unit path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<object path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<material_config path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+	</add>
+</table>

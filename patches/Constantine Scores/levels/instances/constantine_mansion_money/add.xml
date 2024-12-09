@@ -1,0 +1,40 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<object path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+		<unit path="units/payday2/pickups/gen_pku_bucket_of_money/gen_pku_bucket_of_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<object path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+		<unit path="units/payday2/pickups/gen_pku_money/gen_pku_money"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<object path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<sequence_manager path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/props/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_entryhall_mirror_alt/pent_prop_entryhall_mirror_alt" type="unit">
+		<material_config path="units/pd2_dlc_pent/props/pent_prop_entryhall_mirror_alt/pent_prop_entryhall_mirror_alt"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_entryhall_mirror_alt/pent_prop_entryhall_mirror_alt"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_entryhall_mirror_alt/pent_prop_entryhall_mirror_alt"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_entryhall_mirror_alt/pent_prop_entryhall_mirror_alt"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_shelf_a" type="unit">
+		<unit path="units/payday2/architecture/bnk/bnk_int_shelf_a"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_shelf_a"/>
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+	</add>
+</table>

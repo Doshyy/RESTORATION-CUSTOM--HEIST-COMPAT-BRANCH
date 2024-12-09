@@ -1,0 +1,9 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader" type="unit">
+		<unit path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+</table>

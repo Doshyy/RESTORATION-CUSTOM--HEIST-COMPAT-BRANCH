@@ -1,0 +1,278 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday_jam_once" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday_jam_once"/>
+		<object path="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_truck_boxvan_anim_eday/str_vehicle_truck_boxvan_anim_eday"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck_boxvan_eday/str_vehicle_truck_boxvan_eday"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small_jam_once"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
+		<effect load="true" path="effects/particles/explosions/explosion_grenade"/>
+		<effect load="true" path="effects/particles/dest/smoke_pocket_puff"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate" type="unit">
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<unit path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<object path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<material_config path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<unit path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<object path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<material_config path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke"/>
+		<material_config path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<object path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<unit path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_green" type="unit">
+		<material_config path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood"/>
+		<object path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_green"/>
+		<unit path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_green"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1" type="unit">
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_shelfwall1_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_shelfwall1_4m_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_shelfwall1_4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_shelf_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_shelf_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_shelf_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container/gen_prop_container" type="unit">
+		<unit path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+		<object path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+		<material_config path="units/payday2/props/gen_prop_container/gen_prop_container_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<sequence_manager path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_a" type="unit">
+		<material_config path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_a"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_a"/>
+		<unit path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_trash_container/mex_prop_trash_container" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_trash_container/mex_prop_trash_container"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_trash_container/mex_prop_trash_container"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_trash_container/mex_prop_trash_container"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_trash_container/mex_prop_trash_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_group/gen_prop_container_group_a" type="unit">
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_group/gen_prop_container_group_01"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_group/gen_prop_container_group_a"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_group/gen_prop_container_group_a"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_container_group/gen_prop_container_group_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky" type="unit">
+		<unit path="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky"/>
+		<object path="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky"/>
+		<material_config path="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<sequence_manager path="units/payday2/props/gen_prop_container_murky/gen_prop_container_murky"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_max/props/max_prop_dos_calveras/max_prop_sicario_beer_crate" type="unit">
+		<material_config path="units/pd2_dlc_max/props/max_prop_dos_calveras/max_prop_sicario_beer_crate"/>
+		<object path="units/pd2_dlc_max/props/max_prop_dos_calveras/max_prop_sicario_beer_crate"/>
+		<unit path="units/pd2_dlc_max/props/max_prop_dos_calveras/max_prop_sicario_beer_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_interactable_shipping_crate_2x1x1m/sfm_interactable_shipping_crate_2x1x1m" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_interactable_shipping_crate_2x1x1m/sfm_interactable_shipping_crate_2x1x1m"/>
+		<object path="units/pd2_dlc_friend/props/sfm_interactable_shipping_crate_2x1x1m/sfm_interactable_shipping_crate_2x1x1m"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_interactable_shipping_crate_2x1x1m/sfm_interactable_shipping_crate_2x1x1m"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_interactable_shipping_crate_2x1x1m/sfm_interactable_shipping_crate_2x1x1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75x110x75/flt_prop_wood_crate_75x110x75" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75x110x75/flt_prop_wood_crate_75x110x75"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75x110x75/flt_prop_wood_crate_75x110x75"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75x110x75/flt_prop_wood_crate_75x110x75"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75/flt_prop_wood_crate_75" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75/flt_prop_wood_crate_75"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75/flt_prop_wood_crate_75"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_wood_crate_75/flt_prop_wood_crate_75"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<object path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_b" type="unit">
+		<material_config path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_a"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_b"/>
+		<unit path="units/pd2_dlc_chew/props/chw_prop_cargocrate/chw_prop_cargocrate_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m_raytraced" type="unit">
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m_raytraced"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_wood_crate/mad_wood_crate_110"/>
+	</add>
+	<add from_db="true" path="units/world/street/barrel/barrel_01" type="unit">
+		<material_config path="units/world/street/barrel/barrel_01"/>
+		<object path="units/world/street/barrel/barrel_01"/>
+		<unit path="units/world/street/barrel/barrel_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_cover_int_barrel/man_cover_int_barrel" type="unit">
+		<material_config path="units/world/props/mansion/man_cover_int_barrel/man_cover_int_barrel"/>
+		<object path="units/world/props/mansion/man_cover_int_barrel/man_cover_int_barrel"/>
+		<unit path="units/world/props/mansion/man_cover_int_barrel/man_cover_int_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_barrel/pta_prop_barn_barrel" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_barrel/pta_prop_barn_barrel"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_barrel/pta_prop_barn_barrel"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_barrel/pta_prop_barn_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate_raytraced" type="unit">
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate_raytraced"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate/ind_interactable_shipping_crate"/>
+		<unit path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<object path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<material_config path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_diamonds/gen_pku_diamonds"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold"/>
+		<unit path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<object path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<material_config path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag"/>
+	</add>
+</table>

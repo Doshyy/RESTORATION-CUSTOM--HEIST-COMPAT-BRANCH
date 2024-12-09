@@ -1,0 +1,20 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<object path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<unit path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<material_config path="core/material_configs/hub_elements"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+	</add>
+</table>

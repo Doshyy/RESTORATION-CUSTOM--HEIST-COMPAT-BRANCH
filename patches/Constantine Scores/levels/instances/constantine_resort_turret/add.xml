@@ -1,0 +1,40 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<sequence_manager path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_keypad_wire/cas_prop_keypad_wire"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+		<object path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+		<unit path="units/payday2/props/gen_prop_square_drop_marker_3x3/gen_prop_square_drop_marker_3x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01" type="effect">
+		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+	</add>
+</table>

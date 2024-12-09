@@ -1,0 +1,53 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01" type="unit">
+		<unit path="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01"/>
+		<material_config path="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit load="true" path="units/pd2_dlc_nmh/characters/civ_female_doctor_01/civ_female_doctor_01_husk"/>
+	</add>
+	<add from_db="true" path="units/pd2_skirmish/characters/civ_female_drug_lord_hostage/civ_female_drug_lord_hostage" type="unit">
+		<unit path="units/pd2_skirmish/characters/civ_female_drug_lord_hostage/civ_female_drug_lord_hostage"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/pd2_skirmish/characters/civ_female_drug_lord_hostage/civ_female_drug_lord_hostage_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<material_config path="units/pd2_skirmish/characters/civ_female_drug_lord_hostage/civ_female_drug_lord_hostage"/>
+		<object path="units/pd2_skirmish/characters/civ_female_drug_lord_hostage/civ_female_drug_lord_hostage"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+	</add>
+</table>

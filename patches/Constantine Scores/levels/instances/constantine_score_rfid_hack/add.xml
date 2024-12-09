@@ -1,0 +1,25 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_trai/props/trai_int_prop_hacking_device/trai_int_prop_hacking_device" type="unit">
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_jammed"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_hacking_device/vit_prop_hacking_device"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_hacking_device/pent_prop_hacking_device"/>
+		<unit path="units/pd2_dlc_trai/props/trai_int_prop_hacking_device/trai_int_prop_hacking_device"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/props/trai_int_prop_light_box/trai_int_prop_light_box" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_light_box/vit_prop_light_box"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_light_box/vit_prop_light_box"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_light_box/vit_prop_light_box"/>
+		<unit path="units/pd2_dlc_trai/props/trai_int_prop_light_box/trai_int_prop_light_box"/>
+	</add>
+</table>

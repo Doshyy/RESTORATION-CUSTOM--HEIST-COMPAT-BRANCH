@@ -1,0 +1,13 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_intercom/sand_prop_intercom" type="unit">
+		<unit path="units/pd2_dlc_sand/props/sand_prop_intercom/sand_prop_intercom" unload="true"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_intercom/sand_prop_intercom" unload="true"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_intercom/sand_prop_intercom" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_intercom/sand_prop_intercom" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+</table>

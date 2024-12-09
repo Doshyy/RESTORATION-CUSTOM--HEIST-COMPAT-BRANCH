@@ -1,0 +1,14 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_custom/cus_bodydump_band_flightcase/cus_bodydump_band_flightcase" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_bodydump_band_flightcase/cus_bodydump_band_flightcase" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_bodydump_band_flightcase/cus_bodydump_band_flightcase" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_bodydump_band_flightcase/cus_bodydump_band_flightcase" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_bodydump_band_flightcase/cus_bodydump_band_flightcase" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+	</add>
+</table>

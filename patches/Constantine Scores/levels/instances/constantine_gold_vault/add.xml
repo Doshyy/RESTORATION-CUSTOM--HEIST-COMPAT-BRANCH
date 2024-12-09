@@ -1,0 +1,52 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/thermite_infinite"/>
+		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
+		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<sequence_manager path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_int/brb_vault_door/brb_vault_door_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic" type="unit">
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_drop_marker_2x3/gen_prop_square_drop_marker_2x3" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_drop_marker_2x3/gen_prop_square_drop_marker_2x3"/>
+		<object path="units/payday2/props/gen_prop_square_drop_marker_2x3/gen_prop_square_drop_marker_2x3"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_drop_marker_2x3/gen_prop_square_drop_marker_2x3"/>
+		<unit path="units/payday2/props/gen_prop_square_drop_marker_2x3/gen_prop_square_drop_marker_2x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<object path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+		<unit path="units/payday2/props/gen_prop_security_timelock/gen_prop_security_timelock"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keypad" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keypad"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keypad"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keypad"/>
+	</add>
+</table>

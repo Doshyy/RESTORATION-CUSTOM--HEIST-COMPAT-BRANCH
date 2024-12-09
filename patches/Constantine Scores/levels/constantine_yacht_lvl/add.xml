@@ -1,0 +1,2408 @@
+<table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_1m_2" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision_1m_2"/>
+		<unit path="units/dev_tools/level_tools/dev_collision_1m_2"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_8x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_8x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_8x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m"/>
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_50m/dev_collision_50m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_8x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_4x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue" type="unit">
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_01"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_01"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_02"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_head_02"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_shoulder"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_shoulder"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_shoulder"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_shoulder"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_hand"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_hand"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_waist"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_waist"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_leg"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_right_leg"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_leg"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_left_leg"/>
+		<unit path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_cape"/>
+		<object path="units/pd2_indiana/props/mus_prop_prophet_statue/spawn_cape"/>
+		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_prophet_statue/mus_prop_prophet_statue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/doors/lxy_door_single_dining_02" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht/doors/doors"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/doors/lxy_door_single_dining_02"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/doors/lxy_door_single_dining_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_round_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_round_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_round_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_round_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_cover_01" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_cover_01"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_cover_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/hull/lxy_ext_ceiling_4x4m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht/hull/hull"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/hull/lxy_ext_ceiling_4x4m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/hull/lxy_ext_ceiling_4x4m"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni_seq/light_omni_seq" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni_seq/light_omni_seq"/>
+		<sequence_manager path="core/units/light_omni_seq/light_omni_seq"/>
+		<unit path="core/units/light_omni_seq/light_omni_seq"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_sword/mus_prop_exhibit_d_sword" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_d_sword/mus_prop_exhibit_d_sword"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_d_sword/mus_prop_exhibit_d_sword"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_d_sword/mus_prop_exhibit_d_sword"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_d_sword/mus_prop_exhibit_d_sword"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_cargo_4x5_door" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_cargo_4x5_door"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_cargo_4x5_door"/>
+		<sequence_manager path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_cargo_4x5_door"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_cargo_4x5_door"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined_waypoint/gen_pku_keycard_outlined_waypoint" type="unit">
+		<material_config path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined"/>
+		<object path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined_waypoint/gen_pku_keycard_outlined_waypoint"/>
+		<sequence_manager path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined_waypoint/gen_pku_keycard_outlined_waypoint"/>
+		<unit load="true" path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined_waypoint/gen_pku_keycard_outlined_waypoint"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" type="unit">
+		<material_config path="units/pd2_dlc_arena/equipment/gen_interactable_door_keycard_v2/gen_interactable_door_keycard_v2"/>
+		<object path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel"/>
+		<sequence_manager path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel"/>
+		<unit path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_server_doors/lxy_prop_server_doors" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_server_doors/lxy_prop_server_doors"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_server_doors/lxy_prop_server_doors"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_prop_server_doors/lxy_prop_server_doors"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_server_doors/lxy_prop_server_doors"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/nature/lxy_ext_bdrop_water/lxy_ext_bdrop_water" type="unit">
+		<material_config path="units/pd2_dlc_fish/nature/lxy_ext_bdrop_water/lxy_ext_bdrop_water"/>
+		<object path="units/pd2_dlc_fish/nature/lxy_ext_bdrop_water/lxy_ext_bdrop_water"/>
+		<unit path="units/pd2_dlc_fish/nature/lxy_ext_bdrop_water/lxy_ext_bdrop_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_sign/lxy_int_prop_sign" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_sign/lxy_int_prop_sign"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_sign/lxy_int_prop_sign"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_sign/lxy_int_prop_sign"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_sign/lxy_int_prop_sign"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_d" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn"/>
+		<object path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_d"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_d"/>
+		<unit path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_b" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn"/>
+		<object path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_b"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_b"/>
+		<unit path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_a" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn"/>
+		<object path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_a"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_a"/>
+		<unit path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_c" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn"/>
+		<object path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_c"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_c"/>
+		<unit path="units/pd2_indiana/props/mus_prop_egyptian_urns/mus_prop_egyptian_urn_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_yacht_hull_sidepiece_trim" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_hull"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_yacht_hull_sidepiece_trim"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_yacht_hull_sidepiece_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule" type="unit">
+		<unit path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/spawn_pku_money_capsule_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/spawn_pku_money_capsule_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/spawn_pku_money_capsule_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/spawn_pku_money_capsule_02"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_20x20" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_20x20"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_20x20"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_4x4m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_4x4m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_4x4m"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_glow_wine_fridge_01/lxy_prop_glow_wine_fridge_01" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_window_05"/>
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_glow_wine_fridge_01/lxy_prop_glow_wine_fridge_01"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_glow_wine_fridge_01/lxy_prop_glow_wine_fridge_01"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_glow_wine_fridge_01/lxy_prop_glow_wine_fridge_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_int_wall_wine_fridge_01/lxy_int_wall_wine_fridge_01_v2" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_int_wall_wine_fridge_01/lxy_int_wall_wine_fridge_01"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<object path="units/pd2_dlc_fish/lxy_int_wall_wine_fridge_01/lxy_int_wall_wine_fridge_01_v2"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_int_wall_wine_fridge_01/lxy_int_wall_wine_fridge_01_v2"/>
+		<unit path="units/pd2_dlc_fish/lxy_int_wall_wine_fridge_01/lxy_int_wall_wine_fridge_01_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_1m50cm" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider"/>
+		<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_1m50cm"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_1m50cm"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_single" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider"/>
+		<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_single"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_single"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_floor" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_floor"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_floor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter" type="unit">
+		<effect load="true" path="effects/payday2/environment/parts/flashing_light_60s"/>
+		<effect load="true" path="effects/payday2/environment/small_thermal_burner_60s"/>
+		<effect load="true" path="effects/payday2/environment/parts/small_thermal_spark_60s"/>
+		<effect load="true" path="effects/payday2/environment/parts/small_thermal_fire_60s"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_security_shutter/vit_prop_branch_security_shutter"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x4x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank" type="unit">
+		<material_config path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank"/>
+		<object path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank"/>
+		<sequence_manager path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank"/>
+		<unit path="units/pd2_dlc_wwh/props/wwh_prop_gangplank/wwh_prop_gangplank"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni/light_omni"/>
+		<unit path="core/units/light_omni/light_omni"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_5x5" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_5x5"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_5x5"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/serving_cart/lxy_cov_ext_serving_cart" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/serving_cart/lxy_cov_ext_serving_cart"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/serving_cart/lxy_cov_ext_serving_cart"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/serving_cart/lxy_cov_ext_serving_cart"/>
+	</add>
+	<add from_db="true" path="units/world/props/towels/towels_03_tint_blue" type="unit">
+		<material_config path="units/world/props/towels/towels"/>
+		<object path="units/world/props/towels/towels_03_tint_blue"/>
+		<unit path="units/world/props/towels/towels_03_tint_blue"/>
+	</add>
+	<add from_db="true" path="units/world/props/towels/towels_04_tint_blue" type="unit">
+		<material_config path="units/world/props/towels/towels"/>
+		<object path="units/world/props/towels/towels_04_tint_blue"/>
+		<unit path="units/world/props/towels/towels_04_tint_blue"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_in"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_out" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_out"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_out"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/backdrop_watchdogs3" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/backdrop_watchdogs3"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/backdrop_watchdogs3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_01_building_07" type="unit">
+		<material_config path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop"/>
+		<object path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_01_building_07"/>
+		<unit path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_01_building_07"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_02_building_01" type="unit">
+		<material_config path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop"/>
+		<object path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_02_building_01"/>
+		<unit path="units/pd2_dlc_dah/architecture/dah_backdrop/dah_ext_bdrop_strip_02_building_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_4m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_4m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_4m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_50cm" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_50cm"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_50cm"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_1m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_1m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_1m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_1m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_2m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_2m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_support" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_support"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_support"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_02" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_02"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_50cm" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_50cm"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_50cm"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_ring" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_ring"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_ring"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on" type="unit">
+		<material_config path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_details"/>
+		<object path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on"/>
+		<unit path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_lamp_02_on"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_24x24" type="unit">
+		<material_config path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt"/>
+		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_24x24"/>
+		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_24x24"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_4x4" type="unit">
+		<material_config path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt"/>
+		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_4x4"/>
+		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_4x4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/trai_ext_crane_control_hut" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/trai_ext_crane_control_hut"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/trai_ext_crane_control_hut"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/trai_ext_crane_control_hut"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_fence/bor_prop_garage_fence_gate" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_fence/bor_prop_garage_fence_2m"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_fence/bor_prop_garage_fence_gate"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_fence/bor_prop_garage_fence_gate"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_fence/bor_prop_garage_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_01/trai_ext_parking_lot_backdrop_buildings_01" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_01/trai_ext_parking_lot_backdrop_buildings_01"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_01/trai_ext_parking_lot_backdrop_buildings_01"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_01/trai_ext_parking_lot_backdrop_buildings_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_02/trai_ext_parking_lot_backdrop_buildings_02" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_02/trai_ext_parking_lot_backdrop_buildings_02"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_02/trai_ext_parking_lot_backdrop_buildings_02"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_parking_lot/backdrop_buildings/backdrop_buildings_02/trai_ext_parking_lot_backdrop_buildings_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_small/bry_prop_mechanical_lamp_small" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_small/bry_prop_mechanical_lamp_small"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_small/bry_prop_mechanical_lamp_small"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_small/bry_prop_mechanical_lamp_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced"/>
+		<object path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<object path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_reinforced/spawn_debris_door_reinforced"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced"/>
+	</add>
+	<add from_db="true" path="units/world/street/trash_container/trash_container" type="unit">
+		<material_config path="units/world/street/trash_container/trash_container"/>
+		<object path="units/world/street/trash_container/trash_container"/>
+		<sequence_manager path="units/world/street/trash_container/trash_container"/>
+		<unit path="units/world/street/trash_container/trash_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_mechanical_lamp_small/bph_prop_mechanical_lamp_small" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/red_flare_static"/>
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_mechanical_lamp_small/bph_prop_mechanical_lamp_small"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_mechanical_lamp_small/bph_prop_mechanical_lamp_small"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_mechanical_lamp_small/bph_prop_mechanical_lamp_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02_railings" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02_railings"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_building_02/sand_ext_building_02_railings"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_2x2m" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_2x2m"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_2x2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_01" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_01"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" type="unit">
+		<material_config path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01"/>
+		<object path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01"/>
+		<unit path="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01"/>
+		<effect load="true" path="effects/payday2/particles/window/des_window_small"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_large"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
+		<object path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01"/>
+		<sequence_manager path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01"/>
+		<unit path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_02" type="unit">
+		<effect load="true" path="effects/payday2/particles/window/des_window_small"/>
+		<material_config path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_01"/>
+		<object path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_02"/>
+		<sequence_manager path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_02"/>
+		<unit path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_harboroffice_windows_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_one_side" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_one_side"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_one_side"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_base" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_base"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_deskset_left_a/stn_prop_office_deskset_left_a" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_left_a/stn_prop_office_deskset_left_a"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_left_a/stn_prop_office_deskset_left_a"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_left_a/stn_prop_office_deskset_left_a"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_left_a/stn_prop_office_deskset_left_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_chair_c/dah_prop_chair_c" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_chair_c/dah_prop_chair_c"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_chair_c/dah_prop_chair_c"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_chair_c/dah_prop_chair_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_deskset_right_a/stn_prop_office_deskset_right_a" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_right_a/stn_prop_office_deskset_right_a"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_right_a/stn_prop_office_deskset_right_a"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_right_a/stn_prop_office_deskset_right_a"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_right_a/stn_prop_office_deskset_right_a"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/printer/pcprinter" type="unit">
+		<material_config path="units/world/props/office/printer/pcprinter"/>
+		<object path="units/world/props/office/printer/pcprinter"/>
+		<unit path="units/world/props/office/printer/pcprinter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_watercooler/dah_prop_watercooler" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_watercooler/dah_prop_watercooler"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_watercooler/dah_prop_watercooler"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_watercooler/dah_prop_watercooler"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf"/>
+		<object path="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf"/>
+		<unit path="units/payday2/props/com_prop_janitor_shelf/com_prop_janitor_shelf"/>
+	</add>
+	<add from_db="true" path="units/world/props/box/prop_filebox_01" type="unit">
+		<material_config path="units/world/props/box/prop_filebox_01"/>
+		<object path="units/world/props/box/prop_filebox_01"/>
+		<unit path="units/world/props/box/prop_filebox_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_b"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open_b" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_b"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open_b"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_plant_large/dah_prop_plant_large" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_plant_large/dah_prop_plant_large"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_plant_large/dah_prop_plant_large"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_plant_large/dah_prop_plant_large"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_deskset_left_b/stn_prop_office_deskset_left_b" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_left_b/stn_prop_office_deskset_left_b"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_left_b/stn_prop_office_deskset_left_b"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_left_b/stn_prop_office_deskset_left_b"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_left_b/stn_prop_office_deskset_left_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_inner_conner" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_inner_conner"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_inner_conner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc" type="unit">
+		<material_config path="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc"/>
+		<object path="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc"/>
+		<unit path="units/payday2/props/ind_prop_military_ibc/ind_prop_military_ibc"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_covered" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_covered"/>
+		<object path="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_covered"/>
+		<unit path="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_covered"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks"/>
+		<object path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered"/>
+		<unit path="units/payday2/props/ind_prop_mill_lumber_stacks/ind_prop_mill_lumber_stacks_covered"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_3x3m" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_3x3m"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_platform_3x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_02" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_02"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_ext_main_building/sand_ext_metal_stairs_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_int_building2_01" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_int_building2_01"/>
+		<object path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_int_building2_01"/>
+		<unit path="units/pd2_dlc_sand/architecture/int/sand_building2_01/sand_int_building2_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper"/>
+		<material_config path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a"/>
+		<object path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a"/>
+		<unit path="units/payday2/props/stn_prop_office_deskset_straight_a/stn_prop_office_deskset_straight_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_vending_machine_a/dah_prop_vending_machine_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_garage_shelf/mcm_prop_garage_shelf" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_garage_shelf/mcm_prop_garage_shelf"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_garage_shelf/mcm_prop_garage_shelf"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_garage_shelf/mcm_prop_garage_shelf"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_chair/dah_prop_chair_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_chair/dah_prop_chair_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_chair/dah_prop_chair_a"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_chair/dah_prop_chair_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_livingroom_industrial_ceiling_light/chl_prop_livingroom_industrial_ceiling_light_02" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_livingroom_industrial_ceiling_light/chl_prop_livingroom_industrial_ceiling_light"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_livingroom_industrial_ceiling_light/chl_prop_livingroom_industrial_ceiling_light_02"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_livingroom_industrial_ceiling_light/chl_prop_livingroom_industrial_ceiling_light_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_magazine_shelf/bnk_prop_magazine_shelf" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_magazine_shelf/bnk_prop_magazine_shelf"/>
+		<object path="units/payday2/props/bnk_prop_magazine_shelf/bnk_prop_magazine_shelf"/>
+		<unit path="units/payday2/props/bnk_prop_magazine_shelf/bnk_prop_magazine_shelf"/>
+	</add>
+	<add from_db="true" path="units/world/props/file_binder/file_binder" type="unit">
+		<material_config path="units/world/props/file_binder/file_binder"/>
+		<object path="units/world/props/file_binder/file_binder"/>
+		<unit path="units/world/props/file_binder/file_binder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_ceilinglamp_short" type="unit">
+		<material_config path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_chair"/>
+		<object path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_ceilinglamp_short"/>
+		<unit path="units/pd2_dlc_jerry/architecture/jry_diner/jry_prop_diner_ceilinglamp_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_spot/bry_prop_mechanical_lamp_spot" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_blueish"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_spot/bry_prop_mechanical_lamp_spot"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_spot/bry_prop_mechanical_lamp_spot"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mechanical_lamp_spot/bry_prop_mechanical_lamp_spot"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_long_lamp_v3/chl_prop_long_lamp_v3" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/small_lamp_flare_blue_long"/>
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_long_lamp_v3/chl_prop_long_lamp_v3"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_long_lamp_v3/chl_prop_long_lamp_v3"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_long_lamp_v3/chl_prop_long_lamp_v3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_industrial_ceiling_light/des_prop_industrial_ceiling_light" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_blueish"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_industrial_ceiling_light/des_prop_industrial_ceiling_light"/>
+		<object path="units/pd2_dlc_des/props/des_prop_industrial_ceiling_light/des_prop_industrial_ceiling_light"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_industrial_ceiling_light/des_prop_industrial_ceiling_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_10x10" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_10x10"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_10x10"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/tst_cargoship/tst_cargoship" type="unit">
+		<material_config path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+		<object path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+		<unit path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_container/gen_prop_container" type="unit">
+		<unit path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+		<object path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_1"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_2"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_3"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open_4"/>
+		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<object path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<material_config path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_wall_open"/>
+		<sequence_manager path="units/payday2/props/gen_prop_container/gen_prop_container"/>
+	</add>
+	<add from_db="true" path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_low" type="unit">
+		<material_config path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_high"/>
+		<object path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_low"/>
+		<unit path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_low"/>
+	</add>
+	<add from_db="true" path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_high" type="unit">
+		<material_config path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_high"/>
+		<object path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_high"/>
+		<unit path="units/world/props/cvr_cover_boxes_i/cvr_cover_boxes_i_high"/>
+	</add>
+	<add from_db="true" path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_mid" type="unit">
+		<material_config path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high"/>
+		<object path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_mid"/>
+		<unit path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_mid"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate"/>
+	</add>
+	<add from_db="true" path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_low" type="unit">
+		<material_config path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high"/>
+		<object path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_low"/>
+		<unit path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_low"/>
+	</add>
+	<add from_db="true" path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high" type="unit">
+		<material_config path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high"/>
+		<object path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high"/>
+		<unit path="units/world/props/cvr_cover_boxes_f/cvr_cover_boxes_f_high"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/props/trai_prop_street_concrete_barrier/trai_prop_street_concrete_barrier_1m_a" type="unit">
+		<material_config path="units/pd2_dlc_trai/props/trai_prop_street_concrete_barrier/trai_prop_street_concrete_barrier_1m_a"/>
+		<object path="units/pd2_dlc_trai/props/trai_prop_street_concrete_barrier/trai_prop_street_concrete_barrier_1m_a"/>
+		<unit path="units/pd2_dlc_trai/props/trai_prop_street_concrete_barrier/trai_prop_street_concrete_barrier_1m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate" type="unit">
+		<unit path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate"/>
+		<unit path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/spawn_chw_prop_wooden_crate_debris"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/spawn_chw_prop_wooden_crate_debris"/>
+		<material_config path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_chew/props/chw_prop_wooden_crate/chw_prop_wooden_crate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_16x16m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_8x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_slab_8m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_slab_8m"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_slab_8m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_spot_1m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decals"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_spot_1m"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_spot_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decals"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_leak_a_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_4m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decals"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_4m"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_4m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_16x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_16x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x8"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_4x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_4x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_4x8"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_16x16" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_16x16"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x16"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_stairs_100x200x125m_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_stairs"/>
+		<object path="units/payday2/architecture/ind/ind_stairs_100x200x125m_a"/>
+		<unit path="units/payday2/architecture/ind/ind_stairs_100x200x125m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_05x4m_concrete_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_01b"/>
+		<object path="units/payday2/architecture/ind/ind_ext_05x4m_concrete_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_05x4m_concrete_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_2x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_01b"/>
+		<object path="units/payday2/architecture/ind/ind_ext_2x4m_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_2x4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str"/>
+		<object path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_fondation" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_dock_crane_fondation"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_fondation"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane_fondation"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" type="unit">
+		<material_config path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+		<object path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+		<unit path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_barrel/des_prop_barrel" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_cardealership_barrels/chl_prop_cardealership_barrels"/>
+		<object path="units/pd2_dlc_des/props/des_prop_barrel/des_prop_barrel"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_barrel/des_prop_barrel"/>
+	</add>
+	<add from_db="true" path="units/world/street/concrete_barrier/concrete_barrier_small_01" type="unit">
+		<material_config path="units/world/street/concrete_barrier/concrete_barrier"/>
+		<object path="units/world/street/concrete_barrier/concrete_barrier_small_01"/>
+		<unit path="units/world/street/concrete_barrier/concrete_barrier_small_01"/>
+	</add>
+	<add from_db="true" path="units/world/street/concrete_barrier/concrete_barrier_destr_01" type="unit">
+		<material_config path="units/world/street/concrete_barrier/concrete_barrier"/>
+		<object path="units/world/street/concrete_barrier/concrete_barrier_destr_01"/>
+		<unit path="units/world/street/concrete_barrier/concrete_barrier_destr_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_crane/ind_ext_dock_crane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_8" type="unit">
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_8"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_8"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_8"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_5" type="unit">
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_5"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_5"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_tire_stack/gen_prop_tire_stack_5"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_03" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddles"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_03"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_trailer/ind_prop_cardealership_trailer" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_trailer/ind_prop_cardealership_trailer"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_trailer/ind_prop_cardealership_trailer"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_trailer/ind_prop_cardealership_trailer"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_trailer/ind_prop_cardealership_trailer"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_8m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_garage_parkingline_c_6m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str"/>
+		<object path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_marking_yellowline_3m_01_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet_pile"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_warehouse_pallet_pile/chl_prop_warehouse_pallet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_03" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_03"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_03"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_signs_fire/dah_prop_signs_fire_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/fire_extinguisher/fire_extinguisher" type="unit">
+		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
+		<material_config path="units/world/props/fire_extinguisher/fire_extinguisher"/>
+		<object path="units/world/props/fire_extinguisher/fire_extinguisher"/>
+		<sequence_manager path="units/world/props/fire_extinguisher/fire_extinguisher"/>
+		<unit path="units/world/props/fire_extinguisher/fire_extinguisher"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_c" type="unit">
+		<material_config path="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags"/>
+		<object path="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_c"/>
+		<unit path="units/payday2/props/gen_prop_cementbags/gen_prop_cementbags_c"/>
+	</add>
+	<add from_db="true" path="units/world/props/airport/lamppost_four_lights/lamppost_four_lights" type="unit">
+		<material_config path="units/world/props/airport/lamppost_four_lights/lamppost_four_lights"/>
+		<object path="units/world/props/airport/lamppost_four_lights/lamppost_four_lights"/>
+		<unit path="units/world/props/airport/lamppost_four_lights/lamppost_four_lights"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddles"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_01"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/bdrop_vehicles_cars_duo/bdrop_vehicles_cars_duo" type="unit">
+		<material_config path="units/payday2/vehicles/bdrop_vehicles_cars_duo/bdrop_vehicles_cars_duo"/>
+		<object path="units/payday2/vehicles/bdrop_vehicles_cars_duo/bdrop_vehicles_cars_duo"/>
+		<unit path="units/payday2/vehicles/bdrop_vehicles_cars_duo/bdrop_vehicles_cars_duo"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_entrance_bollard/bnk_prop_entrance_bollard_animated" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_entrance_bollard/bnk_prop_entrance_bollard_animated"/>
+		<object path="units/payday2/props/bnk_prop_entrance_bollard/bnk_prop_entrance_bollard_animated"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_entrance_bollard/bnk_prop_entrance_bollard_animated"/>
+		<unit path="units/payday2/props/bnk_prop_entrance_bollard/bnk_prop_entrance_bollard_animated"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_chair_lounge_02/lxy_prop_chair_lounge_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_chair_lounge_02/lxy_prop_chair_lounge_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_chair_lounge_02/lxy_prop_chair_lounge_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_chair_lounge_02/lxy_prop_chair_lounge_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_d_dagger/mus_prop_exhibit_d_dagger" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_d_dagger/mus_prop_exhibit_d_dagger"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_d_dagger/mus_prop_exhibit_d_dagger"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_d_dagger/mus_prop_exhibit_d_dagger"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_d_dagger/mus_prop_exhibit_d_dagger"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_livingroom_lamp_table_b_worn/res_prop_livingroom_lamp_table_b_worn" type="unit">
+		<material_config path="units/payday2/props/res_prop_livingroom_lamp_table_b_worn/res_prop_livingroom_lamp_table_b_worn"/>
+		<object path="units/payday2/props/res_prop_livingroom_lamp_table_b_worn/res_prop_livingroom_lamp_table_b_worn"/>
+		<sequence_manager path="units/payday2/props/res_prop_livingroom_lamp_table_b_worn/res_prop_livingroom_lamp_table_b_worn"/>
+		<unit path="units/payday2/props/res_prop_livingroom_lamp_table_b_worn/res_prop_livingroom_lamp_table_b_worn"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_centerpiece_02/lxy_prop_centerpiece_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_centerpiece_02/lxy_prop_centerpiece_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_centerpiece_02/lxy_prop_centerpiece_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_centerpiece_02/lxy_prop_centerpiece_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_construction_container/sand_prop_construction_container" type="unit">
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_construction_container/sand_prop_construction_container"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_construction_container/sand_prop_construction_container"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_construction_container/sand_prop_construction_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_big" type="unit">
+		<material_config path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal"/>
+		<object path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_big"/>
+		<unit path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+		<object path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+		<unit path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_full" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_backless"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_full"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_tire_full"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/props/chw_prop_shipping_box_pallet/chw_prop_shipping_box_pallet" type="unit">
+		<material_config path="units/pd2_dlc_chew/props/chw_prop_shipping_box_pallet/chw_prop_shipping_box_pallet"/>
+		<object path="units/pd2_dlc_chew/props/chw_prop_shipping_box_pallet/chw_prop_shipping_box_pallet"/>
+		<unit path="units/pd2_dlc_chew/props/chw_prop_shipping_box_pallet/chw_prop_shipping_box_pallet"/>
+	</add>
+	<add from_db="true" path="units/world/props/container_backdrop/container_backdrop_single_blue" type="unit">
+		<material_config path="units/world/props/container_backdrop/container_backdrop_single"/>
+		<object path="units/world/props/container_backdrop/container_backdrop_single_blue"/>
+		<unit path="units/world/props/container_backdrop/container_backdrop_single_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_controlbox" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_controlbox"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_controlbox"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_controlbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_stains" type="unit">
+		<material_config path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal"/>
+		<object path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_stains"/>
+		<unit path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal_stains"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal" type="unit">
+		<material_config path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal"/>
+		<object path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal"/>
+		<unit path="units/pd2_dlc_rvd/architecture/rvd_ext/rvd_ground_decal/rvd_ground_decal"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01_low" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01_low"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_spirits_01_low"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01_low" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01_low"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pallet_wine_01/lxy_prop_pallet_wine_01_low"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane" type="unit">
+		<material_config path="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane"/>
+		<object path="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane"/>
+		<unit path="units/payday2/architecture/ind_backdrop/ind_docks_backdrop_container_crane"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_limo/str_vehicle_car_limo"/>
+	</add>
+	<add from_db="true" path="units/vehicles/garbagetruck/garbagetruck" type="unit">
+		<material_config path="units/vehicles/garbagetruck/garbagetruck"/>
+		<object path="units/vehicles/garbagetruck/garbagetruck"/>
+		<unit path="units/vehicles/garbagetruck/garbagetruck"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_03" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_03"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_corner_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_2m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_2m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_valve" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_valve"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_valve"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<bnk path="soundbanks/car_truck"/>
+		<material_config path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1"/>
+		<object path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1"/>
+		<sequence_manager path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1"/>
+		<unit path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_64x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_64x32m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_buoy" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/sea_flare_big_01"/>
+		<material_config path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_buoy"/>
+		<object path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_buoy"/>
+		<sequence_manager path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_buoy"/>
+		<unit path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_buoy"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat"/>
+		<effect load="true" path="effects/payday2/particles/water/water_splash_rib_boat"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<material_config path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1"/>
+		<object path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1"/>
+		<sequence_manager path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1"/>
+		<unit path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15" type="unit">
+		<material_config path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
+		<object path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
+		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
+		<unit path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/windows/01/trai_crane_control_window_01" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/windows/01/trai_crane_control_window_01"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/windows/01/trai_crane_control_window_01"/>
+		<sequence_manager path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/windows/01/trai_crane_control_window_01"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_ext_crane_control_hut/windows/01/trai_crane_control_window_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/machine/lxy_ceiling_machine_40" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/machine/machine"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/machine/lxy_ceiling_machine_40"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/machine/lxy_ceiling_machine_40"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base_half" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base_half"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base_half"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_lowerdeck_base/lxy_int_lowerdeck_base"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_glow/gen_prop_glow_02_big" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_big_round"/>
+		<material_config path="units/payday2/props/gen_prop_glow/gen_prop_glow"/>
+		<object path="units/payday2/props/gen_prop_glow/gen_prop_glow_02_big"/>
+		<unit path="units/payday2/props/gen_prop_glow/gen_prop_glow_02_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_orange_v2" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/small_lamp_orange_v2"/>
+		<material_config path="units/payday2/props/gen_prop_glow/gen_prop_glow"/>
+		<object path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_orange_v2"/>
+		<unit path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_orange_v2"/>
+	</add>
+	<add from_db="true" path="units/lights/light_projection_01/light_projection_02" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/lights/light_projection_01/light_projection_02"/>
+		<unit path="units/lights/light_projection_01/light_projection_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_lamp_dining_02/lxy_prop_lamp_dining_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_lamp_dining_02/lxy_prop_lamp_dining_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_lamp_dining_02/lxy_prop_lamp_dining_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_lamp_dining_02/lxy_prop_lamp_dining_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_spotlight" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_spotlight"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_spotlight"/>
+	</add>
+	<add from_db="true" path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01"/>
+		<unit path="units/lights/light_omni_shadow_projection_01/light_omni_shadow_projection_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/champaign/lxy_prop_champaign_glass" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/champaign/champaign"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/champaign/lxy_prop_champaign_glass"/>
+		<sequence_manager path="units/pd2_dlc_lxy/props/yacht/champaign/lxy_prop_champaign_glass"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/champaign/lxy_prop_champaign_glass"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_hallway_exit/mus_prop_hallway_exit" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_hallway_exit/mus_prop_hallway_exit"/>
+		<object path="units/pd2_indiana/props/mus_prop_hallway_exit/mus_prop_hallway_exit"/>
+		<unit path="units/pd2_indiana/props/mus_prop_hallway_exit/mus_prop_hallway_exit"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_plant_vase_02/lxy_prop_plant_vase_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_plant_vase_02/lxy_prop_plant_vase_02"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_plant_vase_02/lxy_prop_plant_vase_02"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_plant_vase_02/lxy_prop_plant_vase_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_plant_vase_02/lxy_prop_plant_vase_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_desks"/>
+		<object path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m"/>
+		<unit path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_3x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque_short" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque_short"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains_opaque_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_rail_b" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spotlight"/>
+		<object path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_rail_b"/>
+		<unit path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_rail_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_lamp_wall/mcm_prop_livingroom_lamp_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_plant_vase_01/lxy_prop_plant_vase_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_plant_vase_01/lxy_prop_plant_vase_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_plant_vase_01/lxy_prop_plant_vase_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_plant_vase_01/lxy_prop_plant_vase_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_plant_vase_01/lxy_prop_plant_vase_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_piano_ceiling_01/lxy_int_piano_ceiling_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_piano_ceiling_01/lxy_int_piano_ceiling_01"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_piano_ceiling_01/lxy_int_piano_ceiling_01"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_piano_ceiling_01/lxy_int_piano_ceiling_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/brown_bottle_dest"/>
+		<object path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne"/>
+		<sequence_manager path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_single"/>
+		<unit path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_lobby/are_shute_stripes" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_lobby/are_cross"/>
+		<object path="units/pd2_dlc_arena/architecture/are_lobby/are_shute_stripes"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_lobby/are_shute_stripes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/mansion/props/lxa_prop_hallway_plant_large/lxa_prop_hallway_plant_large" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/props/lxa_prop_hallway_plant_large/lxa_prop_hallway_plant_large"/>
+		<object path="units/pd2_dlc_holly/mansion/props/lxa_prop_hallway_plant_large/lxa_prop_hallway_plant_large"/>
+		<unit path="units/pd2_dlc_holly/mansion/props/lxa_prop_hallway_plant_large/lxa_prop_hallway_plant_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_floor_cargo_2x2" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_cargo"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_floor_cargo_2x2"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_floor_cargo_2x2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_piano_stage_01/lxy_prop_piano_stage_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_piano_stage_01/lxy_prop_piano_stage_01"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_piano_stage_01/lxy_prop_piano_stage_01"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_piano_stage_01/lxy_prop_piano_stage_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_to_ext_door" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_to_ext_door"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_to_ext_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/flowers/lxy_prop_flower_vase" type="unit">
+		<effect load="true" path="effects/particles/dest/ceramic_cup_dest"/>
+		<material_config path="units/pd2_dlc_lxy/props/yacht/flowers/flowers"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/flowers/lxy_prop_flower_vase"/>
+		<sequence_manager path="units/pd2_dlc_lxy/props/yacht/flowers/lxy_prop_flower_vase"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/flowers/lxy_prop_flower_vase"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_third" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_third"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_third"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_fourth" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_fourth"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_fourth"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_left_side" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_left_side"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_left_side"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_small_room" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_small_room"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_small_room"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_floor" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_floor"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_floor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_right_side" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_right_side"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_01_right_side"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_02"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_staircase_room" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_staircase_room"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_deck_01_staircase_room"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_03" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_03"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_first" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_first"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_first"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_second" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_second"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_floor_second"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base_half" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base_half"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_base_half"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_machine_doorway" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_cargo"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_machine_doorway"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/cargo/lxy_wall_machine_doorway"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant"/>
+		<object path="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant"/>
+		<unit path="units/payday2/vegetation/str_veg_potted_plant/str_veg_potted_plant"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_lamp_chandelier/sfm_prop_bedroom_lamp_chandelier" type="unit">
+		<effect load="true" path="effects/particles/dest/ceramic_cup_dest"/>
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_lamp_chandelier/sfm_prop_bedroom_lamp_chandelier"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_lamp_chandelier/sfm_prop_bedroom_lamp_chandelier"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_bedroom_lamp_chandelier/sfm_prop_bedroom_lamp_chandelier"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_lamp_chandelier/sfm_prop_bedroom_lamp_chandelier"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/clipboard_02" type="unit">
+		<material_config path="units/world/props/office/wall_documents/wall_documents_io"/>
+		<object path="units/world/props/office/wall_documents/clipboard_02"/>
+		<unit path="units/world/props/office/wall_documents/clipboard_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/clipboard_01" type="unit">
+		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
+		<object path="units/world/props/office/wall_documents/clipboard_01"/>
+		<unit path="units/world/props/office/wall_documents/clipboard_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_phone/bnk_prop_phone"/>
+		<object path="units/payday2/props/bnk_prop_phone/bnk_prop_phone"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_phone/bnk_prop_phone"/>
+		<unit path="units/payday2/props/bnk_prop_phone/bnk_prop_phone"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_laptop/off_prop_laptop" type="unit">
+		<material_config path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+		<object path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+		<unit path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_backstage_cue_line/are_backstage_curtain_1m" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_backstage_cue_line/are_prop_backstage_cue_line"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_backstage_cue_line/are_backstage_curtain_1m"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_backstage_cue_line/are_backstage_curtain_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_2m" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_2m"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_inner_conner" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_inner_conner"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_inner_conner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_table/com_prop_election_table" type="unit">
+		<material_config path="units/payday2/props/com_prop_election_table/com_prop_election_table"/>
+		<object path="units/payday2/props/com_prop_election_table/com_prop_election_table"/>
+		<unit path="units/payday2/props/com_prop_election_table/com_prop_election_table"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_election_table/com_prop_election_table_folded" type="unit">
+		<material_config path="units/payday2/props/com_prop_election_table/com_prop_election_table"/>
+		<object path="units/payday2/props/com_prop_election_table/com_prop_election_table_folded"/>
+		<unit path="units/payday2/props/com_prop_election_table/com_prop_election_table_folded"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_bedroom_candles/mcm_prop_bedroom_candles" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_bedroom_candles/mcm_prop_bedroom_candles"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_bedroom_candles/mcm_prop_bedroom_candles"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_bedroom_candles/mcm_prop_bedroom_candles"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_b_ending" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_b_ending"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_b_ending"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_glow_doors_01/lxy_prop_glow_doors_01" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_window_05"/>
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_glow_doors_01/lxy_prop_glow_doors_01"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_glow_doors_01/lxy_prop_glow_doors_01"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_glow_doors_01/lxy_prop_glow_doors_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_1m" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_1m"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_c" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books"/>
+		<object path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_c"/>
+		<unit path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_a" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books"/>
+		<object path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_a"/>
+		<unit path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_b" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books"/>
+		<object path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_b"/>
+		<unit path="units/payday2/props/bnk_prop_office_shelf_books/bnk_prop_office_shelf_books_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_bookshelf" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_bookshelf"/>
+		<sequence_manager path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_bookshelf"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_bookshelf"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/table/lxy_prop_table_sofa" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/table/table"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/table/lxy_prop_table_sofa"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/table/lxy_prop_table_sofa"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_glass_8x8m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_glass_8x8m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_glass_8x8m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_stairs_01_v2" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_stairs_01_v2"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_stairs_01_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_marblefloor_center_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_marblefloor_center_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_marblefloor_center_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02_8x8m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02_8x8m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs02_8x8m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01_8x8m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01_8x8m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_stairs01_8x8m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/dev_ladder/dev_ladder" type="unit">
+		<material_config path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<object path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<sequence_manager path="units/dev_tools/dev_ladder/dev_ladder"/>
+		<unit path="units/dev_tools/dev_ladder/dev_ladder"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_1m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_1m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_plant_palm_large_01/lxy_prop_plant_palm_large_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_plant_palm_large_01/lxy_prop_plant_palm_large_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_plant_palm_large_01/lxy_prop_plant_palm_large_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_plant_palm_large_01/lxy_prop_plant_palm_large_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_club_heater/com_prop_club_heater" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_heater/com_prop_club_heater"/>
+		<object path="units/payday2/props/com_prop_club_heater/com_prop_club_heater"/>
+		<unit path="units/payday2/props/com_prop_club_heater/com_prop_club_heater"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_1m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_1m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_1m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_plant_table_01/lxy_prop_plant_table_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_plant_table_01/lxy_prop_plant_table_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_plant_table_01/lxy_prop_plant_table_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_plant_table_01/lxy_prop_plant_table_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_2m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_2m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_2m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_02_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_2m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_2m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_2m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_ext_wicker_table_02/lxy_prop_ext_wicker_table_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_ext_wicker_table_02/lxy_prop_ext_wicker_table_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_ext_wicker_table_02/lxy_prop_ext_wicker_table_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_ext_wicker_table_02/lxy_prop_ext_wicker_table_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_1m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_1m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_1m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_end_01_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/pillar2/lxy_cov_ext_pillar_40cm" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/pillar2/lxy_pillar2"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/pillar2/lxy_cov_ext_pillar_40cm"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/pillar2/lxy_cov_ext_pillar_40cm"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_pillow/lxy_prop_pillow_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_ext_wicker/lxy_prop_ext_wicker_chair_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_ext_wicker/lxy_prop_ext_wicker_chair_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_ext_wicker/lxy_prop_ext_wicker_chair_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_ext_wicker/lxy_prop_ext_wicker_chair_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_plant_palm_medium_01/lxy_prop_plant_palm_medium_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_plant_palm_medium_01/lxy_prop_plant_palm_medium_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_plant_palm_medium_01/lxy_prop_plant_palm_medium_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_plant_palm_medium_01/lxy_prop_plant_palm_medium_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_ext_bar_stool_01/lxy_prop_ext_bar_stool_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_ext_bar_stool_01/lxy_prop_ext_bar_stool_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_ext_bar_stool_01/lxy_prop_ext_bar_stool_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_ext_bar_stool_01/lxy_prop_ext_bar_stool_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_2" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spotlight"/>
+		<object path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_2"/>
+		<unit path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_very_small" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_blueish_small"/>
+		<material_config path="units/payday2/props/gen_prop_glow/gen_prop_glow"/>
+		<object path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_very_small"/>
+		<unit path="units/payday2/props/gen_prop_glow/gen_prop_glow_01_very_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_straight_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_straight_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_straight_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_space_1m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_space_1m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_space_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_corner_1m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_corner_1m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_wall_corner_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_stair_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_stair_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_stair_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_corner_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_corner_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_corner_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ext_wall/lxy_ext_wall_01_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_jacuzzi_4x4m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_jacuzzi_4x4m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_tanbed_jacuzzi_4x4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_corner_01"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_bar_01/lxy_ext_bar_end_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_door_01_2m" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_door_01_2m"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_ext_door_01_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_table_decoration_01/lxy_prop_table_decoration_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_table_decoration_01/lxy_prop_table_decoration_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_table_decoration_01/lxy_prop_table_decoration_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_table_decoration_01/lxy_prop_table_decoration_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_towel/lxy_prop_towel_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/cargo/lxy_cov_plastic_cargo" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/cargo/cargo"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/cargo/lxy_cov_plastic_cargo"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/cargo/lxy_cov_plastic_cargo"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_glass_wall_curtains/lxy_prop_glass_wall_curtains" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_glass_wall_curtains/lxy_prop_glass_wall_curtains"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_glass_wall_curtains/lxy_prop_glass_wall_curtains"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_glass_wall_curtains/lxy_prop_glass_wall_curtains"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_hull_stern_01_open" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_hull_open"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_hull_stern_01_open"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/hull/lxy_hull_stern_01_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_straight_1m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_straight_1m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_straight_1m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_straight_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_05" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_05"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_06" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_06"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_06"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_07" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_07"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_07"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_08" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_08"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_room_08"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_corridor_walls" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_corridor_walls"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_corridor_walls"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_table_dining_01/lxy_prop_table_dining_long_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_03" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_03"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_03"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_livingroom_sofaenglish/lxy_prop_livingroom_sofa2_english" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_livingroom_sofaenglish/lxy_prop_livingroom_sofa_english"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_livingroom_sofaenglish/lxy_prop_livingroom_sofa2_english"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_livingroom_sofaenglish/lxy_prop_livingroom_sofa2_english"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_light_wall/lxy_prop_light_wall_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_access"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_02"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_corner_02" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_corner_02"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_corner_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_1" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spotlight"/>
+		<object path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_1"/>
+		<sequence_manager path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_1"/>
+		<unit path="units/payday2/props/com_prop_store_spotlight/com_prop_store_spot_light_b_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_5x2m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_desks"/>
+		<object path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_5x2m"/>
+		<unit path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_decal_mull_5x2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_champagne_bottle_01/lxy_prop_champagne_bottle_01" type="unit">
+		<effect load="true" path="effects/particles/dest/green_bottle_dest"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_champagne_bottle_01/lxy_prop_champagne_bottle_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_champagne_bottle_01/lxy_prop_champagne_bottle_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_champagne_bottle_01/lxy_prop_champagne_bottle_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_champagne_bottle_01/lxy_prop_champagne_bottle_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_champagne_bucket_01/lxy_prop_champagne_bucket_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_champagne_bucket_01/lxy_prop_champagne_bucket_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_champagne_bucket_01/lxy_prop_champagne_bucket_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_champagne_bucket_01/lxy_prop_champagne_bucket_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_champagne_bucket_01/lxy_prop_champagne_bucket_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_carpet_long" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_carpet_long"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_carpet_long"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_carpet_long"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_chair_dining_01/lxy_prop_chair_dining_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_chair_dining_01/lxy_prop_chair_dining_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_chair_dining_01/lxy_prop_chair_dining_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_chair_dining_01/lxy_prop_chair_dining_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_statue_mermaid_01/lxy_prop_statue_mermaid_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_statue_mermaid_01/lxy_prop_statue_mermaid_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_statue_mermaid_01/lxy_prop_statue_mermaid_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_statue_mermaid_01/lxy_prop_statue_mermaid_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_wood_pillar_01/lxy_prop_wood_pillar_01" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_wood_pillar_01/lxy_prop_wood_pillar_01"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_wood_pillar_01/lxy_prop_wood_pillar_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/radar_tower/lxy_radartower" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/radar_tower/lxy_radartower"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/radar_tower/lxy_radartower"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/radar_tower/lxy_radartower"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_rug_sheepskin_01/lxy_prop_rug_sheepskin_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_rug_sheepskin_01/lxy_prop_rug_sheepskin_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_rug_sheepskin_01/lxy_prop_rug_sheepskin_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_rug_sheepskin_01/lxy_prop_rug_sheepskin_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_stool_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_stool_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_stool_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_table_coffee_02/lxy_prop_table_coffee_stool_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_bed_01/lxy_prop_bed_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_bed_01/lxy_prop_bed_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_bed_01/lxy_prop_bed_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_bed_01/lxy_prop_bed_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_c_clean/res_prop_livingroom_lamp_floor_worn_c_clean" type="unit">
+		<material_config path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_c_clean/res_prop_livingroom_lamp_floor_worn_c_clean"/>
+		<object path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_c_clean/res_prop_livingroom_lamp_floor_worn_c_clean"/>
+		<sequence_manager path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_c_clean/res_prop_livingroom_lamp_floor_worn_c_clean"/>
+		<unit path="units/payday2/props/res_prop_livingroom_lamp_floor_worn_c_clean/res_prop_livingroom_lamp_floor_worn_c_clean"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_red_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_red_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_red_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_red_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m_var02" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_walls"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m_var02"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/walls/lxy_int_wall_2m_var02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_hat_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_hat_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_hat_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/luggage/lxy_prop_luggage_portfolio" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/luggage/luggage"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/luggage/lxy_prop_luggage_portfolio"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/luggage/lxy_prop_luggage_portfolio"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_statue_unicorn_01/lxy_prop_statue_unicorn_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_statue_unicorn_01/lxy_prop_statue_unicorn_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_statue_unicorn_01/lxy_prop_statue_unicorn_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_statue_unicorn_01/lxy_prop_statue_unicorn_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug_02"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug_02"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rug/lxy_int_prop_rug_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_sprinkle" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_sprinkle"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_sprinkle"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_speaker" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_speaker"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_speaker"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/chair_dining/lxy_prop_chair_dining" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/chair_dining/lxy_prop_chair_dining"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/chair_dining/lxy_prop_chair_dining"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/chair_dining/lxy_prop_chair_dining"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_closed" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_closed"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_closed"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_closed"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_open" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_open"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_open"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_champagne_crates/lxy_prop_champagne_crate_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_mount" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_mount"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_mount"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_45deg" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_45deg"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_45deg"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_ring" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_ring"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_ring"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner_02" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner_02"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_corner_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_4m" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_4m"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_corner" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_corner"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_ending" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_ending"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_rail/lxy_int_prop_rail_ending"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_fastener" type="unit">
+		<object path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_fastener"/>
+		<sequence_manager path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset"/>
+		<unit path="units/payday2/props/ind_prop_pipeset/ind_prop_pipeset_thick_fastener"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v5" type="unit">
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
+		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v5"/>
+		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_v5"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_ceiling" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_int_yacht"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_ceiling"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_deck_01/lxy_low_deck_02_ceiling"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_fruitbowl/mcm_prop_livingroom_fruitbowl" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_fruitbowl/mcm_prop_livingroom_fruitbowl"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_fruitbowl/mcm_prop_livingroom_fruitbowl"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_fruitbowl/mcm_prop_livingroom_fruitbowl"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_suit_foodwarmer/are_prop_suit_foodwarmer" type="unit">
+		<material_config path="units/payday2/props/are_prop_suit_foodwarmer/are_prop_suit_foodwarmer"/>
+		<object path="units/payday2/props/are_prop_suit_foodwarmer/are_prop_suit_foodwarmer"/>
+		<unit path="units/payday2/props/are_prop_suit_foodwarmer/are_prop_suit_foodwarmer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_platter" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_platter"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_platter"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_cone" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_cone"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_cone"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_dip" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_basket"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_dip"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_suite_snacks/are_prop_suite_snack_dip"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_int_dining_set_01/lxy_prop_int_dining_set_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_int_dining_set_01/lxy_prop_int_dining_set_01"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_int_dining_set_01/lxy_prop_int_dining_set_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_int_dining_set_01/lxy_prop_int_dining_set_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_int_dining_set_01/lxy_prop_int_dining_set_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_broken" type="unit">
+		<material_config path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp"/>
+		<object path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_broken"/>
+		<unit path="units/payday2/props/gen_prop_long_lamp/gen_prop_long_lamp_broken"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_3m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_3m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_4m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_4m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_one_side" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_one_side"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_stairs_c_one_side"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_server_platform/lxy_prop_server_platform" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_stairs/lxy_int_level_railing"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_server_platform/lxy_prop_server_platform"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_server_platform/lxy_prop_server_platform"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/sofa/lxy_cov_sofa" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/sofa/lxy_cov_sofa"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/sofa/lxy_cov_sofa"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/sofa/lxy_cov_sofa"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_keyboard/dah_prop_keyboard" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_keyboard/dah_prop_keyboard"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_keyboard/dah_prop_keyboard"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_keyboard/dah_prop_keyboard"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_04" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_04"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_stern_deck/lxy_stern_deck_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_bedroom_curtains"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_bedroom_curtains/sfm_prop_curtains_glass_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons" type="unit">
+		<font path="fonts/font_arena_icons"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_arena_icons/editable_text_arena_icons"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_small_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile" type="unit">
+		<font path="fonts/font_eurostile_ext"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_02_3m" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_01_2m"/>
+		<object path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_02_3m"/>
+		<unit path="units/pd2_dlc_fish/lxy_ext_sofa_mod_01/lxy_ext_sofa_mod_corner_02_3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_room" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_room"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_int_basement/lxy_int_basement_server_room"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/computer/computer_mouse" type="unit">
+		<material_config path="units/world/props/office/computer/computer_keyboard"/>
+		<object path="units/world/props/office/computer/computer_mouse"/>
+		<unit path="units/world/props/office/computer/computer_mouse"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_sunset/pd2_env_sunset" type="environment">
+		<environment path="environments/pd2_env_sunset/pd2_env_sunset"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene load="true" path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_glow_01_blink/lxy_prop_glow_01_blink" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/red_flare_blinking"/>
+		<effect load="true" path="effects/payday2/particles/flares/red_flare_static"/>
+		<effect load="true" path="effects/payday2/particles/flares/blue_flare_static"/>
+		<effect load="true" path="effects/payday2/particles/flares/blue_flare_blinking"/>
+		<material_config path="units/payday2/props/gen_prop_glow/gen_prop_glow"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_glow_01_blink/lxy_prop_glow_01_blink"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_prop_glow_01_blink/lxy_prop_glow_01_blink"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_glow_01_blink/lxy_prop_glow_01_blink"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_slidedoor/lxy_prop_slidedoor" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_slidedoor/lxy_prop_slidedoor"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_slidedoor/lxy_prop_slidedoor"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_slidedoor/lxy_prop_slidedoor"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_slidedoor/lxy_prop_slidedoor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_suitcase_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_bag_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_suitcase_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_suitcase_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_luggage_set/lxy_prop_luggage_suitcase_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/bath/lxy_int_main_bath_shower" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht/bath/bath"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/bath/lxy_int_main_bath_shower"/>
+		<sequence_manager path="units/pd2_dlc_lxy/architecture/yacht/bath/lxy_int_main_bath_shower"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/bath/lxy_int_main_bath_shower"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_auction_tag/lxy_prop_auction_tag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<object path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<sequence_manager path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+		<unit path="units/pd2_dlc_arena/pickups/gen_pku_money_plasic_wrapped/gen_pku_money_plasic_wrapped"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium" type="unit">
+		<effect load="true" path="effects/payday2/particles/water/water_bubbles"/>
+		<effect load="true" path="effects/payday2/particles/water/water_bubbles_jet"/>
+		<effect load="true" path="effects/payday2/particles/water/water_tank"/>
+		<effect load="true" path="effects/payday2/particles/water/water_tank3"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01" type="unit">
+		<unit path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox_v2"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_humidor_01/spawn_pku_money_cigarbox_v2"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_humidor_01/lxy_prop_humidor_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_2" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_2"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_racks"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/world/props/display/display_io"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<sequence_manager path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money"/>
+		<material_config path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01"/>
+		<object path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer"/>
+		<sequence_manager path="units/pd2_dlc_lxy/pickups/lxy_bookshelf_money_plastic_wrapped"/>
+		<unit path="units/pd2_dlc_lxy/pickups/lxy_pku_money_drawer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium_base" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium_base"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium_base"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_aquarium/lxy_prop_aquarium_base"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x2x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res_ext_apartment/res_pipes_valve" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/payday2/architecture/res_ext_apartment/res_pipes_valve"/>
+		<object path="units/payday2/architecture/res_ext_apartment/res_pipes_valve"/>
+		<sequence_manager path="units/payday2/architecture/res_ext_apartment/res_pipes_valve"/>
+		<unit path="units/payday2/architecture/res_ext_apartment/res_pipes_valve"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_scorer/chl_prop_scorer" type="unit">
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_scorer/chl_prop_scorer"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_scorer/chl_prop_scorer"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_scorer/chl_prop_scorer"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_scorer/chl_prop_scorer"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<object path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+		<unit path="units/pd2_indiana/props/mus_prop_electric_box/mus_prop_electric_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_3" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_3"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_racks"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_server_rack_1/lxy_prop_server_rack_3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_hackbox/suburbia_hackbox" type="unit">
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_jammed"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/world/props/suburbia_hackbox/suburbia_hackbox_contour"/>
+		<object path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+		<sequence_manager path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+		<unit path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01" type="unit">
+		<effect load="true" path="effects/particles/environment/steam_01"/>
+		<material_config path="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01"/>
+		<object path="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/architecture/lxy_server_racks_stand/lxy_server_racks_stand" type="unit">
+		<material_config path="units/pd2_dlc_fish/architecture/lxy_server_racks_stand/lxy_server_racks_stand"/>
+		<object path="units/pd2_dlc_fish/architecture/lxy_server_racks_stand/lxy_server_racks_stand"/>
+		<sequence_manager path="units/pd2_dlc_fish/architecture/lxy_server_racks_stand/lxy_server_racks_stand"/>
+		<unit path="units/pd2_dlc_fish/architecture/lxy_server_racks_stand/lxy_server_racks_stand"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<object path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+		<unit path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" type="unit">
+		<bnk path="soundbanks/zipline"/>
+		<material_config path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<object path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+		<unit path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/gen_vehicle_loot_boat/gen_vehicle_loot_boat" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/fire_hydrant_splash"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_loot_boat/gen_vehicle_loot_boat"/>
+		<object path="units/payday2/vehicles/gen_vehicle_loot_boat/gen_vehicle_loot_boat"/>
+		<sequence_manager path="units/payday2/vehicles/gen_vehicle_loot_boat/gen_vehicle_loot_boat"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_loot_boat/gen_vehicle_loot_boat"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/oneplanetorulethemall" type="unit">
+		<unit path="units/test/jocke/oneplanetorulethemall"/>
+		<object path="units/test/jocke/oneplanetorulethemall"/>
+		<material_config path="units/test/jocke/simple_temp"/>
+	</add>
+</table>

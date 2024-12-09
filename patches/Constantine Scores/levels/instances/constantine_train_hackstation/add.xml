@@ -1,0 +1,145 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
+		<object path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight" type="unit">
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack"/>
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_rack"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_console/gen_prop_security_console" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<object path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<unit path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_1" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_props"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_1"/>
+		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_1"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_props"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2"/>
+		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_straight_variation_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_1" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_props"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_1"/>
+		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_1"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_2" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_props"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_2"/>
+		<sequence_manager path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_2"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner_variation_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner" type="unit">
+		<material_config path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner"/>
+		<object path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner"/>
+		<unit path="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_console_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_hack_computer_pear/gen_interactable_hack_computer_pear_keyboard" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer_pear/gen_interactable_hack_computer_pear"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer_pear/gen_interactable_hack_computer_pear_keyboard"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer_pear/gen_interactable_hack_computer_pear_keyboard"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer_pear/gen_interactable_hack_computer_pear_keyboard"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<object path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+		<unit path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_black" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_black"/>
+		<sequence_manager path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_black"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_3" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_3"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open"/>
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech_open"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_blue" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_blue"/>
+		<sequence_manager path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_binders/dah_prop_binders_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_binders/dah_prop_binders_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_binders/dah_prop_binders_a"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_binders/dah_prop_binders_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" type="unit">
+		<material_config path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a"/>
+		<object path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a"/>
+		<sequence_manager path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet"/>
+		<unit path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h" type="unit">
+		<material_config path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a"/>
+		<object path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h"/>
+		<sequence_manager path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet"/>
+		<unit path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_h"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_generic_fileholder/off_prop_generic_fileholder" type="unit">
+		<material_config path="units/payday2/props/off_prop_generic_fileholder/off_prop_generic_fileholder"/>
+		<object path="units/payday2/props/off_prop_generic_fileholder/off_prop_generic_fileholder"/>
+		<unit path="units/payday2/props/off_prop_generic_fileholder/off_prop_generic_fileholder"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/computer/computer_case" type="unit">
+		<unit path="units/world/props/office/computer/computer_case"/>
+		<object path="units/world/props/office/computer/computer_case"/>
+		<material_config path="units/world/props/office/computer/computer_tower"/>
+	</add>
+</table>

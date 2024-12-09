@@ -1,0 +1,22 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_pillar1_025m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_pillar1_025m_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_pillar1_025m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_pillar_050m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_pillar_050m_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_pillar_050m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_pillar1_050m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_pillar1_050m_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_pillar1_050m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_pillar_025m_a" type="unit">
+		<unit path="units/payday2/architecture/lux/lux_int_pillar_025m_a"/>
+		<object path="units/payday2/architecture/lux/lux_int_pillar_025m_a"/>
+		<material_config path="units/payday2/architecture/lux/lux"/>
+	</add>
+</table>

@@ -1,0 +1,19 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4" type="unit">
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
+		<font path="fonts/font_digital"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/red_flare_blinking"/>
+		<effect load="true" path="effects/payday2/particles/explosions/grenade_explosion"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<font path="fonts/font_digital"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4_placeable/chas_interactable_c4_placeable"/>
+	</add>
+</table>

@@ -1,0 +1,38 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_turret/ranc_int_turret" type="unit">
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_turret/ranc_int_turret"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_turret/ranc_int_turret"/>
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_turret/ranc_int_turret"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_turret/ranc_int_turret"/>
+		<unit path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/turret_bag"/>
+		<object path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/turret_bag"/>
+		<material_config path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/turret_bag"/>
+		<sequence_manager path="units/pd2_dlc_ranc/pickups/ranc_pku_turretbag/turret_bag"/>
+		<effect load="true" path="effects/payday2/particles/dye_pack/dye_pack_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/bag_explosion"/>
+		<effect load="true" path="effects/particles/explosions/burnpuff"/>
+		<bnk path="soundbanks/regular_weapon_sfx"/>
+		<bnk path="soundbanks/weapon_turret_ranc"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="effects/particles/fire/small_sparkles" type="effect">
+		<effect load="true" path="effects/particles/fire/small_sparkles"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/electric_spark" type="effect">
+		<effect load="true" path="effects/payday2/environment/electric_spark"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/hatch_sparks" type="effect">
+		<effect load="true" path="effects/payday2/environment/hatch_sparks"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_tf2_turret/gen_pku_tf2_turret" type="unit">
+		<unit path="units/payday2/pickups/gen_pku_tf2_turret/gen_pku_tf2_turret"/>
+		<object path="units/payday2/pickups/gen_pku_tf2_turret/gen_pku_tf2_turret"/>
+		<material_config path="units/payday2/pickups/gen_pku_tf2_turret/gen_pku_tf2_turret"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_tf2_turret/gen_pku_tf2_turret"/>
+	</add>
+</table>

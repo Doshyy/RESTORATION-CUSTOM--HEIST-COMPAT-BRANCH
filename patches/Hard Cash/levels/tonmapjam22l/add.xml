@@ -2270,7 +2270,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -2296,7 +2295,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -2323,7 +2321,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -2350,7 +2347,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3375,7 +3371,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3401,7 +3396,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3427,7 +3421,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3454,7 +3447,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3481,7 +3473,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3508,7 +3499,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3535,7 +3525,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3562,7 +3551,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3589,7 +3577,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3616,7 +3603,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3642,7 +3628,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3668,7 +3653,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3917,7 +3901,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3943,7 +3926,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3969,7 +3951,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -3996,7 +3977,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -4023,7 +4003,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -4050,7 +4029,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
@@ -6557,7 +6535,6 @@
 		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>

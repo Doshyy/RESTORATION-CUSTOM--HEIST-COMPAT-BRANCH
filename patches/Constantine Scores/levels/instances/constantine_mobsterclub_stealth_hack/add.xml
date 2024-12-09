@@ -1,0 +1,10 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_cable_box/rvd_prop_cable_box" type="unit">
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_cable_box/rvd_prop_cable_box" unload="true"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_cable_box/rvd_prop_cable_box" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_cable_box/rvd_prop_cable_box" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_cable_box/rvd_prop_cable_box" unload="true"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+</table>

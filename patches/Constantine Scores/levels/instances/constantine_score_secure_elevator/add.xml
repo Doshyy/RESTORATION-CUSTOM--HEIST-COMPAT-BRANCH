@@ -1,0 +1,14 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator" type="unit">
+		<unit path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<object path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<material_config path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_int_kitchen_elevator/pent_int_kitchen_elevator"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+</table>

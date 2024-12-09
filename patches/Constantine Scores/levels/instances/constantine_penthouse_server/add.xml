@@ -1,0 +1,30 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_4/mad_pku_master_server_value_4" type="unit">
+		<material_config path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<object path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<sequence_manager path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<unit path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_4/mad_pku_master_server_value_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_3/mad_pku_master_server_value_3" type="unit">
+		<material_config path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<object path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<sequence_manager path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<unit path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_3/mad_pku_master_server_value_3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_2/mad_pku_master_server_value_2" type="unit">
+		<material_config path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<object path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<sequence_manager path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_1/mad_pku_master_server_value_1"/>
+		<unit path="units/pd2_dlc_mad/pickups/mad_pku_master_server_value_2/mad_pku_master_server_value_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech" type="unit">
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech"/>
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server"/>
+	</add>
+</table>

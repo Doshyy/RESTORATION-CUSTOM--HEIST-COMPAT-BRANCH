@@ -1,0 +1,55 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/props/gen_prop_blood/gen_prop_blood_1" type="unit">
+		<material_config path="units/payday2/props/gen_prop_blood/gen_prop_blood_1"/>
+		<object path="units/payday2/props/gen_prop_blood/gen_prop_blood_1"/>
+		<unit path="units/payday2/props/gen_prop_blood/gen_prop_blood_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_blood/gen_prop_blood_4" type="unit">
+		<material_config path="units/payday2/props/gen_prop_blood/gen_prop_blood_4"/>
+		<object path="units/payday2/props/gen_prop_blood/gen_prop_blood_4"/>
+		<unit path="units/payday2/props/gen_prop_blood/gen_prop_blood_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_coke"/>
+		<effect load="true" path="effects/payday2/particles/grab/parts/coke_smoke"/>
+		<material_config path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<object path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+		<unit path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/cocaine/cokebag_ripped" type="unit">
+		<material_config path="units/world/props/apartment/cocaine/cokebag"/>
+		<object path="units/world/props/apartment/cocaine/cokebag_ripped"/>
+		<unit path="units/world/props/apartment/cocaine/cokebag_ripped"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table" type="unit">
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_table/slaughterhouse_table"/>
+	</add>
+	<add from_db="true" path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife" type="unit">
+		<unit path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<object path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+		<material_config path="units/world/props/slaughterhouse/slaughterhouse_butcher_knife/slaughterhouse_butcher_knife"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03" type="unit">
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_03"/>
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_foot_meat_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly" type="unit">
+		<unit path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+		<object path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+		<material_config path="units/pd2_dlc_dinner/props/din_prop_hanging_meat/din_prop_pork_belly"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet" type="unit">
+		<unit path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+		<object path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+		<material_config path="units/world/props/mansion/man_cover_int_shipping_box_pallet/man_cover_int_shipping_box_pallet"/>
+	</add>
+</table>

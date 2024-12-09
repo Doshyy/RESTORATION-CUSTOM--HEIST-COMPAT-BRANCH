@@ -1,0 +1,11 @@
+<table directory="assets">
+	<add from_db="true" path="units/world/props/suburbia_hackbox/suburbia_hackbox" type="unit">
+		<unit path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+		<object path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+		<material_config path="units/world/props/suburbia_hackbox/suburbia_hackbox_contour"/>
+		<sequence_manager path="units/world/props/suburbia_hackbox/suburbia_hackbox"/>
+		<gui path="guis/timer_gui"/>
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_active"/>
+		<effect load="true" path="effects/particles/equipment/vault_drill/drill_jammed"/>
+	</add>
+</table>

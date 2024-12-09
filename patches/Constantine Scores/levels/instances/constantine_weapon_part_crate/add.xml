@@ -1,0 +1,31 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m" type="unit">
+		<material_config path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<object path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+		<unit path="units/pd2_dlc1/equipment/ind_interactable_shipping_crate_2x1x1m/ind_interactable_shipping_crate_2x1x1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel" type="unit">
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_receivers" type="unit">
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_receivers"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_receivers"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_receivers"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_stocks" type="unit">
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_stocks"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_stocks"/>
+		<material_config path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_barrel"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_weapon_box_2x1x1m/spawn_int_stocks"/>
+	</add>
+</table>
