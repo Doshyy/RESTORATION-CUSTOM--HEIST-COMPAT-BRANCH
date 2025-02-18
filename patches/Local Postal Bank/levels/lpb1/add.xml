@@ -4327,7 +4327,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -7850,7 +7849,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -11372,7 +11370,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -14894,7 +14891,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -18416,7 +18412,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -21938,7 +21933,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -25459,7 +25453,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -28981,7 +28974,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -32503,7 +32495,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -36025,7 +36016,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -39547,7 +39537,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -43096,7 +43085,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -46644,7 +46632,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -50171,7 +50158,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
@@ -53698,7 +53684,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
