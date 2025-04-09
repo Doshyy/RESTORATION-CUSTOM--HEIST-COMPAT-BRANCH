@@ -1928,26 +1928,19 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_fbi_1/ene_fbi_1" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_fbi_1/ene_fbi_1"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/payday2/characters/ene_fbi_1/ene_fbi_1"/>
 		<material_config path="units/payday2/characters/ene_fbi_1/ene_fbi_1"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap"/>
 		<object path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap"/>
 		<material_config path="units/payday2/characters/ene_acc_fbi_cap/ene_acc_fbi_cap"/>
@@ -1959,25 +1952,16 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_fbi_2/ene_fbi_2" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_fbi_2/ene_fbi_2"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/ene_fbi_2/ene_fbi_2_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2028,24 +2012,15 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_trucker_1/civ_male_trucker_1" type="unit">
 		<unit load="true" path="units/payday2/characters/civ_male_trucker_1/civ_male_trucker_1"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/civ_male_trucker_1/civ_male_trucker_1_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2056,24 +2031,15 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_fbi_3/ene_fbi_3" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_fbi_3/ene_fbi_3"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/ene_fbi_3/ene_fbi_3_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2084,24 +2050,15 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/ene_fbi_office_1/ene_fbi_office_1_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2117,24 +2074,16 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_cop_1/ene_cop_1" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/ene_cop_1/ene_cop_1_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2145,26 +2094,18 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_cop_2/ene_cop_2" type="unit">
 		<unit load="true" path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
 		<material_config path="units/payday2/characters/ene_cop_2/ene_cop_2"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
 		<object path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
 		<material_config path="units/payday2/characters/ene_acc_cop_hat/ene_acc_cop_hat"/>
@@ -2216,24 +2157,16 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_1/civ_male_hobo_1" type="unit">
 		<unit load="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_1/civ_male_hobo_1"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_1/civ_male_hobo_1_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2244,24 +2177,16 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_2/civ_male_hobo_2" type="unit">
 		<unit load="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_2/civ_male_hobo_2"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/pd2_dlc_holly/characters/civ_male_hobo_2/civ_male_hobo_2_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -2272,24 +2197,16 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_female_casual_2/civ_female_casual_2" type="unit">
 		<unit load="true" path="units/payday2/characters/civ_female_casual_2/civ_female_casual_2"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
-		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
 		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
-		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
 		<unit load="true" path="units/payday2/characters/civ_female_casual_2/civ_female_casual_2_husk"/>
 		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
@@ -3081,9 +2998,7 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02" type="unit">
 		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_male_crew_02/ene_male_crew_02"/>
-		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
-		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation path="anims/shared/rifle/generic/gen_sup_lvl1_enter_var1"/>
 		<animation path="anims/shared/rifle/generic/gen_sup_lvl1_idle_var1"/>
 		<animation path="anims/shared/rifle/generic/gen_sup_lvl2_enter_var1"/>
@@ -4845,7 +4760,6 @@
 		<animation path="anims/shared/pistol/hostile/hos_sup_run_l_to_hos_sup_idle"/>
 		<animation path="anims/shared/pistol/hostile/hos_sup_run_r_to_hos_sup_idle"/>
 		<animation path="anims/shared/pistol/hostile/hos_std_call"/>
-		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_idle"/>
 		<animation path="anims/shared/boss/tank/cbt_std_idle"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_to_crh"/>
@@ -4944,7 +4858,6 @@
 		<animation path="anims/shared/rifle/combat/cbt_std_jump_fwd_enter"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_jump_fwd_loop"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_jump_fwd_land"/>
-		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_melee"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_melee_bayonet"/>
 		<animation path="anims/shared/rifle/combat/cbt_std_melee_knife_var1"/>
@@ -5061,7 +4974,6 @@
 		<animation path="anims/shared/rifle/combat/cbt_crh_rifle_revive_enter"/>
 		<animation path="anims/shared/rifle/combat/cbt_crh_rifle_revive_loop"/>
 		<animation path="anims/shared/rifle/combat/cbt_crh_rifle_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
 		<animation path="anims/shared/pistol/combat/cbt_std_idle"/>
 		<animation path="anims/shared/pistol/combat/cbt_std_melee"/>
 		<animation path="anims/shared/pistol/combat/cbt_std_melee_knife_var1"/>
@@ -5215,7 +5127,6 @@
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_enter"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_loop"/>
 		<animation path="anims/shared/pistol/combat/cbt_crh_pis_revive_exit"/>
-		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_idle"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l45"/>
 		<animation path="anims/shared/boss/shield/cbt_crh_turn_l90"/>
